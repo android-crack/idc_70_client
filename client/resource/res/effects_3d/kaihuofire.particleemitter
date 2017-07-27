@@ -1,0 +1,53 @@
+particle kaihuofire
+{
+	sprite 
+	{
+		path = baozhaxulie.png
+		width = 64
+		height = 64
+		blending = ADDITIVE
+		animated = True
+		looped = False
+		frameCount = 8
+		frameRandomOffset = 0
+		frameDuration = 50
+	}
+	particleCountMax = 20
+	emissionRate = 10
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 15
+	sizeStartMax = 20
+	sizeEndMin = 20
+	sizeEndMax = 25
+	energyMin = 600
+	energyMax = 800
+	colorStart = 0.9926471, 0.9101447, 0.5364673, 1
+	colorStartVar = 0, -0.007198334, -0.1350291, 0
+	colorEnd = 0.2610294, 0, 0, 0
+	colorEndVar = -0.02573526, 0, 0, 0
+	colorMiddle = 0.8308823, 0.2793103, 0, 0.7941177
+	colorMiddleVar = -0.1691176, -0.2793103, 0, -0.1
+	middlePercent = 0.6
+	middlePercentVar = 0.09999996
+	position = 0, 0, 0
+	positionVar = 1, 1, 1
+	velocity = 0, 13.5, 18.5
+	velocityVar = 1, 1.5, -6.5
+	acceleration = 0, 2.5, 0
+	accelerationVar = 0, 0.5, 0
+	rotationPerParticleSpeedMin = -0.8726646
+	rotationPerParticleSpeedMax = 0.8726646
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0.2
+	renderType = BILLBOARD
+	isLocalSpace = False
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 3.141593
+}

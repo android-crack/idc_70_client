@@ -1,0 +1,17 @@
+ParticleSystem tx_haizizhufu_hit
+{
+	Emitter haizizhufu_hit
+	{
+		file = haizizhufu_hit.particleemitter
+		order = 0
+		position = 0, 44, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter haizizhufu_hit2
+	{
+		file = haizizhufu_hit2.particleemitter
+		order = 0
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+}

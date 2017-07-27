@@ -1,0 +1,21 @@
+typedef enum
+{
+    kSharePlatform_NONE = 0,
+    kSharePlatform_QQ,
+    kSharePlatform_WECHAT,
+}ShareSDKPlatform;
+
+class QShareSDK
+{
+public:
+    static QShareSDK* getInstance();
+    static const char* saveScreenToFile(const char *filename, const CCRect& rect = CCRectZero);
+
+    void shareWithPhoto(ShareSDKPlatform platform, const char *imgURL, const char *extInfo, LUA_FUNCTION handler); 
+
+    void share(ShareSDKPlatform platform, const char *title, const char *desc, const char *url, const char *imgURL, const char *extInfo, LUA_FUNCTION handler);
+    
+    void shareToFriend(ShareSDKPlatform platform, const char *uid, const char *title, const char *desc, const char *url, const char *imgURL, const char *extInfo, LUA_FUNCTION handler);
+
+    void shareWithUrl(ShareSDKPlatform platform, const char *title, const char *desc, const char *url, const char *imgURL, const char *extInfo, LUA_FUNCTION handler);
+};

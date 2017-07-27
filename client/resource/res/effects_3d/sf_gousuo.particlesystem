@@ -1,0 +1,30 @@
+ParticleSystem sf_gousuo
+{
+	Emitter SfGousuoEffect01
+	{
+		file = SfGousuoEffect01.particleemitter
+		order = 0
+		position = 0, 40, 0
+	}
+	Emitter SfGousuoEffect02
+	{
+		file = SfGousuoEffect02.particleemitter
+		order = 0
+		position = 0, 0, 0
+	}
+	Emitter SfGousuoEffect03
+	{
+		file = SfGousuoEffect03.particleemitter
+		order = 0
+		position = 0, 0, 0
+	}
+	Model gousuo_model
+	{
+		position = 0, 0, 0
+		scale = 1, 1, 1
+		rotate = 0, 0, 0, 1
+		model_name = tiegou3
+		action_name = tx_tiegou_model
+		liuguang = tx_tiegou
+	}
+}

@@ -1,0 +1,9 @@
+
+
+class CCLayer3D : public CCLayer
+{
+    static CCLayer3D * create(int layer);
+	void setSceneName(const char* name);
+	std::string getSceneName();
+};
+

@@ -1,0 +1,53 @@
+particle 0152lizi02
+{
+	sprite 
+	{
+		path = bloodlizi.png
+		width = 64
+		height = 64
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	particleCountMax = 20
+	emissionRate = 30
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 15
+	sizeStartMax = 30
+	sizeEndMin = 150
+	sizeEndMax = 120
+	energyMin = 1800
+	energyMax = 1600
+	colorStart = 0.9448276, 1, 0, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 1, 0.1448275, 0, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 0.5172412, 0, 1
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.5
+	middlePercentVar = 0
+	position = 0, 0, 0
+	positionVar = 160, 20, 160
+	velocity = 0, 25, 0
+	velocityVar = 15, 5, 15
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = -0.3490658
+	rotationPerParticleSpeedMax = 0.3490658
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = -1
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

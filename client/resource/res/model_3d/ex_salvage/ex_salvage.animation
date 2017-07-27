@@ -1,0 +1,16 @@
+animation ex_salvage
+{
+frameCount=3833
+clip jump
+{
+begin=0
+end=2366
+repeatCount=1
+}
+clip zhaoshou
+{
+begin=2566
+end=3833
+repeatCount=0
+}
+}

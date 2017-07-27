@@ -1,0 +1,16 @@
+animation sea_shark
+{
+frameCount=3666
+clip move
+{
+begin=0
+end=1333
+repeatCount=0
+}
+clip yao
+{
+begin=1666
+end=3666
+repeatCount=1
+}
+}

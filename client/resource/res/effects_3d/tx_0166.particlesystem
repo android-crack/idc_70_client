@@ -1,0 +1,31 @@
+ParticleSystem tx_0166
+{
+	Emitter 0166_fire01
+	{
+		file = 0166_fire01.particleemitter
+		order = 1
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter 0166_fire02
+	{
+		file = 0166_fire02.particleemitter
+		order = 0
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter 0166_guang
+	{
+		file = 0166_guang.particleemitter
+		order = 2
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter 0166_fire03
+	{
+		file = 0166_fire03.particleemitter
+		order = 3
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+}

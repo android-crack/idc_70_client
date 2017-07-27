@@ -1,0 +1,53 @@
+particle SfGousuoEffect01
+{
+	sprite 
+	{
+		path = white_line_half.png
+		width = 256
+		height = 256
+		blending = ADDITIVE
+		animated = True
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 60
+	}
+	particleCountMax = 20
+	emissionRate = 10
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 0
+	sizeStartMax = 0
+	sizeEndMin = 750
+	sizeEndMax = 650
+	energyMin = 800
+	energyMax = 800
+	colorStart = 1, 0.9180528, 0.2573529, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0.3235294, 0, 0, 1
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 0.3103448, 0, 0.6941177
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.5
+	middlePercentVar = 0
+	position = 0, 0, 0
+	positionVar = 5, 5, 5
+	velocity = 0, 20, 0
+	velocityVar = 0, 0, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0.8
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 0
+}

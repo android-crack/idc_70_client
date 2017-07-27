@@ -1,0 +1,10 @@
+animation sea_whale
+{
+frameCount=1533
+clip move
+{
+begin=0
+end=1533
+repeatCount=1
+}
+}

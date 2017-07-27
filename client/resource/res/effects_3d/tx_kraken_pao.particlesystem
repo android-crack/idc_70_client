@@ -1,0 +1,33 @@
+ParticleSystem tx_193
+{
+	Emitter shuidan01
+	{
+		file = shuidan01.particleemitter
+		order = 3
+		position = 0, 0, 0
+	}
+	Emitter shuidan02
+	{
+		file = shuidan02.particleemitter
+		order = 0
+		position = 0, 0, 0
+	}
+	Emitter shuidan03
+	{
+		file = shuidan03.particleemitter
+		order = 2
+		position = 0, -42.26632, 0
+	}
+	Emitter shuidan04
+	{
+		file = shuidan04.particleemitter
+		order = 4
+		position = 0, 0, 0
+	}
+	Emitter shuidan05
+	{
+		file = shuidan05.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+}

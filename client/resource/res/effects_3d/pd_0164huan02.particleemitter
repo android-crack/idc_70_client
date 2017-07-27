@@ -1,0 +1,54 @@
+particle pd_0164huan02
+{
+	sprite 
+	{
+		path = bloodlizi.png
+		width = 64
+		height = 64
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	particleCountMax = 20
+	emissionRate = 60
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 20
+	sizeStartMax = 20
+	sizeEndMin = 90
+	sizeEndMax = 90
+	energyMin = 500
+	energyMax = 480
+	colorStart = 1, 1, 1, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0.1323529, 0.3896552, 1, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 1, 1, 0.5764706
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.5
+	middlePercentVar = 0
+	position = 0, 0, 0
+	positionVar = 0, 0, 0
+	velocity = 0, 0, 0
+	velocityVar = 0, 0, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = BILLBOARD
+	isLocalSpace = False
+	preWarm = True
+	delayTime = 0
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

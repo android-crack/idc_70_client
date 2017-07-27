@@ -1,0 +1,15 @@
+ModelParticleConfig sea_shipwreck
+{
+	ParticleConfig shipwreckwave01
+	{
+		file = meshwave01.particlesystem
+		position = 45.80748, 0, 0
+		rotation = 0, 0, 0, 1
+	}
+	ParticleConfig shipwreckwave02
+	{
+		file = meshwave01.particlesystem
+		position = -31.87665, 0, -16.03796
+		rotation = 0, 0, 0, 1
+	}
+}

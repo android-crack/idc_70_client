@@ -1,0 +1,16 @@
+animation water
+{
+frameCount=3533
+clip water_2001
+{
+begin=0
+end=1700
+repeatCount=1
+}
+clip water_2003
+{
+begin=1833
+end=3533
+repeatCount=1
+}
+}

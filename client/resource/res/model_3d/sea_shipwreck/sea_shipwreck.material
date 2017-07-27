@@ -1,0 +1,11 @@
+material sea_shipwreck
+{
+    sampler u_diffuseTexture
+    {
+        path = sea_shipwreck.fbm/sea_shipwreck.png
+        wrapS = REPEAT
+        wrapT = REPEAT
+    }
+
+}
+

@@ -1,0 +1,17 @@
+ParticleSystem fire1
+{
+	Emitter 2001c_fire
+	{
+		file = 2001c_fire.particleemitter
+		order = 1
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter 2001c_smoke_black
+	{
+		file = 2001c_smoke_black.particleemitter
+		order = 0
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+}

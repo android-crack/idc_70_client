@@ -1,0 +1,61 @@
+particle 2002C_sunshine
+{
+	sprite 
+	{
+		path = transporting_line_01.png
+		width = 256
+		height = 256
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 30
+	}
+	color 
+	{
+		curve 
+		{
+			type = 4
+			componentCount = 4
+			times = 0, 375, 1000
+			values = 1, 0.9490196, 0.2666667, 0, 1, 0.9215686, 0.2941177, 0.4705882, 0.9529412, 1, 0.1686275, 0
+			inTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+			outTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+		}
+		type = 1
+	}
+	particleCountMax = 60
+	emissionRate = 10
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	energyMin = 5000
+	energyMax = 4500
+	position = 0, 0, 0
+	positionVar = 0.2, 0.1, 0
+	velocity = 0, 0, 0
+	velocityVar = 0, 0, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	delayTime = 2
+	initialRotationMin = 1.047198
+	initialRotationMax = 1.047198
+	gravity = 0
+	lengthScale = 8
+	sizeStartMin = 0.1
+	sizeStartMax = 0.05
+	sizeEndMin = 0.2
+	sizeEndMax = 0.5
+}

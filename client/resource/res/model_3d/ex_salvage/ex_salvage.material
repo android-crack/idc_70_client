@@ -1,0 +1,11 @@
+material ex_salvage
+{
+    sampler u_diffuseTexture
+    {
+        path = ex_salvage.fbm/ex_salvage.png
+        wrapS = REPEAT
+        wrapT = REPEAT
+    }
+
+}
+

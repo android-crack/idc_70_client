@@ -1,0 +1,10 @@
+ParticleSystem GamePlayParticleSystem
+{
+	Emitter light00
+	{
+		file = light00.particleemitter
+		order = 0
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+}

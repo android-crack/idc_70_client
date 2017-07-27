@@ -1,0 +1,10 @@
+ParticleSystem tx_2003c_shanlei
+{
+	Emitter tx_2003c_shan
+	{
+		file = tx_2003c_shan.particleemitter
+		order = 0
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+}

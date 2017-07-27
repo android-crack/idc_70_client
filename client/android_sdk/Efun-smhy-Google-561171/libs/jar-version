@@ -1,0 +1,13 @@
+AF-Android-SDK-v2.3.1.18.jar: 	AppsFlyer第三方广告jar
+chartboost-4.1.1.jar:			chartboost第三方广告jar
+efun-ads-2.0.jar:				Efun广告jar
+efun-ae-ads-1.0.0.jar:			Efun亚欧广告部分优化jar
+efun-appsflyer-sdk-2.0.0.jar:	Efun对接AppsFlyer的jar
+efun-interface-2.7.jar:			Efun统一接口的抽象jar
+efun-pay-2.0.jar:				Efun谷歌储值的jar
+efun-task-2.4.jar:				Efun的任务jar
+efun-tools-sdk-os-1.0.0.jar:	Efun亚欧不会变动的代码总和
+efun-utils-4.1.jar:				Efun的工具包
+GoogleConversionTrackingSdk-2.2.1.jar:Google的Adwords第三方广告jar
+libGoogleAnalytics.jar:			Google追踪的第三方包
+mulituios_window-1.1.0.jar		重度侵权的UIjar

@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\gameplay3d\lib\qtz_component\gameplay\CCGameThread.cpp" />
+    <ClCompile Include="..\..\gameplay3d\lib\qtz_component\gameplay\CCLayer3D.cpp" />
+    <ClCompile Include="..\..\gameplay3d\lib\qtz_component\gameplay\CCPlatform3D.cpp" />
+    <ClCompile Include="..\..\gameplay3d\lib\qtz_component\gameplay\CCPlistFrame.cpp" />
+    <ClCompile Include="..\..\gameplay3d\lib\qtz_component\gameplay\CCRenderTarget3D.cpp" />
+    <ClCompile Include="..\..\gameplay3d\lib\qtz_component\gameplay\LuaGame.cpp" />
+    <ClCompile Include="..\..\gameplay3d\lib\qtz_component\gameplay\lua_extra.cpp" />
+    <ClCompile Include="..\sources\AppDelegate.cpp" />
+    <ClCompile Include="..\sources\LuaQ2Common.cpp" />
+    <ClCompile Include="..\sources\mscSDK\QMSCSDK.cpp" />
+    <ClCompile Include="..\sources\Q2Common.cpp" />
+    <ClCompile Include="..\sources\QVideoPlayer.cpp" />
+    <ClCompile Include="..\sources\sdk\QSDKCommon.cpp" />
+    <ClCompile Include="..\sources\sdk\win32\QSDKWin32.cpp" />
+    <ClCompile Include="..\sources\shareSDK\QShareSDK.cpp" />
+    <ClCompile Include="..\sources\shareSDK\win32\QShareSDKWin32.cpp" />
+    <ClCompile Include="..\sources\SimulatorConfig.cpp" />
+    <ClCompile Include="..\sources\tssSDK\QTssSDK.cpp" />
+    <ClCompile Include="..\sources\tssSDK\win32\QTssSDKWin32.cpp" />
+    <ClCompile Include="app.cpp" />
+    <ClCompile Include="fcoredump_win32.cpp" />
+    <ClCompile Include="ProjectConfigDialog.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\gameplay3d\lib\qtz_component\gameplay\CCGameThread.h" />
+    <ClInclude Include="..\..\gameplay3d\lib\qtz_component\gameplay\CCLayer3D.h" />
+    <ClInclude Include="..\..\gameplay3d\lib\qtz_component\gameplay\CCPlatform3D.h" />
+    <ClInclude Include="..\..\gameplay3d\lib\qtz_component\gameplay\CCPlistFrame.h" />
+    <ClInclude Include="..\..\gameplay3d\lib\qtz_component\gameplay\CCRenderTarget3D.h" />
+    <ClInclude Include="..\..\gameplay3d\lib\qtz_component\gameplay\LuaGame.h" />
+    <ClInclude Include="..\sources\AppDelegate.h" />
+    <ClInclude Include="..\sources\fcoredump.h" />
+    <ClInclude Include="..\sources\LuaQ2Common.h" />
+    <ClInclude Include="..\sources\mscSDK\QMSCSDK.h" />
+    <ClInclude Include="..\sources\Q2Common.h" />
+    <ClInclude Include="..\sources\QVideoPlayer.h" />
+    <ClInclude Include="..\sources\sdk\QSDK.h" />
+    <ClInclude Include="..\sources\shareSDK\QShareSDK.h" />
+    <ClInclude Include="..\sources\SimulatorConfig.h" />
+    <ClInclude Include="..\sources\tssSDK\QTssSDK.h" />
+    <ClInclude Include="app.h" />
+    <ClInclude Include="ProjectConfigDialog.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{71666DE3-D772-41E9-8624-8881686C7AED}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>quick-x-player</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfAtl>false</UseOfAtl>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>quick-x-player</TargetName>
+    <IncludePath>$(QUICK_COCOS2DX_ROOT)/lib/qtz_component/castar/include;$(QUICK_COCOS2DX_ROOT)/lib/qtz_component/luasocket/include;$(QUICK_COCOS2DX_ROOT)/lib/qtz_component/luaHttp/include;$(QUICK_COCOS2DX_ROOT)/lib/qtz_component/gameplay;$(QUICK_COCOS2DX_ROOT)/lib/qtz_component/qtz_util/include;$(QUICK_COCOS2DX_ROOT)/lib/qtz_component/regx/include;$(QUICK_COCOS2DX_ROOT)/lib/qtz_component/memory_stack/include;$(QUICK_COCOS2DX_ROOT)/lib/gamePlay-master/gameplay/src;$(QUICK_COCOS2DX_ROOT)/lib/gameplay-external-deps/bullet/include;$(QUICK_COCOS2DX_ROOT)/lib/gameplay-external-deps/png/include;$(QUICK_COCOS2DX_ROOT)/lib/gameplay-external-deps/oggvorbis/include;$(QUICK_COCOS2DX_ROOT)/lib/gameplay-external-deps/zlib/include;$(QUICK_COCOS2DX_ROOT)/lib/gameplay-external-deps/openal/include\AL;$(QUICK_COCOS2DX_ROOT)/lib/gameplay-external-deps/glew/include;$(QUICK_COCOS2DX_ROOT)/lib/cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.2/src;../sources/sdk;../sources;../sources/mscSDK;../sources/tssSDK;$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>quick-x-player</TargetName>
+    <IncludePath>$(QUICK_COCOS2DX_ROOT)/lib/qtz_component/castar/include;$(QUICK_COCOS2DX_ROOT)/lib/qtz_component/luasocket/include;$(QUICK_COCOS2DX_ROOT)/lib/qtz_component/luaHttp/include;$(QUICK_COCOS2DX_ROOT)/lib/qtz_component/gameplay;$(QUICK_COCOS2DX_ROOT)/lib/qtz_component/qtz_util/include;$(QUICK_COCOS2DX_ROOT)/lib/qtz_component/regx/include;$(QUICK_COCOS2DX_ROOT)/lib/qtz_component/memory_stack/include;$(QUICK_COCOS2DX_ROOT)/lib/gamePlay-master/gameplay/src;$(QUICK_COCOS2DX_ROOT)/lib/gameplay-external-deps/bullet/include;$(QUICK_COCOS2DX_ROOT)/lib/gameplay-external-deps/png/include;$(QUICK_COCOS2DX_ROOT)/lib/gameplay-external-deps/oggvorbis/include;$(QUICK_COCOS2DX_ROOT)/lib/gameplay-external-deps/zlib/include;$(QUICK_COCOS2DX_ROOT)/lib/gameplay-external-deps/openal/include\AL;$(QUICK_COCOS2DX_ROOT)/lib/gameplay-external-deps/glew/include;$(QUICK_COCOS2DX_ROOT)/lib/cocos2d-x/scripting/lua/luajit/LuaJIT-2.0.2/src;../sources/sdk;../sources;$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_LUA_ENGINE_ENABLED=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\scripting\lua\lua\src;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\include;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\kazmath\include;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\support;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\support\tinyxml2;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\platform;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\platform\win32;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\platform\third_party\win32;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\platform\third_party\win32\curl;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\platform\third_party\win32\iconv;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\platform\third_party\win32\libjpeg;$(QUICK_COCOS2DX_ROOT)\lib\gameplay-external-deps\png\include;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\platform\third_party\win32\libtiff;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\platform\third_party\win32\libwebp;$(QUICK_COCOS2DX_ROOT)\lib\gameplay-external-deps\glew\include;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\platform\third_party\win32\pthread;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\platform\third_party\win32\zlib;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\CocosDenshion\include;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\CocosDenshion\win32;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\scripting\lua\cocos2dx_support;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\scripting\lua\tolua;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\GUI\CCControlExtension;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\GUI\CCEditBox;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\GUI\CCScrollView;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\AssetsManager;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CCBReader;$(QUICK_COCOS2DX_ROOT)\lib\cocos2dx_extensions_luabinding;$(QUICK_COCOS2DX_ROOT)\lib\cocos2dx_extra\extra;$(QUICK_COCOS2DX_ROOT)\lib\cocos2dx_extra\extra\luabinding;$(QUICK_COCOS2DX_ROOT)\lib\lua_extensions;$(QUICK_COCOS2DX_ROOT)\lib\lua_extensions\cjson;$(QUICK_COCOS2DX_ROOT)\lib\lua_extensions\zlib;$(QUICK_COCOS2DX_ROOT)\lib\lua_extensions\socket;$(QUICK_COCOS2DX_ROOT)\lib\lua_extensions\filesystem;$(QUICK_COCOS2DX_ROOT)\lib\third_party\chipmunk\include;$(QUICK_COCOS2DX_ROOT)\lib\third_party\chipmunk\luabinding;$(QUICK_COCOS2DX_ROOT)\lib\third_party\chipmunk\cocos2dx_support;$(QUICK_COCOS2DX_ROOT)\lib\third_party;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\Action;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\Armature;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\Armature\animation;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\Armature\datas;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\Armature\display;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\Armature\external_tool;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\Armature\physics;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\Armature\utils;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\Components;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\GUI;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\GUI\BaseClasses;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\GUI\Layouts;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\GUI\System;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\GUI\UIWidgets;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\GUI\UIWidgets\Compatible;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\GUI\UIWidgets\ScrollWidget;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\Json;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\Json\lib_json;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\Reader;$(QUICK_COCOS2DX_ROOT)\lib\qtz_component\luasocket_encrypt\include;../sources/sdk;../sources/shareSDK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4068;4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>cocos2dx.lib;cocos2dx_extra.lib;cocostudio.lib;third_party.lib;opengl32.lib;freetype250.lib;memory_pool.lib;luasocket.lib;luaHttp.lib;lua_extensions.lib;ws2_32.lib;wsock32.lib;pthreadVCE2.lib;winmm.lib;glew32.lib;libcurl_imp.lib;libiconv.lib;libjpeg.lib;libpng.lib;libtiff.lib;libzlib.lib;libwebp.lib;castar.lib;qtz_util.lib;pcre.lib;regx.lib;gameplay.lib;LinearMath.lib;BulletDynamics.lib;BulletCollision.lib;libeay32.lib;ssleay32.lib;detours.lib;fmod_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(Configuration)\;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\platform\third_party\win32\freetype2\libs;$(QUICK_COCOS2DX_ROOT)\lib\gameplay-external-deps\fmod\lib\windows\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;COCOS2D_DEBUG=0;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_LUA_ENGINE_ENABLED=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <DisableSpecificWarnings>4068;4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\scripting\lua\lua\src;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\include;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\kazmath\include;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\support;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\support\tinyxml2;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\platform;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\platform\win32;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\platform\third_party\win32;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\platform\third_party\win32\curl;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\platform\third_party\win32\iconv;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\platform\third_party\win32\libjpeg;$(QUICK_COCOS2DX_ROOT)\lib\gameplay-external-deps\png\include;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\platform\third_party\win32\libtiff;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\platform\third_party\win32\libwebp;$(QUICK_COCOS2DX_ROOT)\lib\gameplay-external-deps\glew\include;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\platform\third_party\win32\pthread;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\platform\third_party\win32\zlib;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\CocosDenshion\include;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\CocosDenshion\win32;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\scripting\lua\cocos2dx_support;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\scripting\lua\tolua;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\GUI\CCControlExtension;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\GUI\CCEditBox;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\GUI\CCScrollView;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\AssetsManager;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CCBReader;$(QUICK_COCOS2DX_ROOT)\lib\cocos2dx_extensions_luabinding;$(QUICK_COCOS2DX_ROOT)\lib\cocos2dx_extra\extra;$(QUICK_COCOS2DX_ROOT)\lib\cocos2dx_extra\extra\luabinding;$(QUICK_COCOS2DX_ROOT)\lib\lua_extensions;$(QUICK_COCOS2DX_ROOT)\lib\lua_extensions\cjson;$(QUICK_COCOS2DX_ROOT)\lib\lua_extensions\zlib;$(QUICK_COCOS2DX_ROOT)\lib\lua_extensions\socket;$(QUICK_COCOS2DX_ROOT)\lib\lua_extensions\filesystem;$(QUICK_COCOS2DX_ROOT)\lib\third_party\chipmunk\include;$(QUICK_COCOS2DX_ROOT)\lib\third_party\chipmunk\luabinding;$(QUICK_COCOS2DX_ROOT)\lib\third_party\chipmunk\cocos2dx_support;$(QUICK_COCOS2DX_ROOT)\lib\third_party;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\Action;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\Armature;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\Armature\animation;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\Armature\datas;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\Armature\display;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\Armature\external_tool;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\Armature\physics;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\Armature\utils;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\Components;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\GUI;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\GUI\BaseClasses;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\GUI\Layouts;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\GUI\System;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\GUI\UIWidgets;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\GUI\UIWidgets\Compatible;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\CocoStudio\GUI\UIWidgets\ScrollWidget;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\Json;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\Json\lib_json;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\extensions\Reader;$(QUICK_COCOS2DX_ROOT)\lib\qtz_component\luasocket_encrypt\include;../sources/sdk;../sources/shareSDK;../sources/tssSDK;../sources/mscSDK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>cocos2dx.lib;cocos2dx_extra.lib;cocostudio.lib;third_party.lib;opengl32.lib;freetype250.lib;memory_pool.lib;luasocket.lib;luaHttp.lib;lua_extensions.lib;ws2_32.lib;wsock32.lib;pthreadVCE2.lib;winmm.lib;glew32.lib;libcurl_imp.lib;libiconv.lib;libjpeg.lib;libpng.lib;libtiff.lib;libzlib.lib;libwebp.lib;castar.lib;qtz_util.lib;pcre.lib;regx.lib;gameplay.lib;LinearMath.lib;BulletDynamics.lib;BulletCollision.lib;libeay32.lib;ssleay32.lib;detours.lib;fmod_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(Configuration)\;$(QUICK_COCOS2DX_ROOT)\lib\cocos2d-x\cocos2dx\platform\third_party\win32\freetype2\libs;$(QUICK_COCOS2DX_ROOT)\lib\gameplay-external-deps\fmod\lib\windows\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

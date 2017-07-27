@@ -1,0 +1,53 @@
+particle longjuanfeng01
+{
+	sprite 
+	{
+		path = Effects_Textures_1147-1.png
+		width = 64
+		height = 64
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	particleCountMax = 20
+	emissionRate = 40
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 10
+	sizeStartMax = 20
+	sizeEndMin = 120
+	sizeEndMax = 160
+	energyMin = 1000
+	energyMax = 1200
+	colorStart = 0, 0.5379817, 0.7573529, 1
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0, 0.08803242, 0.4117647, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 0.3945718, 0.5253879, 0.6544118, 0.627451
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.45
+	middlePercentVar = -0.04999998
+	position = 0, 0, 0
+	positionVar = 0.1, 20, 1
+	velocity = 0, 80, 0
+	velocityVar = 10, 20, 10
+	acceleration = 0, 10, 0
+	accelerationVar = 10, -10, 10
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 26.17994
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = HORIZONTALBILLBOARD
+	isLocalSpace = True
+	preWarm = True
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

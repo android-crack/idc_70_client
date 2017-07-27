@@ -1,0 +1,21 @@
+ParticleSystem tx_skill_attackdown
+{
+	Emitter skill_attackdown01
+	{
+		file = skill_attackdown01.particleemitter
+		order = 2
+		position = 0, 60, 0
+	}
+	Emitter skill_attackdown02
+	{
+		file = skill_attackdown02.particleemitter
+		order = 2
+		position = 0, 50, 0
+	}
+	Emitter skill_attackdown03
+	{
+		file = skill_attackdown03.particleemitter
+		order = 2
+		position = 0, 80, 0
+	}
+}

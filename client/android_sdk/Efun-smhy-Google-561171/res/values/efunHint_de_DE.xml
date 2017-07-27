@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- title -->
+    <string name="de_de_title_google">G o o g l e</string>
+    <string name="de_de_title_web">W e b s i t e</string>
+    <string name="de_de_title_login">Login</string>
+    <string name="de_de_title_register">Registieren</string>
+    <string name="de_de_title_reset_pwd">Passwort ändern</string>
+    <string name="de_de_title_retrieve_pwd">Passwort zurücksetzen</string>
+    <string name="de_de_title_bind_account">Konto verbinden</string>
+    <string name="de_de_cancel">Abbrechen</string>
+    <string name="de_de_buy">Kaufen</string>
+    <string name="de_de_text_one">Möchtest du wirklich durch Google Wallet mit</string>
+    <string name="de_de_text_two" />
+    <string name="de_de_text_three"> Preise kaufen </string>
+    <string name="de_de_text_four">&#160;?</string>
+
+    <!-- button -->
+    <string name="de_de_button_facebook">Login mit Facebook </string>
+    <string name="de_de_button_google">Login mit Google </string>
+    <string name="de_de_button_twitter">Login mit Twitter </string>
+    <string name="de_de_button_mac">Jetzt Spielen</string>
+    <string name="de_de_button_for_more_account">Login mit Konto</string>
+    <string name="de_de_button_login_btn">Konto Login</string>
+    <string name="de_de_button_register_text_1">Ohne Konto? </string>
+    <string name="de_de_button_register_text_2"> Jetzt  registrieren </string>
+    <string name="de_de_button_register_btn"> Registrieren </string>
+    <string name="de_de_button_reset_pwd_btn">Passwort ändern</string>
+    <string name="de_de_button_retrieve_pwd_btn">Passwort zurücksetzen</string>
+    <string name="de_de_button_bind_account_btn">Konto verbinden</string>
+    <string name="de_de_button_bind_mac_btn"> Verbinden mit Reg-frei Konto </string>
+    <string name="de_de_button_bind_fb_btn">Verbinden mit Facebook </string>
+    <string name="de_de_button_bind_vk_btn">Verbinden mit Vkontakte</string>
+    <string name="de_de_button_bind_twitter_btn">Verbinden mit Twitter</string>
+    <string name="de_de_button_bind_google_btn"> Verbinden mit Google+</string>
+    <string name="de_de_button_users_manages">Konto-Management</string>
+    <string name="de_de_button_cancel">Abbrechen </string>
+    <string name="de_de_button_confirm">Bestätigen</string>
+    <string name="de_de_efun_word"> Heute präsentiert nicht </string>
+    <string name="de_de_other_website">WebSite</string>
+    <!-- SDK -->
+    <string name="de_de_title_efun_user_agreement">Nutzungsvertrag</string>
+    <string name="de_de_button_logout_btn">Logout</string>
+    <string name="de_de_button_bind_btn">Verbinden</string>
+    <string name="de_de_efun_other_login">Andere Konto Login</string>
+    <string name="de_de_efun_user_agreement">《Nutzungsvertrag》 gelesen &amp; akzeptiert</string>
+    <string name="de_de_toast_user_agreement">Bitte lese zuerst 《Nutzungsvertrag》</string>
+    <string name="de_de_hint_account">Konto </string>
+    <string name="de_de_hint_password"> Passwort </string>
+    <string name="de_de_hint_old_password">Original Passwort</string>
+    <string name="de_de_hint_cnew_password">Neu Passwort bestätigen </string>
+    <string name="de_de_hint_confirn_password"> Passwort  wiederholen</string>
+    <string name="de_de_hint_email">E-mail (nicht erforderlich) </string>
+    <string name="de_de_hint_forget_email">Registrierende E-mail</string>
+    <string name="de_de_hint_email_address">E-mail (Für Passwort zurücksetzen)</string>
+    <string name="de_de_hint_new_password">Neu Passwort</string>
+    <string name="de_de_hint_confirm_new_password"> Neu Passwort bestätigen </string>
+    <string name="de_de_progress_msg">Laden&#8230;</string>
+    <string name="de_de_notify_internet_time_out">Netzwerk Fehler</string>
+    <string name="de_de_toast_empty_account">Bitte gib Konto ein </string>
+    <string name="de_de_toast_empty_password">Bitte gib Passwort ein </string>
+    <string name="de_de_toast_empty_confirm_password"> Bitte gib Passwort noch einmal ein </string>
+    <string name="de_de_toast_empty_old_password">Bitte gib das originale Passwort ein</string>
+    <string name="de_de_toast_empty_new_password">>Bitte gib das neue Passwort ein </string>
+    <string name="de_de_toast_empty_confirm_new_password"> Bitte bestätige neu Passwort </string>
+    <string name="de_de_toast_empty_email">Bitte gib Email ein</string>
+    <string name="de_de_toast_frond_behind_password_different">Ungleich Passwort，bitte gib Passwort erneut ein </string>
+    <string name="de_de_toast_login_format_error">Das Konto darf nicht mit 09, efun, yh anfangen. Fall die Bedingung nicht erfüllt, gibe s erneut ein ！</string>
+    <string name="de_de_toast_email_match">Die Form der E-mail ist falsch</string>
+    <string name="de_de_toast_bind_account">Sehr geehrter Spieler, für Sicherheit verbinden Sie bitte Ihres Konto möglichst bald.</string>
+    <string name="de_de_toast_account_permissions">Sie haben die entsprechende Berechtigungsanforderung schon verweigert, bitte erlauben Sie die Berechtigung in APP-Einstellung.</string>
+    <!-- SDK bind facebook -->
+    <string name="de_de_toast_bind_facebook_user_other_account"> Bitte logge Facebook-Konto ein , mit dem du verbinden möchtest!</string>
+    <string name="de_de_toast_bind_facebook_user_this_account_title"> Derzeitiges Facebook-Konto ist %1$s, möchtest du damit verbinden, oder? </string>
+
+    <!-- 谷歌储值错误提示 -->
+    <string name="de_de_efunGoogleServerError"> Netzwerk Fehler，bitte versuche es erneut</string>
+    <string name="de_de_efunGoogleBuyFailError">Kaufen scheitert!</string>
+    <string name="de_de_efunGoogleStoreError">Dein Gebiet unterstützt Google-Wallet nicht</string>
+    <!-- 谷歌购买提示 -->
+    <string name="de_de_efunGooglePlaySelectNothing">Bitte wähle eine Ware aus</string>
+
+    <!-- 新增facebook登录失败提示语 -->
+    <string name="de_de_toast_facebook_login_Error">Durch Facebook einloggen fehlgeschlagen, bitte versuche es erneut.</string>
+
+</resources>

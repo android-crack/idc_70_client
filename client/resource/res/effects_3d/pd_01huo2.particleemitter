@@ -1,0 +1,53 @@
+particle pd_01huo2
+{
+	sprite 
+	{
+		path = fire02_00000.png
+		width = 128
+		height = 128
+		blending = ADDITIVE
+		animated = True
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 10
+	}
+	particleCountMax = 15
+	emissionRate = 20
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 15
+	sizeStartMax = 20
+	sizeEndMin = 5
+	sizeEndMax = 1
+	energyMin = 600
+	energyMax = 800
+	colorStart = 1, 1, 1, 0.06666667
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0.5808823, 0, 0, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 0.5586207, 0, 0.6470588
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.4
+	middlePercentVar = -0.09999999
+	position = 0, 0, 0
+	positionVar = 0.1, 0.1, 0.1
+	velocity = 0, 0, 15
+	velocityVar = -10, -10, -5
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 1.570796
+	rotationPerParticleSpeedMax = -1.570796
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 1
+	systemDuration = 0
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = True
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

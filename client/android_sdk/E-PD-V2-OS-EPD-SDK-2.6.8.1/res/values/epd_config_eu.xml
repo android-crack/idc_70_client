@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!--
+          平台接口域名
+	明文：http://pfen.app4gamer.com/
+	密文：tAnUpzsm9NnMVlTbxwuor5BhBXEIH/Nt2o37ycZIpy4=
+	-->	
+    <string name="eu_epd_url_platform">tAnUpzsm9NnMVlTbxwuor5BhBXEIH/Nt2o37ycZIpy4=</string>
+    
+    <!--
+         平台WEB域名
+	明文：http://gc.aseugame.com/
+	密文：3u26iowWIEQkSsCvVxUrBZ5JPLXe6xS7
+	-->
+    <string name="eu_epd_url_web">3u26iowWIEQkSsCvVxUrBZ5JPLXe6xS7</string>
+    
+    <!--
+    Game工程域名
+	明文：http://gameen.app4gamer.com/
+	密文：3u26iowWIERHZLOHVn2dDDqrgUxT0dLytCSkCFS4CA4=
+	-->
+
+    <string name="eu_epd_url_game">3u26iowWIERHZLOHVn2dDDqrgUxT0dLytCSkCFS4CA4=</string>
+    <!--
+	储值域名
+	明文：http://payen.app4gamer.com/
+	密文：tAnUpzsm9Nn6ZmOt/mqUx5TJYhoXnRyN8vH4FmFGvoY=
+	-->
+    <string name="eu_epd_url_pay">tAnUpzsm9Nn6ZmOt/mqUx5TJYhoXnRyN8vH4FmFGvoY=</string>
+    
+    <!--
+	图片上传域名
+	明文：http://imgien.app4gamer.com/
+	密文：sYPslozWft1dU1RdS8IJLzqrgUxT0dLytCSkCFS4CA4=
+	-->
+    <string name="eu_epd_url_img">sYPslozWft1dU1RdS8IJLzqrgUxT0dLytCSkCFS4CA4=</string>
+    
+    <!--
+	FB工程域名
+	明文：http://fben.app4gamer.com/
+	密文：2cII0PuW6+u+aWoP7xoxiJBhBXEIH/Nt2o37ycZIpy4=
+	-->
+    <string name="eu_epd_url_fb">2cII0PuW6+u+aWoP7xoxiJBhBXEIH/Nt2o37ycZIpy4=</string>
+    
+    <!-- 
+    cdn 路径
+	明文：http://sdk.downloaden.app4gamer.com/
+	密文：ya0os0W4hbr8UhJa3KsYfPKFKDBnwxK+OquBTFPR0vK0JKQIVLgIDg==
+ 	-->
+ 	<string name="eu_epd_path_cdn">ya0os0W4hbr8UhJa3KsYfPKFKDBnwxK+OquBTFPR0vK0JKQIVLgIDg==</string>
+ 	<!--
+ 	server 路径
+	明文：http://sdken.downloaden.app4gamer.com/
+	密文：ya0os0W4hbpgmdFYMZRgOH75s6n5SCidSnQDnK911/PdipPa4SrcLQ==
+	-->
+    <string name="eu_epd_path_server">ya0os0W4hbpgmdFYMZRgOH75s6n5SCidSnQDnK911/PdipPa4SrcLQ==</string>
+    
+    <!-- CDN/Server域名和文件之间的路径 -->
+    <string name="eu_epd_path_platform_type">euap</string>
+    <!-- 地区标志 -->
+    <string name="eu_epd_platform">eu</string>
+    <!-- 图片上传地区标志 -->
+    <string name="eu_epd_img_upload_platform">pfeu</string>
+</resources>

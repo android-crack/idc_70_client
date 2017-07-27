@@ -1,0 +1,23 @@
+material spriteModel
+{
+	u_projectionMatrix = WORLD_VIEW_PROJECTION_MATRIX
+	renderState
+	{
+		cullFace = true
+		depthTest = true
+		blend = true
+		blendSrc = SRC_ALPHA
+		blendDst = ONE_MINUS_SRC_ALPHA
+		depthWrite = false
+	}
+	
+	technique
+    {
+        pass
+        {
+			vertexShader = res/shaders/spriteColor.vert
+            fragmentShader = res/shaders/spriteColor.frag
+			
+        }
+    }
+}

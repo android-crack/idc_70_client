@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="epd_game">遊戲：</string>
+    <string name="epd_game_info">信息</string>
+    <string name="epd_game_name">遊戲：</string>
+    <string name="epd_game_server">伺務器：</string>
+    <string name="epd_game_role">角色名：</string>
+    <string name="epd_game_description">遊戲描述</string>
+    <string name="epd_game_down_count_des_before">有 </string>
+    <string name="epd_game_down_count_des_after"> 人下載</string>
+    <string name="epd_download">下載</string>
+    <string name="epd_member_id">會員ID：</string>
+    <string name="epd_level">等級：</string>
+    <string name="epd_medal">積分：</string>
+    <string name="epd_toast_medal">積分</string>
+    <string name="epd_vip">Vip：</string>
+    <string name="epd_introduce">點我</string>
+    <string name="epd_notice">公告</string>
+    <string name="epd_guide">攻略</string>
+    <string name="epd_news">新聞</string>
+    <string name="epd_events">活動</string>
+    <string name="epd_delete">刪除</string>
+    <string name="epd_submit_question">提交</string>
+    <string name="epd_question_type_notify_text">問題類型</string>
+    <string name="epd_question_screen_short_notify_text">添加圖片</string>
+    <string name="epd_question_no_screen_short_notify_text">暫未上傳圖片</string>
+    <string name="epd_question_email_notify_text">郵箱</string>
+    <string name="epd_question_title">問題標題</string>
+    <string name="epd_question_description">問題描述</string>
+    <string name="epd_cs_title_limitation">100字符以內</string>
+    <string name="epd_cs_email_limitation">100字符以內</string>
+    <string name="epd_question_description_limitation">1500字符以內</string>
+    <string name="epd_question_type_qs_undefine">問題未分類</string>
+    <string name="epd_question_type_account">帳號問題</string>
+    <string name="epd_question_type_recharge">儲值問題</string>
+    <string name="epd_question_type_guides">攻略問題</string>
+    <string name="epd_question_type_activity">活動問題</string>
+    <string name="epd_question_type_feedback">玩家回饋</string>
+    <string name="epd_question_type_other">其他</string>
+    <string name="epd_cs_normal_question">常見問題</string>
+    <string name="epd_cs_normal_question_des">您可以在這裡查詢玩家常見問題</string>
+    <string name="epd_cs_asking">我要提問</string>
+    <string name="epd_cs_asking_des">我們將盡力第一時間給予您滿意的答案</string>
+    <string name="epd_cs_reply">我的問題</string>
+    <string name="epd_cs_reply_des">您可在這裡查詢您所曾經提問過的問題</string>
+    <string name="epd_cs_pic_add">+</string>
+    <string name="epd_cs_pic_delete">-</string>
+    <string name="epd_persion_collect_data">個人資訊</string>
+    <string name="epd_persion_collect_data_des">完善個人資訊，領取驚喜大獎</string>
+    <string name="epd_persion_collect_data_des_sec">完善個人信息</string>
+    <string name="epd_persion_gift_center">禮包中心</string>
+    <string name="epd_persion_gift_center_des">禮包多多，等著您來領取哦～</string>
+    <string name="epd_persion_knock_egg">扭蛋</string>
+    <string name="epd_persion_knock_egg_des">扭一扭，贏取豐厚獎品哦～</string>
+    <string name="epd_persion_version">版本</string>
+    <string name="epd_gift_center">禮包中心</string>
+    <string name="epd_gift_has_got">已領取</string>
+    <string name="epd_gift_has_used">已使用</string>
+    <string name="epd_gift_has_unused">未使用</string>
+    <string name="epd_gift_rule">禮包任務</string>
+    <string name="epd_gift_des">禮包詳情</string>
+    <string name="epd_gift_end_time">結束時間：</string>
+    <string name="epd_gift_surplus">剩餘：</string>
+    <string name="epd_gift_type">類型:</string>
+    <string name="epd_gift_get_now">立即領取</string>
+    <string name="epd_gift_code">序號：</string>
+    <string name="epd_gift_secret">密鑰：</string>
+    <string name="epd_gift_deadlines">最後期限：</string>
+    <string name="epd_gift_notify">點擊禮包序號，可複製使用！</string>
+    <string name="epd_copy_successfully">複製成功</string>
+    <string name="epd_version">版本號：</string>
+    <string name="epd_package_size">大小：</string>
+    <string name="epd_summary">資訊</string>
+    <string name="epd_website">Website</string>
+    <string name="epd_fans_page">Facebook</string>
+    <string name="epd_network_error">設備網路未連接！</string>
+    <string name="epd_request_error">系統異常，請點擊重新刷新！</string>
+    <string name="epd_timeout_error">請求超時，請點擊重新刷新！</string>
+    <string name="epd_empty_error">暫無數據，請稍後再試</string>
+    <string name="epd_title_back_demo">ABC</string>
+    <string name="epd_title_summary">資訊</string>
+    <string name="epd_title_game">遊戲</string>
+    <string name="epd_title_persion">個人中心</string>
+    <string name="epd_title_persion_acquisition">個人資訊</string>
+    <string name="epd_title_store">儲值</string>
+    <string name="epd_title_cs">客服</string>
+    <string name="epd_title_cs_questions">常見問題</string>
+    <string name="epd_title_gift">禮包中心</string>
+    <string name="epd_title_cs_ask">我要提問</string>
+    <string name="epd_title_cs_reply">我的問題</string>
+    <string name="epd_title_cs_reply_detail">客服回復</string>
+
+	<string name="epd_title_web_level">等級說明</string>
+	<string name="epd_title_web_medal_info">會員說明</string>
+	<string name="epd_title_web_vip_info">VIP</string>
+	<string name="epd_title_web_knock_egg">扭蛋</string>
+    
+    <string name="epd_store_return">首頁</string>
+    <string name="epd_thumb_error">您的設備不支援！</string>
+	<string name="epd_camera_crop_error">您的設備不支援裁剪圖片，請到官網上操作！</string>
+	
+	<string name="epd_cs_empty_title">請輸入問題標題</string>
+	<string name="epd_cs_empty_advice">請輸入問題描述</string>
+	<string name="epd_cs_empty_system_error">系統異常。</string>
+	
+	<string name="epd_cs_limited_title">標題不能超過100字符</string>
+	<string name="epd_cs_limited_advice">問題描述不能超過1500字符</string>
+	<string name="epd_cs_limited_email">郵箱不能超過100字符</string>
+	<string name="epd_cs_error_email">請輸入正確的郵箱</string>
+
+	<string name="epd_cs_reply_detail_content">回覆內容</string>
+	<string name="epd_cs_shot_photos">拍照</string>
+	<string name="epd_cs_shot_local_photos">相冊</string>
+	<string name="epd_role_cs">客服</string>
+	<string name="epd_role_self">我</string>
+	
+
+	<string name="epd_cs_submit_success">提交成功!</string>
+	<string name="epd_cs_pic_upload_success">上傳成功!</string>
+
+	<string name="epd_wechat">WeChat</string>
+	<string name="epd_line">Line</string>
+	<string name="epd_area">地區</string>
+	<string name="epd_address">地址</string>
+	<string name="epd_occupation">職業</string>
+	<string name="epd_boy">男</string>
+	<string name="epd_girl">女</string>
+	<string name="epd_modify">&#160;&#160;編輯&#160;&#160;</string>
+	
+	<string name="epd_summary_first_one">已到達第一頁</string>
+	<string name="epd_summary_last_one">已到達最後一頁</string>
+	
+	<string name="epd_receive">禮包</string>
+	<string name="epd_step_collections">填寫資料</string>
+	<string name="epd_email">郵箱</string>
+	<string name="epd_phone">手機號碼</string>
+	<string name="epd_save">保存</string>
+	<string name="epd_collect_empty_area">選擇地區（必填）</string>
+	<string name="epd_collect_empty_sex">性別</string>
+	<string name="epd_collect_empty_occupation">選擇職業（必填）</string>
+	<string name="epd_birthday">生日</string>
+	<string name="epd_like_game">我喜愛的遊戲類型</string>
+	<string name="epd_collect_empty_birthday">生日（必填）</string>
+	<string name="epd_collect_empty_like_game">我喜愛的遊戲類型（必填）</string>
+	<string name="epd_collect_error_like_game">請選擇您喜愛的遊戲類型，最多可以選三個</string>
+	
+	<string name="epd_collect_toast_empty_birth">請選擇您的生日</string>
+	<string name="epd_collect_toast_empty_area">請選擇您所在的地區</string>
+	<string name="epd_collect_toast_empty_occupation">請選擇您的職業</string>
+	<string name="epd_submit">提交</string>
+	
+	
+	<string name="epd_notification_modify_nothing">暫無可編輯內容項</string>
+	<string name="epd_notification_scan_gifts">請到禮包中心查看！</string>
+	
+	<string name="epd_hint_cs_reply_delete">確認刪除？</string>
+	
+	<string name="epd_float_hint_hide">隱藏後重新登入遊戲你就能看得見我哦</string>
+	<string name="epd_float_hint_confirm">確認</string>
+	<string name="epd_float_hint_cancel">&#160;&#160;取消&#160;&#160;</string>
+	
+	<string name="epd_serial">序號</string>
+	
+	<string name="epd_uninstalled_google_play">請先下載google應用商店</string>
+	
+	<string name="epd_notice_close">關閉</string>
+	<string name="epd_notice_go_to_look">去看看</string>
+	<string name="epd_notice_change_one">換一個</string>
+	<string name="epd_notice_toast_error_gift">請先下載游戲，且用同一個賬號登陸后，才能領取禮包哦</string>
+	<string name="epd_notice_text_not_show_today">今天內不再顯示</string>
+	<string name="epd_notice_cancel">取消</string>
+	<string name="epd_person_extra_gift">額外獎勵</string>
+	<string name="epd_notice_close_tips">再次開啟此頁面，需要點擊個人中心->額外獎勵哦</string>
+	<string name="epd_notice_accomplish_finish_tips">完成任務，即可獲得更多的獎勵</string>
+	<string name="epd_notice_reviewed_stop">獎勵截止時間：</string>
+	<string name="epd_notice_get_gift_success">已領取!</string>
+	
+	<!-- 20160321 -->
+	<string name="epd_person_exp">經驗：</string>
+	<string name="epd_cs_reply_all_check">全選</string>
+	<string name="epd_person_sign">簽到</string>
+	<string name="epd_gift_reward_time">領取時間：</string>
+	<string name="epd_person_exp_tips_1">再獲得</string>
+	<string name="epd_person_exp_tips_2">經驗值即可升級</string>
+	<string name="epd_person_sign_tips">連續簽到天數越多，贈送獎勵越刺激！</string>
+	
+    <string-array name="epd_pop_per_info_pic">
+        <item>拍照</item>
+        <item>相冊</item>
+    </string-array>
+    
+    <string-array name="epd_cs_problem_kinds">
+        <item>常見問題</item>
+        <item>帳號及登錄問題</item>
+        <item>儲值問題</item>
+    </string-array>
+    <string-array name="epd_gift_title_kinds">
+        <item>免費禮包</item>
+        <item>我的禮包</item>
+    </string-array>
+</resources>

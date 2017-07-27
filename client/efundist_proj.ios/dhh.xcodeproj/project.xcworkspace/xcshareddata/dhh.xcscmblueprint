@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6bc9461d-a74c-e011-a7d1-00e04c772494++4730",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "6bc9461d-a74c-e011-a7d1-00e04c772494++4730" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6bc9461d-a74c-e011-a7d1-00e04c772494++4730" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "03EFA970-AAFA-4D97-BDCA-5ED33083EFE9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6bc9461d-a74c-e011-a7d1-00e04c772494++4730" : "client\/resource\/scripts\/game_config\/battles\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "dhh",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "efundist_proj.ios\/dhh.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.0.3\/qtz",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6bc9461d-a74c-e011-a7d1-00e04c772494++4730"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+particle 0164_smoke02
+{
+	sprite 
+	{
+		path = 2011smoke_black.png
+		width = 64
+		height = 64
+		blending = ALPHA BLENDED
+		animated = True
+		looped = True
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 60
+	}
+	particleCountMax = 10
+	emissionRate = 5
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 30
+	sizeStartMax = 30
+	sizeEndMin = 20
+	sizeEndMax = 20
+	energyMin = 1800
+	energyMax = 1500
+	colorStart = 1, 1, 1, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0.5882353, 0.5882353, 0.5882353, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 1, 1, 0.8039216
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.3
+	middlePercentVar = 0
+	position = 0, 0, 0
+	positionVar = 1, 1, 1
+	velocity = 0, 0, 132.5
+	velocityVar = 0, 0, 2.5
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = -1
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = True
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

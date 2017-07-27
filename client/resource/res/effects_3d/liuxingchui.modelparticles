@@ -1,0 +1,9 @@
+ModelParticleConfig liuxingchui
+{
+	ParticleConfig liuxingchui_tuowei
+	{
+		file = liuxingchui_tuowei.particlesystem
+		position = 0, 0, 0
+		rotation = 0, 0, 0, 1
+	}
+}

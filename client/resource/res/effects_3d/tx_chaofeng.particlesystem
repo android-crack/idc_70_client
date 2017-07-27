@@ -1,0 +1,10 @@
+ParticleSystem tx_chaofeng
+{
+	Emitter chaofeng_wave
+	{
+		file = chaofeng_wave.particleemitter
+		order = 0
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+}

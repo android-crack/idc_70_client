@@ -1,0 +1,10 @@
+ParticleSystem daoguang
+{
+	Emitter daoguang
+	{
+		file = daoguang.particleemitter
+		order = 0
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+}

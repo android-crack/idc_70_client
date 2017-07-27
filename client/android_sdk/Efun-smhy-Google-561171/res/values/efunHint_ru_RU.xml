@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <!-- title -->
+    <string name="ru_ru_title_google">G o o g l e</string>
+    <string name="ru_ru_title_web">веб-сайт</string>
+    <string name="ru_ru_title_login">Войти</string>
+    <string name="ru_ru_title_register">Регистрация</string>
+    <string name="ru_ru_title_reset_pwd">Изменить пароль</string>
+    <string name="ru_ru_title_retrieve_pwd">Забыли пароль</string>
+    <string name="ru_ru_title_bind_account">Привязать к аккаунту</string>
+
+    <!-- button -->
+    <string name="ru_ru_button_facebook">Войти через Facebook</string>
+    <string name="ru_ru_button_google">Войти через Google</string>
+    <string name="ru_ru_button_twitter">Войти через Twitter</string>
+    <string name="ru_ru_button_mac">Войти как гость</string>
+    <string name="ru_ru_button_for_more_account">Войти через другие методы</string>
+    <string name="ru_ru_button_login_btn">Войти через обычн. акк.</string>
+    <string name="ru_ru_button_register_text_1">Нет аккаунта? </string>
+    <string name="ru_ru_button_register_text_2">Зарегистрироваться</string>
+    <string name="ru_ru_button_register_btn">Регистрация</string>
+    <string name="ru_ru_button_reset_pwd_btn">Изменить пароль</string>
+    <string name="ru_ru_button_retrieve_pwd_btn">Забыли пароль</string>
+    <string name="ru_ru_button_bind_account_btn">Привязать гостевой акк.</string>
+    <string name="ru_ru_button_bind_mac_btn">Привязать гостевой акк.</string>
+    <string name="ru_ru_button_bind_fb_btn">Привязать Facebook</string>
+    <string name="ru_ru_button_bind_vk_btn">Привязать Вконтакте</string>
+    <string name="ru_ru_button_bind_twitter_btn">Привязать Twitter</string>
+    <string name="ru_ru_button_bind_google_btn">Привязать Google+</string>
+    <string name="ru_ru_button_users_manages">Управление аккаунтом</string>
+    <string name="ru_ru_button_cancel">Отменить</string>
+    <string name="ru_ru_button_confirm">OK</string>
+    <string name="ru_ru_efun_word">Сегодня больше не отображается</string>
+    <string name="ru_ru_other_website">WebSite</string>
+    <!-- SDK -->
+    <string name="ru_ru_title_efun_user_agreement">Пользовательское соглашение</string>
+    <string name="ru_ru_button_logout_btn">Выйти</string>
+    <string name="ru_ru_button_bind_btn">Привязать</string>
+    <string name="ru_ru_efun_other_login">Войти через другой аккаунт</string>
+    <string name="ru_ru_efun_user_agreement">Принимаю Пользовательское соглашение.</string>
+    <string name="ru_ru_toast_user_agreement">Прочитайте и примите Пользовательское соглашение.</string>
+    <string name="ru_ru_hint_account">Логин</string>
+    <string name="ru_ru_hint_password">Пароль</string>
+    <string name="ru_ru_hint_old_password">Старый пароль</string>
+    <string name="ru_ru_hint_cnew_password">Новый пароль</string>
+    <string name="ru_ru_hint_confirn_password">Повторите</string>
+    <string name="ru_ru_hint_email">Почта (необязательно)</string>
+    <string name="ru_ru_hint_forget_email">Привязанная почта</string>
+    <string name="ru_ru_hint_email_address">Почта (для восст. пароля)</string>
+    <string name="ru_ru_hint_new_password">Новый пароль</string>
+    <string name="ru_ru_hint_confirm_new_password">Подтвердить новый пароль</string>
+    <string name="ru_ru_progress_msg">Загрузка..&#8230;</string>
+    <string name="ru_ru_notify_internet_time_out">Соединение не удалось!</string>
+    <string name="ru_ru_toast_empty_account">Введите логин</string>
+    <string name="ru_ru_toast_empty_password">Введите пароль</string>
+    <string name="ru_ru_toast_empty_confirm_password">Повторите пароль</string>
+    <string name="ru_ru_toast_empty_old_password">Введите старый пароль</string>
+    <string name="ru_ru_toast_empty_new_password">Введите новый пароль</string>
+    <string name="ru_ru_toast_empty_confirm_new_password">Подтвердить новый пароль</string>
+    <string name="ru_ru_toast_empty_email">Введите электронную почту</string>
+    <string name="ru_ru_toast_frond_behind_password_different">Пароли не совпадают. Введите снова, пожалуйста</string>
+    <string name="ru_ru_toast_login_format_error">Логин нельзя начать с 09 и yh. Введите снова, пожалуйста!</string>
+    <string name="ru_ru_toast_email_match">Форма почты неправильная!</string>
+    <string name="ru_ru_toast_bind_account">Уважаемый, для безопасности вашего аккаунта, пожалуйста, как можно скорее привяжите аккаунт как гость к обычному аккаунту.</string>
+    <string name="ru_ru_toast_account_permissions">Вы отвергли просьбу соответствующего разрешения. Пожалуйста, перейдите в настройки приложения, чтобы разрешить его.</string>
+    <!-- SDK bind facebook -->
+    <string name="ru_ru_toast_bind_facebook_user_other_account">Войдите в аккаунт facebook сначала, который хотите привязать.</string>
+    <string name="ru_ru_toast_bind_facebook_user_this_account_title">Ваш входящий аккаунт на facebook: %1$s，Призавять или нет?</string>
+
+    <!-- 谷歌储值错误提示 -->
+    <string name="ru_ru_efunGoogleServerError">Соединение не установлено!</string>
+    <string name="ru_ru_efunGoogleBuyFailError">Пополнить не удалось</string>
+    <string name="ru_ru_efunGoogleStoreError">На вашем регионе не поддерживается Google Play</string>
+    <!-- 谷歌购买提示 -->
+    <string name="ru_ru_efunGooglePlaySelectNothing">Выбирайте товар</string>
+    <!-- 新增facebook登录失败提示语 -->
+    <string name="ru_ru_toast_facebook_login_Error">Войти через Facebook не удалось. Попробуйте ещё раз!</string>
+
+</resources>

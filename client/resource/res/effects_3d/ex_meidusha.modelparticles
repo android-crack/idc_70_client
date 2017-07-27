@@ -1,0 +1,9 @@
+ModelParticleConfig ex_meidusha
+{
+	ParticleConfig meshwave04
+	{
+		file = meshwave04.particlesystem
+		position = 0, 0.1265314, -5.530862E-09
+		rotation = -2.185569E-08, -8.742278E-08, 1.910685E-15, 1
+	}
+}

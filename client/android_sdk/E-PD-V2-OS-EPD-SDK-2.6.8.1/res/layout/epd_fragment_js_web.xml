@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/epd_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/epd_primary" >
+
+        <com.epd.app.support.widget.gadget.button.ArrowButton
+            android:id="@+id/back"
+            style="@style/BackButton" />
+
+        <TextView
+            android:id="@+id/web_title"
+            style="@style/TitleBarText" />
+    </RelativeLayout>
+
+    <com.epd.app.support.widget.gadget.web.WebViewWithJS
+        android:layout_marginTop="1px"
+        android:id="@+id/js_web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+particle shuibowen01
+{
+	sprite 
+	{
+		path = tx_0171_yanwu.png
+		width = 256
+		height = 256
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 20
+	}
+	particleCountMax = 10
+	emissionRate = 3
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 300
+	sizeStartMax = 300
+	sizeEndMin = 600
+	sizeEndMax = 600
+	energyMin = 1400
+	energyMax = 1200
+	colorStart = 1, 1, 1, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 1, 1, 1, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 0.7720588, 0.9666836, 1, 0.6352941
+	colorMiddleVar = -0.08823526, 0.007150114, 0, -0.04313719
+	middlePercent = 0.4
+	middlePercentVar = 2.980232E-08
+	position = 0, 0, 0
+	positionVar = 0, 0, 0
+	velocity = 0, 0, 0
+	velocityVar = 0, 0, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 1
+	systemDuration = -1
+	renderType = HORIZONTALBILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

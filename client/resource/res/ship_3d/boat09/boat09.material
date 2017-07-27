@@ -1,0 +1,11 @@
+material boat09
+{
+    sampler u_diffuseTexture
+    {
+        path = boat09.fbm/boat09_001.png
+        wrapS = REPEAT
+        wrapT = REPEAT
+    }
+
+}
+

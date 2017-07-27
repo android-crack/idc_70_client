@@ -1,0 +1,42 @@
+material fullscreen 
+{
+
+	u_viewProjectionMatrix = VIEW_PROJECTION_MATRIX
+	u_worldMatrix = WORLD_MATRIX
+	u_mainColor = 1.0, 1.0, 1.0, 1.0
+	
+    renderState
+    {
+		depthWrite = false
+        depthTest = false            
+		blend = true
+		blendSrc = SRC_ALPHA
+		blendDst = ONE_MINUS_SRC_ALPHA
+    }
+
+	tag 
+	{
+		renderQueue = transparent
+	}
+
+	u_diffuseTextureST = 1, 1, 0, 0
+	sampler u_diffuseTexture
+	{
+		path = res/battle_3d/full_screen.png
+		minFilter = LINEAR_MIPMAP_LINEAR
+		magFilter = LINEAR
+        wrapS = CLAMP
+        wrapT = CLAMP
+		mipmap = true
+	}
+	
+	technique
+    {
+        pass
+        {	
+            vertexShader = res/shaders/fullscreen.vert
+            fragmentShader = res/shaders/fullscreen.frag
+        }
+    }
+}
+

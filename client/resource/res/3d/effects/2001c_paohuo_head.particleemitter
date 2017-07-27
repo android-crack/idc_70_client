@@ -1,0 +1,56 @@
+particle 2001c_paohuo_head
+{
+	sprite 
+	{
+		path = GlowOrange.png
+		width = 128
+		height = 128
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 30
+	}
+	particleCountMax = 20
+	emissionRate = 10
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	energyMin = 1100
+	energyMax = 1150
+	position = 0, 0, 0
+	positionVar = 0, 0, 0
+	velocity = 0.175, 0, 0
+	velocityVar = -0.02500001, 0, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = True
+	delayTime = 0
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+	gravity = 0
+	lengthScale = 1
+	sizeStartMin = 0.1
+	sizeStartMax = 0.12
+	sizeEndMin = 0.07
+	sizeEndMax = 0.06
+	colorStart = 1, 0.6804598, 0, 1
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 1, 0, 0, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 0.4926977, 0.1029412, 0.591
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.45
+	middlePercentVar = 0.05000001
+}

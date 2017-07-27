@@ -1,0 +1,61 @@
+particle zhaohuo_3_lizi
+{
+	sprite 
+	{
+		path = burntembers2.png
+		width = 256
+		height = 256
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	color 
+	{
+		curve 
+		{
+			type = 4
+			componentCount = 4
+			times = 0, 379, 429, 994, 1000
+			values = 1, 0.8901961, 0.2666667, 0, 1, 0.9215686, 0.02745098, 0.7098039, 1, 0.9294118, 0, 0.6941177, 1, 0.007843138, 0, 0.003921569, 1, 0, 0, 0
+			inTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+			outTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+		}
+		type = 1
+	}
+	particleCountMax = 5
+	emissionRate = 5
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	energyMin = 1800
+	energyMax = 1600
+	position = 0, 0, 0
+	positionVar = 40, 0, 40
+	velocity = 0, 110, 0
+	velocityVar = 0, -10, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = -0.3490658
+	rotationPerParticleSpeedMax = 0.3490658
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = BILLBOARD
+	isLocalSpace = False
+	preWarm = False
+	delayTime = 0
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+	gravity = 30
+	lengthScale = 1
+	sizeStartMin = 60
+	sizeStartMax = 70
+	sizeEndMin = 160
+	sizeEndMax = 140
+}

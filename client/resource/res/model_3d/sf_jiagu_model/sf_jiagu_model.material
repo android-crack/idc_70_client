@@ -1,0 +1,11 @@
+material sf_jiagu_model
+{
+    sampler u_diffuseTexture
+    {
+        path = sf_jiagu_model.fbm/sf_jiagu_model.png
+        wrapS = REPEAT
+        wrapT = REPEAT
+    }
+
+}
+

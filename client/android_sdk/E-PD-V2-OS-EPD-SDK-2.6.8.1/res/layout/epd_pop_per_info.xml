@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/text_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/epd_pic_choice_item_bg_selector"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/epd_text_20" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/epd_size_1"
+            android:background="@color/epd_grey" />
+
+        <TextView
+            android:id="@+id/text_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/epd_pic_choice_item_bg_selector"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/epd_text_20" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+particle 0166_fire03
+{
+	sprite 
+	{
+		path = huo_01_3x4.png
+		width = 64
+		height = 85
+		blending = ADDITIVE
+		animated = True
+		looped = True
+		frameCount = 12
+		frameRandomOffset = 8
+		frameDuration = 40
+	}
+	color 
+	{
+		curve 
+		{
+			type = 4
+			componentCount = 4
+			times = 0, 457, 1000
+			values = 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0
+			inTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+			outTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+		}
+		type = 1
+	}
+	particleCountMax = 10
+	emissionRate = 20
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	energyMin = 800
+	energyMax = 1000
+	position = 0, 0, 0
+	positionVar = 0, 0, 0
+	velocity = 0, 0, 0
+	velocityVar = 3, 3, 3
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = -0.08726646
+	rotationPerParticleSpeedMax = 0.1745329
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = -1
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	delayTime = 0
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+	gravity = 0
+	lengthScale = 1
+	sizeStartMin = 20
+	sizeStartMax = 15
+	sizeEndMin = 60
+	sizeEndMax = 70
+}

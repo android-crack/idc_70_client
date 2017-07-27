@@ -1,0 +1,16 @@
+animation port_seagull
+{
+frameCount=2366
+clip move
+{
+begin=666
+end=1333
+repeatCount=0
+}
+clip aoxiang
+{
+begin=2366
+end=2366
+repeatCount=0
+}
+}

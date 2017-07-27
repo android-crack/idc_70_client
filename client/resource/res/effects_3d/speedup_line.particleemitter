@@ -1,0 +1,53 @@
+particle speedup_line
+{
+	sprite 
+	{
+		path = blue_line.png
+		width = 256
+		height = 256
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	particleCountMax = 20
+	emissionRate = 10
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 300
+	sizeStartMax = 300
+	sizeEndMin = 80
+	sizeEndMax = 80
+	energyMin = 1200
+	energyMax = 1800
+	colorStart = 1, 1, 1, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0, 0.2844321, 0.5220588, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 0, 0.2551723, 1, 0.6862745
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.5
+	middlePercentVar = 0
+	position = 0, 0, 0
+	positionVar = 30, 60, 30
+	velocity = 0, 0, 110
+	velocityVar = 4, 0, 0
+	acceleration = 0, 0, 40
+	accelerationVar = 3, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = HORIZONTALBILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 0
+}

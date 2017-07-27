@@ -1,0 +1,22 @@
+
+class CCPlatform3D : public CCLayer
+{
+    static CCPlatform3D * create(void);
+
+    CCPlatform3D();
+    virtual ~CCPlatform3D();
+	static void pause();
+	static void resume();
+	//void setVisible(bool v);
+
+	void	setHandlerPriority(int priority);
+    virtual void registerWithTouchDispatcher();
+    virtual bool ccTouchBegan(CCTouch* touch, CCEvent* event);
+    virtual void ccTouchEnded(CCTouch* touch, CCEvent* event);
+    virtual void ccTouchCancelled(CCTouch *touch, CCEvent* event);
+    virtual void ccTouchMoved(CCTouch* touch, CCEvent* event);
+
+	static void initialize();
+};
+
+

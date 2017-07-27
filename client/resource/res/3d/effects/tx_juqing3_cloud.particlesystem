@@ -1,0 +1,10 @@
+ParticleSystem tx_juqing3_cloud
+{
+	Emitter juqing3_cloud
+	{
+		file = juqing3_cloud.particleemitter
+		order = 0
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+}

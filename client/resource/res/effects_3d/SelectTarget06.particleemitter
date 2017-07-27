@@ -1,0 +1,54 @@
+particle SelectTarget06
+{
+	sprite 
+	{
+		path = GlowOrange.png
+		width = 128
+		height = 128
+		blending = ADDITIVE
+		animated = True
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	particleCountMax = 1
+	emissionRate = 30
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 0
+	sizeStartMax = 0
+	sizeEndMin = 120
+	sizeEndMax = 120
+	energyMin = 300
+	energyMax = 300
+	colorStart = 1, 0.9396551, 0.125, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 1, 0.6413793, 0, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 0.5586207, 0, 1
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.15
+	middlePercentVar = 0.05
+	position = 0, 0, 0
+	positionVar = 0, 0, 0
+	velocity = 0, 0, 0
+	velocityVar = 0, 0, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0.2
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	delayTime = 0
+	initialRotationMin = 0.7853982
+	initialRotationMax = 0.7853982
+}

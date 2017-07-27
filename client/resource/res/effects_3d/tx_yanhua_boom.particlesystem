@@ -1,0 +1,9 @@
+ParticleSystem tx_yanhua_boom
+{
+	Emitter yanhuaboom
+	{
+		file = yanhuaboom.particleemitter
+		order = 0
+		position = 0, 0, 0
+	}
+}

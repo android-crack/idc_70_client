@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>tx_coin_00000.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,1},{100,100}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{100,100}}</string>
+                <key>sourceSize</key>
+                <string>{100,100}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>tx_qipao_faguang0.png</string>
+            <key>size</key>
+            <string>{102,102}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:0981280b9f118e24c57a15b22dd76a88:1811fc3660b3903e90920755675e5855:0995ff32de0d85e95665bccbf7ef1cf4$</string>
+            <key>textureFileName</key>
+            <string>tx_qipao_faguang0.png</string>
+        </dict>
+    </dict>
+</plist>

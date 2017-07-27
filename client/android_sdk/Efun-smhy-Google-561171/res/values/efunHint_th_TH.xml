@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <!-- title -->
+    <string name="th_th_title_google">G o o g l e</string>
+    <string name="th_th_title_web">W e b s i t e</string>
+    <string name="th_th_title_login">ล็อกอิน</string>
+    <string name="th_th_title_register">ลงทะเบียน</string>
+    <string name="th_th_title_reset_pwd">รีเซ็ตรหัสผ่าน</string>
+    <string name="th_th_title_retrieve_pwd">ค้นหารหัสผ่าน</string>
+    <string name="th_th_title_bind_account">ผูกพันบัญชี</string>
+
+    <!-- button -->
+    <string name="th_th_button_facebook">เข้าสู่ระบบบัญชีFacebook</string>
+    <string name="th_th_button_google">เข้าสู่ระบบบัญชีGoogle</string>
+    <string name="th_th_button_twitter">เข้าสู่ระบบบัญชีTwitter</string>
+    <string name="th_th_button_mac">เล่นขณะนี้</string>
+    <string name="th_th_button_for_more_account">ล็อกอินบัญชี</string>
+    <string name="th_th_button_login_btn">ล็อกอินบัญชี</string>
+    <string name="th_th_button_register_text_1">ไม่มีบัญชี? </string>
+    <string name="th_th_button_register_text_2">สมัครเลย</string>
+    <string name="th_th_button_register_btn">สมัครบัญชีใหม่</string>
+    <string name="th_th_button_reset_pwd_btn">ติดตั้งรหัสผ่านใหม่</string>
+    <string name="th_th_button_retrieve_pwd_btn">กู้คืนรหัสผ่าน</string>
+    <string name="th_th_button_bind_account_btn">การผูกพันบัญชีเล่นขณะนี้</string>
+    <string name="th_th_button_bind_mac_btn">การผูกพันบัญชีเล่นขณะนี้</string>
+    <string name="th_th_button_bind_fb_btn">พันบัญชีFacebook</string>
+    <string name="th_th_button_bind_vk_btn">พันบัญชีVkontakte</string>
+    <string name="th_th_button_bind_twitter_btn">พันบัญชีTwitter</string>
+    <string name="th_th_button_bind_google_btn">พันบัญชีGoogle+</string>
+    <string name="th_th_button_users_manages">ติดตั้งข้อมูลบัญชี</string>
+    <string name="th_th_button_cancel">ยกเลิก</string>
+    <string name="th_th_button_confirm">ตกลง</string>
+    <string name="th_th_efun_word">ปิดช่องประกาศของวันนี้</string>
+    <!-- SDK เข้าสู่ระบบ -->
+    <string name="th_th_title_efun_user_agreement">ข้อตกลงการใช้</string>
+    <string name="th_th_button_logout_btn">ล็อกเอาต์</string>
+    <string name="th_th_button_bind_btn">การผูกพัน</string>
+    <string name="th_th_efun_other_login">เข้าสู่ระบบด้วยบัญชีอื่น</string>
+    <string name="th_th_efun_user_agreement">ได้อ่านและตกลง《ข้อตกลงการใช้》</string>
+    <string name="th_th_toast_user_agreement">รบกวนอ่านก่อนและตกลง《ข้อตกลงการใช้》</string>
+    <string name="th_th_hint_account">บัญชี</string>
+    <string name="th_th_hint_password">หัสผ่าน</string>
+    <string name="th_th_hint_old_password">หัสผ่านของเก่า</string>
+    <string name="th_th_hint_cnew_password">ยืนยันหัสผ่านที่ตั้งใหม่</string>
+    <string name="th_th_hint_confirn_password">ยืนยันอีกครั้ง</string>
+    <string name="th_th_hint_email">Email（ข้อเลือก）</string>
+    <string name="th_th_hint_forget_email">สมัครEmail</string>
+    <string name="th_th_hint_email_address">Email（สำหรับการกู้คืนรหัสผ่าน）</string>
+    <string name="th_th_hint_new_password">รหัสผ่านของใหม่</string>
+    <string name="th_th_hint_confirm_new_password">ยืนยันหัสผ่านที่ตั้งใหม่</string>
+    <string name="th_th_progress_msg">กำลังโหลด&#8230;</string>
+    <string name="th_th_notify_internet_time_out">การเชื่อมต่อเซิร์ฟเวอร์ผิดปกติ</string>
+    <string name="th_th_toast_empty_account">ใส่รหัสบัญชี</string>
+    <string name="th_th_toast_empty_password">ใส่รหัสผ่าน</string>
+    <string name="th_th_toast_empty_confirm_password">ใส่รหัสผ่านอีกครั้ง</string>
+    <string name="th_th_toast_empty_old_password">ใส่รหัสผ่านของเก่า</string>
+    <string name="th_th_toast_empty_new_password">ใส่รหัสผ่านของใหม่</string>
+    <string name="th_th_toast_empty_confirm_new_password">ยืนยันรหัสผ่านของใหม่</string>
+    <string name="th_th_toast_empty_email">ใส่Email</string>
+    <string name="th_th_toast_frond_behind_password_different">รหัสผ่านไม่ตรงกัน，กรุณาใส่ใหม่อีกครั้ง</string>
+    <string name="th_th_toast_login_format_error">เลขหน้าของบัญชีห้ามมี 09，efun，yh。หากไม่ครบเงื่อนไข，กรุณาใส่ใหม่อีกครั้ง！</string>
+    <string name="th_th_toast_email_match">รูปแบบของEmailผิดพลาด</string>
+    <string name="th_th_other_website">WebSite</string>
+    <string name="th_th_toast_bind_account">ผู้เล่นที่รัก เพื่อความปลอดภัยของบัญชีท่าน ขอรีบผูกพันบัญชีเล่นขณะนี้นะคะ</string>
+    <string name="th_th_toast_account_permissions">ท่านได้ปฏิเสธขอสิทธิ์สอดคล้อง โปรดเข้าไปตั้งค่าเปิดสิทธิ์</string>
+    <!-- SDK bind facebook -->
+    <string name="th_th_toast_bind_facebook_user_other_account">กรุณาล็อกอินบัญชีfacebookก่อน ที่จะทำการผูกพัน。</string>
+    <string name="th_th_toast_bind_facebook_user_this_account_title">บัญชีล็อกอินfacebookตอนนี้คือ %1$s，ตกลงผูกพันหรือไม่？</string>
+
+    <!-- แจ้ง การเติมเงินGoogleผิดพลาด -->
+    <string name="th_th_efunGoogleServerError">การเชื่อมต่อเซิร์ฟเวอร์ผิดปกติ，กรุณาตรวจสอบเครือข่ายของคุณแล้วลองใหม่อีกครั้ง</string>
+    <string name="th_th_efunGoogleBuyFailError">เติมเงินไม่สำเร็จ</string>
+    <string name="th_th_efunGoogleStoreError">เขดที่คุณอยู่ไม่สนับสนุนการเติมเงินGoogle</string>
+    <!-- แจ้ง การซื้อGoogle -->
+    <string name="th_th_efunGooglePlaySelectNothing">กรุณาเลือกสินค้าชนินหนึ่ง</string>
+
+    <!-- 新增facebook登录失败提示语 -->
+    <string name="th_th_toast_facebook_login_Error">ล้อกอิน Facebook ล้มเหลว โปรดลองอีกครั้ง</string>
+
+</resources>

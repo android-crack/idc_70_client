@@ -1,0 +1,61 @@
+particle ranshaodan_hit
+{
+	sprite 
+	{
+		path = baozhaxulie.png
+		width = 64
+		height = 64
+		blending = ADDITIVE
+		animated = True
+		looped = False
+		frameCount = 8
+		frameRandomOffset = 0
+		frameDuration = 60
+	}
+	color 
+	{
+		curve 
+		{
+			type = 4
+			componentCount = 4
+			times = 0, 364, 520, 996, 1000
+			values = 1, 0.8078431, 0, 0.4823529, 0.972549, 1, 0.4941176, 1, 0.9764706, 0.8078431, 0.3686275, 1, 0.9960784, 0.2313726, 0, 0.003921569, 1, 0.227451, 0, 0
+			inTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+			outTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+		}
+		type = 1
+	}
+	particleCountMax = 6
+	emissionRate = 10
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	energyMin = 950
+	energyMax = 1000
+	position = 0, 0, 0
+	positionVar = 5, 0, 5
+	velocity = 0, 215, 0
+	velocityVar = 0, -35, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = -0.3490658
+	rotationPerParticleSpeedMax = 0.3490658
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0.5
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	delayTime = 0
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+	gravity = 150
+	lengthScale = 1
+	sizeStartMin = 60
+	sizeStartMax = 30
+	sizeEndMin = 250
+	sizeEndMax = 230
+}

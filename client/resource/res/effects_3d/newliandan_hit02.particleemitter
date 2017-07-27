@@ -1,0 +1,54 @@
+particle newliandan_hit02
+{
+	sprite 
+	{
+		path = huanbai.png
+		width = 128
+		height = 128
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	particleCountMax = 3
+	emissionRate = 6
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 120
+	sizeStartMax = 120
+	sizeEndMin = 300
+	sizeEndMax = 250
+	energyMin = 500
+	energyMax = 500
+	colorStart = 1, 1, 1, 1
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0.7867647, 0.2767241, 0, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 0.5105476, 0.06617647, 1
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.5
+	middlePercentVar = 0
+	position = 0, 0, 0
+	positionVar = 0, 0, 0
+	velocity = 0, 0, 0
+	velocityVar = 0, 0, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = -6.283185
+	rotationPerParticleSpeedMax = 6.283185
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0.3
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	delayTime = 0
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

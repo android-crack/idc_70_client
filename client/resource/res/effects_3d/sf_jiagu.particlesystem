@@ -1,0 +1,59 @@
+ParticleSystem sf_jiagu
+{
+	Model jiagu_model
+	{
+		position = 0, 100, 0
+		scale = 1.0,1.0,1.0
+		rotate = 0,0,0,0
+		model_name = sf_jiagu_model
+		animation_name = move
+	}
+	Emitter jiagu02
+	{
+		file = jiagu02.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+	Emitter jiagu03
+	{
+		file = jiagu03.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}	
+	Emitter sfjiagu
+	{
+		file = sfjiagu.particleemitter
+		order = 3
+		position = 0, 30, 0
+	}
+	Emitter sfjiagu2
+	{
+		file = sfjiagu2.particleemitter
+		order = 1
+		position = 0, 19.5808, 0
+	}
+	Emitter sfjiagu3
+	{
+		file = sfjiagu3.particleemitter
+		order = 2
+		position = 0, 30, 0
+	}
+	Emitter sfjiagu4
+	{
+		file = sfjiagu4.particleemitter
+		order = 1
+		position = 0, 154.2727, 3.248638
+	}
+	Emitter sfjiagu5
+	{
+		file = sfjiagu5.particleemitter
+		order = 5
+		position = 0, 0, 0
+	}
+	Emitter sfjiagu6
+	{
+		file = sfjiagu6.particleemitter
+		order = 6
+		position = 0, 0, 0
+	}
+}

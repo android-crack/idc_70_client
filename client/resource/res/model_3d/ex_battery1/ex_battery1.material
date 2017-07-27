@@ -1,0 +1,11 @@
+material ex_battery1
+{
+    sampler u_diffuseTexture
+    {
+        path = ex_battery1.fbm/ex_battery1.png
+        wrapS = REPEAT
+        wrapT = REPEAT
+    }
+
+}
+

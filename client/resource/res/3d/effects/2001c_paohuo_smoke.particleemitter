@@ -1,0 +1,61 @@
+particle 2001c_paohuo_smoke
+{
+	sprite 
+	{
+		path = yan_ml.png
+		width = 256
+		height = 256
+		blending = ALPHA BLENDED
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	color 
+	{
+		curve 
+		{
+			type = 4
+			componentCount = 4
+			times = 0, 11, 84, 173, 293, 467, 1000
+			values = 0.5137255, 0.5137255, 0.5137255, 1, 0.5254902, 0.5254902, 0.5254902, 1, 0.6196079, 0.6196079, 0.6196079, 0.9764706, 0.7333333, 0.7333333, 0.7333333, 0.9529412, 0.8901961, 0.8901961, 0.8901961, 0.8901961, 0.6901961, 0.6901961, 0.6901961, 0.7333333, 0.07450981, 0.07450981, 0.07450981, 0
+			inTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+			outTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+		}
+		type = 1
+	}
+	particleCountMax = 50
+	emissionRate = 35
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	energyMin = 1700
+	energyMax = 1680
+	position = 0, 0, 0
+	positionVar = 0, 0, 0
+	velocity = 0.625, 0, 0
+	velocityVar = 0.02499998, 0, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = -0.5235988
+	rotationPerParticleSpeedMax = 0.5235988
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = True
+	delayTime = 0
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+	gravity = 0
+	lengthScale = 1
+	sizeStartMin = 0.1
+	sizeStartMax = 0.13
+	sizeEndMin = 0.06
+	sizeEndMax = 0.08
+}

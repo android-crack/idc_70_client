@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.epd.app.support.widget.list.app.GridListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gridview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/epd_background"
+    android:cacheColorHint="@android:color/transparent"
+    android:divider="@android:color/transparent"
+    android:listSelector="@android:color/transparent"
+    android:numColumns="2"
+    android:scrollbars="none" >
+
+</com.epd.app.support.widget.list.app.GridListView>

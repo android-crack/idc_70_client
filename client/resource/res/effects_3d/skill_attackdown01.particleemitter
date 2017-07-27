@@ -1,0 +1,53 @@
+particle skill_attackdown01
+{
+	sprite 
+	{
+		path = YellowRing.png
+		width = 128
+		height = 128
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	particleCountMax = 10
+	emissionRate = 5
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 100
+	sizeStartMax = 100
+	sizeEndMin = 120
+	sizeEndMax = 120
+	energyMin = 1200
+	energyMax = 1200
+	colorStart = 1, 1, 1, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 1, 0, 0, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 1, 1, 0.627451
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.35
+	middlePercentVar = 0.05000001
+	position = 0, 0, 0
+	positionVar = 0.1, 0.1, 0.1
+	velocity = 0, -40, 0
+	velocityVar = 0, 0, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = -0.5235988
+	rotationPerParticleSpeedMax = 0.5235988
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0.7
+	renderType = HORIZONTALBILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

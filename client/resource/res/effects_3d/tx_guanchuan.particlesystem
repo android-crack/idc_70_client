@@ -1,0 +1,21 @@
+ParticleSystem tx_guanchuan
+{
+	Emitter guanchuan_zidansingle02
+	{
+		file = guanchuan_zidansingle02.particleemitter
+		order = 0
+		position = 0, 0, 0
+	}
+	Emitter guanchuan_zidansingle01
+	{
+		file = guanchuan_zidansingle01.particleemitter
+		order = 0
+		position = -50, 0, -100
+	}
+	Emitter guanchuan_zidansingle03
+	{
+		file = guanchuan_zidansingle03.particleemitter
+		order = 0
+		position = 50, 0, 100
+	}
+}

@@ -1,0 +1,45 @@
+<map height="28" orientation="orthogonal" renderorder="right-down" tileheight="64" tilewidth="64" version="1.0" width="48">
+ <tileset firstgid="1" name="new_land" tileheight="64" tilewidth="64">
+  <image height="1472" source="new_land.png" width="1984" />
+ </tileset>
+ <tileset firstgid="497" name="area_piece_wall2" tileheight="64" tilewidth="64">
+  <image height="64" source="area_piece_wall2.png" width="128" />
+ </tileset>
+ <layer height="28" name="land" width="48">
+  <properties>
+   <property name="picture" value="new_land" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJzt1ztKQ1EUheEt6gCE+BiFz8JOB5D4aLRWUElaLVL5QNDCQmstlIA6AC2UJKAzMEHFASiGzEHE
+P8WB4/XcByE3dwez4MN2cdgrMX0iMtATzQpWoSlDEr3/JraU9R9Hv0Trv40dZf3nMIwRCe4+jWOc
+KOu/gQlMYgpl+ds9jQwucaWs/x7msYBFVHEt7t0+4FFZf5MscqijiBJ65fdu35R2N9nHN55QQQqD
+onO3fknR85O/NYxiTHTuNixfSCMjOncbJWtYF927Dcuu6N9tN938l8ywxVkUUeqwXRbou4RlPOOl
+A/ofWW9dRha5xncsasr7n9PvwnrrV+Q9/xtrS+NGDnCIO9xbb+36XZJUzA5NV/tGTnGGCqohvwmT
+iL1D09W+kRvc4h0fCfe378G1Q9M16Eba2d/7+WzfQ9AOm9XKuD6f7Xto9o3j7F/wuYs4uraqv7dz
+HHcRR3+/zu16a5cflLt4Gg==
+</data>
+ </layer>
+ <layer height="28" name="block" opacity="0.5" width="48">
+  <properties>
+   <property name="picture" value="new_land" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJzt1jEOACAIQ1G9Cvc/pGFgcYIYUhr7k24Ob3DA9lqmaVpq6JjtHrPdyzrZ/ffbKVX/Cbt/WvJj
+kx+b/NiY/Ux3TsR6p0Vs/qoX6X+1ovwd7i5/p1XTft8B7Z1XXg==
+</data>
+ </layer>
+ <layer height="28" name="wall1" width="48">
+  <properties>
+   <property name="picture" value="area_piece_wall2" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJzt17EJACAQA8D//ZdyJZ1AFxAsREXumhSpUiYCWFEzouWZnHUAAAC8YXy0Mr5a2ZW398DPOqWi
+QTU=
+</data>
+ </layer>
+ <layer height="28" name="wall2" width="48">
+  <properties>
+   <property name="picture" value="area_piece_wall2" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJzt0LENACAMA8GwKaOxYpgARohA4ET6q11YbwagAm821B9uzMD/venvn5yJ9PfE/+mvRX8t+mvR
+X4v+WtX7R2TuH0F/LfoD+GUBoVst0Q==
+</data>
+ </layer>
+</map>

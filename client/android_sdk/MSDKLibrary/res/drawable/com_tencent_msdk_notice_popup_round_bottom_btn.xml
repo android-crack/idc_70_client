@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/com_tencent_msdk_notice_popup_round_bottom_pressed" android:state_pressed="true"></item>
+    <item android:drawable="@drawable/com_tencent_msdk_notice_popup_round_bottom_bkg"/>
+
+</selector>

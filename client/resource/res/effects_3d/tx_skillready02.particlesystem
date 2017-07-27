@@ -1,0 +1,21 @@
+ParticleSystem tx_skillready02
+{
+	Emitter skillready02guang00
+	{
+		file = skillready02guang00.particleemitter
+		order = 2
+		position = 0, 60, 0
+	}
+	Emitter skillready02guang01
+	{
+		file = skillready02guang01.particleemitter
+		order = 2
+		position = 0, 60, 0
+	}
+	Emitter skillreadyhuan02
+	{
+		file = skillreadyhuan02.particleemitter
+		order = 2
+		position = 0, 60, 0
+	}
+}

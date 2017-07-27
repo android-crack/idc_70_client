@@ -1,0 +1,10 @@
+ParticleSystem tx_juqing3_smoke
+{
+	Emitter juqing3_smoke_bai
+	{
+		file = juqing3_smoke_bai.particleemitter
+		order = 0
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+}

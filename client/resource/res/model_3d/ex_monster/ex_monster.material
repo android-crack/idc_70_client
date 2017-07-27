@@ -1,0 +1,11 @@
+material Material__4
+{
+    sampler u_diffuseTexture
+    {
+        path = ex_monster.fbm/ex_monster.png
+        wrapS = REPEAT
+        wrapT = REPEAT
+    }
+
+}
+

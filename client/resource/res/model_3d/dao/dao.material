@@ -1,0 +1,11 @@
+material 01___Default
+{
+    sampler u_diffuseTexture
+    {
+        path = dao.fbm/dao.png
+        wrapS = REPEAT
+        wrapT = REPEAT
+    }
+
+}
+

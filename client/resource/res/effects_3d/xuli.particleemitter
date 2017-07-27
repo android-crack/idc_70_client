@@ -1,0 +1,53 @@
+particle xuli
+{
+	sprite 
+	{
+		path = juji_00001.png
+		width = 128
+		height = 128
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	particleCountMax = 8
+	emissionRate = 6
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 300
+	sizeStartMax = 300
+	sizeEndMin = 0
+	sizeEndMax = 0
+	energyMin = 600
+	energyMax = 600
+	colorStart = 0.625, 0, 0, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0.5147059, 0, 0, 0.6588235
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 0.8482759, 0, 0.6352941
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.6
+	middlePercentVar = 0
+	position = 0, 0, 0
+	positionVar = 0, 0, 0
+	velocity = 0, 0, 0
+	velocityVar = 0, 0, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 1
+	renderType = BILLBOARD
+	isLocalSpace = False
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

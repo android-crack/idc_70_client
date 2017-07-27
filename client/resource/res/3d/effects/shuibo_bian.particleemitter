@@ -1,0 +1,70 @@
+particle shuibo_bian
+{
+	sprite 
+	{
+		path = h_water007_1.png
+		width = 128
+		height = 256
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 30
+	}
+	size 
+	{
+		curve 
+		{
+			type = 4
+			componentCount = 1
+			times = 0, 1000
+			values = 0.15, 1
+			inTangents = 0, 0.85
+			outTangents = 0.85, 0
+		}
+		type = 1
+	}
+	color 
+	{
+		curve 
+		{
+			type = 4
+			componentCount = 4
+			times = 0, 308, 1000
+			values = 1, 1, 1, 0, 0.3294118, 1, 0.9176471, 0.3843137, 0.1764706, 0.4196078, 1, 0
+			inTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+			outTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+		}
+		type = 1
+	}
+	particleCountMax = 20
+	emissionRate = 10
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	energyMin = 1500
+	energyMax = 1200
+	position = 0, 0, 0
+	positionVar = 0, 0, 0
+	velocity = 0, 0, -2.5
+	velocityVar = 0, 0, -0.5
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = BILLBOARD
+	isLocalSpace = False
+	preWarm = False
+	delayTime = 0
+	initialRotationMin = 0
+	initialRotationMax = 1.047198
+	gravity = 0
+	lengthScale = 2
+}

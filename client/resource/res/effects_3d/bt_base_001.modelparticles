@@ -1,0 +1,15 @@
+ModelParticleConfig bt_base_001
+{
+	ParticleConfig tx_judian_boom
+	{
+		file = tx_judian_boom.particlesystem
+		position = 0, 30, 0
+		rotation = 0, 0, 0, 1
+	}
+	ParticleConfig tx_judian_fire
+	{
+		file = tx_judian_fire.particlesystem
+		position = 0, 0, 0
+		rotation = 0, 0, 0, 1
+	}
+}

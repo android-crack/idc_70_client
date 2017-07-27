@@ -1,0 +1,53 @@
+particle sfjiagu4
+{
+	sprite 
+	{
+		path = sfhd02.png
+		width = 128
+		height = 128
+		blending = ALPHA BLENDED
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	particleCountMax = 30
+	emissionRate = 10
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 40
+	sizeStartMax = 10
+	sizeEndMin = 0
+	sizeEndMax = 0
+	energyMin = 1500
+	energyMax = 2500
+	colorStart = 1, 1, 1, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 1, 0.9999999, 1, 0
+	colorEndVar = 0, 5.960464E-08, 0, 0
+	colorMiddle = 1, 1, 1, 0.9999999
+	colorMiddleVar = 0, 0, 0, 5.960464E-08
+	middlePercent = 0.45
+	middlePercentVar = 0.05000001
+	position = 0, 0, 0
+	positionVar = 100, 10, 100
+	velocity = 0, -10, 0
+	velocityVar = -10, -10, -10
+	acceleration = 0, -27.5, 0
+	accelerationVar = -10, -17.5, -10
+	rotationPerParticleSpeedMin = -0.8726646
+	rotationPerParticleSpeedMax = 0.8726646
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 1.4
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

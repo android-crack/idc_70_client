@@ -1,0 +1,53 @@
+particle yanwu
+{
+	sprite 
+	{
+		path = 2011smoke_black.png
+		width = 64
+		height = 64
+		blending = ALPHA BLENDED
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 20
+	}
+	particleCountMax = 10
+	emissionRate = 20
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 150
+	sizeStartMax = 150
+	sizeEndMin = 350
+	sizeEndMax = 300
+	energyMin = 1400
+	energyMax = 1200
+	colorStart = 1, 1, 1, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 1, 1, 1, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 1, 1, 0.4980392
+	colorMiddleVar = 0, 0, 0, 0.02745104
+	middlePercent = 0.4
+	middlePercentVar = 2.980232E-08
+	position = 0, 0, 0
+	positionVar = 60, 10, 60
+	velocity = 0, 0, 0
+	velocityVar = 0, 0, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 1
+	systemDuration = 1
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

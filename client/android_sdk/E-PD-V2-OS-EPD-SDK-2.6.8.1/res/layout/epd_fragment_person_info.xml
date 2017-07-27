@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/epd_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/epd_blue_light_slate" >
+
+        <TextView
+            android:id="@+id/title_text"
+            style="@style/TitleBarText"
+            android:text="@string/epd_title_persion_acquisition" />
+
+        <com.epd.app.support.widget.gadget.button.ArrowButton
+            android:id="@+id/back"
+            style="@style/BackButton" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/epd_blue_darker_low"
+                android:paddingBottom="@dimen/epd_size_10"
+                android:paddingLeft="@dimen/epd_size_5"
+                android:paddingRight="@dimen/epd_size_5"
+                android:paddingTop="@dimen/epd_size_10" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/epd_step_collections"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0" />
+
+                <TextView
+                    android:id="@+id/save"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/epd_save"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/receive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/epd_receive"
+                    android:textColor="@color/epd_red"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <ScrollView
+                android:id="@+id/scrollview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <librarys.cardview.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardUseCompatPadding="true" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_margin="@dimen/epd_size_5"
+                        android:orientation="vertical" >
+
+                        <!--
+                        <com.epd.app.support.widget.material.MaterialEditText
+                            android:id="@+id/wechat"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/epd_wechat"
+                            android:singleLine="true"
+                            app:baseColor="@android:color/black"
+                            app:floatingLabel="highlight"
+                            app:primaryColor="@color/epd_wine_red_dark" />
+
+                        <com.epd.app.support.widget.material.MaterialEditText
+                            android:id="@+id/line"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/epd_line"
+                            app:baseColor="@android:color/black"
+                            app:floatingLabel="highlight"
+                            app:primaryColor="@color/epd_wine_red_dark" />
+                        -->
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/epd_collect_empty_birthday"
+                            android:textColor="@color/epd_grey_title"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:id="@+id/birthday_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top"
+                            android:layout_marginTop="@dimen/epd_size_3"
+                            android:background="@color/epd_grey"
+                            android:orientation="horizontal"
+                            android:paddingBottom="@dimen/epd_size_3"
+                            android:paddingTop="@dimen/epd_size_3" >
+
+                            <TextView
+                                android:id="@+id/birthday"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1.0"
+                                android:gravity="center"
+                                android:padding="@dimen/epd_size_5"
+                                android:text="@string/epd_birthday"
+                                android:textColor="@color/epd_blue_darker_light"
+                                android:textSize="@dimen/epd_text_24" />
+
+                            <com.epd.app.support.widget.gadget.button.ArrowButton
+                                android:id="@+id/arrow_birthday"
+                                style="@style/BackButton"
+                                android:layout_gravity="center" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/epd_collect_empty_sex"
+                            android:textColor="@color/epd_grey_title"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top"
+                            android:orientation="horizontal" >
+
+                            <RadioGroup
+                                android:id="@+id/redio_sex"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:orientation="horizontal" >
+
+                                <com.epd.app.support.widget.material.MaterialRadioButton
+                                    android:id="@+id/radio_button_1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/epd_size_2"
+                                    android:layout_weight="1.0"
+                                    android:text="@string/epd_boy"
+                                    app:border_width="@dimen/epd_size_2"
+                                    app:dot_margin="@dimen/epd_size_1"
+                                    app:theme_color="@array/epd_collect_sex" />
+
+                                <com.epd.app.support.widget.material.MaterialRadioButton
+                                    android:id="@+id/radio_button_2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="@dimen/epd_size_5"
+                                    android:layout_marginTop="@dimen/epd_size_2"
+                                    android:layout_weight="1.0"
+                                    android:text="@string/epd_girl"
+                                    app:border_width="@dimen/epd_size_2"
+                                    app:dot_margin="@dimen/epd_size_1"
+                                    app:theme_color="@array/epd_collect_sex" />
+                            </RadioGroup>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/epd_collect_empty_area"
+                            android:textColor="@color/epd_grey_title"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:id="@+id/area_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top"
+                            android:layout_marginTop="@dimen/epd_size_3"
+                            android:background="@color/epd_grey"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:id="@+id/area"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1.0"
+                                android:gravity="center"
+                                android:padding="@dimen/epd_size_5"
+                                android:text="@string/epd_area"
+                                android:textColor="@color/epd_blue_darker_light"
+                                android:textSize="@dimen/epd_text_24" />
+
+                            <com.epd.app.support.widget.gadget.button.ArrowButton
+                                android:id="@+id/arrow_area"
+                                style="@style/BackButton"
+                                android:layout_gravity="center" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/epd_collect_empty_occupation"
+                            android:textColor="@color/epd_grey_title"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:id="@+id/occupation_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top"
+                            android:layout_marginTop="@dimen/epd_size_3"
+                            android:background="@color/epd_grey"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:id="@+id/occupation"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1.0"
+                                android:gravity="center"
+                                android:padding="@dimen/epd_size_5"
+                                android:text="@string/epd_occupation"
+                                android:textColor="@color/epd_blue_darker_light"
+                                android:textSize="@dimen/epd_text_24" />
+
+                            <com.epd.app.support.widget.gadget.button.ArrowButton
+                                android:id="@+id/arrow_occupation"
+                                style="@style/BackButton"
+                                android:layout_gravity="center" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/epd_collect_empty_like_game"
+                            android:textColor="@color/epd_grey_title"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:id="@+id/like_game_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top"
+                            android:layout_marginTop="@dimen/epd_size_3"
+                            android:background="@color/epd_grey"
+                            android:orientation="horizontal"
+                            android:paddingBottom="@dimen/epd_size_3"
+                            android:paddingTop="@dimen/epd_size_3" >
+
+                            <TextView
+                                android:id="@+id/like_game"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1.0"
+                                android:ellipsize="end"
+                                android:gravity="center"
+                                android:padding="@dimen/epd_size_5"
+                                android:singleLine="true"
+                                android:text="@string/epd_like_game"
+                                android:textColor="@color/epd_blue_darker_light"
+                                android:textSize="@dimen/epd_text_24" />
+
+                            <com.epd.app.support.widget.gadget.button.ArrowButton
+                                android:id="@+id/arrow_like_game"
+                                style="@style/BackButton"
+                                android:layout_gravity="center" />
+                        </LinearLayout>
+
+                        <com.epd.app.support.widget.material.MaterialEditText
+                            android:id="@+id/email"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/epd_email"
+                            android:imeOptions="actionDone"
+                            android:inputType="textEmailAddress"
+                            android:singleLine="true"
+                            app:baseColor="@android:color/black"
+                            app:floatingLabel="highlight"
+                            app:primaryColor="@color/epd_wine_red_dark" />
+
+                        <!--
+                             <com.epd.app.support.widget.material.MaterialEditText
+                            android:id="@+id/phone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/epd_phone"
+                            android:imeOptions="actionDone"
+                            android:inputType="number"
+                            android:singleLine="true"
+                            app:baseColor="@android:color/black"
+                            app:floatingLabel="highlight"
+                            app:primaryColor="@color/epd_wine_red_dark" />
+                        -->
+
+
+                        <!--
+                        <com.epd.app.support.widget.material.MaterialEditText
+                            android:id="@+id/address"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/epd_address"
+                            android:imeOptions="actionDone"
+                            android:singleLine="true"
+                            app:baseColor="@android:color/black"
+                            app:floatingLabel="highlight"
+                            app:primaryColor="@color/epd_wine_red_dark" />
+                        -->
+
+                    </LinearLayout>
+                </librarys.cardview.CardView>
+            </ScrollView>
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

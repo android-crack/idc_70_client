@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+  <!-- chartboost -->  
+  <string name="efunChartBoostAppId"/>  
+  <string name="efunChartBoostAppSignature"/>  
+  <!-- appflyer -->  
+  <string name="efunAppflyerAppId">WNZWxVLpoCwQXs9K9fDMcS</string>  
+  <!-- google adwords -->  
+  <string name="efunGoogleAdsConversionId">920971908</string>  
+  <string name="efunGoogleAdsLable">eQSzCI-Hp2YQhNWTtwM</string> 
+</resources>

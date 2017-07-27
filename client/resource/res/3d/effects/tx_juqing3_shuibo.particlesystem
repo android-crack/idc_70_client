@@ -1,0 +1,24 @@
+ParticleSystem tx_juqing3_shuibo
+{
+	Emitter juqing3_shuibo_di
+	{
+		file = juqing3_shuibo_di.particleemitter
+		order = 0
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter juqing3_shuibo_shuihua
+	{
+		file = juqing3_shuibo_shuihua.particleemitter
+		order = 0
+		position = -0.29, 0.21, 0.089
+		rotate = 0, 0, 0, 1
+	}
+	Emitter juqing3_shuibo_shuihua02
+	{
+		file = juqing3_shuibo_shuihua02.particleemitter
+		order = 0
+		position = 0.271, 0.21, 0.089
+		rotate = 0, 0, 0, 1
+	}
+}

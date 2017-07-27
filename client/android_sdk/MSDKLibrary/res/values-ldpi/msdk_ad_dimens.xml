@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="msdk_ad_dlg_total_width">316dp</dimen>
+    <dimen name="msdk_ad_dlg_image_width">300dp</dimen>
+    <dimen name="msdk_ad_dlg_image_height">200dp</dimen>
+</resources>

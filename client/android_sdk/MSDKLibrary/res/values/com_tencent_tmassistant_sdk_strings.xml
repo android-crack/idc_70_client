@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="white_list_dlg_title">温馨提示</string>
+    <string name="white_list_dlg_body">您还没有天天飞车限量内测的资格，快去应用宝抢号吧！</string>
+    <string name="white_list_title">你暂时没有体验资格</string>
+    <string name="white_list_positive_redirect">立即抢号</string>
+    <string name="white_list_positive_download">下载应用宝</string>
+    <string name="white_list_positive_downloading">下载中</string>
+    <string name="white_list_positive_update">更新应用宝</string>
+    <string name="white_list_positive_install">安装应用宝</string>
+    <string name="white_list_positive_continue">继续</string>
+    <string name="white_list_positive_retry">重新下载</string>
+    <string name="white_list_negtive">取消</string>
+    <string name="white_list_download_fail">下载失败</string>
+    <string name="white_list_submit">确定</string>
+    <string name="white_list_network_not_connected">您未连接网络，请检查网络!</string>
+    <string name="white_list_server_error">当前服务不可用，请稍后重试!</string>
+    <string name="white_list_negtive_known">我知道了!</string>
+    <string name="white_list_positive_retry_again">立即重试</string>
+    <string name="white_list_network_error">网络异常，请稍后重试!</string>
+</resources>

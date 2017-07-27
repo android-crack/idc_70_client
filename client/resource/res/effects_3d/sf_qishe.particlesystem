@@ -1,0 +1,11 @@
+ParticleSystem sf_qishe
+{
+	Model qishe_model
+	{
+		position = 0, 0, 0
+		scale = 1, 1, 1
+		rotate = 0, 0, 0, 1
+		model_name = tx_0169_qishe
+		action_name = tx_0169_qishe
+	}
+}

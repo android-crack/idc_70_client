@@ -1,0 +1,9 @@
+ModelParticleConfig putaodan_fire
+{
+	ParticleConfig tx_0174
+	{
+		file = tx_0174.particlesystem
+		position = 0, 0, 0
+		rotation = 0, 0, 0, 0
+	}
+}

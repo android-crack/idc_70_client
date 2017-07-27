@@ -1,0 +1,93 @@
+<resources>
+
+    <!-- 自定义dialog -->
+    <style name="dialog" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    
+    <style name="Transparent">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+    </style>
+
+    <!-- color -->
+    <color name="logo_title">#98999b</color>
+
+    <!-- dimen -->
+    <dimen name="option_item_marginLeft">10dip</dimen>
+    <dimen name="portrait_common_text_size">15sp</dimen>
+    <dimen name="option_item_marginTop">65dip</dimen>
+
+    <style name="text_color_is_yellow">
+        <item name="android:textColor">#FFffff00</item>
+    </style>
+
+    <dimen name="portrait_add_text_size">14sp</dimen>
+
+    <style name="textview_0" parent="@android:style/TextAppearance">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="option_margin_style">
+        <item name="android:layout_marginTop">0dip</item>
+        <item name="android:layout_marginBottom">15dip</item>
+        <item name="android:layout_marginLeft">10dip</item>
+        <item name="android:layout_marginRight">10dip</item>
+    </style>
+
+    <style name="option_textview_style">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF000000</item>
+    </style>
+
+    <style name="option_item_margin_style">
+        <item name="android:layout_marginTop">10dip</item>
+        <item name="android:layout_marginBottom">10dip</item>
+        <item name="android:layout_marginLeft">10dip</item>
+        <item name="android:layout_marginRight">10dip</item>
+    </style>
+
+    <style name="option_edittext_style">
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColor">#FF000000</item>
+    </style>
+
+    <style name="option_required_style">
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColor">#FF0000</item>
+    </style>
+
+    <style name="option_margin_padding_style">
+
+        <!--
+    <item name="android:layout_marginTop">0dip</item>
+	<item name="android:layout_marginBottom">10dip</item>
+	<item name="android:layout_marginLeft">10dip</item>
+	<item name="android:layout_marginRight">10dip</item>
+        -->
+
+        <item name="android:paddingTop">10dip</item>
+        <item name="android:paddingBottom">10dip</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:paddingRight">10dip</item>
+    </style>
+
+    <!--
+    <style name="efun_transparentDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/efun_dialog_style</item>
+    </style>
+    -->
+
+</resources>

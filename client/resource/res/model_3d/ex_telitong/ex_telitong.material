@@ -1,0 +1,11 @@
+material ex_telitong
+{
+    sampler u_diffuseTexture
+    {
+        path = ex_telitong.fbm/ex_telitong.png
+        wrapS = REPEAT
+        wrapT = REPEAT
+    }
+
+}
+

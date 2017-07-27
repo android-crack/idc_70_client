@@ -1,0 +1,21 @@
+ParticleSystem tx_dianji_yellow
+{
+	Emitter dianji01y
+	{
+		file = dianji01y.particleemitter
+		order = 2
+		position = 0, 0, 0
+	}
+	Emitter dianji02y
+	{
+		file = dianji02y.particleemitter
+		order = 2
+		position = 0, 0, 0
+	}
+	Emitter dianji03y
+	{
+		file = dianji03y.particleemitter
+		order = 2
+		position = 0, 0, 0
+	}
+}

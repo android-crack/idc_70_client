@@ -1,0 +1,10 @@
+animation 2005
+{
+frameCount=16033
+clip move
+{
+begin=0
+end=16033
+repeatCount=1
+}
+}

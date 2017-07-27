@@ -1,0 +1,9 @@
+ModelParticleConfig tx_kraken_pao
+{
+	ParticleConfig tx_kraken_pao
+	{
+		file = tx_kraken_pao.particlesystem
+		position = 0, 0, 0
+		rotation = 0, 0, 0, 0
+	}
+}

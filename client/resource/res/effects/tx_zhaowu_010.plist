@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>tx_hotel_treat.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,1},{126,136}}</string>
+                <key>offset</key>
+                <string>{0,1}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{126,136}}</string>
+                <key>sourceSize</key>
+                <string>{126,138}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>tx_zhaowu_010.png</string>
+            <key>size</key>
+            <string>{128,138}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:08800bdaad180f35cc612fe5f89ae280:63fef8e25f94919b473fc23789508777:5027d2fa7feeaf496f9297d45bc8c2e8$</string>
+            <key>textureFileName</key>
+            <string>tx_zhaowu_010.png</string>
+        </dict>
+    </dict>
+</plist>

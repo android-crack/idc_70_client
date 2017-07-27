@@ -1,0 +1,54 @@
+particle zhuohuohuo_2
+{
+	sprite 
+	{
+		path = T_VFX_FIRE_ANIM02_64.png
+		width = 64
+		height = 64
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 4
+		frameRandomOffset = 0
+		frameDuration = 30
+	}
+	particleCountMax = 20
+	emissionRate = 30
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 15
+	sizeStartMax = 20
+	sizeEndMin = 60
+	sizeEndMax = 50
+	energyMin = 1000
+	energyMax = 1200
+	colorStart = 1, 0.6804598, 0, 0.627451
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 1, 0, 0, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 0.4926977, 0.1029412, 1
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.35
+	middlePercentVar = -0.05000001
+	position = 0, 0, 0
+	positionVar = 15, 6, 60
+	velocity = 0, 27.5, 0
+	velocityVar = 2, -2.5, 2
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = -0.8726646
+	rotationPerParticleSpeedMax = 1.396263
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	delayTime = 0
+	initialRotationMin = 0
+	initialRotationMax = 0
+}

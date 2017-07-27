@@ -1,0 +1,15 @@
+ParticleSystem paotailianyi
+{
+	Emitter paotailianyi01
+	{
+		file = paotailianyi01.particleemitter
+		order = 0
+		position = 0, 0, 0
+	}
+	Emitter paotailianyi02
+	{
+		file = paotailianyi02.particleemitter
+		order = 0
+		position = 0, 0, 0
+	}
+}

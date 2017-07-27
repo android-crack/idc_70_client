@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="epd_game">اللعبة</string>
+    <string name="epd_game_info">معلومات</string>
+    <string name="epd_game_name">اللعبة</string>
+    <string name="epd_game_server">سيرفر</string>
+    <string name="epd_game_role">اسم الدور</string>
+    <string name="epd_game_description">وصف اللعبة</string>
+    <string name="epd_game_down_count_des_before">أكثر من </string>
+    <string name="epd_game_down_count_des_after"> التحميل</string>
+    <string name="epd_download">التحميل</string>
+    <string name="epd_member_id">اي دي العضو</string>
+    <string name="epd_level">اللفل : </string>
+    <string name="epd_medal">النقط المجموعة : </string>
+    <string name="epd_toast_medal">ميدالية</string>
+    <string name="epd_vip">في اي بي</string>
+    <string name="epd_introduce">أنقر</string>
+    <string name="epd_notice">الإعلان</string>
+    <string name="epd_guide">النصائح</string>
+    <string name="epd_news">الأخبار</string>
+    <string name="epd_events">المنشور</string>
+    <string name="epd_delete">الحذف</string>
+    <string name="epd_submit_question">العرض</string>
+    <string name="epd_question_type_notify_text">أنواع المشاكل</string>
+    <string name="epd_question_screen_short_notify_text">إضافة الصورة</string>
+    <string name="epd_question_no_screen_short_notify_text">لم تعرض الصورة</string>
+    <string name="epd_question_email_notify_text">البريد الإلكتروني</string>
+    <string name="epd_question_title">عنوان المشلكة</string>
+    <string name="epd_question_description">وصف المشكلة</string>
+    <string name="epd_cs_title_limitation">لا يكثر من 100 حرف</string>
+    <string name="epd_cs_email_limitation">لا يكثر من 100 حرف</string>
+    <string name="epd_question_description_limitation">لا يكثر من1500  حرف</string>
+    <string name="epd_question_type_qs_undefine">لا تصنف المشكلة</string>
+    <string name="epd_question_type_account">مشكلة الحساب</string>
+    <string name="epd_question_type_recharge">مشكلة الشحن</string>
+    <string name="epd_question_type_guides">شكلمة النصائح</string>
+    <string name="epd_question_type_activity">مشكلة المنشور</string>
+    <string name="epd_question_type_feedback">ردود اللاعب</string>
+    <string name="epd_question_type_other">الأخرى</string>
+    <string name="epd_cs_normal_question">مشاكل شائعة</string>
+    <string name="epd_cs_normal_question_des">يمكنك ان تبحث أسئلة شائعة</string>
+    <string name="epd_cs_asking">أنا أريد أبلاغ سؤالي</string>
+    <string name="epd_cs_asking_des">نحاول جواب سؤالك في أسرع وقت ممكن</string>
+    <string name="epd_cs_reply">أسئلتي</string>
+    <string name="epd_cs_reply_des">يمكنك مراجعة أسئلة كنت تبلغها ووضع معالجتها</string>
+    <string name="epd_cs_pic_add">+</string>
+    <string name="epd_cs_pic_delete">-</string>
+    <string name="epd_persion_collect_data">معلومات شخصية</string>
+    <string name="epd_persion_collect_data_des">استسلم الجوائز بإكمال معلومات شخصية</string>
+    <string name="epd_persion_collect_data_des_sec"> املأ المعلومات</string>
+    <string name="epd_persion_gift_center">مركز الجوائز</string>
+    <string name="epd_persion_gift_center_des">هناك جوائز متنوعة. يا الله لاستسلامها بسرعة.</string>
+    <string name="epd_persion_knock_egg">آلة اليانصيب</string>
+    <string name="epd_persion_knock_egg_des">اغزل لاستسلام الجوائز</string>
+    <string name="epd_persion_version">النسخة</string>
+    <string name="epd_gift_center">مركز الجوائز</string>
+    <string name="epd_gift_has_got">قد  الاستلام</string>
+    <string name="epd_gift_has_used">قد استخدمته</string>
+    <string name="epd_gift_has_unused">لم تستختدمه</string>
+    <string name="epd_gift_rule">مهمة حقيبة الجوائز</string>
+    <string name="epd_gift_des">تفصيل حقيبة الجوائز</string>
+    <string name="epd_gift_end_time">وقت الانتهاء</string>
+    <string name="epd_gift_surplus">فائض</string>
+    <string name="epd_gift_type">النوع</string>
+    <string name="epd_gift_get_now">الاستلام</string>
+    <string name="epd_gift_code">رقم حقائب الجوائز</string>
+    <string name="epd_gift_secret">كلمة المرور</string>
+    <string name="epd_gift_deadlines">الموعد الأخير</string>
+    <string name="epd_gift_notify">انقر رقم الجوائز وانسخه</string>
+    <string name="epd_copy_successfully">النجاح في النسخ</string>
+    <string name="epd_version">رقم النسخة</string>
+    <string name="epd_package_size">الحجم</string>
+    <string name="epd_summary">أخبار</string>
+    <string name="epd_website">Website</string>
+    <string name="epd_fans_page">Facebook</string>
+    <string name="epd_network_error">لا تتصل بالانترنت.</string>
+    <string name="epd_request_error">يوجد غلط الانترنت. قم بالتحديث.</string>
+    <string name="epd_timeout_error">ليس طلبك فعليا.</string>
+    <string name="epd_empty_error">لا توجد بيانات. جربه من جديد بعد قليل.</string>
+    <string name="epd_title_back_demo">ABC</string>
+    <string name="epd_title_summary">الأخبار</string>
+    <string name="epd_title_game">الالعاب</string>
+    <string name="epd_title_persion">مركز حسابي</string>
+    <string name="epd_title_persion_acquisition">معلومات شخصية</string>
+    <string name="epd_title_store">الشحن</string>
+    <string name="epd_title_cs">خدمة الزبائن</string>
+    <string name="epd_title_cs_questions">أسئلة شائعة</string>
+    <string name="epd_title_gift">مركز حقائب الجوائز</string>
+    <string name="epd_title_cs_ask">أنا أريد أبلاغ سؤالي</string>
+    <string name="epd_title_cs_reply">أسئلتي</string>
+    <string name="epd_title_cs_reply_detail">الرد من موظف</string>
+
+	<string name="epd_title_web_level">وصف لفل</string>
+	<string name="epd_title_web_medal_info">وصف العضو</string>
+	<string name="epd_title_web_vip_info">شخصية ذات أهمية</string>
+	<string name="epd_title_web_knock_egg">آلة اليانصيب</string>
+    
+    <string name="epd_store_return">الصفحة الرئيسية</string>
+    <string name="epd_thumb_error">لا يدعم جهازك هذا</string>
+	<string name="epd_camera_crop_error">لا يدعم جهازك قطع الصورة. قم بهذه الفعالية في موقع الرسمي</string>
+	
+	<string name="epd_cs_empty_title">ادخل عنوان المشكلة</string>
+	<string name="epd_cs_empty_advice">ادخل وصف المشكلة</string>
+	<string name="epd_cs_empty_system_error">يوجد الغلط في النظام</string>
+	
+	<string name="epd_cs_limited_title">لا يكثر العنوان على 100 حرفا</string>
+	<string name="epd_cs_limited_advice">لا يكثر وصف المشكلة على 1500 حرفا</string>
+	<string name="epd_cs_limited_email">لا يكثر الايميل على 100 حرفا</string>
+	<string name="epd_cs_error_email">ادخل الايميل صحيحا</string>
+
+	<string name="epd_cs_reply_detail_content">محتوى الرد</string>
+	<string name="epd_cs_shot_photos">تصوير</string>
+	<string name="epd_cs_shot_local_photos">ألبومات</string>
+	<string name="epd_role_cs">خدمة الزبائن</string>
+	<string name="epd_role_self">أنا</string>
+	
+
+	<string name="epd_cs_submit_success">النجاح في الإبلاغ</string>
+	<string name="epd_cs_pic_upload_success">النجاح في الإبلاغ</string>
+
+	<string name="epd_wechat">WeChat</string>
+	<string name="epd_line">Line</string>
+	<string name="epd_area">المنطقة</string>
+	<string name="epd_address">العنوان</string>
+	<string name="epd_occupation">الوظيفة</string>
+	<string name="epd_boy">الذكر</string>
+	<string name="epd_girl">الأنثى</string>
+	<string name="epd_modify">التحرير</string>
+	
+	<string name="epd_summary_first_one">قد وصلت أول صفحة</string>
+	<string name="epd_summary_last_one">قد وصلت صفحة أخيرة</string>
+	
+	<string name="epd_receive">حقيبة الجوائز</string>
+	<string name="epd_step_collections">اكتب المعلومات</string>
+	<string name="epd_email">البريد الإلكتروني</string>
+	<string name="epd_phone">رقم تلفون</string>
+	<string name="epd_save">الحفظ</string>
+	<string name="epd_collect_empty_area">اختر منطقة</string>
+	<string name="epd_collect_empty_sex">الجنس</string>
+	<string name="epd_collect_empty_occupation">اختر وظيفة</string>
+	<string name="epd_birthday">تاريخ الميلاد</string>
+	<string name="epd_like_game">نوع اللعبة الذي أحبه</string>
+	<string name="epd_collect_empty_birthday">تاريخ الميلاد(مطلوب)</string>
+	<string name="epd_collect_empty_like_game">نوع اللعبة الذي أحبه(مطلوب)</string>
+	<string name="epd_collect_error_like_game">اختار نوع اللعبة الذي تحبه، لا يزيد من ثلاثة</string>
+	
+	<string name="epd_collect_toast_empty_birth">اختار تاريخ الميلاد</string>
+	<string name="epd_collect_toast_empty_area">اختر منطقة</string>
+	<string name="epd_collect_toast_empty_occupation">اختر وظيفة</string>
+	<string name="epd_submit">الأبلاغ</string>
+	
+	
+	<string name="epd_notification_modify_nothing">لا يوجد شيء محرر حاليا</string>
+	<string name="epd_notification_scan_gifts">تفحصه في مركز الجوائز</string>
+	
+	<string name="epd_hint_cs_reply_delete">التأكيد الحذف؟</string>
+	
+	<string name="epd_float_hint_hide">يمكنك رؤيته بعد الدخول من جديد اذا تخفيته</string>
+	<string name="epd_float_hint_confirm">التأكيد</string>
+	<string name="epd_float_hint_cancel">الألغاء</string>
+	
+	<string name="epd_serial">رقم حقائب الجوائز</string>
+	
+	<string name="epd_uninstalled_google_play">حمل سوق الغوغل أولا</string>
+	
+	<string name="epd_notice_close">الإغلاق</string>
+	
+	<string name="epd_notice_go_to_look">التحميل</string>
+	<string name="epd_notice_change_one">ألعاب أخرى</string>
+	<string name="epd_notice_toast_error_gift">يمكنك ان تلقي هدية بعد تحميل اللعبة و الدخول بنفس الحساب</string>
+	<string name="epd_notice_text_not_show_today">لم يعد عرضه اليوم</string>
+	<string name="epd_notice_cancel">إلغاء</string>
+	<string name="epd_person_extra_gift">هدية أخرى</string>
+	<string name="epd_notice_close_tips">عليك ان انقر أنا--هدية أخرى لعرض هذا الصفحة</string>
+	<string name="epd_notice_accomplish_finish_tips">لإكمال المهمة لحصول علي المزيد من الهدايا</string>
+	<string name="epd_notice_reviewed_stop">موعد الهدية </string>
+	<string name="epd_notice_get_gift_success">تم الاستسلام</string>
+	
+	<!-- 20160321 -->
+	<string name="epd_person_exp">EXP: </string>
+	<string name="epd_cs_reply_all_check">اختار الكل</string>
+	<string name="epd_person_sign">تسجيل الدخول</string>
+	<string name="epd_gift_reward_time">وقت الاستلام</string>
+	<string name="epd_person_exp_tips_1">سترقي اللفل اذا تحصل على المزيد من</string>
+	<string name="epd_person_exp_tips_2">الخبرات</string>
+	<string name="epd_person_sign_tips">إذا زاد عدد أيام الحضور باستمرا، فمكافآتنا أكثر مما تتوقع</string>
+	
+    <string-array name="epd_pop_per_info_pic">
+        <item>تصوير</item>
+        <item>ألبومات</item>
+    </string-array>
+    
+    <string-array name="epd_cs_problem_kinds">
+        <item>أسئلة شائعة</item>
+        <item>مشكلة الحساب والدخول</item>
+        <item>مشكلة الشحن</item>
+    </string-array>
+    <string-array name="epd_gift_title_kinds">
+        <item>حقيبة الجوائز مجانية</item>
+        <item>حقيبة الجوائز لي</item>
+    </string-array>
+</resources>

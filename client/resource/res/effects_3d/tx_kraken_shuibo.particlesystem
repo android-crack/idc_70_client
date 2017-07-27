@@ -1,0 +1,27 @@
+ParticleSystem tx_192
+{
+	Emitter shuibowen01
+	{
+		file = shuibowen01.particleemitter
+		order = 2
+		position = 0, 7.891418, 24.01224
+	}
+	Emitter shuibowen02
+	{
+		file = shuibowen02.particleemitter
+		order = 1
+		position = 0, 0, 24.01224
+	}
+	Emitter shuibowen03
+	{
+		file = shuibowen03.particleemitter
+		order = 0
+		position = 0, 0, 0
+	}
+	Emitter shuihuahua
+	{
+		file = shuihuahua.particleemitter
+		order = 3
+		position = 0, 12.79498, 24.01224
+	}
+}

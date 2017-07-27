@@ -1,0 +1,16 @@
+animation 2001C
+{
+frameCount=6900
+clip camera1
+{
+begin=0
+end=4167
+repeatCount=1
+}
+clip camera2
+{
+begin=4200
+end=6900
+repeatCount=1
+}
+}

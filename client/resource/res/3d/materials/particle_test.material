@@ -1,0 +1,32 @@
+material lambert1
+{
+    // samplers
+    sampler u_texture
+    {
+        path = res/particle/fire02_00000.png
+        mipmap = true
+        wrapS = CLAMP
+        wrapT = CLAMP
+        minFilter = NEAREST_MIPMAP_LINEAR
+        magFilter = LINEAR
+    }
+
+    renderState
+	{
+		//cullFace = true
+		//depthTest = true
+		//depthWrite = false
+		blend = true
+		blendSrc = SRC_ALPHA
+		blendDst = ONE
+	}
+    technique
+    {
+        pass
+        {
+            // shaders
+            vertexShader = res/shaders/particle.vert
+            fragmentShader = res/shaders/sprite.frag
+        }
+    }
+}

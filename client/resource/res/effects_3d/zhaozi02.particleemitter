@@ -1,0 +1,53 @@
+particle zhaozi02
+{
+	sprite 
+	{
+		path = blueball.png
+		width = 128
+		height = 128
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	particleCountMax = 4
+	emissionRate = 2
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 200
+	sizeStartMax = 200
+	sizeEndMin = 300
+	sizeEndMax = 300
+	energyMin = 1200
+	energyMax = 1000
+	colorStart = 1, 1, 1, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0, 0.01881333, 0.3897059, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 0, 0.5862069, 1, 0.4705882
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.5
+	middlePercentVar = 0
+	position = 0, 0, 0
+	positionVar = 0, 0, 0
+	velocity = 0, 7.5, 0
+	velocityVar = 0, -2.5, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0.7853982
+	rotationPerParticleSpeedMax = 1.047198
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 1
+	renderType = HORIZONTALBILLBOARD
+	isLocalSpace = False
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

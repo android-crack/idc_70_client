@@ -1,0 +1,28 @@
+ParticleSystem tx_jinzhandao
+{
+	Emitter jinzhandao01
+	{
+		file = jinzhandao01.particleemitter
+		order = 2
+		position = 0, 0, 0
+	}
+	Emitter jinzhandao02
+	{
+		file = jinzhandao02.particleemitter
+		order = 0
+		position = 0, 0, 0
+	}
+	Emitter jinzhandao03
+	{
+		file = jinzhandao03.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+	Model dao
+	{
+		position = 0, 0, 0
+		scale = 1,1,1
+		rotate = 0, 0, 0, 1
+		model_name = dao
+	}
+}

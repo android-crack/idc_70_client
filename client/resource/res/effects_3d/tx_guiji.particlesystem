@@ -1,0 +1,15 @@
+ParticleSystem tx_guiji
+{
+	Emitter guiji01
+	{
+		file = guiji01.particleemitter
+		order = 2
+		position = 0, 0, 0
+	}
+	Emitter guiji02
+	{
+		file = guiji02.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+}

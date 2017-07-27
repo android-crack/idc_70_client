@@ -1,0 +1,24 @@
+ParticleSystem pd_06
+{
+	Emitter pd_06_01
+	{
+		file = pd_06_01.particleemitter
+		order = 3
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter pd_06_02
+	{
+		file = pd_06_02.particleemitter
+		order = 0
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter pd_06_04
+	{
+		file = pd_06_04.particleemitter
+		order = 4
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+}

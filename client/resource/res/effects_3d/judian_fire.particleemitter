@@ -1,0 +1,53 @@
+particle judian_fire
+{
+	sprite 
+	{
+		path = boomwhite.png
+		width = 64
+		height = 64
+		blending = ADDITIVE
+		animated = True
+		looped = False
+		frameCount = 16
+		frameRandomOffset = 0
+		frameDuration = 80
+	}
+	particleCountMax = 20
+	emissionRate = 10
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 80
+	sizeStartMax = 65
+	sizeEndMin = 40
+	sizeEndMax = 35
+	energyMin = 2000
+	energyMax = 1800
+	colorStart = 0.9999999, 0.9161258, 0.5294117, 1
+	colorStartVar = 5.960464E-08, -0.01318467, -0.1691176, 0
+	colorEnd = 0.5441177, 0, 0, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 0.8897058, 0.2793103, 0, 1
+	colorMiddleVar = -0.110294, -0.2793103, 0, 0
+	middlePercent = 0.875
+	middlePercentVar = -0.02499998
+	position = 0, 0, 0
+	positionVar = 50, 0.1, 50
+	velocity = 0, 17.5, 0
+	velocityVar = 1, -7.5, 0
+	acceleration = 0, 2.5, 0
+	accelerationVar = 0, 0.5, 0
+	rotationPerParticleSpeedMin = -0.5235988
+	rotationPerParticleSpeedMax = 0.5235988
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = BILLBOARD
+	isLocalSpace = False
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 1.047198
+}

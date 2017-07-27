@@ -1,0 +1,13 @@
+ParticleSystem liuxingchui_03
+{
+	Model liuxingchui
+	{
+		position = 0, 0, 0
+		scale = 1.0,1.0,1.0
+		rotate = 0,0,0,0
+		model_name = liuxingchui
+		liuguang = liuxingchui_zidan_02
+		action_name = liuxingchui02_zidan
+		fire_effect = liuxingchui
+	} 
+}

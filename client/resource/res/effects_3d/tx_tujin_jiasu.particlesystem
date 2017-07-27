@@ -1,0 +1,9 @@
+ParticleSystem tx_tujin_jiasu
+{
+	Emitter jiasu
+	{
+		file = jiasu.particleemitter
+		order = 0
+		position = 0, 0, 0
+	}
+}

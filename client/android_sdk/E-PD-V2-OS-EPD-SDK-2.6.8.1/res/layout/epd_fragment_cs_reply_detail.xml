@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/epd_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/epd_blue_darker" >
+
+        <TextView
+            style="@style/TitleBarText"
+            android:text="@string/epd_title_cs_reply_detail" />
+
+        <com.epd.app.support.widget.gadget.button.ArrowButton
+            android:id="@+id/back"
+            style="@style/BackButton" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                              <LinearLayout
+                            android:background="@android:color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" 
+                            android:paddingLeft="@dimen/epd_size_5"
+                            android:paddingRight="@dimen/epd_size_5">
+
+                            <TextView
+                                android:paddingTop="@dimen/epd_size_5"
+                                android:id="@+id/title_text"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/epd_blue_darker_light"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/epd_size_1"
+                                android:background="@color/epd_grey" />
+
+                            <TextView
+                                android:paddingBottom="@dimen/epd_size_5"
+                                android:id="@+id/description"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@android:color/black" />
+
+                            <ImageView
+                                android:id="@+id/shot_img"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true" />
+                        </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+
+                    <librarys.cardview.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardBackgroundColor="@android:color/white"
+                        app:cardElevation="@dimen/epd_size_3"
+                        app:cardUseCompatPadding="true"
+                        app:contentPadding="@dimen/epd_size_5" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <com.epd.app.support.widget.material.MaterialEditText
+                                android:id="@+id/question_description"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/epd_size_5"
+                                android:layout_marginRight="@dimen/epd_size_5"
+                                android:hint="@string/epd_question_description"
+                                app:baseColor="@android:color/black"
+                                app:floatingLabel="highlight"
+                                app:maxCharacters="1500"
+                                app:primaryColor="@color/epd_wine_red_dark" />
+
+                            <TextView
+                                android:id="@+id/submit"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@color/epd_blue_semi"
+                                android:gravity="center"
+                                android:padding="@dimen/epd_size_10"
+                                android:text="@string/epd_submit"
+                                android:textColor="@android:color/white"
+                                android:textSize="@dimen/epd_text_15"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </librarys.cardview.CardView>
+                </LinearLayout>
+            </ScrollView>
+
+            <TextView
+                android:id="@+id/submit_copy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/epd_blue_semi"
+                android:gravity="center"
+                android:padding="@dimen/epd_size_10"
+                android:text="@string/epd_submit"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/epd_text_15"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+ParticleSystem tx_0164
+{
+	Emitter 0164_smoke01
+	{
+		file = 0164_smoke01.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+	Emitter 0164_smoke02
+	{
+		file = 0164_smoke02.particleemitter
+		order = 0
+		position = 0, 3.51108E-15, 3.752931
+	}
+}

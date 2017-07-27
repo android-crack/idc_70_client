@@ -1,0 +1,9 @@
+ModelParticleConfig zhaozi
+{
+	ParticleConfig jn_zhaozidi
+	{
+		file = jn_zhaozidi.particlesystem
+		position = 0, 0, 0
+		rotation = 0, 0, 0, 1
+	}
+}

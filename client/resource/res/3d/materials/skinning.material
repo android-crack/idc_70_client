@@ -1,0 +1,5 @@
+material textured
+{
+	u_matrixPalette = MATRIX_PALETTE
+}
+

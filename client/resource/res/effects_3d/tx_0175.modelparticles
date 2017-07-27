@@ -1,0 +1,9 @@
+ModelParticleConfig boat_AtackUp
+{
+	ParticleConfig tx_0175
+	{
+		file = tx_0175.particlesystem
+		position = 0, 0, 0
+		rotation = 0, 0, 0, 1
+	}
+}

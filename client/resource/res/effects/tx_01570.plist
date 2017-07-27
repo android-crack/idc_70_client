@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>jiantou_up.png</key>
+			<dict>
+				<key>width</key>
+				<integer>13</integer>
+				<key>height</key>
+				<integer>19</integer>
+				<key>originalWidth</key>
+				<integer>14</integer>
+				<key>originalHeight</key>
+				<integer>20</integer>
+				<key>x</key>
+				<integer>0</integer>
+				<key>y</key>
+				<integer>0</integer>
+				<key>offsetX</key>
+				<real>-0.5</real>
+				<key>offsetY</key>
+				<real>0.5</real>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>0</integer>
+			<key>textureFileName</key>
+			<string>tx_01570.png</string>
+			<key>realTextureFileName</key>
+			<string>tx_01570.png</string>
+			<key>size</key>
+			<string>{16384,16384}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>16384</integer>
+			<key>height</key>
+			<integer>16384</integer>
+		</dict>
+	</dict>
+</plist>

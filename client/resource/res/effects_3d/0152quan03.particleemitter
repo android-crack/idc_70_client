@@ -1,0 +1,53 @@
+particle 0152quan03
+{
+	sprite 
+	{
+		path = tx_0152huoquan03.png
+		width = 256
+		height = 256
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	particleCountMax = 10
+	emissionRate = 5
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 500
+	sizeStartMax = 500
+	sizeEndMin = 650
+	sizeEndMax = 650
+	energyMin = 1200
+	energyMax = 1200
+	colorStart = 0.9448276, 1, 0, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 1, 0.06206891, 0, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 0.8014706, 0.3813894, 0, 0.827451
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.5
+	middlePercentVar = 0
+	position = 0, 0, 0
+	positionVar = 0.1, 0.1, 0.1
+	velocity = 0, 2.5, 0
+	velocityVar = 0, -2.5, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = -2.094395
+	rotationPerParticleSpeedMax = 2.094395
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = -1
+	renderType = HORIZONTALBILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

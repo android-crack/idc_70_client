@@ -1,0 +1,45 @@
+ParticleSystem tx_selected
+{
+	Emitter SelectTarget01
+	{
+		file = SelectTarget01.particleemitter
+		order = 1
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter SelectTarget02
+	{
+		file = SelectTarget02.particleemitter
+		order = 2
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter SelectTarget03
+	{
+		file = SelectTarget03.particleemitter
+		order = 1
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter SelectTarget04
+	{
+		file = SelectTarget04.particleemitter
+		order = 1
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter SelectTarget05
+	{
+		file = SelectTarget05.particleemitter
+		order = 4
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter SelectTarget06
+	{
+		file = SelectTarget06.particleemitter
+		order = 3
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+}

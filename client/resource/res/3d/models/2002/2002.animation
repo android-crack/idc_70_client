@@ -1,0 +1,22 @@
+animation 2002
+{
+frameCount=11333
+clip stand1
+{
+begin=0
+end=3333
+repeatCount=0
+}
+clip move
+{
+begin=3366
+end=7333
+repeatCount=1
+}
+clip stand2
+{
+begin=7366
+end=11333
+repeatCount=0
+}
+}

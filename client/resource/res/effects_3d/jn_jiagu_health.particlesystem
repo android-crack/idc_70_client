@@ -1,0 +1,9 @@
+ParticleSystem jn_jiagu_health
+{
+	Emitter jiagulizi
+	{
+		file = jiagulizi.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+}

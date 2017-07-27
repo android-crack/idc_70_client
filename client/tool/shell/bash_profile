@@ -1,0 +1,12 @@
+export QUICK_COCOS2DX_ROOT=/Users/175game/Documents/q3/gameplay3d_branch
+export COCOS2DX_ROOT=${QUICK_COCOS2DX_ROOT}/lib/cocos2d-x
+export ANDROID_SDK_ROOT=/Users/175game/Development/sdk
+export ANDROID_NDK_ROOT=/Users/175game/Development/ndk
+export ANT_HOME=/Users/175game/Development/ant
+export android=${ANDROID_SDK_ROOT}/platform-tools
+export android_toos=${ANDROID_SDK_ROOT}/tools
+export PATH=${PATH}:${ANT_HOME}/bin
+export PATH=$PATH:$ANDROID_SDK_ROOT
+export PATH=$PATH:$ANDROID_NDK_ROOT
+export PATH=$PATH:$android
+export PATH=$PATH:$android_toos

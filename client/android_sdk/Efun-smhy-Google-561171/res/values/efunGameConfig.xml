@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+  <!-- 表示应用上架的平台 -->  
+  <string name="efunAppPlatform">e00001</string>  
+  <!-- FB AppId -->  
+  <string name="efunFBApplicationId">1627487760905278</string>  
+  <string name="facebook_app_name">大航海</string>  
+  <string name="facebook_authorities">com.facebook.app.FacebookContentProvider1627487760905278</string>  
+  <!-- 谷歌分析追踪 -->  
+  <string name="efunGoogleAnalyticsTrackingId">UA-77236599-1</string>  
+  <!-- 游戏编码 -->  
+  <string name="efunGameCode">smhy</string>  
+  <!-- 游戏编简称 -->  
+  <string name="efunGameShortName">smhy</string>  
+  <!-- 秘钥 -->  
+  <string name="efunAppKey">5CEC8C138B5AEFFEB87AFF96F83F12A3</string>  
+  <!-- 登入首选地址 -->  
+  <string name="efunLoginPreferredUrl">http://login.aseugame.com/</string>  
+  <!-- 登入备用地址 -->  
+  <string name="efunLoginSpareUrl">http://loginsea.aseugame.com/</string>  
+  <!-- 广告首选地址 -->  
+  <string name="efunAdsPreferredUrl">http://ad.aseugame.com/</string>  
+  <!-- 广告备用地址 -->  
+  <string name="efunAdsSpareUrl">http://adsea.aseugame.com/</string>  
+  <!-- 储值获取首选地址 -->  
+  <string name="efunPayPreferredUrl">http://pay.aseugame.com/</string>  
+  <!-- 储值备用地址 -->  
+  <string name="efunPaySpareUrl">http://paysea.aseugame.com/</string>  
+  <!-- FB工程首选域名 -->  
+  <string name="efunFbPreferredUrl">http://fb.aseugame.com/</string>  
+  <!-- FB工程备用域名 -->  
+  <string name="efunFbSpareUrl">http://fbsea.aseugame.com/</string>  
+  <!-- Game工程首选域名 -->  
+  <string name="efunGamePreferredDomainUrl">http://game.aseugame.com/</string>  
+  <!-- Game工程备用域名 -->  
+  <string name="efunGameSpareDomainUrl">http://gamesea.aseugame.com/</string>  
+  <!-- google分析接入广告的类类名 -->  
+  <string name="efunGAListenerName">com.efun.os.sdk.ads.GAAdvert</string>  
+  <!-- S2S接入广告的类类名 -->  
+  <string name="efunS2SListenerName">com.efun.os.sdk.ads.S2SAdvert</string>  
+  <!-- 登录监听的类类名 -->  
+  <string name="efunLoginListenerName">com.efun.os.listeners.SdkListener</string>  
+  <!-- 事件监听 -->  
+  <string name="efunEventListenerName">com.efun.os.sdk.listeners.EventListener</string>  
+  <!-- 下载cnd首选域名 -->  
+  <string name="efundownloadPreferredUrl">http://sdk.download.aseugame.com</string>  
+  <!-- 下载cnd备用域名 -->  
+  <string name="efundownloadSpareUrl">http://sdksea.downloadsea.aseugame.com</string>  
+  <!-- 下载cnd首选域名 -->  
+  <string name="efunDynamicPreUrl">http://sdk.download.aseugame.com</string>  
+  <!-- 下载cnd备用域名 -->  
+  <string name="efunDynamicSpaUrl">http://sdksea.downloadsea.aseugame.com</string>  
+  <!-- 推送首选域名 -->  
+  <string name="efunPushPreferredUrl">push.aseugame.com</string>  
+  <!-- 推送备用域名 -->  
+  <string name="efunPushSpareUrl">push.aseugame.com</string>  
+  <!-- 屏幕方向  ""空为横屏，“v”为竖屏 -->  
+  <string name="efunScreenOrientation"/>  
+  <!-- 语言种类 -->  
+  <string name="efunLanguage">zh_CH</string>  
+  <!-- 地区前缀 -->  
+  <string name="efunPrefixName"/>  
+  <!-- 活动邀请标志 -->  
+  <string name="efunActivityCode"/>  
+  <string name="efun_invite_like_url"/>  
+  <!-- 渠道相关 -->  
+  <string name="efunChannelEnable"/>  
+  <string name="efunChannelPayForm"/>  
+  <string name="efunChannelAdvertiser"/>  
+  <string name="efunChannelPartner"/>  
+  <!-- 谷歌储值错误提示 -->  
+  <string name="efunGoogleServerError">Require Service Timeout,Please try again</string>  
+  <string name="efunGoogleBuyFailError">Purchase Error</string>  
+  <string name="efunGoogleStoreError">Your area does not support google wallet.</string>  
+  <!-- google plus -->  
+  <string name="message">Signing in to Google…</string> 
+</resources>

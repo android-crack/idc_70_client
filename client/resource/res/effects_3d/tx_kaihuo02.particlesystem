@@ -1,0 +1,21 @@
+ParticleSystem tx_kaihuo02
+{
+	Emitter kaihuoboom
+	{
+		file = kaihuoboom.particleemitter
+		order = 2
+		position = 0, 0, 0
+	}
+	Emitter kaihuoGrow
+	{
+		file = kaihuoGrow.particleemitter
+		order = 4
+		position = 0, 0, 0
+	}
+	Emitter kaihuoPeng00
+	{
+		file = kaihuoPeng00.particleemitter
+		order = 3
+		position = 0, 0, 3.984207
+	}
+}

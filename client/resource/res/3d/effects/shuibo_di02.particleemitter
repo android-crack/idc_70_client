@@ -1,0 +1,70 @@
+particle shuibo_di02
+{
+	sprite 
+	{
+		path = h_fx_water_002.png
+		width = 256
+		height = 256
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	size 
+	{
+		curve 
+		{
+			type = 4
+			componentCount = 1
+			times = 0, 181, 619, 991
+			values = 1, 5.973449, 10.93677, 14.34778
+			inTangents = 0, 20.69712, 8.741457, 13.45542
+			outTangents = 13.45542, 20.69712, 8.741457, 0
+		}
+		type = 1
+	}
+	color 
+	{
+		curve 
+		{
+			type = 4
+			componentCount = 4
+			times = 0, 349, 1000
+			values = 1, 1, 1, 0, 1, 1, 1, 0.1921569, 1, 1, 1, 0
+			inTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+			outTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+		}
+		type = 1
+	}
+	particleCountMax = 30
+	emissionRate = 3
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	energyMin = 3500
+	energyMax = 3200
+	position = 0, 0, 0
+	positionVar = 0, 0, 0
+	velocity = 0, 0, -5
+	velocityVar = 0, 0, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = HORIZONTALBILLBOARD
+	isLocalSpace = False
+	preWarm = False
+	delayTime = 0
+	initialRotationMin = 3.141593
+	initialRotationMax = 3.141593
+	gravity = 0
+	lengthScale = 0.6
+}

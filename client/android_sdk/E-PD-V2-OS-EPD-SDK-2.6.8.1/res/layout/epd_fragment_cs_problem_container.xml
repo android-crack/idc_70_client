@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/epd_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/epd_blue_darker" >
+
+        <TextView
+            android:id="@+id/title_text"
+            android:text="@string/epd_title_cs_questions"
+            style="@style/TitleBarText" />
+
+        <com.epd.app.support.widget.gadget.button.ArrowButton
+            android:id="@+id/back"
+            style="@style/BackButton" />
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <android.support.v4.view.PagerTabStrip
+            android:id="@+id/sliding_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/epd_blue_light" />
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

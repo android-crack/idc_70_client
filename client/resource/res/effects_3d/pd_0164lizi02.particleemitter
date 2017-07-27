@@ -1,0 +1,54 @@
+particle pd_0164lizi02
+{
+	sprite 
+	{
+		path = blue_line.png
+		width = 256
+		height = 256
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	particleCountMax = 30
+	emissionRate = 30
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 80
+	sizeStartMax = 80
+	sizeEndMin = 120
+	sizeEndMax = 120
+	energyMin = 500
+	energyMax = 480
+	colorStart = 1, 1, 1, 0.5254902
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0.1323529, 0.3896552, 1, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 1, 1, 0.7921569
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.5
+	middlePercentVar = 0
+	position = 0, 0, 0
+	positionVar = 10, 20, 10
+	velocity = 0, 0, 725
+	velocityVar = 0, 0, 25
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 1
+	systemDuration = 0
+	renderType = HORIZONTALBILLBOARD
+	isLocalSpace = True
+	preWarm = True
+	delayTime = 0
+	initialRotationMin = 0
+	initialRotationMax = 0
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>juanzhou_faguang.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,1},{321,347}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{321,347}}</string>
+                <key>sourceSize</key>
+                <string>{321,347}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>tx_new_activity030.png</string>
+            <key>size</key>
+            <string>{323,349}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:9967ab8f61193919894c92802ba2bce2:e44314b8a2c4d1aafdebbcddee57a599:b657598a8fbdf265c50f045011505ece$</string>
+            <key>textureFileName</key>
+            <string>tx_new_activity030.png</string>
+        </dict>
+    </dict>
+</plist>

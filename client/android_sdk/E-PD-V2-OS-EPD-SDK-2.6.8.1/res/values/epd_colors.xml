@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="epd_background">#e2e2e2</color>
+
+    <color name="epd_primary">#009688</color>
+
+    <color name="epd_half_transparent">#50000000</color>
+    <color name="epd_transparent">#00000000</color>
+
+    <color name="epd_accent">#eeff41</color>
+
+    <color name="epd_grey_title">#626262</color>
+    <color name="epd_description_color">#878787</color>
+    <color name="epd_grey">#D4D4D4</color>
+    <color name="epd_grey_light">#f0f0f0</color>
+
+    <color name="epd_red">#ffff4444</color>
+    <color name="epd_red_dark">#ffcd3a3a</color>
+
+    <color name="epd_primaryColor">#7DCBE7</color>
+    <color name="epd_primaryColor_dark">#00bcd4</color>
+
+   
+    <color name="epd_blue">#0099FF</color>
+    <color name="epd_blue_semi">#80738ffe</color>
+    <color name="epd_blue_semi_transparent">#805677fc</color>
+
+    <color name="epd_blue_dark">#3f51b5</color>
+	<color name="epd_blue_darker">#497CB5</color>
+	<color name="epd_blue_light">#7ca5d3</color>
+	<color name="epd_blue_light_slate">#6495ed</color>
+	<color name="epd_blue_darker_light">#323d53</color>
+	<color name="epd_blue_darker_low">#72a4fa</color>
+	
+	<color name="epd_blue_darker_1">#3366FF</color>
+	 
+    <color name="epd_wine_red_dark">#982360</color>
+
+    <color name="epd_white">#fafafa</color>
+    <color name="epd_white_dark">#cccccc</color>
+    
+    <color name="epd_b2b2b2">#b2b2b2</color>
+    <color name="epd_4489e4">#4489e4</color>
+    <color name="epd_text_393939">#393939</color>
+
+	
+    <color name="epd_orange">#ff9c00</color>
+    <color name="epd_orange_light">#DC5712</color>
+    
+    <color name="epd_blood_darker">#732219</color>
+    <color name="epd_blood_dark">#a63124</color>
+    <color name="epd_blood_primary">#d94130</color>
+    <color name="epd_blood_light">#f2b6ae</color>
+    <integer-array name="epd_blood">
+        <item>@color/epd_wine_red_dark</item>
+        <item>@color/epd_wine_red_dark</item>
+        <item>@color/epd_wine_red_dark</item>
+        <item>@color/epd_wine_red_dark</item>
+    </integer-array>
+    <integer-array name="epd_collect_sex">
+        <item>@color/epd_blue_darker_low</item>
+        <item>@color/epd_blue_darker_low</item>
+        <item>@color/epd_blue_darker_low</item>
+        <item>@color/epd_blue_darker_low</item>
+    </integer-array>
+
+</resources>

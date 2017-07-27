@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NeedUpdateAd</key>
+	<true/>
+	<key>AdDataJobInternal</key>
+	<integer>900</integer>
+	<key>AD_PAUSE</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>排行榜</string>
+			<key>tag</key>
+			<string>AD_LEADERBOARD</string>
+			<key>image</key>
+			<string>btn3.png</string>
+			<key>bgColor</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>重新开始</string>
+			<key>tag</key>
+			<string>AD_RESTART</string>
+			<key>image</key>
+			<string>btn2.png</string>
+			<key>bgColor</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>回到游戏</string>
+			<key>tag</key>
+			<string>AD_RESUME</string>
+			<key>image</key>
+			<string>btn1.png</string>
+			<key>bgColor</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,61 @@
+particle langhua
+{
+	sprite 
+	{
+		path = h_water_0324_06.png
+		width = 256
+		height = 256
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 30
+	}
+	color 
+	{
+		curve 
+		{
+			type = 4
+			componentCount = 4
+			times = 0, 241, 383, 566, 1000
+			values = 0.9764706, 1, 0.5803922, 0, 0.9882353, 0.8784314, 0.2117647, 0.854902, 1, 0.8078431, 0, 0.9176471, 1, 0.7921569, 0, 1, 1, 0.7647059, 0, 0
+			inTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+			outTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+		}
+		type = 1
+	}
+	particleCountMax = 15
+	emissionRate = 30
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	energyMin = 3000
+	energyMax = 3500
+	position = 0, 0, 0
+	positionVar = 0.6, 0.1, 0.02
+	velocity = -0.15, 0.125, 0
+	velocityVar = -0.05000001, -0.025, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = -0.2617994
+	rotationPerParticleSpeedMax = 0.2617994
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = True
+	delayTime = 0
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+	gravity = 0.1
+	lengthScale = 1
+	sizeStartMin = 0.08
+	sizeStartMax = 0.02
+	sizeEndMin = 0.3
+	sizeEndMax = 0.25
+}

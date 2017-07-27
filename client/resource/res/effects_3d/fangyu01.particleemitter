@@ -1,0 +1,53 @@
+particle fangyu01
+{
+	sprite 
+	{
+		path = dun.png
+		width = 128
+		height = 128
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	particleCountMax = 10
+	emissionRate = 3
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 60
+	sizeStartMax = 60
+	sizeEndMin = 100
+	sizeEndMax = 100
+	energyMin = 1200
+	energyMax = 1200
+	colorStart = 0.8846856, 0.8970588, 0, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0.4779412, 0, 0, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 0.7647059, 0.4588236, 0, 0.627451
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.5
+	middlePercentVar = 0
+	position = 0, 0, 0
+	positionVar = 0.1, 0.1, 0.1
+	velocity = 0, 0, 0
+	velocityVar = 0, 0, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 0
+}

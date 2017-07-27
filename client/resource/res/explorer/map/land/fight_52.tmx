@@ -1,0 +1,54 @@
+<map height="28" orientation="orthogonal" renderorder="right-down" tileheight="64" tilewidth="64" version="1.0" width="48">
+ <tileset firstgid="1" name="new_grass" tileheight="64" tilewidth="64">
+  <image height="1472" source="new_grass.png" width="1984" />
+ </tileset>
+ <tileset firstgid="528" name="area_piece_wall2" tileheight="64" tilewidth="64">
+  <image height="64" source="area_piece_wall2.png" width="128" />
+ </tileset>
+ <tileset firstgid="530" name="grass_tree" tileheight="64" tilewidth="64">
+  <image height="1024" source="grass_tree.png" width="1408" />
+ </tileset>
+ <layer height="28" name="grass" width="48">
+  <properties>
+   <property name="picture" value="new_grass" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJztz71uwVEYx/HH2KFT3UBXvYsaEQyttUotLMRbLbp4ieAStHfQNuUSVJvUJaCSugNag6FfCfmL
+GgxSR/L8kk9OTs7yPSI6nU6n0+12fptICC64bfuu2X5eWn2IIIMrBOE5gD9cIEznDXIoIYkUrnEC
+u6H/iCOBLH23qOB0oYA0HDgzsL+KGuoor3SvKuIcTgP7G7jHg2xun3vk7ZIzYGD/C5po4Vn+drfx
+iij3mIH9832gize840ms7h76yNN+Z2j/F0b4xBAdsbrHmKBqaPtyM/xgioFY3UeGd6/vmN5vObxu
+nU6n0+n+Y7/w2TEX
+</data>
+ </layer>
+ <layer height="28" name="block" opacity="0.5" width="48">
+  <properties>
+   <property name="picture" value="new_grass" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJztlTEOABAAxPiS/z9OYjcIdSJt0vXUQqulNFUdvo79WezPcrOf2L3VT+3T/fQbndw+cY79+3cg
+9+n+1/dn51C75PtPYH8W+7PYn2Xlj1f93Q6aDXiI
+</data>
+ </layer>
+ <layer height="28" name="wall1" width="48">
+  <properties>
+   <property name="picture" value="area_piece_wall2" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJzt16ENACAMBMCGCWD/ZToaGCzBECruzKvmk7qPALbeIkZ7l7cdp3sAAAD+Wxst11bLqvn7P1DJ
+BLG2I7Y=
+</data>
+ </layer>
+ <layer height="28" name="wall2" width="48">
+  <properties>
+   <property name="picture" value="area_piece_wall2" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJzt0LEJACAQBMHHCvwOLc1SjQyFR5AN3IkvODZC0pYtBv3hpLeYhc14/+ROFv7b/x37s+zPsj/L
+/iz7s+zPsj/L/qxKf+knC+hqFuU=
+</data>
+ </layer>
+ <layer height="28" name="tree" width="48">
+  <properties>
+   <property name="picture" value="grass_tree" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJztzrcNgEAQRNHTNYGpABNiCsBUQgkUholBUBo/ABETwaF50tdKG40xIiIi8ieeNcangEL79prn
+IjbHlFDq0P7u3JpxcyqotPf/6/pzZ8WtqaHW3n8XTGydaaDRod2Xjc07LbQ6uF9ERETkqw4o3QqH
+</data>
+ </layer>
+</map>

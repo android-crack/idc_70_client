@@ -1,0 +1,12 @@
+<map height="1" orientation="orthogonal" renderorder="right-down" tileheight="2816" tilewidth="2944" version="1.0" width="2">
+ <tileset firstgid="1" name="area_piece_wall2" tileheight="64" tilewidth="64">
+  <image height="64" source="area_piece_wall2.png" width="128" />
+ </tileset>
+ <layer height="1" name="sand" width="2">
+  <properties>
+   <property name="picture" value="new_land" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJxjZGBgYAJiAAAYAAQ=
+</data>
+ </layer>
+ </map>

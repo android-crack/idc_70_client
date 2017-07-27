@@ -1,0 +1,9 @@
+ModelParticleConfig ex_piller
+{
+	ParticleConfig meshwave07
+	{
+		file = meshwave07.particlesystem
+		position = 0, 10, -7.082638E-07
+		rotation = -2.185569E-08, 0, 0, 1
+	}
+}

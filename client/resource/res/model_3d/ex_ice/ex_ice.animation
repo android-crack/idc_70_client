@@ -1,0 +1,34 @@
+animation ex_ice
+{
+frameCount=2066
+clip move
+{
+begin=33
+end=33
+repeatCount=0
+}
+clip broken1
+{
+begin=133
+end=733
+repeatCount=1
+}
+clip broken2
+{
+begin=766
+end=1066
+repeatCount=1
+}
+clip broken3
+{
+begin=1100
+end=1400
+repeatCount=1
+}
+clip broken4
+{
+begin=1433
+end=1666
+repeatCount=1
+}
+}

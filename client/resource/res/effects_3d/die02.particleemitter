@@ -1,0 +1,53 @@
+particle die02
+{
+	sprite 
+	{
+		path = 2011smoke_black.png
+		width = 64
+		height = 64
+		blending = ALPHA BLENDED
+		animated = True
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 60
+	}
+	particleCountMax = 10
+	emissionRate = 5
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 60
+	sizeStartMax = 50
+	sizeEndMin = 100
+	sizeEndMax = 120
+	energyMin = 800
+	energyMax = 1000
+	colorStart = 1, 1, 1, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0.25, 0.25, 0.25, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 0.4485294, 0.4485294, 0.4485294, 1
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.35
+	middlePercentVar = -0.05000001
+	position = 0, 0, 0
+	positionVar = 20, 20, 20
+	velocity = 0, 22.5, 0
+	velocityVar = -5, -7.5, -5
+	acceleration = 0, 17.5, 0
+	accelerationVar = 0, 2.5, 0
+	rotationPerParticleSpeedMin = -0.5235988
+	rotationPerParticleSpeedMax = 0.5235988
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 1.6
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

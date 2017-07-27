@@ -1,0 +1,80 @@
+typedef enum
+{
+    PLATFORM_NONE,
+    PLATFORM_GUEST,
+    PLATFORM_QQ,
+    PLATFORM_WEIXIN,
+}SDKPlatform;
+
+typedef enum
+{
+    MIDAS_ORDER,
+    MIDAS_PAY,
+    MIDAS_DISTRIBUTE_GOODS,
+    MIDAS_RESTORABLE_PRODUCT,
+    MIDAS_GET_RESTORABLE_PRODUCT,
+    MIDAS_GET_PRODUCT_INFO,
+    MIDAS_NET_WORK,
+    MIDAS_LOGIN_EXPIRY,
+    MIDAS_GET_RECOMMEND_LIST,
+    MIDAS_LOGIN_FAIL = 10000,
+}SDKMidasType;
+
+typedef enum
+{
+    SDK_EVENT_INIT,
+    SDK_EVENT_LOGIN,
+    SDK_EVENT_LOGOUT,
+    SDK_EVENT_PAY,
+    SDK_EVENT_USER_INFO,
+    SDK_EVENT_FRIEND_INFO,
+    SDK_EVENT_NEARBY_PERSON_INFO,
+    SDK_EVENT_LOCATION_INFO,
+    SDK_EVENT_SHARE_NOTICE,
+}SDKEventType;
+
+class QSDK
+{
+public:
+    static QSDK* sharedQSDK();
+    
+    void init(SDKPlatform platform, LUA_FUNCTION nHandler);
+    void login();
+    void qrCodeLogin();
+    bool switchUser(bool flag);
+    void logout();
+    const char* getUid();
+    const char* getOpenId();
+    const char* getAccessToken();
+    const char* getPayToken();
+    const char* getPf();
+    const char* getPfKey();
+    const char* getUdid();
+    const char* getExtraInfo();
+    bool isPlatformInstalled(SDKPlatform platform);
+    void getUserInfo();
+    void getFriendsInfo();
+    void openURL(const char* url);
+    void pay(int uid, const char* order, const char* productId, const char* productName, float amount, const char* paydes);
+    void reportEvent(const char* name, const char* body, bool isRealTime);
+    void registerPay(const char *env);
+    void showNotice(const char *scene);
+    const char* getNoticeData(const char *scene);
+    void hideScrollNotice();
+    void buglyLog(int level, const char* log);
+    void getNearbyPersonInfo();
+    void cleanLocation();
+    void getLocationInfo();
+
+    void bindQQGroup(const char* cUnionid, const char* cUnion_name, const char* cZoneid, const char* md5Str);
+    void joinQQGroup(const char* cQQGroupNum, const char* cQQGroupKey);
+    void addGameFriendToQQ(const char* cFopenid, const char* cDesc, const char* cMessage);
+
+    void createWXGroup(const char* unionid, const char* chatRoomName, const char* chatRoomNickName);
+    void joinWXGroup(const char* unionid, const char* chatRoomNickName);
+    void queryWXGroupInfo(const char* unionID, const char* openIdLists);
+
+    void feedback(const char* body);
+    void openWeiXinDeeplink(const char* link);
+    void getWakeupInfo(LUA_FUNCTION nHandler);
+};

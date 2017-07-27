@@ -1,0 +1,53 @@
+particle die01
+{
+	sprite 
+	{
+		path = baozhaxulie.png
+		width = 64
+		height = 64
+		blending = ADDITIVE
+		animated = True
+		looped = False
+		frameCount = 8
+		frameRandomOffset = 0
+		frameDuration = 60
+	}
+	particleCountMax = 10
+	emissionRate = 5
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 50
+	sizeStartMax = 60
+	sizeEndMin = 90
+	sizeEndMax = 80
+	energyMin = 1000
+	energyMax = 1200
+	colorStart = 1, 1, 1, 0.9372549
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0.3308824, 0, 0, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 0.7655172, 0, 1
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.75
+	middlePercentVar = -0.05000001
+	position = 0, 0, 0
+	positionVar = 20, 20, 20
+	velocity = 0, 22.5, 0
+	velocityVar = -5, -7.5, -5
+	acceleration = 0, 17.5, 0
+	accelerationVar = 0, 2.5, 0
+	rotationPerParticleSpeedMin = -0.5235988
+	rotationPerParticleSpeedMax = 0.5235988
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 1.5
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

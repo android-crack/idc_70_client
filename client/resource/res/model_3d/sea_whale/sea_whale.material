@@ -1,0 +1,11 @@
+material Material__54
+{
+    sampler u_diffuseTexture
+    {
+        path = sea_whale.fbm/sea_whale.png
+        wrapS = REPEAT
+        wrapT = REPEAT
+    }
+
+}
+

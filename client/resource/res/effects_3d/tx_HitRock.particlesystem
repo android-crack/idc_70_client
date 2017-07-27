@@ -1,0 +1,15 @@
+ParticleSystem tx_HitRock
+{
+	Emitter HitRocksmoke
+	{
+		file = HitRocksmoke.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+	Emitter HitRocksuipian
+	{
+		file = HitRocksuipian.particleemitter
+		order = 2
+		position = 0, 0, 0
+	}
+}

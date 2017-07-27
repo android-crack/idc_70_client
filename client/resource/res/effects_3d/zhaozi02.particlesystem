@@ -1,0 +1,10 @@
+ParticleSystem zhaozi02
+{
+	Model zhaozi02
+	{
+		position = 0, 40, 70
+		scale = 1.0,1.0,1.845
+		rotate = 1,0,0,180
+		model_name = zhaozi02
+	}
+}

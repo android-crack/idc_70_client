@@ -1,0 +1,53 @@
+particle ChaoFeng_02
+{
+	sprite 
+	{
+		path = YellowRing2.png
+		width = 128
+		height = 128
+		blending = ALPHA BLENDED
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	particleCountMax = 4
+	emissionRate = 2
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 150
+	sizeStartMax = 150
+	sizeEndMin = 300
+	sizeEndMax = 300
+	energyMin = 1800
+	energyMax = 1800
+	colorStart = 0.8127906, 0.4674524, 0.9632353, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0.25, 0, 0.08793104, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 0.2619659, 0.03189879, 0.4338235, 0.3137255
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.4
+	middlePercentVar = 2.980232E-08
+	position = 0, 0, 0
+	positionVar = 0, 0, 0
+	velocity = 0, 0, 0
+	velocityVar = 0, 0, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = HORIZONTALBILLBOARD
+	isLocalSpace = True
+	preWarm = True
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

@@ -1,0 +1,8 @@
+ModelParticleConfig sf_tujin
+{
+	ParticleConfig sf_speedup_g
+	{
+		file = sf_speedup_g.particlesystem
+		position = 0, 0, 0
+	}
+}

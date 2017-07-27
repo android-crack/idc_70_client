@@ -1,0 +1,11 @@
+material 01___Default
+{
+    sampler u_diffuseTexture
+    {
+        path = ex_net.fbm/ex_net.png
+        wrapS = REPEAT
+        wrapT = REPEAT
+    }
+
+}
+

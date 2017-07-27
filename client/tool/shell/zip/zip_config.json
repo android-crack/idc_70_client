@@ -1,0 +1,8 @@
+{
+    "envName": "release",
+    "osName": "all", 
+    "versionName": "1.0.0",
+	"isZipDiffStr": "N",
+	"isZipInfo": "Y",
+	"isContinueStr": "Y"
+}

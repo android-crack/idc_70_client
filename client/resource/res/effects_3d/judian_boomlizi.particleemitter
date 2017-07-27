@@ -1,0 +1,53 @@
+particle judian_boomlizi
+{
+	sprite 
+	{
+		path = 264-1.png
+		width = 32
+		height = 32
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	particleCountMax = 20
+	emissionRate = 40
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 10
+	sizeStartMax = 15
+	sizeEndMin = 0.5
+	sizeEndMax = 0
+	energyMin = 1000
+	energyMax = 800
+	colorStart = 1, 0.8482759, 0, 1
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0.8235294, 0, 0, 1
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 0.7426471, 0.3841278, 0, 1
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.55
+	middlePercentVar = 0.05000001
+	position = 0, 0, 0
+	positionVar = 60, 20, 60
+	velocity = 0, 165, 0
+	velocityVar = 40, 35, 40
+	acceleration = 0, 0, 0
+	accelerationVar = 20, 20, 20
+	rotationPerParticleSpeedMin = -1.5
+	rotationPerParticleSpeedMax = 1.5
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0.3
+	renderType = BILLBOARD
+	isLocalSpace = False
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 0
+}

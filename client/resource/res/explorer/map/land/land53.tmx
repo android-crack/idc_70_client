@@ -1,0 +1,340 @@
+<map height="96" orientation="orthogonal" renderorder="right-down" tileheight="64" tilewidth="64" version="1.0" width="113">
+ <tileset firstgid="1" name="port" tileheight="64" tilewidth="64">
+  <image height="1664" source="port.png" width="1408" />
+ </tileset>
+ <tileset firstgid="507" name="relic" tileheight="64" tilewidth="64">
+  <image height="640" source="relic.png" width="384" />
+ </tileset>
+ <tileset firstgid="567" name="ice" tileheight="64" tilewidth="64">
+  <image height="1472" source="ice.png" width="2048" />
+ </tileset>
+ <tileset firstgid="1015" name="new_grass" tileheight="64" tilewidth="64">
+  <image height="1472" source="new_grass.png" width="1984" />
+ </tileset>
+ <tileset firstgid="1542" name="new_land" tileheight="64" tilewidth="64">
+  <image height="1472" source="new_land.png" width="1984" />
+ </tileset>
+ <tileset firstgid="2038" name="new_snow" tileheight="64" tilewidth="64">
+  <image height="1472" source="new_snow.png" width="1984" />
+ </tileset>
+ <tileset firstgid="2534" name="grass_tree" tileheight="64" tilewidth="64">
+  <image height="1024" source="grass_tree.png" width="1408" />
+ </tileset>
+ <tileset firstgid="2732" name="grass_stone" tileheight="64" tilewidth="64">
+  <image height="1024" source="grass_stone.png" width="1088" />
+ </tileset>
+ <tileset firstgid="2885" name="snow_tree" tileheight="64" tilewidth="64">
+  <image height="896" source="snow_tree.png" width="576" />
+ </tileset>
+ <tileset firstgid="3002" name="snow_river" tileheight="64" tilewidth="64">
+  <image height="896" source="snow_river.png" width="576" />
+ </tileset>
+ <tileset firstgid="3110" name="sand_tree" tileheight="64" tilewidth="64">
+  <image height="704" source="sand_tree.png" width="1088" />
+ </tileset>
+ <tileset firstgid="3246" name="sand_stone" tileheight="64" tilewidth="64">
+  <image height="704" source="sand_stone.png" width="1088" />
+ </tileset>
+ <tileset firstgid="3382" name="transition" tileheight="64" tilewidth="64">
+  <image height="768" source="transition.png" width="832" />
+ </tileset>
+ <tileset firstgid="3499" name="grass_mound" tileheight="64" tilewidth="64">
+  <image height="832" source="grass_mound.png" width="704" />
+ </tileset>
+ <tileset firstgid="3631" name="sand_mound" tileheight="64" tilewidth="64">
+  <image height="1134" source="sand_mound.png" width="1134" />
+ </tileset>
+ <tileset firstgid="3733" name="decoration" tileheight="64" tilewidth="64">
+  <image height="512" source="decoration.png" width="640" />
+ </tileset>
+ <layer height="96" name="sand" width="113">
+  <properties>
+   <property name="picture" value="new_land" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJzt0UEJADAMwMD+5mD+pdbEGAQucAoyI0mSJEmSJEmSJEmSJEmSJEmSJEmSJEl63T385mGfh30e
+9nnY52Gfh30e9nnY52Gfh30e9nnY52Gfh30e9nnY52GfhwAAAAAAAAAAAAAAAAAAAAAAANCwypzk
+MA==
+</data>
+ </layer>
+ <layer height="96" name="grass" width="113">
+  <properties>
+   <property name="picture" value="new_grass" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJztmsmPDUEcx/vwOhwciIMbJ/4EJ0tIkLgSk4cDYRIhgzOeGUdrLJexDok52seaWA4kGFuGxBIO
+Yyyx3EgcCL6dmc6rdF696a76danyvp/kk+73Wnen69v1HWpEUTE2VaKorTK8X8V2BpwJ/1TyX2Ne
+HEXzYRUuhcvgC/gSvoJf4Fc4yWO34Xk7YVel+H72WlvgbXx/p8AYJqzAn19Z8ByVXtz3AuyDF+Eu
+uBvugDtj/XkLlNw64Hq4wSK3zpzj1w5XwdWZfdMMD+DcfXB/pfh+o+u9xvdvDPKoNTmnV8lFzeoG
+vAlvwUfwMXwCj8Jj8BA8DI9oMl6u5FaDWwXmg8ScsHkPiu43eo5v+P67xZxK2ZvJKM1FzUrtvCH4
+Dr6Hl+BleBaeg+c1GW8UyC07HyTmhM17YNulPfhuDLZjY/sMT2YySnNRsxqt8/rhA/hQk3GXYH6J
+7UJzwuY9sO3SPnw3GdsplhnuwfnXc2Tkm1JdKtWTRbv0Gj73w+kW+fXg3OPwBHzuQSZFDblLk/wG
+4BBcaJHhFZx7Nbke/OxBJkUNtUs/juT3Cf6omOeXMIDrPYXPPMjDxBC79Cf8NZLfbzjOYg4mfEje
+CQ+yMDXELh2P+02Ih/ObaJlfwr/OwNYQu3Qq7jctlsnPhwxt11l87lLdsVm432w4B84taR66XLuy
+zcDnLtUdW4T7LYZLYFtcX8Pabpinblyl1iDK/nmWt0t1x8rsUt2x5H5r4Fq4Lq6vYXXDgwY56sZV
+cj23zJ9neeex7liRLlU/S7w3iZvj+hrWKXganlHmZlXZT7fZDtaNq+R6rg9d2mxO5O0e9bPEe5P1
+LrwH7ytzs0PZT7dpB6fdyy7N3z2jvQcSDsK3ytysKfvpNu3gtHvZpWZdqutGVyYdnHZv6F0qNSZl
+dGPZpt1r+jy+dKnLDMt+j0wcbDKuoXSp1Fj48B5J2opd6sN7JCm7NJwubTauvnVp2X8n9OE9ktTl
+mEr92yCkZ3ahyzGVWmcJ6Zld6HJMQ+pSF+s0UrJL2aUh2orPTCmllPqmy//DRMvxf1vra0Vt1vqI
+explaPN7E+Ie6S4l7mGXhg+7NHzYpeHDLg0fdmn4sEvDh10aPqZdqjtG3GPapbpjxD2mXao7RtzD
+Lg0fdmn4SP/eiriHGYYPMwwfZkgIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQggh
+hBBCCCGEEEJIGPwFr3LA7g==
+</data>
+ </layer>
+ <layer height="96" name="snow" width="113">
+  <properties>
+   <property name="picture" value="new_snow" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJztwTEBAAAAwqD1T20Gf6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAA+A6mAAAE=
+</data>
+ </layer>
+ <layer height="96" name="ice" width="113">
+  <properties>
+   <property name="picture" value="ice" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJztwTEBAAAAwqD1T20Gf6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAA+A6mAAAE=
+</data>
+ </layer>
+ <layer height="96" name="transition1" width="113">
+  <properties>
+   <property name="picture" value="transition" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJzt0DdqRTEQhtG7AW3ZsXAsnHN6jtv0r9JcSYU6wznwNTMMAi0LAAAAAAAAAAAAAAAAAMBf22VZ
+dtJu2kv7aau051VvN5rP3PTeZ+0wf3OUjtNJOk0HpT2vervRfOam9z5r5/mbi3SZrtJ1OivtedXb
+jeYzN733WbvN39yl+/SQHtNNac+r3m40n7npvc/ac/7mJb2mt7RJT6U9r3q70Xzmpvc+ax/5m8/0
+lb7TT3ov7XnV243mMze99wEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgv/kFBxOefQ==
+</data>
+ </layer>
+ <layer height="96" name="transition2" width="113">
+  <properties>
+   <property name="picture" value="transition" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJzt0DdOA0AQBVBfYK+MCYVJBcGYHIwJ1+RLbEM12u2Q3pO+vjQjTTGLBQAAAAAAAAAAAAAAAADA
+X0ftt/fSy2Q/OUgOW70bnc/conbe/7RKHycnyWly1urd6HzmFrWb/qeL9GVylVwn61bvRuczt6g9
+9j9t0rfJXXKfPLR6NzqfuUVt2//0lH5OXpLX5K3Vu9H5zC1q3/1P7+ld8pF8Jl+t3o3OZ24BAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAwH/3Azkfi64=
+</data>
+ </layer>
+ <layer height="96" name="transition3" width="113">
+  <properties>
+   <property name="picture" value="transition" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJztwTEBAAAAwqD1T20Gf6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAA+A6mAAAE=
+</data>
+ </layer>
+ <layer height="96" name="transition4" width="113">
+  <properties>
+   <property name="picture" value="transition" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJztwTEBAAAAwqD1T20Gf6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAA+A6mAAAE=
+</data>
+ </layer>
+ <layer height="96" name="grass_mound" width="113">
+  <properties>
+   <property name="picture" value="grass_mound" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJzt2ddT1FAYQPHY690XVEQfLDwo+qdbwcGObcbuA2LjAStNRexgQYWzI5ldMiwPDHdDNuc3c4aF
+gSU3X9hkQ5KsPu2VJNlNHbSH9lby3qKVs4+17KcDdJA6W2RtJ0OSnKLT4f/nrbrOqkOs5TB10RE6
+WuC1HWNex+kEnacLdHF+hq20zqV0s94eOhPy+f1X+L1Xw/K3pZfvPUvnctr+vLxjve9pgi7RZeqL
+uA+yr3FVN3l8i27TnfmvZ7cl+3MjfBwNC79+ja7TjRLN8Btr/U5TNE0/Iq29/jj5kHmNq+rn8UMa
+oEcNtiH72jjJx4+LvGaWzT/WPVtdO+eGNbQ2wjmiWcdJWW1mZltoK22j7RFm2IzjpMza2J87aCft
+irRvm3GcKK5mHCdltdj14Uq5x3Pepwee+6KKeT33hOd8Ss9o0DkW0ivm9pre0LAzjO4n+/iX+7nQ
+1nGdsd5rjUILzK9SWXh/coie0wv/Pgul/v7kGI3TW2dYSJ+Y22f6Ql8bzDA9h8Z8f6Ll+808ZugP
+/W0wm/QcWv/+JP0/gvK3gdlspE1LXOek59B66f8RJOXnbqjdY1MxPQ61e2wqppehdo9NkiRJkiRJ
+kiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiSVwxzEf3+x
+</data>
+ </layer>
+ <layer height="96" name="grass_tree1" width="113">
+  <properties>
+   <property name="picture" value="grass_tree" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJzt2ctPE1EYxuHRoIkHXehCcSnoVoSNshFwY3Sj4AZd1CsLvABJi0KCl8RLImqiwf9TSdS1b2M/
+ejqZmaRwTu1Mf0/ypiUzmemZzjd85zRJ+suPI0nyU9lRrrkkue7a207q/SllRDnt8o/R75b02R8r
+T5SnyrMSj8XU/DHo/QHloHJXuafcVx5UYJxmTWN5rrxQ1pWNCoztl2rut/JHGdZ4jirHXDXv14sa
+w6byUnmlvFbe/KdxvdV537XOfVyvJ7zP0eiyfoa0zyHlcGrfKt6vVzWGj8qW8kn5rHyJNK47Ou4l
+ZUo5o4wqY8pZ5ZzyVfnm7fNQeaQsBqyffrlfQ7Fr1fRerx/cv+scml9f1lOcV8aVC8qEMtna3qw3
+22dZWVFWXX792LH9cxTp1f3aK36Ptq3X75HGY/Xlu6y/p5UZZVa54jr7x7S8+rFjZ51jENUiXIN6
+qrbt/9wN5aYyp8wrt5r7uHb/mFa1+gmpHvFa1F3n8zqrzha07XZru98/olhWPxGS34t0zKkL6gzd
+yesnQvF7ER91Fk5WPxGSPT+LehTsT2Y/EdDu85NnZzQ2F2zye47QeHbG488FrWaquhY8SKq4Flx1
+6TXlvLWsBt9laXSzFux//zHWV7E33a5lxV4nQDz2+0DsdQLEY78PxF4nQHxZ6wQ2P0F52fwE5WXz
+E5SXzU9QXjY/AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBe
++AsGZnh5
+</data>
+ </layer>
+ <layer height="96" name="grass_tree2" width="113">
+  <properties>
+   <property name="picture" value="grass_tree" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJztwTEBAAAAwqD1T20Gf6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAA+A6mAAAE=
+</data>
+ </layer>
+ <layer height="96" name="grass_stone" width="113">
+  <properties>
+   <property name="picture" value="grass_stone" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJzt2UdOw1AARdFPCQMHCG1CXQKrp4wp66CJOqApoQxobwlYQpiPzpHu3PKzf6S4lL/trSnlPX2k
+z1T6XV8RbTXZrJ+m00yatWHnzvMuXaTLdJWu003T9VXRxjB7jdJTek4v6dWGVRnLWTieJtJk6qUp
+52NVBtlrLs2nhbSYln5ow03Pwq9Yzn1eSatpLa2nDfceAACglaOmlON0kk7Tmf+oqnObze7SfXpI
+jzasjm9p9fMtDf6HrZzB22kn7fo9rdJedttPB+nQhgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAN/2BeCHJpo=
+</data>
+ </layer>
+ <layer height="96" name="sand_mound" width="113">
+  <properties>
+   <property name="picture" value="sand_mound" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJztwTEBAAAAwqD1T20Gf6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAA+A6mAAAE=
+</data>
+ </layer>
+ <layer height="96" name="sand_stone" width="113">
+  <properties>
+   <property name="picture" value="sand_stone" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJztwTEBAAAAwqD1T20Gf6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAA+A6mAAAE=
+</data>
+ </layer>
+ <layer height="96" name="sand_tree1" width="113">
+  <properties>
+   <property name="picture" value="sand_tree" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJztwTEBAAAAwqD1T20Gf6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAA+A6mAAAE=
+</data>
+ </layer>
+ <layer height="96" name="sand_tree2" width="113">
+  <properties>
+   <property name="picture" value="sand_tree" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJztwTEBAAAAwqD1T20Gf6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAA+A6mAAAE=
+</data>
+ </layer>
+ <layer height="96" name="snow_tree1" width="113">
+  <properties>
+   <property name="picture" value="snow_tree" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJztwTEBAAAAwqD1T20Gf6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAA+A6mAAAE=
+</data>
+ </layer>
+ <layer height="96" name="snow_tree2" width="113">
+  <properties>
+   <property name="picture" value="snow_tree" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJztwTEBAAAAwqD1T20Gf6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAA+A6mAAAE=
+</data>
+ </layer>
+ <layer height="96" name="snow_river" width="113">
+  <properties>
+   <property name="picture" value="snow_river" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJztwTEBAAAAwqD1T20Gf6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAA+A6mAAAE=
+</data>
+ </layer>
+ <layer height="96" name="relic" width="113">
+  <properties>
+   <property name="picture" value="relic" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJztwTEBAAAAwqD1T20Gf6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAA+A6mAAAE=
+</data>
+ </layer>
+ <layer height="96" name="port" width="113">
+  <properties>
+   <property name="picture" value="port" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJzt0cmJAgEURdFy1gyczUBbzT8NZzNobYcEfEuXtRCKlnPgwl9+eEUBAAAAAAAAfJNN2qZd2qdD
+OqZTOlf4F+X9pku6pr90S/f0SM8K/6K8eq0oGqmZWqmdOqmberWqv6OMfnYapGEapXGapGma2fBf
+mL/ttMj9k5ZpldY2BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+IgX4t4Qig==
+</data>
+ </layer>
+ <layer height="96" name="block" opacity="0.4" visible="0" width="113">
+  <properties>
+   <property name="picture" value="new_grass" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJzt0bENgDAMRcE0bMb+MyFWACuO7fvSlSmct1b+7ovX17/LWvZ/neikv//7fqqdjTi3YfYN02lY
+m3b1aVibfrVFLPuGyaKWfcdUkcu+ZTIN+9CwFw170HAODXvQEAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAICdHi4XuVk=
+</data>
+ </layer>
+ <layer height="96" name="tx_land_lighthouse_01" visible="0" width="113">
+  <properties>
+   <property name="picture" value="new_grass" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJztziEBAAAIA7Ab4tC/HpoEILYESwAAAAAAAGDruh4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAPDdAKTXADM=
+</data>
+ </layer>
+ <layer height="96" name="tx_land_lighthouse_02" visible="0" width="113">
+  <properties>
+   <property name="picture" value="new_grass" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJztwTEBAAAAwqD1T20Gf6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAA+A6mAAAE=
+</data>
+ </layer>
+ <layer height="96" name="tx_land_fire_1" opacity="0.9" visible="0" width="113">
+  <properties>
+   <property name="picture" value="new_grass" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJztwTEBAAAAwqD1T20Gf6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAA+A6mAAAE=
+</data>
+ </layer>
+ <layer height="96" name="tx_land_fire_2" visible="0" width="113">
+  <properties>
+   <property name="picture" value="new_grass" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJztwTEBAAAAwqD1T20Gf6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAA+A6mAAAE=
+</data>
+ </layer>
+ <layer height="96" name="tx_land_fire_3" visible="0" width="113">
+  <properties>
+   <property name="picture" value="new_grass" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJztwTEBAAAAwqD1T20Gf6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAA+A6mAAAE=
+</data>
+ </layer>
+ <layer height="96" name="tx_land_fire_4" visible="0" width="113">
+  <properties>
+   <property name="picture" value="new_grass" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJztwTEBAAAAwqD1T20Gf6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAA+A6mAAAE=
+</data>
+ </layer>
+ <layer height="96" name="tx_land_smog_1" visible="0" width="113">
+  <properties>
+   <property name="picture" value="new_grass" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJztwTEBAAAAwqD1T20Gf6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAA+A6mAAAE=
+</data>
+ </layer>
+ <layer height="96" name="tx_land_smog_2" visible="0" width="113">
+  <properties>
+   <property name="picture" value="new_grass" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJztwTEBAAAAwqD1T20Gf6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAA+A6mAAAE=
+</data>
+ </layer>
+ <layer height="96" name="decoration" opacity="0.94" width="113">
+  <properties>
+   <property name="picture" value="decoration" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJzt2rENgzAQQFFP4O0hZWAC6JMmEgX09DAK10JaJMvJe9L11n25sZwS3GPIKY259Cn+02rvP+UV
+Pd+aFrdFg/3S4XNDl0nbIprYexvzsP9qPaNdF9NrCF9m9wIAAACgSot3HQA48fcIAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAKBOByaoDos=
+</data>
+ </layer>
+</map>

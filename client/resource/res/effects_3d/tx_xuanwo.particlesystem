@@ -1,0 +1,15 @@
+ParticleSystem tx_xuanwo
+{
+	Emitter xuanwo01
+	{
+		file = xuanwo01.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+	Emitter xuanwo02
+	{
+		file = xuanwo02.particleemitter
+		order = 2
+		position = 0, 0, 0
+	}
+}

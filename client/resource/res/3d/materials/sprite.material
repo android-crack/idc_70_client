@@ -1,0 +1,37 @@
+material sprite
+{
+	u_worldViewProjectionMatrix = WORLD_VIEW_PROJECTION_MATRIX
+	u_mainColor = 1.0, 1.0, 1.0, 1.0
+	
+	tag 
+	{
+		renderQueue = transparent
+	}
+	renderState
+    {
+		depthWrite = false
+        depthTest = false            
+		blend = true
+		blendSrc = SRC_ALPHA
+		blendDst = ONE_MINUS_SRC_ALPHA
+    }
+	
+	sampler u_diffuseTexture
+	{
+		path = WHITE
+		minFilter = LINEAR_MIPMAP_LINEAR
+		magFilter = LINEAR
+        wrapS = CLAMP
+        wrapT = CLAMP
+		mipmap = true
+	}
+	
+	technique
+    {
+        pass
+        {
+			vertexShader = res/3d/shaders/sprite.vert
+            fragmentShader = res/3d/shaders/sprite.frag	
+        }
+    }
+}

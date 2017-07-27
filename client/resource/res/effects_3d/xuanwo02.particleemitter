@@ -1,0 +1,53 @@
+particle xuanwo02
+{
+	sprite 
+	{
+		path = 625-1.png
+		width = 128
+		height = 128
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 1
+		frameDuration = 0
+	}
+	particleCountMax = 20
+	emissionRate = 10
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 500
+	sizeStartMax = 500
+	sizeEndMin = 0
+	sizeEndMax = 0
+	energyMin = 1500
+	energyMax = 1500
+	colorStart = 1, 1, 1, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0.1691176, 0.5874241, 1, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 1, 1, 0.1176471
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.2
+	middlePercentVar = 1.490116E-08
+	position = 0, 0, 0
+	positionVar = 0.1, 0.1, 0.1
+	velocity = 0, 0, 0
+	velocityVar = 0, 0, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0.7853982
+	rotationPerParticleSpeedMax = 0.7853982
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = HORIZONTALBILLBOARD
+	isLocalSpace = True
+	preWarm = True
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

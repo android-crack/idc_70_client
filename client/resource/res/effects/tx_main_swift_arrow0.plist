@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>tx_main_swift_arrow_tubiao.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,1},{25,27}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{25,27}}</string>
+                <key>sourceSize</key>
+                <string>{25,27}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>tx_main_swift_arrow0.png</string>
+            <key>size</key>
+            <string>{27,29}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:db7e925ec67978b93a3fca58c0966d00:375cb5a58c438223b7b47540cb34313d:f9a08446c8a55f6e4710a6da41c81b41$</string>
+            <key>textureFileName</key>
+            <string>tx_main_swift_arrow0.png</string>
+        </dict>
+    </dict>
+</plist>

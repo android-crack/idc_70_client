@@ -1,0 +1,15 @@
+ParticleSystem meshwave00
+{
+	Emitter meshwave01
+	{
+		file = meshwave01.particleemitter
+		order = 0
+		position = 0, 0, 0
+	}
+	Emitter meshwave02
+	{
+		file = meshwave02.particleemitter
+		order = 0
+		position = 0, 0, 0
+	}
+}

@@ -1,0 +1,10 @@
+ParticleSystem tx rain
+{
+	Emitter rain
+	{
+		file = rain.particleemitter
+		order = 0
+		position = -1.12, 3.29, 0
+		rotate = 0, 0, 0.2113628, 0.9774077
+	}
+}

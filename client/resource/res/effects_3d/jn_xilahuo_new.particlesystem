@@ -1,0 +1,24 @@
+ParticleSystem jn_xilahuo_new
+{
+	Emitter xilahuo_lizi01
+	{
+		file = xilahuo_lizi01.particleemitter
+		order = 3
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter xilahuo_lizi02
+	{
+		file = xilahuo_lizi02.particleemitter
+		order = 1
+		position = 0, 7.191713, -11.64905
+		rotate = 0, 0, 0, 1
+	}
+	Emitter xilahuo_lizi03
+	{
+		file = xilahuo_lizi03.particleemitter
+		order = 0
+		position = 3.560181, -17.55298, 45.22357
+		rotate = 0, 0, 0, 1
+	}
+}

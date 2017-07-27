@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/playout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/thrdcall_black"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/thrdcall_titlebar_height"
+		android:background="@color/thrdcall_titlebar"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/webTitle"
+                android:layout_width="@dimen/thrdcall_titlebar_textwidth"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="@dimen/thrdcall_titlebar_textsize"
+                android:textColor="@color/thrdcall_titlebar_textcolor"
+                android:singleLine="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true">
+
+            <ImageButton
+                android:id="@+id/openByQQBrowser"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/thrdcall_btn_margin_half"
+                android:paddingRight="@dimen/thrdcall_btn_margin_half"
+                android:src="@drawable/com_tencent_msdk_webview_qqbrowser"
+                android:background="@drawable/com_tencent_msdk_webview_btn_bg" />
+
+            <ImageButton
+                android:id="@+id/more"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/thrdcall_btn_margin_half"
+                android:paddingLeft="@dimen/thrdcall_btn_margin_half"
+                android:paddingRight="@dimen/thrdcall_btn_margin_half"
+                android:src="@drawable/com_tencent_msdk_webview_more"
+                android:background="@drawable/com_tencent_msdk_webview_btn_bg" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/webview_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/toolbar"
+        android:layout_below="@+id/titlebar"
+        android:background="@color/thrdcall_white" >
+
+         <com.tencent.smtt.sdk.WebView
+             android:id="@+id/webview"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_gravity="left|top" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/thrdcall_titlebar_height"
+        android:background="@color/thrdcall_toolbar_visible"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/thrdcall_btn_margin"
+                android:paddingRight="@dimen/thrdcall_btn_margin"
+                android:visibility="gone"
+                android:src="@drawable/com_tencent_msdk_webview_left"
+                android:background="@drawable/com_tencent_msdk_webview_btn_bg" />
+            
+            <ImageButton
+                android:id="@+id/backUnclickable"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/thrdcall_btn_margin"
+                android:paddingRight="@dimen/thrdcall_btn_margin"
+                android:clickable="false"
+                android:src="@drawable/com_tencent_msdk_webview_left_unclickable"
+                android:background="@drawable/com_tencent_msdk_webview_btn_bg" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/forward"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/thrdcall_btn_margin"
+                android:paddingRight="@dimen/thrdcall_btn_margin"
+                android:visibility="gone"
+                android:src="@drawable/com_tencent_msdk_webview_right"
+                android:background="@drawable/com_tencent_msdk_webview_btn_bg" />
+            
+            <ImageButton
+                android:id="@+id/forwardUnclickable"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/thrdcall_btn_margin"
+                android:paddingRight="@dimen/thrdcall_btn_margin"
+                android:clickable="false"
+                android:src="@drawable/com_tencent_msdk_webview_right_unclickable"
+                android:background="@drawable/com_tencent_msdk_webview_btn_bg" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/stop"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/thrdcall_btn_margin"
+                android:paddingRight="@dimen/thrdcall_btn_margin"
+                android:src="@drawable/com_tencent_msdk_webview_stop"
+                android:background="@drawable/com_tencent_msdk_webview_btn_bg" />
+            
+            <ImageButton
+                android:id="@+id/refresh"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/thrdcall_btn_margin"
+                android:paddingRight="@dimen/thrdcall_btn_margin"
+                android:visibility="gone"
+                android:src="@drawable/com_tencent_msdk_webview_refresh"
+                android:background="@drawable/com_tencent_msdk_webview_btn_bg" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/land_layout_qqbrowser"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="gone">
+
+            <ImageButton
+                android:id="@+id/landOpenByQQBrowser"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/thrdcall_btn_margin"
+                android:paddingRight="@dimen/thrdcall_btn_margin"
+                android:src="@drawable/com_tencent_msdk_webview_qqbrowser"
+                android:background="@drawable/com_tencent_msdk_webview_btn_bg" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/land_layout_more"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="gone">
+
+            <ImageButton
+                android:id="@+id/landMore"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/thrdcall_btn_margin"
+                android:paddingRight="@dimen/thrdcall_btn_margin"
+                android:src="@drawable/com_tencent_msdk_webview_more"
+                android:background="@drawable/com_tencent_msdk_webview_btn_bg" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/thrdcall_btn_margin"
+                android:paddingRight="@dimen/thrdcall_btn_margin"
+                android:visibility="invisible"
+                android:src="@drawable/com_tencent_msdk_webview_left"
+                android:background="@drawable/com_tencent_msdk_webview_btn_bg" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/return_app"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/thrdcall_btn_margin"
+                android:paddingRight="@dimen/thrdcall_btn_margin"
+                android:src="@drawable/com_tencent_msdk_webview_close"
+                android:background="@drawable/com_tencent_msdk_webview_btn_bg" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

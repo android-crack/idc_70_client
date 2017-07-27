@@ -1,0 +1,21 @@
+ParticleSystem tx_0165
+{
+	Emitter 0165lizi01
+	{
+		file = 0165lizi01.particleemitter
+		order = 0
+		position = 0, 0, 0
+	}
+	Emitter 0165lizi02
+	{
+		file = 0165lizi02.particleemitter
+		order = 0
+		position = 0, 0, 0
+	}
+	Emitter 0165lizi03
+	{
+		file = 0165lizi03.particleemitter
+		order = 0
+		position = 0, 0, 0
+	}
+}

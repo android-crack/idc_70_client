@@ -1,0 +1,53 @@
+particle shuidan03
+{
+	sprite 
+	{
+		path = tx_0171_yanwu.png
+		width = 256
+		height = 256
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	particleCountMax = 20
+	emissionRate = 15
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 110
+	sizeStartMax = 110
+	sizeEndMin = 350
+	sizeEndMax = 350
+	energyMin = 800
+	energyMax = 700
+	colorStart = 1, 1, 1, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0.1875, 0.5696248, 1, 0
+	colorEndVar = 0.04044116, -0.1127283, 0, 0
+	colorMiddle = 1, 1, 1, 0.327451
+	colorMiddleVar = 0, 0, 0, 0.009803921
+	middlePercent = 0.1
+	middlePercentVar = 0
+	position = 0, 0, 0
+	positionVar = 1, 1, 1
+	velocity = 0, 0, 0
+	velocityVar = 5, 5, 5
+	acceleration = 0, 0, 0
+	accelerationVar = 5, 5, 5
+	rotationPerParticleSpeedMin = -1.5
+	rotationPerParticleSpeedMax = 1.5
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = HORIZONTALBILLBOARD
+	isLocalSpace = False
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

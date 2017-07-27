@@ -1,0 +1,14 @@
+class QTssSDK
+{
+public:
+    static QTssSDK* getInstance();
+    
+    void initTssSdk();
+    void setHandler(LUA_FUNCTION handler);
+    void send_server_data(const char* data);
+    void setUserInfo(int platform, const char* open_id, int world_id, const char* uid);
+    void setGameStatusFrontground();
+    void setGameStatusBackground();
+    
+    void callback(int code, const char *msg);
+};

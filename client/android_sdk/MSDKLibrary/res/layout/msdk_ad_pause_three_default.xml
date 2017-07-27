@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:id="@+id/msdk_ad_frame"
+        android:layout_height="fill_parent" 
+        android:layout_width="@dimen/msdk_ad_dlg_image_width" 
+        android:background="@color/msdk_ad_bg_white"
+        android:orientation="vertical">
+        
+   <!-- HEAD -->
+   <LinearLayout
+        android:id="@+id/msdk_ad_titleLine"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/msdk_ad_three_default_title_height"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:text="@string/msdk_ad_pause_header"
+            android:textColor="@color/msdk_ad_content_text_color"
+            android:textSize="@dimen/msdk_ad_three_default_title_size" />
+    </LinearLayout>
+    
+  <View  
+        android:layout_width="fill_parent"  
+        android:layout_height="@dimen/msdk_ad_divide_line_height" 
+        android:background="@color/msdk_ad_divide_line_color" /> 
+    
+     <LinearLayout
+     		android:id="@+id/middle_content"
+     		android:layout_width="fill_parent"
+     		android:layout_height="wrap_content"
+     		android:paddingLeft="@dimen/msdk_ad_three_default_padding_left"
+     		android:paddingRight="@dimen/msdk_ad_three_default_padding_right"
+     		android:background="@color/msdk_ad_btn_layout_bg_color"
+     		android:orientation="vertical">
+         
+          <Button
+            android:id="@+id/msdk_ad_btn_1"
+            android:tag="FIRST_BTN_POSITION"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/msdk_ad_three_default_btn_height"
+            android:layout_marginTop="@dimen/msdk_ad_three_default_btn_bottom"
+            android:background="@drawable/msdk_ad_first_btn_back_bkg"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/msdk_ad_pause_btn1_text"
+            android:textColor="@color/msdk_ad_btn_text_color"
+            android:textSize="@dimen/msdk_ad_dlg_btn_textsize" />
+          
+          <Button
+            android:id="@+id/msdk_ad_btn_2"
+            android:tag="SECOND_BTN_POSITION"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/msdk_ad_three_default_btn_height"
+            android:layout_marginTop="@dimen/msdk_ad_three_default_btn_top"
+            android:background="@drawable/msdk_ad_second_btn_back_bkg"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/msdk_ad_pause_btn2_text"
+            android:textColor="@color/msdk_ad_btn_text_color"
+            android:textSize="@dimen/msdk_ad_dlg_btn_textsize" />
+          
+          <Button
+            android:id="@+id/msdk_ad_btn_3"
+            android:tag="THIRD_BTN_POSITION"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/msdk_ad_three_default_btn_height"
+            android:layout_marginTop="@dimen/msdk_ad_three_default_btn_top"
+            android:layout_marginBottom="@dimen/msdk_ad_three_default_btn_bottom"
+            android:background="@drawable/msdk_ad_third_btn_back_bkg"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/msdk_ad_pause_btn3_text"
+            android:textColor="@color/msdk_ad_btn_text_color"
+            android:textSize="@dimen/msdk_ad_dlg_btn_textsize" />
+     </LinearLayout>
+    
+</LinearLayout>
+

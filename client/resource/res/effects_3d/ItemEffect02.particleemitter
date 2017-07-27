@@ -1,0 +1,53 @@
+particle ItemEffect02
+{
+	sprite 
+	{
+		path = blingbling_white.png
+		width = 64
+		height = 64
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	particleCountMax = 6
+	emissionRate = 3
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 20
+	sizeStartMax = 40
+	sizeEndMin = 5
+	sizeEndMax = 0
+	energyMin = 800
+	energyMax = 1200
+	colorStart = 1, 1, 1, 1
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 1, 1, 1, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 1, 1, 1
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.5
+	middlePercentVar = 0
+	position = 0, 0, 0
+	positionVar = 6, 15, 6
+	velocity = 0, 0, 0
+	velocityVar = 0, 0, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0.5235988
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = BILLBOARD
+	isLocalSpace = False
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

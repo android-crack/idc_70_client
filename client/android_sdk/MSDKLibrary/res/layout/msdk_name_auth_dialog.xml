@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+    
+    <RelativeLayout  
+        android:paddingTop="0dp"
+        android:paddingRight="9dp"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content">
+        <ImageView 
+            android:paddingTop="15dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:id="@+id/msdk_name_auth_id_close"
+            android:src="@drawable/msdk_name_auth_btn_close"
+            android:layout_alignParentRight="true"
+        	android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    
+    <LinearLayout  
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content">
+        <ImageView 
+            android:id="@+id/msdk_name_auth_id_img_tips"
+            android:src="@drawable/msdk_name_auth_success"
+            android:layout_alignParentRight="true"
+        	android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"/>
+        <TextView 
+            android:text="@string/msdk_name_auth_success"
+            android:id="@+id/msdk_name_auth_id_tips"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#2d2d2e"
+            android:layout_marginTop="7dp"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"/>
+        
+        <TextView 
+            android:layout_marginTop="20dp"
+            android:textSize="12dp"
+            android:textColor="#545659"
+            android:id="@+id/msdk_name_auth_id_tips_des"
+            android:text="@string/msdk_name_auth_success_des"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"/>
+        
+        <TextView 
+            android:text="@string/msdk_name_auth_qq"
+            android:layout_marginTop="5dp"
+            android:textColor="#61acf1"
+            android:textSize="16dp"
+            android:id="@+id/msdk_name_auth_id_tips_qq"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"/>
+        
+    </LinearLayout>
+    
+    <Button 
+        android:text="@string/msdk_name_auth_login"
+        android:id="@+id/msdk_name_auth_id_confirm"
+        android:layout_marginTop="20dp"
+        android:background="#3997ee"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+    	android:layout_height="55dp"/>
+
+</LinearLayout>
+</ScrollView>

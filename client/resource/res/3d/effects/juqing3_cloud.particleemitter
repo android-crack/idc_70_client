@@ -1,0 +1,61 @@
+particle juqing3_cloud
+{
+	sprite 
+	{
+		path = yan_ml.png
+		width = 256
+		height = 256
+		blending = ALPHA BLENDED
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 30
+	}
+	color 
+	{
+		curve 
+		{
+			type = 4
+			componentCount = 4
+			times = 0, 261, 484, 710, 1000
+			values = 0.3607843, 0.3607843, 0.3607843, 0, 0.3098039, 0.3098039, 0.3098039, 0.372549, 0.2666667, 0.2666667, 0.2666667, 0.4509804, 0.2627451, 0.2627451, 0.2627451, 0.3333333, 0.2588235, 0.2588235, 0.2588235, 0
+			inTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+			outTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+		}
+		type = 1
+	}
+	particleCountMax = 30
+	emissionRate = 15
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	energyMin = 4000
+	energyMax = 5000
+	position = 0, 0, 0
+	positionVar = 30, 6, 2
+	velocity = 4.5, 0, -2
+	velocityVar = -1.5, 0, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = -0.3490658
+	rotationPerParticleSpeedMax = 0.3490658
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	delayTime = 0.2
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+	gravity = 0
+	lengthScale = 1
+	sizeStartMin = 10
+	sizeStartMax = 6
+	sizeEndMin = 20
+	sizeEndMax = 15
+}

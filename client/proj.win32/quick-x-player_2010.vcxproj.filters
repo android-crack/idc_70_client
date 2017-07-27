@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{54d36d2c-b373-4c65-962b-76ff1fedc28b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{beae706d-585c-478d-af5c-242cdf26315d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shareSDK">
+      <UniqueIdentifier>{c11c9331-f816-46b8-bdeb-f9b822f862e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectConfigDialog.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="app.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\LuaQ2Common.cpp" />
+    <ClCompile Include="..\sources\SimulatorConfig.cpp" />
+    <ClCompile Include="..\sources\QVideoPlayer.cpp" />
+    <ClCompile Include="..\sources\Q2Common.cpp" />
+    <ClCompile Include="..\sources\AppDelegate.cpp" />
+    <ClCompile Include="..\..\gameplay3d\lib\qtz_component\gameplay\CCLayer3D.cpp" />
+    <ClCompile Include="..\..\gameplay3d\lib\qtz_component\gameplay\CCPlatform3D.cpp" />
+    <ClCompile Include="..\..\gameplay3d\lib\qtz_component\gameplay\CCPlistFrame.cpp" />
+    <ClCompile Include="..\..\gameplay3d\lib\qtz_component\gameplay\CCRenderTarget3D.cpp" />
+    <ClCompile Include="..\..\gameplay3d\lib\qtz_component\gameplay\lua_extra.cpp" />
+    <ClCompile Include="..\..\gameplay3d\lib\qtz_component\gameplay\LuaGame.cpp" />
+    <ClCompile Include="..\..\gameplay3d\lib\qtz_component\gameplay\CCGameThread.cpp" />
+    <ClCompile Include="fcoredump_win32.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\sdk\QSDKCommon.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\shareSDK\QShareSDK.cpp">
+      <Filter>shareSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\shareSDK\win32\QShareSDKWin32.cpp">
+      <Filter>shareSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\sdk\win32\QSDKWin32.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\tssSDK\QTssSDK.cpp" />
+    <ClCompile Include="..\sources\tssSDK\win32\QTssSDKWin32.cpp" />
+    <ClCompile Include="..\sources\mscSDK\QMSCSDK.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectConfigDialog.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="app.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sources\LuaQ2Common.h" />
+    <ClInclude Include="..\sources\Q2Common.h" />
+    <ClInclude Include="..\sources\SimulatorConfig.h" />
+    <ClInclude Include="..\sources\QVideoPlayer.h" />
+    <ClInclude Include="..\sources\AppDelegate.h" />
+    <ClInclude Include="..\..\gameplay3d\lib\qtz_component\gameplay\CCLayer3D.h" />
+    <ClInclude Include="..\..\gameplay3d\lib\qtz_component\gameplay\CCPlatform3D.h" />
+    <ClInclude Include="..\..\gameplay3d\lib\qtz_component\gameplay\CCPlistFrame.h" />
+    <ClInclude Include="..\..\gameplay3d\lib\qtz_component\gameplay\CCRenderTarget3D.h" />
+    <ClInclude Include="..\..\gameplay3d\lib\qtz_component\gameplay\LuaGame.h" />
+    <ClInclude Include="..\..\gameplay3d\lib\qtz_component\gameplay\CCGameThread.h" />
+    <ClInclude Include="..\sources\fcoredump.h" />
+    <ClInclude Include="..\sources\sdk\QSDK.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sources\shareSDK\QShareSDK.h">
+      <Filter>shareSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sources\tssSDK\QTssSDK.h" />
+    <ClInclude Include="..\sources\mscSDK\QMSCSDK.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico">
+      <Filter>win32</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>win32</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

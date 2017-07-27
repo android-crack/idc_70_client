@@ -1,0 +1,61 @@
+particle tukoushui
+{
+	sprite 
+	{
+		path = h_water_0324_06.png
+		width = 128
+		height = 128
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 4
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	color 
+	{
+		curve 
+		{
+			type = 4
+			componentCount = 4
+			times = 0, 338, 396, 573, 1000
+			values = 0.3882353, 0.345098, 0.2470588, 1, 0.654902, 0.5647059, 0.3764706, 1, 0.654902, 0.5647059, 0.372549, 1, 0.654902, 0.5686275, 0.3647059, 1, 0.6627451, 0.5882353, 0.3490196, 0
+			inTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+			outTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+		}
+		type = 1
+	}
+	particleCountMax = 20
+	emissionRate = 15
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	energyMin = 200
+	energyMax = 420
+	position = 0, 0, 0
+	positionVar = 0, 0, 0
+	velocity = 0.5, -0.1, 0.14
+	velocityVar = -0.09999999, 0.05, -0.01000001
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = -0.1745329
+	rotationPerParticleSpeedMax = 0.1745329
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0.1
+	renderType = BILLBOARD
+	isLocalSpace = False
+	preWarm = False
+	delayTime = 9.5
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+	gravity = 1
+	lengthScale = 1
+	sizeStartMin = 0.02
+	sizeStartMax = 0.025
+	sizeEndMin = 0.068
+	sizeEndMax = 0.075
+}

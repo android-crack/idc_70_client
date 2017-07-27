@@ -1,0 +1,17 @@
+ParticleSystem meshwave04
+{
+	Emitter meshwaveC_big
+	{
+		file = meshwaveC_big.particleemitter
+		order = 0
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter meshwaveF_small
+	{
+		file = meshwaveF_small.particleemitter
+		order = 0
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+}

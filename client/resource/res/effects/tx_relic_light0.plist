@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>flare2b_zergpickup.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,1},{256,240}}</string>
+                <key>offset</key>
+                <string>{0,8}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{256,240}}</string>
+                <key>sourceSize</key>
+                <string>{256,256}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>tx_relic_light0.png</string>
+            <key>size</key>
+            <string>{258,242}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:3d70476f6f1ec783f2c12c2a17c44003:cccc3469b1b6ccc3fdd9adacf3d9b62a:0551dba4688f60d983f72f366b51aa78$</string>
+            <key>textureFileName</key>
+            <string>tx_relic_light0.png</string>
+        </dict>
+    </dict>
+</plist>

@@ -1,0 +1,53 @@
+particle ZiBao_huo
+{
+	sprite 
+	{
+		path = tx_fire_xulie.png
+		width = 64
+		height = 64
+		blending = ALPHA BLENDED
+		animated = True
+		looped = False
+		frameCount = 16
+		frameRandomOffset = 0
+		frameDuration = 80
+	}
+	particleCountMax = 10
+	emissionRate = 5
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 150
+	sizeStartMax = 160
+	sizeEndMin = 230
+	sizeEndMax = 280
+	energyMin = 1800
+	energyMax = 1900
+	colorStart = 1, 1, 1, 1
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0, 0, 0, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 1, 1, 1
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.45
+	middlePercentVar = 0.04999998
+	position = 0, 0, 0
+	positionVar = 3, 20, 3
+	velocity = 0, 50, 0
+	velocityVar = 0, -10, 0
+	acceleration = 0, -15, 0
+	accelerationVar = 0, 5, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0.4
+	renderType = BILLBOARD
+	isLocalSpace = False
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

@@ -1,0 +1,11 @@
+material ex_bosaidong_2
+{
+    sampler u_diffuseTexture
+    {
+        path = ex_bosaidong_2.fbm/ex_bosaidong_2.png
+        wrapS = REPEAT
+        wrapT = REPEAT
+    }
+
+}
+

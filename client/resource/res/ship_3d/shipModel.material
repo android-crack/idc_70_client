@@ -1,0 +1,329 @@
+material skinModel
+{
+    u_worldViewProjectionMatrix = WORLD_VIEW_PROJECTION_MATRIX
+    u_matrixPalette = MATRIX_PALETTE
+   
+ 	tag 
+	{
+		renderQueue = alphatest
+	} 
+
+	sampler u_diffuseTexture
+	{
+		mipmap = true
+		minFilter = LINEAR_MIPMAP_LINEAR
+		magFilter = LINEAR
+	}
+	// 通用流光效果
+	technique common_texture_flow
+	{
+		pass texture_flow:texture_flow_base
+		{
+		}
+	}
+	// 通用流光效果加描边
+	technique common_texture_flow_outline
+	{
+		pass texture_flow:texture_flow_base
+		{
+			renderState
+            {
+                cullFace = true
+                depthTest = true
+				blend = true
+				
+				// glBlendFunc, 
+				//blend =  ADD,ADD (true, false, SUB)
+				blendSrc = SRC_ALPHA,ZERO
+				blendDst = ONE_MINUS_SRC_ALPHA,ZERO
+            }
+		}
+		pass outline:outline_base
+        {
+			u_outlineColor = 0.81960784313725, 0.15294117647059, 0.15294117647059  
+			renderState
+			{
+			
+				depthTest = true
+				blend = true
+				blendSrc = DST_ALPHA
+				blendDst = ONE_MINUS_DST_ALPHA
+			}
+		}
+	}
+	
+    technique skinning
+    {
+        pass skinning:discard_alpha_textured
+        {
+        }
+    }
+	technique skinning_outline
+    {
+		pass outline:outline_base
+        {
+        }
+        pass skinning:discard_alpha_textured
+        {
+        }
+    }
+	
+ 	technique ghost
+	{
+		pass one:ghost_base
+        {
+			u_pass = 0
+			u_mainColor = 1, 0.8, 0, 0.1
+        }
+ 		pass two:ghost_base
+		{
+			u_pass = 1
+			u_mainColor = 1, 0.8, 0, 0.2
+		}  
+		pass three:ghost_base
+		{
+			u_pass = 2
+			u_mainColor = 1, 0.8, 0, 0.3
+		} 
+		pass four:ghost_base
+		{
+			u_pass = 3
+			u_mainColor = 1, 0.8, 0, 0.4
+		}
+		pass five:ghost_base
+		{
+			u_pass = 4
+			u_mainColor = 1, 0.8, 0, 0.5
+		}
+		pass six:ghost_base
+		{
+			u_pass = 5
+			u_mainColor = 1, 0.8, 0, 0.6
+		}
+	} 
+
+	technique ghost_outline
+	{
+		pass one:ghost_base
+        {
+			u_pass = 0
+			u_mainColor = 0, 0.09019608, 1,0.1254902
+        }
+ 		pass two:ghost_base
+		{
+			u_pass = 1
+			u_mainColor = 0, 0.09019608, 1,0.1
+		}  
+		pass three:ghost_base
+		{
+			u_pass = 2
+			u_mainColor = 0, 0.09019608, 1,0.075
+		} 
+		pass four:ghost_base
+		{
+			u_pass = 3
+			u_mainColor = 0, 0.09019608, 1,0.05
+		}
+		pass five:ghost_base
+		{
+			u_pass = 4
+			u_mainColor = 0, 0.09019608, 1,0.025
+		}
+		pass six:ghost_base
+		{
+			u_pass = 5
+			u_mainColor = 0, 0.09019608, 1,0.012
+		}
+	} 
+	
+	technique texture_flow2
+	{
+		pass texture_flow:texture_flow2_base
+		{
+		}
+	}
+	technique texture_flow2_outline
+	{
+		pass texture_flow:texture_flow2_base
+		{
+		}
+	}
+		
+
+	technique texture_flow3
+	{
+		pass texture_flow:texture_flow_base
+		{
+			sampler u_maskTex
+			{
+				path = res/flowTex_3d/alpha.png
+				minFilter = LINEAR_MIPMAP_LINEAR
+				magFilter = LINEAR
+				wrapS = REPEAT
+				wrapT = REPEAT
+				mipmap = true
+			}
+			u_flowTexColor = 0.521,0.313,0,0.627
+			sampler u_flowTex
+			{
+				path = res/flowTex_3d/fireball.png
+				minFilter = LINEAR_MIPMAP_LINEAR
+				magFilter = LINEAR
+				wrapS = REPEAT
+				wrapT = REPEAT
+				mipmap = true
+			}
+		}
+	}
+	technique texture_flow3_outline
+	{
+		pass texture_flow:texture_flow_base
+		{
+			sampler u_maskTex
+			{
+				path = res/flowTex_3d/alpha.png
+				minFilter = LINEAR_MIPMAP_LINEAR
+				magFilter = LINEAR
+				wrapS = REPEAT
+				wrapT = REPEAT
+				mipmap = true
+			}
+			u_flowTexColor = 0.521,0.313,0,0.627
+			sampler u_flowTex
+			{
+				path = res/flowTex_3d/fireball.png
+				minFilter = LINEAR_MIPMAP_LINEAR
+				magFilter = LINEAR
+				wrapS = REPEAT
+				wrapT = REPEAT
+				mipmap = true
+			}
+		}
+	}
+}
+
+pass textured
+{
+    renderState
+    {
+        cullFace = true
+        depthTest = true
+    }
+	u_mainColor = 1.0,1.0,1.0,1.0
+	u_mainIntensity = 1.0
+	sampler u_lightmapTexture
+	{
+		//path = lightmapping/LightmapFar-0.png
+		path = WHITE
+		minFilter = LINEAR_MIPMAP_LINEAR
+		magFilter = LINEAR
+		wrapS = REPEAT
+		wrapT = REPEAT
+		mipmap = true
+	}
+	u_lightmapIntensity = 1.0
+	u_lightmapST = 0,0,0,0
+	vertexShader = res/shaders/textured.vert
+	fragmentShader = res/shaders/textured.frag
+	addDefinesMainColor = MAIN_COLOR
+	addDefinesMainColor = LIGHTMAP
+}
+
+pass discard_alpha_textured:textured
+{
+	//renderState
+	//{
+	//	blend = true
+	//	blendSrc = SRC_ALPHA
+	//	blendDst = ONE_MINUS_SRC_ALPHA
+	//}
+	addDefinesDiscardAlpha = TEXTURE_DISCARD_ALPHA
+}
+
+pass outline_base:discard_alpha_textured
+{
+	u_outlineColor = 1.0, 1.0, 1.0
+	u_outlineScale = 4
+
+	renderState
+	{
+		cullFace = true
+		depthTest = true
+		blend = true
+		
+		//blend =  ADD,ADD (true, false, SUB)
+		blendSrc = SRC_ALPHA,ZERO
+		blendDst = ONE_MINUS_SRC_ALPHA,ZERO
+	}
+
+	addDefinesOutLine = OUTLINE
+}
+
+pass texture_flow_base:discard_alpha_textured
+{
+	u_time = GAME_TIME
+	u_texSpeed = 0, 0, 0.3, 0
+	u_mainIntensity = 1
+	u_flowIntensity = 1.0
+	u_mainColor = 1, 1, 1, 1
+	u_diffuseTextureST = 1, 1, 0, 0
+	u_maskTexST = 1, 1, 0, 0	
+	sampler u_maskTex
+	{
+		path = WHITE
+		minFilter = LINEAR_MIPMAP_LINEAR
+		magFilter = LINEAR
+		wrapS = REPEAT
+		wrapT = REPEAT
+		mipmap = true
+	}
+	u_flowTexColor = 0.7132353, 0.5768008, 0.2464857, 0.4705882
+	u_flowTexST = 1, 1, 0, 0
+	sampler u_flowTex
+	{
+		path = BLACK
+		minFilter = LINEAR_MIPMAP_LINEAR
+		magFilter = LINEAR
+		wrapS = REPEAT
+		wrapT = REPEAT
+		mipmap = true
+	}
+	addDefinesTextureFlow = TEXTURE_FLOW
+}
+
+pass ghost_base:texture_flow2_base
+{
+	u_pow = 20
+	u_pass = 0
+	addDefinesGhost = GHOST
+}
+
+pass texture_flow2_base:textured
+{ 
+	u_time = GAME_TIME
+	u_mainColor = 0, 0.09019608, 1, 0.1254902
+	u_mainIntensity = 1.0
+	u_flowTexColor = 1.0,1.0,1.0,1.0
+	u_flowIntensity = 2.0
+	u_diffuseTextureST = 1, 1, 0, 0
+
+	u_flowTexST = 1, 1, 0, 0
+	sampler u_flowTex
+	{
+		path = res/flowTex_3d/gas.png
+		minFilter = LINEAR_MIPMAP_LINEAR
+		magFilter = LINEAR
+		wrapS = REPEAT
+		wrapT = REPEAT
+		mipmap = true
+	}
+	u_texSpeed = 0, 0, 0, 0.2
+	renderState		{
+		cullFace = true
+		depthTest = true
+		blend = true
+		blendSrc = SRC_ALPHA
+		blendDst = ONE
+	}
+	addDefinesTextureFlow= TEXTURE_FLOW
+}

@@ -1,0 +1,58 @@
+<map height="28" orientation="orthogonal" renderorder="right-down" tileheight="64" tilewidth="64" version="1.0" width="48">
+ <tileset firstgid="1" name="area_piece2" tileheight="64" tilewidth="64">
+  <image height="64" source="area_piece_wall2.png" width="128" />
+ </tileset>
+ <tileset firstgid="3" name="new_land" tileheight="64" tilewidth="64">
+  <image height="1472" source="new_land.png" width="1984" />
+ </tileset>
+ <tileset firstgid="499" name="sand_tree" tileheight="64" tilewidth="64">
+  <image height="704" source="sand_tree.png" width="1088" />
+ </tileset>
+ <layer height="28" name="land" width="48">
+  <properties>
+   <property name="picture" value="new_land" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJzt2LsvQ2Ech/HfCYPNYBFl8h8YXAaXARuDEomaSFgoEiwmA3EfTC5psYi4hAnthM7UJS6JUdsN
+M5NHjg7kvE2k4X1Pcr7JJ8RJ5Ok70L4i2a3eEmlAgYMznsey/P1/uXYE6OxU9N/z/EF3pGKDGEKQ
+zgFF/wvPXzV3Om0K05jBmKL9mGc5fM219LY6bQnLWBHn9k1+fo4ivvcZ2L+NHewiT76feQRRJFBm
+YHt6JziFD8UoEfvMLxDHGxoN7r/FHcpRgUqxzzyJFPINbk/vGX60ok3sM3/XWvT79aEfQXHHmTtt
+ApO6I7x58+bNpZvlb381alz2PyBEbxhraIEf4y55DXN0HuLo870netCLRRf0r9O4gTgucfX1HnoU
+W1jVHZhhpYjQGMUTEj8+v8SwpztSsVrU4ZrGG8Vnx0eD7x46EECSxpSi3+S7h2GMiLrb9LuHeSxI
+5vYqy9y7hxDCom5vQrNl7t3DPg5QKM79Xei2/u/u4QNHP03m
+</data>
+ </layer>
+ <layer height="28" name="block" opacity="0.5" width="48">
+  <properties>
+   <property name="picture" value="new_land" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJztlkEKwCAQA+1f/P8bhd5tCyabijOQ62aUBe1Xa50Qcucr6nmq3tSsv/m7UN9ZlfesT+lfgWNn
+d/evBP8s+GfBPwv+z3PdON/f3f5viT2s8nedQdH5NgP/9W5CTsgA3FBZnQ==
+</data>
+ </layer>
+ <layer height="28" name="wall1" width="48">
+  <properties>
+   <property name="picture" value="area_piece2" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJzt17EJACAMRUHdzNEdTRtrE1BQuIPXfkiZUoClBju5lQkAAIA3zB+t7Ups9chepnuXw38GWhcI
+Pg==
+</data>
+ </layer>
+ <layer height="28" name="wall2" width="48">
+  <properties>
+   <property name="picture" value="area_piece2" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJztzrEJACAUxNBzU0d3FG0shY8gKcyrUySRtLWk0w8n620Umv7+5I7/LP9Z/rP8Z/nP8p/lP8t/
+lv+syr/0kwkjmxkp
+</data>
+ </layer>
+ <layer height="28" name="tree" width="48">
+  <properties>
+   <property name="picture" value="sand_tree" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJzt1zlPAlEUhuE7U7L8AsAaW9kRESjYt4J9kVUxAWwQ/jyY+FLQ2JEMmJOcL3nayZvMLe41xrk9
+2caEEEbEdvDDN16f1gFekUEWOUH977R+oIY6GmgK6Z/ROccCS8SRENJ+3prWDbb4Qh4FQf07Wr+x
+x0FQt06n0+l0Op1O9oLcPR8F3z+jtMeE9SfpfUYKL0gL6y/SW0IZFVSFvR9bdLbRQRc9Ye/HEZ1j
+vGGCqZDu8/6ek6NlzAk/1v81XbPLORnCBTc88Ar6BytaP+GDHwE83Ln/F05lGMg=
+</data>
+ </layer>
+</map>

@@ -1,0 +1,38 @@
+ParticleSystem pd_0164
+{
+	Emitter pd_0164di
+	{
+		file = pd_0164di.particleemitter
+		order = 0
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter pd_0164huan01
+	{
+		file = pd_0164huan01.particleemitter
+		order = 2
+		position = 0, 0, 0
+		rotate = 0.7071068, 0, 0, 0.7071068
+	}
+	Emitter pd_0164huan02
+	{
+		file = pd_0164huan02.particleemitter
+		order = 1
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter pd_0164lizi01
+	{
+		file = pd_0164lizi01.particleemitter
+		order = 0
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter pd_0164lizi02
+	{
+		file = pd_0164lizi02.particleemitter
+		order = 0
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+}

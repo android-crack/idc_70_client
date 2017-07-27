@@ -1,0 +1,9 @@
+ModelParticleConfig tx_0164_model
+{
+	ParticleConfig tx_0164_model
+	{
+		file = pd_0164.particlesystem
+		position = 0, 0, 0
+		rotation = 0, 0, 0, 1
+	}
+}

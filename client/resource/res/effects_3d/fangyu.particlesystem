@@ -1,0 +1,21 @@
+ParticleSystem fangyu
+{
+	Emitter fangyu01
+	{
+		file = fangyu01.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+	Emitter fangyu02
+	{
+		file = fangyu02.particleemitter
+		order = 2
+		position = 0, 0, 0
+	}
+	Emitter fangyulizi
+	{
+		file = fangyulizi.particleemitter
+		order = 3
+		position = 0, 0, 0
+	}
+}

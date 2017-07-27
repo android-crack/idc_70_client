@@ -1,0 +1,9 @@
+class CCRenderTarget3D : public CCLayer
+{
+    static CCRenderTarget3D * create(unsigned int width, unsigned int height, int maxTargetCount = 1);
+	void addTargetSprite(int layer, CCSprite *sprite);
+	void removeTargetSprite(int layer);
+	void removeTargetSprite(CCSprite *sprite);
+};
+
+

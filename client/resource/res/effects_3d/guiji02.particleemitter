@@ -1,0 +1,53 @@
+particle guiji02
+{
+	sprite 
+	{
+		path = watersan.png
+		width = 64
+		height = 64
+		blending = ADDITIVE
+		animated = True
+		looped = False
+		frameCount = 16
+		frameRandomOffset = 0
+		frameDuration = 80
+	}
+	particleCountMax = 5
+	emissionRate = 10
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 10
+	sizeStartMax = 15
+	sizeEndMin = 25
+	sizeEndMax = 20
+	energyMin = 1300
+	energyMax = 1200
+	colorStart = 1, 1, 1, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 1, 1, 1, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 1, 1, 0.4705882
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.4
+	middlePercentVar = 2.980232E-08
+	position = 0, 0, 0
+	positionVar = 0.1, 0.1, 30
+	velocity = 0, 0, 11
+	velocityVar = 0, 0, 1
+	acceleration = 0, 7.5, 7.5
+	accelerationVar = 0, 2.5, 2.5
+	rotationPerParticleSpeedMin = -0.5235988
+	rotationPerParticleSpeedMax = 0.5235988
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0.8
+	renderType = HORIZONTALBILLBOARD
+	isLocalSpace = False
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 3.141593
+}

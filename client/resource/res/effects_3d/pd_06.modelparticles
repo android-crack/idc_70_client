@@ -1,0 +1,9 @@
+ModelParticleConfig pd_06
+{
+	ParticleConfig pd_06
+	{
+		file = pd_06.particlesystem
+		position = 0, 0, 0
+		rotation = 0, 0, 0, 1
+	}
+}

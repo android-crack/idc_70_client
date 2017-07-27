@@ -1,0 +1,61 @@
+particle 0166_fire02
+{
+	sprite 
+	{
+		path = smokewhite02.png
+		width = 128
+		height = 128
+		blending = ALPHA BLENDED
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	color 
+	{
+		curve 
+		{
+			type = 4
+			componentCount = 4
+			times = 0, 84, 138, 938, 1000
+			values = 1, 0.9294118, 0, 1, 0.9843137, 0.509804, 0, 1, 0.9254902, 0.4784314, 0, 1, 0, 0, 0, 0.07058824, 0, 0, 0, 0
+			inTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+			outTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+		}
+		type = 1
+	}
+	particleCountMax = 20
+	emissionRate = 60
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	energyMin = 200
+	energyMax = 400
+	position = 0, 0, 0
+	positionVar = 0, 0, 0
+	velocity = 0, 0, 0
+	velocityVar = -5, -5, -5
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = -0.3490658
+	rotationPerParticleSpeedMax = 0.3490658
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = -1
+	renderType = BILLBOARD
+	isLocalSpace = False
+	preWarm = True
+	delayTime = 0
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+	gravity = 0
+	lengthScale = 1
+	sizeStartMin = 40
+	sizeStartMax = 50
+	sizeEndMin = 50
+	sizeEndMax = 60
+}

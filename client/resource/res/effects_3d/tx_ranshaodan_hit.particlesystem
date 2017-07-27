@@ -1,0 +1,31 @@
+ParticleSystem tx_ranshaodan_hit
+{
+	Emitter ranshaodan_hit
+	{
+		file = ranshaodan_hit.particleemitter
+		order = 3
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter ranshaodan_huan
+	{
+		file = ranshaodan_huan.particleemitter
+		order = 2
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter ranshaodan_huan02
+	{
+		file = ranshaodan_huan02.particleemitter
+		order = 1
+		position = 0, 60, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter ranshaodan_san
+	{
+		file = ranshaodan_san.particleemitter
+		order = 3
+		position = 0, 50, 0
+		rotate = 0, 0, 0, 1
+	}
+}

@@ -1,0 +1,53 @@
+particle jiagu03
+{
+	sprite 
+	{
+		path = 264-1.png
+		width = 32
+		height = 32
+		blending = ADDITIVE
+		animated = True
+		looped = True
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 80
+	}
+	particleCountMax = 20
+	emissionRate = 30
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 5
+	sizeStartMax = 2
+	sizeEndMin = 0
+	sizeEndMax = 0.1
+	energyMin = 500
+	energyMax = 800
+	colorStart = 1, 1, 1, 1
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 1, 1, 1, 1
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 0, 0, 0, 0
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0
+	middlePercentVar = 0
+	position = 0, 0, 0
+	positionVar = 1, 1, 1
+	velocity = 0, 0, 0
+	velocityVar = 50, 50, 50
+	acceleration = 0, 0, 0
+	accelerationVar = 20, 20, 20
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 0
+}

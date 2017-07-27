@@ -1,0 +1,81 @@
+material textured
+{
+    u_worldViewProjectionMatrix = WORLD_VIEW_PROJECTION_MATRIX
+    
+	u_diffuseTextureST = 1, 1, 0, 0
+    sampler u_diffuseTexture
+    {
+		path = tiegou1.fbm/tiegou1.png
+        mipmap = true
+        wrapS = CLAMP
+        wrapT = CLAMP
+        minFilter = LINEAR_MIPMAP_LINEAR
+        magFilter = LINEAR
+    }
+
+    renderState
+    {
+        cullFace = true
+        depthTest = true
+    }
+    
+    technique
+    {
+        pass 
+        {
+            vertexShader = res/shaders/textured.vert
+            fragmentShader = res/shaders/textured.frag
+        }
+    }
+}
+
+material tiegou1 : textured
+{
+ 
+	technique
+	{
+		tag 
+		{
+			renderQueue = transparent
+		}
+		u_time = GAME_TIME
+		u_texSpeed = 0, 0, 0.5, 0.8
+		u_mainIntensity = 2
+		u_mainColor = 1, 1, 1, 1
+	
+		u_maskTexST = 1, 1, 0, 0
+		sampler u_maskTex
+		{
+			path = WHITE
+			minFilter = LINEAR_MIPMAP_LINEAR
+			magFilter = LINEAR
+			wrapS = REPEAT
+			wrapT = REPEAT
+			mipmap = true
+		}
+		u_flowTexColor = 0.9191176, 0.838019, 0.7163711, 0.627451
+		u_flowTexST = 0.4, 0.2, 0, 0
+		u_flowIntensity = 1.0
+		sampler u_flowTex
+		{
+			path = res/flowTex_3d/zhaozi.png
+			minFilter = LINEAR_MIPMAP_LINEAR
+			magFilter = LINEAR
+			wrapS = REPEAT
+			wrapT = REPEAT
+			mipmap = true
+		}
+ 		renderState		{
+			//cullFace = false
+			//depthTest = true
+			//depthWrite = false
+			blend = true
+			blendSrc = SRC_COLOR
+			blendDst = ONE_MINUS_SRC_ALPHA
+		} 
+		pass
+		{
+			defines = TEXTURE_FLOW;MAIN_COLOR
+		}
+	}
+}

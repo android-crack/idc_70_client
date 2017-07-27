@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="msdk_ad_transparent">#00000000</drawable>
+    <drawable name="msdk_ad_btn_background">#F9F9F9</drawable>
+    
+    <color name="msdk_ad_bg_white">#FFFFFF</color>
+    <color name="msdk_ad_btn_text_color">#FFFFFF</color>
+    <color name="msdk_ad_content_text_color">#000000</color>
+    <color name="msdk_ad_divide_line_color">#D9D9D9</color>
+    <color name="msdk_ad_btn_layout_bg_color">#F1F1F1</color>
+</resources>

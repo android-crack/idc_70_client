@@ -1,0 +1,53 @@
+particle pd_01huo
+{
+	sprite 
+	{
+		path = T_VFX_FIRE_ANIM02_64.png
+		width = 64
+		height = 64
+		blending = ADDITIVE
+		animated = True
+		looped = False
+		frameCount = 4
+		frameRandomOffset = 0
+		frameDuration = 10
+	}
+	particleCountMax = 20
+	emissionRate = 20
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 15
+	sizeStartMax = 20
+	sizeEndMin = 10
+	sizeEndMax = 5
+	energyMin = 1000
+	energyMax = 1200
+	colorStart = 1, 0.8482754, 0, 0.06666667
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0.3676469, 0, 0, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 0.2689656, 0, 0.827451
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.15
+	middlePercentVar = -0.04999999
+	position = 0, 0, 0
+	positionVar = 1, 1, 1
+	velocity = 0, 0, 12.5
+	velocityVar = 0, 0, 2.5
+	acceleration = 0, 0, 2.5
+	accelerationVar = 0, 0, -2.5
+	rotationPerParticleSpeedMin = -1.5
+	rotationPerParticleSpeedMax = 1.5
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 1
+	systemDuration = 0
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = True
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

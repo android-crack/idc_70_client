@@ -1,0 +1,16 @@
+animation ex_net
+{
+frameCount=1833
+clip move
+{
+begin=0
+end=1200
+repeatCount=1
+}
+clip sousuo
+{
+begin=1500
+end=1833
+repeatCount=1
+}
+}

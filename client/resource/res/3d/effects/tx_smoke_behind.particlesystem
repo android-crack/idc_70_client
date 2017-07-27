@@ -1,0 +1,10 @@
+ParticleSystem GamePlayParticleSystem
+{
+	Emitter smoke_behind
+	{
+		file = smoke_behind.particleemitter
+		order = 0
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+}

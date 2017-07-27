@@ -1,0 +1,9 @@
+ModelParticleConfig salvage
+{
+	ParticleConfig meshwave02
+	{
+		file = meshwave02.particlesystem
+		position = 0, 0, -20
+		rotation = 0, 0, 0, 1
+	}
+}

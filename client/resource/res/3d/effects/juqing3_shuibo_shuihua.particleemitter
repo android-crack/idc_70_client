@@ -1,0 +1,61 @@
+particle juqing3_shuibo_shuihua
+{
+	sprite 
+	{
+		path = h_water_0324_06.png
+		width = 256
+		height = 256
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	color 
+	{
+		curve 
+		{
+			type = 4
+			componentCount = 4
+			times = 0, 70, 349, 1000
+			values = 1, 1, 1, 0, 1, 1, 1, 0.3333333, 1, 1, 1, 0.5019608, 1, 1, 1, 0
+			inTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+			outTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+		}
+		type = 1
+	}
+	particleCountMax = 20
+	emissionRate = 6
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	energyMin = 3500
+	energyMax = 3800
+	position = 0, 0, 0
+	positionVar = 0, 0, 0
+	velocity = -0.09, 0, -0.475
+	velocityVar = 0.01000001, 0, 0.02500001
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = -0.1745329
+	rotationPerParticleSpeedMax = 0.1745329
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = True
+	delayTime = 0
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+	gravity = 0
+	lengthScale = 1
+	sizeStartMin = 0.3
+	sizeStartMax = 0.25
+	sizeEndMin = 0.65
+	sizeEndMax = 0.7
+}

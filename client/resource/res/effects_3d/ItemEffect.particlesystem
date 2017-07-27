@@ -1,0 +1,9 @@
+ParticleSystem ItemEffect
+{
+	Emitter ItemEffect01
+	{
+		file = ItemEffect01.particleemitter
+		order = 3
+		position = 0, 5, 0
+	}
+}

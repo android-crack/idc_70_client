@@ -1,0 +1,11 @@
+material liushui
+{
+    sampler u_diffuseTexture
+    {
+        path = liushui.fbm/liushui.png
+        wrapS = REPEAT
+        wrapT = REPEAT
+    }
+
+}
+

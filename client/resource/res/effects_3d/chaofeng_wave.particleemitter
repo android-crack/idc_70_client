@@ -1,0 +1,54 @@
+particle chaofeng_wave
+{
+	sprite 
+	{
+		path = chaofeng_quan.png
+		width = 51
+		height = 64
+		blending = ADDITIVE
+		animated = True
+		looped = True
+		frameCount = 10
+		frameRandomOffset = 0
+		frameDuration = 60
+	}
+	particleCountMax = 6
+	emissionRate = 2
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 60
+	sizeStartMax = 60
+	sizeEndMin = 600
+	sizeEndMax = 800
+	energyMin = 1800
+	energyMax = 1600
+	colorStart = 0.9448276, 1, 0, 0.509804
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 1, 0, 0, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 0.7655172, 0, 1
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.5
+	middlePercentVar = 0
+	position = 0, 0, 0
+	positionVar = 0, 0, 0
+	velocity = 0, 0, 0
+	velocityVar = 0, 0, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = HORIZONTALBILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	delayTime = 0
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

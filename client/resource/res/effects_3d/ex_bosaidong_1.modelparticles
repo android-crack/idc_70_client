@@ -1,0 +1,9 @@
+ModelParticleConfig ex_bosaidong_1
+{
+	ParticleConfig meshwave03
+	{
+		file = meshwave03.particlesystem
+		position = 0, 50, -13.09422
+		rotation = -2.185569E-08, 0, 0, 1
+	}
+}

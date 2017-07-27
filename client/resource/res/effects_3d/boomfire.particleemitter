@@ -1,0 +1,53 @@
+particle boomfire
+{
+	sprite 
+	{
+		path = baozhaxulie.png
+		width = 64
+		height = 64
+		blending = ADDITIVE
+		animated = True
+		looped = False
+		frameCount = 8
+		frameRandomOffset = 0
+		frameDuration = 70
+	}
+	particleCountMax = 12
+	emissionRate = 10
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 35
+	sizeStartMax = 40
+	sizeEndMin = 45
+	sizeEndMax = 50
+	energyMin = 900
+	energyMax = 800
+	colorStart = 0.9963236, 0.8721631, 0.3624838, 1
+	colorStartVar = -0.003676474, 0.0307833, 0.03895441, 0
+	colorEnd = 0.5441177, 0, 0, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 0.8897058, 0.2793103, 0, 1
+	colorMiddleVar = -0.110294, -0.2793103, 0, 0
+	middlePercent = 0.6
+	middlePercentVar = 0.09999996
+	position = 0, 0, 0
+	positionVar = 1, 1, 1
+	velocity = 0, 13.5, 0
+	velocityVar = 1, 1.5, 0
+	acceleration = 0, 2.5, 0
+	accelerationVar = 0, 0.5, 0
+	rotationPerParticleSpeedMin = -0.8726646
+	rotationPerParticleSpeedMax = 0.8726646
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0.2
+	renderType = BILLBOARD
+	isLocalSpace = False
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

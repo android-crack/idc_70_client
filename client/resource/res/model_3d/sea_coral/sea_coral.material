@@ -1,0 +1,11 @@
+material 01___Default
+{
+    sampler u_diffuseTexture
+    {
+        path = sea_coral.fbm/sea_coral01.png
+        wrapS = REPEAT
+        wrapT = REPEAT
+    }
+
+}
+

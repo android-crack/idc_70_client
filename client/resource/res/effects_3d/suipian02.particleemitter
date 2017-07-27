@@ -1,0 +1,53 @@
+particle suipian02
+{
+	sprite 
+	{
+		path = wood01.png
+		width = 32
+		height = 32
+		blending = ALPHA BLENDED
+		animated = True
+		looped = True
+		frameCount = 4
+		frameRandomOffset = 0
+		frameDuration = 80
+	}
+	particleCountMax = 12
+	emissionRate = 20
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 30
+	sizeStartMax = 45
+	sizeEndMin = 6
+	sizeEndMax = 12
+	energyMin = 1000
+	energyMax = 1200
+	colorStart = 1, 1, 1, 1
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 1, 1, 1, 1
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 1, 1, 1
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.55
+	middlePercentVar = 0.05000001
+	position = 0, 0, 0
+	positionVar = 2, 2, 2
+	velocity = 0, 150, 0
+	velocityVar = 50, -10, 50
+	acceleration = 0, -250, 0
+	accelerationVar = 10, 30, 10
+	rotationPerParticleSpeedMin = -1.5
+	rotationPerParticleSpeedMax = 1.5
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0.3
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

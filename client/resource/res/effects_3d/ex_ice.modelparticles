@@ -1,0 +1,9 @@
+ModelParticleConfig ex_ice
+{
+	ParticleConfig meshwave00
+	{
+		file = meshwave00.particlesystem
+		position = 0, 0, 0
+		rotation = 0, 0, 0, 1
+	}
+}

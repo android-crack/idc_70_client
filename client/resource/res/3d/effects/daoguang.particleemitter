@@ -1,0 +1,61 @@
+particle daoguang
+{
+	sprite 
+	{
+		path = flare05_7.png
+		width = 128
+		height = 128
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	color 
+	{
+		curve 
+		{
+			type = 4
+			componentCount = 4
+			times = 0, 284, 394, 497, 1000
+			values = 1, 0.682353, 0, 0, 1, 0.8117647, 0.07058824, 1, 1, 0.8627451, 0.1019608, 1, 1, 0.7176471, 0.08235294, 1, 1, 0, 0, 0
+			inTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+			outTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+		}
+		type = 1
+	}
+	particleCountMax = 1
+	emissionRate = 5
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	energyMin = 600
+	energyMax = 800
+	position = 0, 0, 0
+	positionVar = 0, 0, 0
+	velocity = 0, 0, 0
+	velocityVar = 0, 0, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0.7853982
+	rotationPerParticleSpeedMax = 0.7853982
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0.3
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	delayTime = 11
+	initialRotationMin = 1.047198
+	initialRotationMax = 1.047198
+	gravity = 0
+	lengthScale = 1
+	sizeStartMin = 0.3
+	sizeStartMax = 0.3
+	sizeEndMin = 0
+	sizeEndMax = 0
+}

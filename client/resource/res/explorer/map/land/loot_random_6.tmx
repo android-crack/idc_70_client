@@ -1,0 +1,41 @@
+<map height="28" orientation="orthogonal" renderorder="right-down" tileheight="64" tilewidth="64" version="1.0" width="48">
+ <tileset firstgid="1" name="new_grass" tileheight="64" tilewidth="64">
+  <image height="1472" source="new_grass.png" width="1984" />
+ </tileset>
+ <tileset firstgid="528" name="area_piece_wall2" tileheight="64" tilewidth="64">
+  <image height="64" source="area_piece_wall2.png" width="128" />
+ </tileset>
+ <layer height="28" name="land" width="48">
+  <properties>
+   <property name="picture" value="new_grass" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJzV1s1LVGEUx/FztaAWWYtCW7QQ2tTCyP4HWyhp/8EEGrkvqCA3YUjLXrFVb1r0wtCi90CFFG3V
+i5mLUtM2vVCRWdHK76F5ug+XGWfuPM+dqwc+XEYG73mG3zn31gci9Y6yIvIW81K8/mIUY1gt7vd2
+keH+wxjJ9b4mKN5/Dd+Z4foetahL6QzHuG8X3mEq1/uWEvrfynd+c/2DnWjELlRX6BxvuM8kenEB
+P7EgpfVu1zq+v4drK9qwEZsSPINm/Cu+4Ttu4CbWxuw7WgfQiQbswB3PZ3gqYcar+FyNVRjg86Bb
+6//rBJrRIuFs689SJW65ysi/vWIyXsvf6rAZE556N9WODglnez02SPm5MvOpe8VkvMExK8XquISz
+vQ3bJcxVqbs2Op+6V1wzHrd0tpu47pYwV8V2reY833zG3Su+y+RqqV1rnp9Jzadraa4K7Vr7+Znk
+fPqo6K7VaNjPz6Tn00fZu1Z3VLnPzzTLzITuqErvFl+lM9GUdhMe6vQK/f1NXab/Kyv0DHvp+z4e
+4CHO4OwyP0uW/s7hPPbjJV5hHFfRh36cWibnaKWPNoxiDM9wDddxNPf8/YwveITHeIKLuJTyGTQf
+7ejALObwAYMYwsnIO9Brfe7qOxzu4l6Kmcrm8nEYR7CAXzHen5/jRSRTzWhJ6Cz5cqL56InRs+0j
+PkUylcG+wP/O7S2Qk2g+ymFn6iAOBX537i3+z22HnMTVHfjbuZrxYYw45KQchXZuKWfRrNgZn8ZM
+BXs38u1c+yxLZcXO+A/MO/SxCIsk1IE=
+</data>
+ </layer>
+ <layer height="28" name="block" opacity="0.5" width="48">
+  <properties>
+   <property name="picture" value="new_grass" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJztlrENACAMw+Cl/n8c6soGKm2DbMm7s8XmGIaIx0ai2Jy9IQvV7ugtXVDvdxSbd9T7Hfprob8W
++muhvxbF/6D6f267O+yIas/c8qoZ8VcXhT6DSg==
+</data>
+ </layer>
+ <layer height="28" name="wall" width="48">
+  <properties>
+   <property name="picture" value="area_piece_wall2" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJzt1MEJACEMRNFgBdqhpW0plmYuexSyYhhk/7tE0EMcNGYAvqrFrJUz9V0D+DefA13dw4rPqSdw
+pud3sqcF+if/POSvRf5a5K8VyR/I4u9v+P8YJ+pqT31H4CYTISUhhg==
+</data>
+ </layer>
+</map>

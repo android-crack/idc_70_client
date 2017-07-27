@@ -1,0 +1,11 @@
+material ex_piller
+{
+    sampler u_diffuseTexture
+    {
+        path = ex_piller.fbm/ex_piller.png
+        wrapS = REPEAT
+        wrapT = REPEAT
+    }
+
+}
+

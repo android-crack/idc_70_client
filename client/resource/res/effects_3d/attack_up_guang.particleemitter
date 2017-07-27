@@ -1,0 +1,61 @@
+particle attack_up_guang
+{
+	sprite 
+	{
+		path = transporting_line_02.png
+		width = 256
+		height = 256
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	color 
+	{
+		curve 
+		{
+			type = 4
+			componentCount = 4
+			times = 0, 385, 1000
+			values = 1, 1, 1, 0, 1, 1, 1, 0.1137255, 1, 1, 1, 0
+			inTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+			outTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+		}
+		type = 1
+	}
+	particleCountMax = 10
+	emissionRate = 10
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	energyMin = 2300
+	energyMax = 2500
+	position = 0, 0, 0
+	positionVar = 5, 0, 5
+	velocity = 0, -15, 0
+	velocityVar = 0, 5, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	delayTime = 0
+	initialRotationMin = 0
+	initialRotationMax = 0
+	gravity = 0
+	lengthScale = 5
+	sizeStartMin = 100
+	sizeStartMax = 120
+	sizeEndMin = 400
+	sizeEndMax = 390
+}

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="epd_game">Game:</string>
+    <string name="epd_game_info">Info</string>
+    <string name="epd_game_name">Game:</string>
+    <string name="epd_game_server">Server:</string>
+    <string name="epd_game_role">Nama karakter:</string>
+    <string name="epd_game_description">Deskripsi game</string>
+    <string name="epd_game_down_count_des_before"></string>
+    <string name="epd_game_down_count_des_after"> orang telah mengunduh</string>
+    <string name="epd_download">Download</string>
+    <string name="epd_member_id">ID Anggota:</string>
+    <string name="epd_level">Level: </string>
+    <string name="epd_medal">Poin: </string>
+    <string name="epd_toast_medal">Poin</string>
+    <string name="epd_vip">Vip:</string>
+    <string name="epd_introduce">Klik</string>
+    <string name="epd_notice">Pengumuman</string>
+    <string name="epd_guide">Panduan</string>
+    <string name="epd_news">Berita</string>
+    <string name="epd_events">Event</string>
+    <string name="epd_delete">Hapus</string>
+    <string name="epd_submit_question">Kirim</string>
+    <string name="epd_question_type_notify_text">Jenis masalah</string>
+    <string name="epd_question_screen_short_notify_text">Tambahkan gambar</string>
+    <string name="epd_question_no_screen_short_notify_text">Belum upload gambar</string>
+    <string name="epd_question_email_notify_text">Email</string>
+    <string name="epd_question_title">Judul masalah</string>
+    <string name="epd_question_description">Deskripsi masalah</string>
+    <string name="epd_cs_title_limitation">Batas 100 huruf</string>
+    <string name="epd_cs_email_limitation">Batas 100 huruf</string>
+    <string name="epd_question_description_limitation">Batas 1500 huruf</string>
+    <string name="epd_question_type_qs_undefine">Belum pilih jenis</string>
+    <string name="epd_question_type_account">Masalah akun</string>
+    <string name="epd_question_type_recharge">Masalah TopUp</string>
+    <string name="epd_question_type_guides">Masalah panduan</string>
+    <string name="epd_question_type_activity">Masalah event</string>
+    <string name="epd_question_type_feedback">Saran pemain</string>
+    <string name="epd_question_type_other">Lainnya</string>
+    <string name="epd_cs_normal_question">FAQ</string>
+    <string name="epd_cs_normal_question_des">Masalah yang sering diajukan para gamers</string>
+    <string name="epd_cs_asking">Saya ingin bertanya</string>
+    <string name="epd_cs_asking_des">Kami akan menjawab dengan cepat dan memuaskan</string>
+    <string name="epd_cs_reply">Pertanyaan saya</string>
+    <string name="epd_cs_reply_des">Cek pertanyaan anda dan prosesnya disini</string>
+    <string name="epd_cs_pic_add">+</string>
+    <string name="epd_cs_pic_delete">-</string>
+    <string name="epd_persion_collect_data">Profil</string>
+    <string name="epd_persion_collect_data_des">Isi profil, ambil kejutan hadiah</string>
+    <string name="epd_persion_collect_data_des_sec">Isi informasi profil</string>
+    <string name="epd_persion_gift_center">Pusat hadiah</string>
+    <string name="epd_persion_gift_center_des">Banyak hadiah, cepat ambil～</string>
+    <string name="epd_persion_knock_egg">Gashapon</string>
+    <string name="epd_persion_knock_egg_des">Tekan tombol, banyak hadiah menarik～</string>
+    <string name="epd_persion_version">Versi</string>
+    <string name="epd_gift_center">Pusat hadiah</string>
+    <string name="epd_gift_has_got">Sudah Ambil</string>
+    <string name="epd_gift_has_used">Sudah Pakai</string>
+    <string name="epd_gift_has_unused">Belum Pakai</string>
+    <string name="epd_gift_rule">Misi Hadiah</string>
+    <string name="epd_gift_des">Rincian Hadiah</string>
+    <string name="epd_gift_end_time">Waktu berakhir:</string>
+    <string name="epd_gift_surplus">Sisa:</string>
+    <string name="epd_gift_type">Jenis:</string>
+    <string name="epd_gift_get_now">Ambil</string>
+    <string name="epd_gift_code">No. seri:</string>
+    <string name="epd_gift_secret">Kunci</string>
+    <string name="epd_gift_deadlines">Batas waktu</string>
+    <string name="epd_gift_notify">Klik No. seri, bisa lgsng copy!</string>
+    <string name="epd_copy_successfully">Copy berhasil</string>
+    <string name="epd_version">Versi:</string>
+    <string name="epd_package_size">Ukuran:</string>
+    <string name="epd_summary">Berita</string>
+    <string name="epd_website">Website</string>
+    <string name="epd_fans_page">Facebook</string>
+    <string name="epd_network_error">Belum ada koneksi internet</string>
+    <string name="epd_request_error">Sistem gagal, harap refresh ulang!</string>
+    <string name="epd_timeout_error">Time out, harap refresh ulang!</string>
+    <string name="epd_empty_error">Tidak ada data, tunggu sebentar</string>
+    <string name="epd_title_back_demo">ABC</string>
+    <string name="epd_title_summary">Berita</string>
+    <string name="epd_title_game">Game</string>
+    <string name="epd_title_persion">Pusat profil</string>
+    <string name="epd_title_persion_acquisition">Info profil</string>
+    <string name="epd_title_store">TopUp</string>
+    <string name="epd_title_cs">Pelayanan</string>
+    <string name="epd_title_cs_questions">FAQ</string>
+    <string name="epd_title_gift">Pusat hadiah</string>
+    <string name="epd_title_cs_ask">Saya ingin bertanya</string>
+    <string name="epd_title_cs_reply">Pertanyaan saya</string>
+    <string name="epd_title_cs_reply_detail">Balasan layanan</string>
+
+	<string name="epd_title_web_level">Penjelasan level</string>
+	<string name="epd_title_web_medal_info">Keterangan Anggota</string>
+	<string name="epd_title_web_vip_info">VIP</string>
+	<string name="epd_title_web_knock_egg">Gashapon</string>
+    
+    <string name="epd_store_return">Beranda</string>
+    <string name="epd_thumb_error">Perangkat anda tidak mendukung!</string>
+	<string name="epd_camera_crop_error">Perangkat anda tidak mendukung screenshot, silahkan ke situs resmi!</string>
+	
+	<string name="epd_cs_empty_title">Isi judul</string>
+	<string name="epd_cs_empty_advice">Isi deskripsi</string>
+	<string name="epd_cs_empty_system_error">Sistem gagal.</string>
+	
+	<string name="epd_cs_limited_title">Judul tidak lebih dari 100 huruf</string>
+	<string name="epd_cs_limited_advice">Deskripsi tidak lebih dari 1500 huruf</string>
+	<string name="epd_cs_limited_email">Email tidak lebih dari 100 huruf</string>
+	<string name="epd_cs_error_email">Silahkan isi email dengan tepat</string>
+
+	<string name="epd_cs_reply_detail_content">Balas isi</string>
+	<string name="epd_cs_shot_photos">Foto</string>
+	<string name="epd_cs_shot_local_photos">Album</string>
+	<string name="epd_role_cs">Pelayanan</string>
+	<string name="epd_role_self">Saya</string>
+	
+
+	<string name="epd_cs_submit_success">Kirim berhasil!</string>
+	<string name="epd_cs_pic_upload_success">Upload berhasil!</string>
+
+	<string name="epd_wechat">WeChat</string>
+	<string name="epd_line">Line</string>
+	<string name="epd_area">Area</string>
+	<string name="epd_address">Alamat</string>
+	<string name="epd_occupation">Pekerjaan</string>
+	<string name="epd_boy">Pria</string>
+	<string name="epd_girl">Wanita</string>
+	<string name="epd_modify">&#160;&#160;Ubah&#160;&#160;</string>
+	
+	<string name="epd_summary_first_one">Halaman pertama</string>
+	<string name="epd_summary_last_one">Halaman terakhir</string>
+	
+	<string name="epd_receive">Hadiah</string>
+	<string name="epd_step_collections">Isi data</string>
+	<string name="epd_email">Email</string>
+	<string name="epd_phone">No.handphone</string>
+	<string name="epd_save">Simpan</string>
+	<string name="epd_collect_empty_area">Pilih area (wajib)</string>
+	<string name="epd_collect_empty_sex">Jenis kelamin</string>
+	<string name="epd_collect_empty_occupation">Pilih pekerjaan (wajib)</string>
+	<string name="epd_birthday">Ulang tahun</string>
+	<string name="epd_like_game">Tipe game yang saya sukai</string>
+	<string name="epd_collect_empty_birthday">Ulang tahun(wajib)</string>
+	<string name="epd_collect_empty_like_game">Tipe game yang saya sukai(wajib)</string>
+	<string name="epd_collect_error_like_game">Pilih tipe game kesukaanmu, paling banyak 3</string>
+	
+	<string name="epd_collect_toast_empty_birth">Pilih tanggal ultah kamu</string>
+	<string name="epd_collect_toast_empty_area">Silahkan pilih area anda</string>
+	<string name="epd_collect_toast_empty_occupation">Silahkan pilih pekerjaan</string>
+	<string name="epd_submit">Kirim</string>
+	
+	
+	<string name="epd_notification_modify_nothing">Sementara tidak bisa edit</string>
+	<string name="epd_notification_scan_gifts">Silahkan cek di pusat hadiah!</string>
+	
+	<string name="epd_hint_cs_reply_delete">Yakin hapus?</string>
+	
+	<string name="epd_float_hint_hide">Setelah sembunyikan dan login ulang maka kamu bisa melihat saya lho</string>
+	<string name="epd_float_hint_confirm">Yakin</string>
+	<string name="epd_float_hint_cancel">&#160;&#160;Batal&#160;&#160;</string>
+	
+	<string name="epd_serial">No. seri</string>
+	
+	<string name="epd_uninstalled_google_play">Silahkan unduh google playstore</string>
+	
+	<string name="epd_notice_close">Tutup</string>
+	<string name="epd_notice_go_to_look">Pergi melihat</string>
+	<string name="epd_notice_change_one">Ganti yang lain</string>
+	<string name="epd_notice_toast_error_gift">Silakan download dulu, lalu login dengan akun yang sama, baru bisa ambil hadiah ya</string>
+	<string name="epd_notice_text_not_show_today">Hari ini jangan tampilkan lagi</string>
+	<string name="epd_notice_cancel">Batal</string>
+	<string name="epd_person_extra_gift">Hadiah lainnya</string>
+	<string name="epd_notice_close_tips">Untuk buka kembali, silakan klik di profil->Hadiah lainnya ya</string>
+	<string name="epd_notice_accomplish_finish_tips">Selesaikan misi, bisa dapat banyak hadiah</string>
+	<string name="epd_notice_reviewed_stop">Waktu berakhir hadiah</string>
+	<string name="epd_notice_get_gift_success">Sudah ambil!</string>
+	
+	<!-- 20160321 -->
+	<string name="epd_person_exp">EXP: </string>
+	<string name="epd_cs_reply_all_check">Pilih Semua</string>
+	<string name="epd_person_sign">Login</string>
+	<string name="epd_gift_reward_time">Waktu Klaim:</string>
+	<string name="epd_person_exp_tips_1">Mendapat </string>
+	<string name="epd_person_exp_tips_2"> EXP Bertambah</string>
+	<string name="epd_person_sign_tips">Makin banyak Login beruntun, makin banyak hadiah yang didapat!</string>
+	
+    <string-array name="epd_pop_per_info_pic">
+        <item>Foto</item>
+        <item>Album</item>
+    </string-array>
+    
+    <string-array name="epd_cs_problem_kinds">
+        <item>FAQ</item>
+        <item>Masalah akun dan login</item>
+        <item>Masalah TopUp</item>
+    </string-array>
+    <string-array name="epd_gift_title_kinds">
+        <item>Hadiah gratis</item>
+        <item>Hadiah Saya</item>
+    </string-array>
+</resources>

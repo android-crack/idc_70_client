@@ -1,0 +1,53 @@
+particle HitIcesmoke
+{
+	sprite 
+	{
+		path = whiteSmoke02.png
+		width = 128
+		height = 128
+		blending = ALPHA BLENDED
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	particleCountMax = 10
+	emissionRate = 15
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 20
+	sizeStartMax = 10
+	sizeEndMin = 120
+	sizeEndMax = 100
+	energyMin = 800
+	energyMax = 1000
+	colorStart = 1, 1, 1, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 1, 1, 1, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 1, 1, 1
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.35
+	middlePercentVar = 0.15
+	position = 0, 0, 0
+	positionVar = 2.5, 0.1, 0.1
+	velocity = 0, 35, 0
+	velocityVar = -2, -5, 0
+	acceleration = 0, 20, 0
+	accelerationVar = -1, 5, 0
+	rotationPerParticleSpeedMin = -1.047198
+	rotationPerParticleSpeedMax = 1.047198
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0.2
+	renderType = BILLBOARD
+	isLocalSpace = False
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

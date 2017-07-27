@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/epd_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/epd_primary" >
+
+        <TextView
+            style="@style/TitleBarText"
+            android:text="@string/epd_title_game" />
+    </RelativeLayout>
+
+    <com.epd.app.support.widget.list.app.GridListView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@color/epd_background"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="2"
+        android:scrollbars="none" />
+
+</LinearLayout>

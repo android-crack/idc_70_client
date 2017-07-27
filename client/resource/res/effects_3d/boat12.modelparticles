@@ -1,0 +1,40 @@
+ModelParticleConfig boat12
+{
+	ParticleConfig shadow
+	{
+		file = tx_boat_shadow03.particlesystem
+		position = 0, 0, 5.883041
+		rotation = 0, 0, 0, 1
+	}
+	ParticleConfig wave
+	{
+		file = tx_shuibo_boat04.particlesystem
+		position = 0, 0, -51
+		rotation = 0, 0, 0, 1
+	}
+	ParticleConfig zhaozi
+	{
+		file = zhaozi.particlesystem
+		position = 0, 0, 0
+		rotation = 0, 0, 0, 1
+		scale = 1.2, 1.2, 1.2
+	}
+	ParticleConfig tx_guiji
+	{
+		file = tx_guiji.particlesystem
+		position = 35.08197, 0, -22.21545
+		rotation = 0, 0, 0, 1
+	}
+	ParticleConfig tx_guiji
+	{
+		file = tx_guiji.particlesystem
+		position = -38.276, 0, -22.21545
+		rotation = 0, 0, 0, 1
+	}
+	ParticleConfig vipwave
+	{
+		file = tx_shuibo_boat_ex.particlesystem
+		position = 0, 0, -7.859833
+		rotation = 0, 0, 0, 1
+	}
+}

@@ -1,0 +1,39 @@
+ParticleSystem tx_guanchuan_hit
+{
+	Emitter hit_effect01
+	{
+		file = hit_effect01.particleemitter
+		order = 2
+		position = 0, 0, 0
+	}
+	Emitter hit_effect02
+	{
+		file = hit_effect02.particleemitter
+		order = 0
+		position = 0, 0, 0
+	}
+	Emitter hit_effect03
+	{
+		file = hit_effect03.particleemitter
+		order = 0
+		position = 0, 0, 0
+	}
+	Emitter hit_suipian01
+	{
+		file = hit_suipian01.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+	Emitter hit_suipian02
+	{
+		file = hit_suipian02.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+	Emitter hit_suipian03
+	{
+		file = hit_suipian03.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+}

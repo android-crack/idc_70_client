@@ -1,0 +1,21 @@
+ParticleSystem tx_qihuo
+{
+	Emitter zhuohuohuo
+	{
+		file = zhuohuohuo.particleemitter
+		order = 3
+		position = 0, 0, 0
+	}
+	Emitter zhuohuolizi
+	{
+		file = zhuohuolizi.particleemitter
+		order = 2
+		position = 0, 0, 0
+	}
+	Emitter zhuohuoyan
+	{
+		file = zhuohuoyan.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+}

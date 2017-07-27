@@ -1,0 +1,16 @@
+//
+//  MSDKFoundationPrefixHeader.pch
+//  MSDKFoundation
+//
+//  Created by Jason on 14/11/25.
+//  Copyright (c) 2014年 Tencent. All rights reserved.
+//
+
+#ifndef MSDKFoundation_MSDKFoundationPrefixHeader_pch
+#define MSDKFoundation_MSDKFoundationPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <UIKit/UIKit.h>
+
+#endif

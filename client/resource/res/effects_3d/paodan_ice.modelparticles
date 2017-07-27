@@ -1,0 +1,9 @@
+ModelParticleConfig liuxingchui
+{
+	ParticleConfig tx_paodan_ice
+	{
+		file = tx_paodan_ice.particlesystem
+		position = 0, 0, 0
+		rotation = 0.7071068, 0, 0, 0.7071068
+	}
+}

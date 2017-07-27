@@ -1,0 +1,53 @@
+particle pd_03huo
+{
+	sprite 
+	{
+		path = smoke02_00000.png
+		width = 64
+		height = 64
+		blending = ADDITIVE
+		animated = True
+		looped = False
+		frameCount = 4
+		frameRandomOffset = 0
+		frameDuration = 30
+	}
+	particleCountMax = 30
+	emissionRate = 20
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 15
+	sizeStartMax = 25
+	sizeEndMin = 25
+	sizeEndMax = 35
+	energyMin = 1200
+	energyMax = 1100
+	colorStart = 1, 0.9724138, 0, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0.2279412, 0, 0, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 0.5586207, 0, 1
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.25
+	middlePercentVar = 0.05000001
+	position = 0, 0, 0
+	positionVar = 0.1, 0.1, 0.1
+	velocity = 0, 0, 20
+	velocityVar = 0, 0, 5
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = -0.5235988
+	rotationPerParticleSpeedMax = 0.5235988
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 1
+	systemDuration = 0
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = True
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

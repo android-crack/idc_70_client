@@ -1,0 +1,51 @@
+1. 使用为android配置过的libevent:
+   git clone https://github.com/ventureresearch/libevent
+
+2. 修改cocos2dx的ant配置：
+   vim cocos2dx/platform/android/java/ant.properties
+   添加
+   sdk.dir=/Users/xxx/android-sdk
+
+3. 修改libevent的编译选项:
+   vim Android.mk
+   -LOCAL_MODULE:=libevent2
+   +LOCAL_MODULE:=libevent_static
+
+   +LOCAL_MODULE_FILENAME:=libevent
+
+   -bufferevent_openssl.c
+
+4. 添加应用访问网络的权限
+   在应用开发目录下的AndroidManifest.xml添加：
+   <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+5. 添加Lua的socket绑定cpp文件：
+   vim jni/Android.mk:
+   LOCAL_SRC_FILES := xxx.cpp \
+					  LuaSocket.cpp
+
+   LOCAL_C_INCLUDES := xxx \
+					   /path/to/libevent/include \
+					   /path/to/libevent/Android
+
+   LOCAL_WHOLE_STATIC_LIBRARIES += libevent_static
+
+   $(call import-module,libevent)
+
+6. 添加LuaSocket.pkg，利用tolua++生成相应的绑定代码
+
+
+--- by 0046 肥雀 ---
+SDK Android 2.3.3
+IDE eclipse v22.0.0-675183
+关于该库在win32下基于quick-cocos2d-x的编译：
+1·git clone https://github.com/ventureresearch/libevent
+   到quick-cocos2d-x\lib\cocos2d-x目录下；
+2·libevent目录下的Android.mk修改：
+   -bufferevent_openssl.c
+   LOCAL_C_INCLUDES下增加目录 $(ANDROID_NDK_ROOT)/platforms/android-9/arch-arm/usr/include
+   ANDROID_NDK_ROOT是环境变量，指向android-ndk-r8b的实际目录；
+3·和上面 5. 一样，修改jni/Android.mk:
+   不过还需要加入BaseSocket.cpp，.cpp文件在svn linzhijun目录，
+4·在jni/Application.mk加入 APP_CPPFLAGS += -fexceptions
+5·编译

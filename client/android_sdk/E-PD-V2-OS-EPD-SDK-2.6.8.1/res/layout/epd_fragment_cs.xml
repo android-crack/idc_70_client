@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/epd_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/epd_blue_darker" >
+
+        <TextView
+            android:id="@+id/title_text"
+            style="@style/TitleBarText"
+            android:text="@string/epd_title_cs" />
+    </RelativeLayout>
+
+    <librarys.cardview.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="@android:color/white"
+        card_view:cardElevation="@dimen/epd_size_3"
+        card_view:cardUseCompatPadding="true"
+        card_view:contentPadding="@dimen/epd_size_10" >
+
+        <LinearLayout
+            android:id="@+id/normal_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/epd_cs_normal_question"
+                android:textColor="@color/epd_grey_title"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/epd_size_1"
+                android:background="@color/epd_grey" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/epd_cs_normal_question_des"
+                android:textColor="@color/epd_description_color" />
+        </LinearLayout>
+    </librarys.cardview.CardView>
+
+    <librarys.cardview.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="@android:color/white"
+        card_view:cardElevation="@dimen/epd_size_3"
+        card_view:cardUseCompatPadding="true"
+        card_view:contentPadding="@dimen/epd_size_10" >
+
+        <LinearLayout
+            android:id="@+id/i_need_ask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/epd_cs_asking"
+                android:textColor="@color/epd_grey_title"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/epd_size_1"
+                android:background="@color/epd_grey" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/epd_cs_asking_des"
+                android:textColor="@color/epd_description_color" />
+        </LinearLayout>
+    </librarys.cardview.CardView>
+
+    <librarys.cardview.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="@android:color/white"
+        card_view:cardElevation="@dimen/epd_size_3"
+        card_view:cardUseCompatPadding="true"
+        card_view:contentPadding="@dimen/epd_size_10" >
+
+        <LinearLayout
+            android:id="@+id/cs_reply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/epd_cs_reply"
+                    android:textColor="@color/epd_grey_title"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"/>
+                <TextView
+                    android:id="@+id/cs_reply_count" 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@drawable/epd_cs_rectangle_bg"
+                    android:layout_marginLeft="@dimen/epd_size_2"
+                    android:paddingTop="@dimen/epd_size_3"
+                    android:paddingBottom="@dimen/epd_size_3"
+                    android:paddingLeft="@dimen/epd_size_5"
+                    android:paddingRight="@dimen/epd_size_5"
+                    android:textColor="@android:color/white"
+                    android:visibility="invisible"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/epd_size_1"
+                android:layout_marginTop="@dimen/epd_size_2"
+                android:background="@color/epd_grey" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/epd_cs_reply_des"
+                android:textColor="@color/epd_description_color" />
+        </LinearLayout>
+    </librarys.cardview.CardView>
+
+</LinearLayout>

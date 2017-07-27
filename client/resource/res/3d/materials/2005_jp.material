@@ -1,0 +1,37 @@
+material textured 
+{
+	tag 
+	{
+		renderQueue = opaque
+	}
+
+	u_diffuseTextureST = 1, 1, 0, 0
+	sampler u_diffuseTexture
+	{
+		path = res/3d/textures/2005_jp.png
+
+		minFilter = LINEAR_MIPMAP_LINEAR
+		magFilter = LINEAR
+		mipmap = true
+
+		wrapS = REPEAT
+		wrapT = REPEAT
+	}
+	u_mainColor = 1, 1, 1, 1
+
+	technique 
+	{
+		renderState
+		{
+			cullFace = true
+			depthTest = true
+		}
+		pass 
+		{
+			u_worldViewProjectionMatrix = WORLD_VIEW_PROJECTION_MATRIX
+			vertexShader = res/3d/shaders/textured_standard.vert
+			fragmentShader = res/3d/shaders/textured_standard.frag
+		}
+	}
+}
+

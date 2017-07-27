@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f5f5f5">
+    <TextView 
+        android:text="@string/msdk_name_auth_realname_title"
+        android:background="#13b7f6"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:layout_width="match_parent"
+    	android:layout_height="@dimen/msdk_name_auth_title_height"/>
+    
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5" >
+
+<LinearLayout 
+    android:background="#f5f5f5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+    <TextView 
+        android:paddingTop="@dimen/msdk_name_auth_text_top"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#28292d"
+        android:id="@+id/msdk_name_auth_id_des1"
+        android:text="@string/msdk_name_auth_des1"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"/>
+     <TextView 
+        android:paddingTop="@dimen/msdk_name_auth_text_top"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textSize="16dp"
+        android:textColor="#47494c"
+        android:text="@string/msdk_name_auth_des2"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"/>
+     
+     
+     <RelativeLayout 
+         android:layout_marginTop="@dimen/msdk_name_auth_edit_top"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_width="match_parent"
+    	 android:layout_height="@dimen/msdk_name_auth_edit_height">
+         <EditText 
+             android:background="@drawable/msdk_name_auth_item_bg"
+             android:id="@+id/msdk_name_auth_id_name"
+             android:hint="@string/msdk_name_auth_name"
+             android:gravity="center"
+             android:textSize="17dp"
+             android:singleLine="true"
+             android:maxLength="40"
+             android:textColor="#343539"
+             android:textColorHint="#d6d6d6"
+             android:layout_width="match_parent"
+    		 android:layout_height="match_parent"/>
+         
+         <ImageView 
+             android:id="@+id/msdk_name_auth_id_name_must"
+             android:layout_marginRight="15dp"
+             android:layout_centerVertical="true"
+             android:layout_alignParentRight="true"
+             android:src="@drawable/msdk_name_auth_must"
+             android:scaleType="centerInside"
+             android:layout_width="25dp"
+    		 android:layout_height="25dp"/>
+         
+     </RelativeLayout>
+     
+     <RelativeLayout 
+         android:layout_marginTop="@dimen/msdk_name_auth_edit_margin"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_width="match_parent"
+    	 android:layout_height="@dimen/msdk_name_auth_edit_height">
+         <TextView
+             android:background="@drawable/msdk_name_auth_item_bg"
+             android:id="@+id/msdk_name_auth_id_identity_type"
+             android:hint="@string/msdk_name_auth_identity_type"
+             android:gravity="center"
+             android:textSize="17dp"
+             android:textColor="#343539"
+             android:textColorHint="#d6d6d6"
+             android:layout_width="match_parent"
+    		 android:layout_height="match_parent"/>
+         
+         <ImageView 
+             android:id="@+id/msdk_name_auth_id_identity_type_must"
+             android:layout_marginRight="15dp"
+             android:layout_centerVertical="true"
+             android:layout_alignParentRight="true"
+             android:scaleType="centerInside"
+             android:src="@drawable/msdk_name_auth_must"
+             android:layout_width="25dp"
+    		 android:layout_height="25dp"/>
+         
+     </RelativeLayout>
+     
+     <RelativeLayout 
+         android:layout_marginTop="@dimen/msdk_name_auth_edit_margin"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_width="match_parent"
+    	 android:layout_height="@dimen/msdk_name_auth_edit_height">
+         <EditText 
+             android:background="@drawable/msdk_name_auth_item_bg"
+             android:id="@+id/msdk_name_auth_id_identity_num"
+             android:hint="@string/msdk_name_auth_identity_num"
+             android:gravity="center"
+             android:textSize="17dp"
+             android:maxLength="200"
+             android:singleLine="true"
+             android:textColor="#343539"
+             android:textColorHint="#d6d6d6"
+             android:layout_width="match_parent"
+    		 android:layout_height="match_parent"/>
+         
+         <ImageView 
+             android:id="@+id/msdk_name_auth_id_identity_num_must"
+             android:layout_marginRight="15dp"
+             android:layout_centerVertical="true"
+             android:layout_alignParentRight="true"
+             android:src="@drawable/msdk_name_auth_must"
+             android:scaleType="centerInside"
+             android:layout_width="25dp"
+    		 android:layout_height="25dp"/>
+         
+     </RelativeLayout>
+    
+     <RelativeLayout 
+         android:layout_marginTop="@dimen/msdk_name_auth_edit_margin"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:visibility="gone"
+         android:layout_width="match_parent"
+    	 android:layout_height="@dimen/msdk_name_auth_edit_height">
+         <TextView 
+             android:background="@drawable/msdk_name_auth_item_bg"
+             android:id="@+id/msdk_name_auth_id_province"
+             android:hint="@string/msdk_name_auth_province"
+             android:gravity="center"
+             android:textSize="17dp"
+             android:textColor="#343539"
+             android:textColorHint="#d6d6d6"
+             android:layout_width="match_parent"
+    		 android:layout_height="match_parent"/>
+         
+         <ImageView 
+             android:visibility="gone"
+             android:id="@+id/msdk_name_auth_id_province_must"
+             android:layout_marginRight="15dp"
+             android:layout_centerVertical="true"
+             android:layout_alignParentRight="true"
+             android:scaleType="centerInside"
+             android:src="@drawable/msdk_name_auth_must"
+             android:layout_width="25dp"
+    		 android:layout_height="25dp"/>
+         
+     </RelativeLayout>
+     
+     <RelativeLayout 
+         android:layout_marginTop="@dimen/msdk_name_auth_edit_margin"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_width="match_parent"
+         android:visibility="gone"
+    	 android:layout_height="@dimen/msdk_name_auth_edit_height">
+         <EditText 
+             android:background="@drawable/msdk_name_auth_item_bg"
+             android:id="@+id/msdk_name_auth_id_city"
+             android:hint="@string/msdk_name_auth_city"
+             android:gravity="center"
+             android:textSize="17dp"        
+             android:maxLength="200"   
+             android:textColor="#343539"
+             android:singleLine="true"
+             android:textColorHint="#d6d6d6"
+             android:layout_width="match_parent"
+    		 android:layout_height="match_parent"/>
+         
+         <ImageView 
+             android:visibility="gone"
+             android:layout_marginRight="15dp"
+             android:layout_centerVertical="true"
+             android:layout_alignParentRight="true"
+             android:scaleType="centerInside"
+             android:src="@drawable/msdk_name_auth_must"
+             android:layout_width="25dp"
+    		 android:layout_height="25dp"/>
+         
+     </RelativeLayout>
+     
+     <LinearLayout
+         android:gravity="center"
+         android:layout_marginTop="@dimen/msdk_name_auth_check_box_top"
+         android:layout_marginBottom="@dimen/msdk_name_auth_check_box_Bottom"
+         android:orientation="horizontal"
+         android:layout_width="match_parent"
+    	 android:layout_height="wrap_content" >
+          <CheckBox 
+              android:button="@null"
+              android:id="@+id/msdk_name_auth_id_check_box"
+              android:background="@drawable/msdk_name_auth_checkbox_style"
+              android:checked="false"
+              android:layout_width="18dp"
+    	 	  android:layout_height="18dp" />
+          
+         <TextView 
+         android:layout_marginLeft="5dp"
+         android:text="@string/msdk_name_auth_agreement_ok"
+         android:textColor="#888f99"
+         android:textSize="12dp"
+         android:layout_width="wrap_content"
+    	 android:layout_height="wrap_content" />
+          
+         <TextView 
+         android:layout_marginLeft="1dp"
+         android:id="@+id/msdk_name_auth_id_agreement"
+         android:text="@string/msdk_name_auth_agreement"
+         android:textColor="#3399eb"
+         android:textSize="12dp"
+         android:layout_width="wrap_content"
+    	 android:layout_height="wrap_content" />
+         
+     </LinearLayout>
+     
+     <LinearLayout 
+         android:layout_marginBottom="@dimen/msdk_name_auth_button_top"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:orientation="horizontal"
+         android:layout_width="match_parent"
+    	 android:layout_height="@dimen/msdk_name_auth_edit_height">
+         
+         <Button 
+             android:id="@+id/msdk_name_auth_id_back"
+             android:layout_marginRight="5dp"
+             android:background="@drawable/msdk_name_auth_btn_frame_bg"
+             android:text="@string/msdk_name_auth_back"
+             android:layout_weight="1"
+             android:textColor="@drawable/msdk_name_auth_btn_text_frame_color"
+             android:textSize="17dp"
+             android:layout_width="match_parent"
+    	 	android:layout_height="match_parent"/>
+          <Button 
+             android:background="@drawable/msdk_name_auth_btn_bg"
+             android:id="@+id/msdk_name_auth_id_commit"
+             android:text="@string/msdk_name_auth_commit"
+             android:layout_weight="1"
+             android:singleLine="true"
+             android:textColor="@drawable/msdk_name_auth_btn_text_color"
+             android:textSize="17dp"
+             android:layout_marginLeft="5dp"
+             android:layout_width="match_parent"
+    	 	android:layout_height="match_parent"/>
+         
+     </LinearLayout>
+     
+     
+</LinearLayout>
+
+</ScrollView>
+</LinearLayout>

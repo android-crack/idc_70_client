@@ -1,0 +1,12 @@
+<map height="1" orientation="orthogonal" renderorder="right-down" tileheight="5120" tilewidth="2368" version="1.0" width="4">
+ <tileset firstgid="1" name="relic" tileheight="64" tilewidth="64">
+  <image height="640" source="relic.png" width="384" />
+ </tileset>
+ <layer height="1" name="sand" width="4">
+  <properties>
+   <property name="picture" value="new_land" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJxjZGBgYAJiZiBmAWIAAGAACw==
+</data>
+ </layer>
+ </map>

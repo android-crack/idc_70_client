@@ -1,0 +1,70 @@
+particle shuihua
+{
+	sprite 
+	{
+		path = h_water_0324_05.png
+		width = 128
+		height = 128
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 30
+	}
+	size 
+	{
+		curve 
+		{
+			type = 4
+			componentCount = 1
+			times = 0, 398, 1000
+			values = 0, 0.7598449, 1
+			inTangents = 0, 1.150145, 1
+			outTangents = 1, 1.150145, 0
+		}
+		type = 1
+	}
+	color 
+	{
+		curve 
+		{
+			type = 4
+			componentCount = 4
+			times = 0, 300, 1000
+			values = 1, 1, 1, 0, 1, 1, 1, 0.3921569, 1, 1, 1, 0
+			inTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+			outTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+		}
+		type = 1
+	}
+	particleCountMax = 20
+	emissionRate = 10
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	energyMin = 2800
+	energyMax = 3000
+	position = 0, 0, 0
+	positionVar = 0.1, 0, 0.3
+	velocity = 0.15, 0.95, -0.2
+	velocityVar = 0.05, 0.05000001, -0.09999998
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = BILLBOARD
+	isLocalSpace = False
+	preWarm = False
+	delayTime = 0
+	initialRotationMin = 0
+	initialRotationMax = 2.094395
+	gravity = 0.6
+	lengthScale = 1
+}

@@ -1,0 +1,53 @@
+particle ChaoFeng_00
+{
+	sprite 
+	{
+		path = Ray.png
+		width = 128
+		height = 128
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	particleCountMax = 4
+	emissionRate = 2
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 50
+	sizeStartMax = 50
+	sizeEndMin = 300
+	sizeEndMax = 300
+	energyMin = 1800
+	energyMax = 1800
+	colorStart = 1, 1, 1, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0.3427993, 0, 0.7647059, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 0.8019268, 0.5367647, 1, 0.4941176
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.6
+	middlePercentVar = 0
+	position = 0, 0, 0
+	positionVar = 0, 0, 0
+	velocity = 0, 0, 0
+	velocityVar = 0, 0, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = HORIZONTALBILLBOARD
+	isLocalSpace = True
+	preWarm = True
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

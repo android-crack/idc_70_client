@@ -1,0 +1,21 @@
+ParticleSystem tx_skillready03blue
+{
+	Emitter skillreadybluehuan
+	{
+		file = skillreadybluehuan.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+	Emitter skillreadyblue
+	{
+		file = skillreadyblue.particleemitter
+		order = 2
+		position = 0, 60, 0
+	}
+	Emitter skillreadyblue2
+	{
+		file = skillreadyblue2.particleemitter
+		order = 2
+		position = 0, 60, 0
+	}
+}

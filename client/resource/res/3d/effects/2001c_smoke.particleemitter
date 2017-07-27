@@ -1,0 +1,61 @@
+particle 2001c_smoke
+{
+	sprite 
+	{
+		path = h_sdfg.png
+		width = 256
+		height = 256
+		blending = ALPHA BLENDED
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 30
+	}
+	color 
+	{
+		curve 
+		{
+			type = 4
+			componentCount = 4
+			times = 0, 315, 1000
+			values = 0.6627451, 0.6627451, 0.6627451, 0, 0.7294118, 0.7294118, 0.7294118, 0.09803922, 0.5019608, 0.5019608, 0.5019608, 0
+			inTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+			outTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+		}
+		type = 1
+	}
+	particleCountMax = 20
+	emissionRate = 10
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	energyMin = 3000
+	energyMax = 3000
+	position = 0, 0, 0
+	positionVar = 2, 2, 2
+	velocity = 2.5, 0, -1.5
+	velocityVar = -0.5, 0, -0.5
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0.5235988
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	delayTime = 3
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+	gravity = 0
+	lengthScale = 1
+	sizeStartMin = 2
+	sizeStartMax = 3
+	sizeEndMin = 5
+	sizeEndMax = 4
+}

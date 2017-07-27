@@ -1,0 +1,56 @@
+particle smoke_behind
+{
+	sprite 
+	{
+		path = yan_ml.png
+		width = 256
+		height = 256
+		blending = ALPHA BLENDED
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 30
+	}
+	particleCountMax = 45
+	emissionRate = 15
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	energyMin = 3000
+	energyMax = 3000
+	position = 0, 0, 0
+	positionVar = 5, 5, 5
+	velocity = 6, 0, -6
+	velocityVar = 1, 0, -1
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0.5235988
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	delayTime = 3
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+	gravity = 0
+	lengthScale = 1
+	sizeStartMin = 8
+	sizeStartMax = 6
+	sizeEndMin = 10
+	sizeEndMax = 11
+	colorStart = 0.5661765, 0.5661765, 0.5661765, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0.6544118, 0.6544118, 0.6544118, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 0.6691177, 0.6691177, 0.6691177, 0.328
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.35
+	middlePercentVar = -0.05000001
+}

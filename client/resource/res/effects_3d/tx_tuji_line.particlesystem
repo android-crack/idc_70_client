@@ -1,0 +1,15 @@
+ParticleSystem tx_tuji_line
+{
+	Emitter tuji_line
+	{
+		file = tuji_line.particleemitter
+		order = 0
+		position = 0, 60, 600
+	}
+	Emitter tuji_shuihua
+	{
+		file = tuji_shuihua.particleemitter
+		order = 0
+		position = 0, 0, 0
+	}
+}

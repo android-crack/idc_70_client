@@ -1,0 +1,16 @@
+<map height="10" orientation="orthogonal" renderorder="right-down" tileheight="6144" tilewidth="7232" version="1.0" width="15">
+ <tileset firstgid="1" name="port" tileheight="64" tilewidth="64">
+  <image height="1664" source="port.png" width="1408" />
+ </tileset>
+ <layer height="10" name="sand" width="15">
+  <properties>
+   <property name="picture" value="new_land" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJwNwwc3FgAAAMCPjKzISkK2kqxCRokyMxMyUqREGZWQoiI7VOT3dvfeBQUCgWDPGWKoYYZ73ggj
+jTLaGC8Ya5wXjTfBRJNM9pIpXjbVK6aZboZXzTTLbHPMNc98C7zmdQu9YZE3LbbEUsss95a3rbDS
+Ku9YbY211nnXe9Z73wYbfeBDm2y2xVbbbPeRHXbaZbc99vrYPp/Y74CDPnXIYUcc9ZljPveF4074
+0klf+dop3zjtjG9956xzzrvgez/40UU/ueSyK3521S9+dc11v/ndH2646U+33HbHXffc98BfHnrk
+sb/9419PPPWfZ/4HCgUsPg==
+</data>
+ </layer>
+ </map>

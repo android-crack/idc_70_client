@@ -1,0 +1,133 @@
+{
+    "area": "dev", 
+    "filelist_md5": "50b8e00db5a803f4da1d6da57acbd5cf", 
+    "game_server": [
+        {
+            "domain": "", 
+            "ip": "192.168.0.9",
+            "name": "dp", 
+            "port": "2540"
+        },
+        {
+            "domain": "", 
+            "ip": "192.168.0.9",
+            "name": "prophet", 
+            "port": "2280"
+        },
+        {
+            "domain": "", 
+            "ip": "192.168.0.9",
+            "name": "czq", 
+            "port": "4540"
+        },
+        {
+            "domain": "", 
+            "ip": "192.168.0.9",
+            "name": "hbs", 
+            "port": "6540"
+        },
+        {
+            "domain": "", 
+            "ip": "192.168.12.113",
+            "name": "hbs2", 
+            "port": "6540"
+        },
+        {
+            "domain": "", 
+            "ip": "192.168.0.9",
+            "name": "cxr", 
+            "port": "6140"
+        },
+        {
+            "domain": "", 
+            "ip": "192.168.0.9",
+            "name": "xfc", 
+            "port": "2840"
+        },
+        {
+            "domain": "", 
+            "ip": "192.168.0.91",
+            "name": "sjy", 
+            "port": "1080"
+        },
+        {
+            "domain":"",
+            "ip":"192.168.0.9",
+            "name":"ld",
+            "port":"3540"
+        },
+        {
+            "domain":"",
+            "ip":"192.168.0.91",
+            "name":"lyk",
+            "port":"3840"
+        },
+        {
+            "domain":"",
+            "ip":"192.168.0.91",
+            "name":"lyk2",
+            "port":"4840"
+        },
+        {
+            "domain": "", 
+            "ip": "192.168.0.9",
+            "name": "task", 
+            "port": "1540"
+        },
+        {
+            "domain": "", 
+            "ip": "192.168.0.9",
+            "name": "battle", 
+            "port": "1840"
+        },
+        {
+            "domain": "", 
+            "ip": "119.29.191.188",
+            "name": "idiptest", 
+            "port": "4540"
+        },
+        {
+            "domain": "", 
+            "ip": "192.168.0.90",
+            "name": "release", 
+            "port": "1680"
+        },
+		{
+            "domain": "", 
+            "ip": "192.168.0.90",
+            "name": "deploy", 
+            "port": "3060"
+        },
+        {
+            "domain": "", 
+            "ip": "192.168.0.90",
+            "name": "aboard", 
+            "port": "2060"
+        }
+
+    ], 
+    "resource_url": [
+        {
+            "url": "http://192.168.12.130:8888/dhh/resource/resource"
+        }
+    ], 
+    "speed_url": [
+        {
+            "url":"client.alpha.q3.175game.com",
+            "name":"qq",
+            "port":""
+        },
+        {
+            "url":"client.alpha.q3.175game.com",
+            "name":"wechat",
+            "port":""
+        },
+        {
+            "url":"client.alpha.q3.175game.com",
+            "name":"",
+            "port":""
+        }
+    ],
+
+    "version": "1.0.0"
+}

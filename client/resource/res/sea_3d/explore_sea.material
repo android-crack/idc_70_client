@@ -1,0 +1,67 @@
+
+material sea
+{
+	u_worldViewProjectionMatrix = WORLD_VIEW_PROJECTION_MATRIX
+	u_worldMatrix = WORLD_MATRIX
+	u_time = GAME_TIME	
+	u_scale = SEA_SCALE
+	u_columnShift = SEA_COLUMNSHIFT
+	u_rowShift = SEA_ROWSHIFT
+
+	u_colorProgress =  1
+	u_centerColor1 = 1, 1, 1, 1
+	u_edgeColor1 = 1, 1, 1, 1
+	u_centerColor2 = 0.06667, 0.35686, 0.42745, 0.423
+	u_edgeColor2 = 0, 0.1961968, 0.3897059, 0.8588235
+	u_uvSpeed =  0, 0, 0.004, 0
+	u_normalTexST = 15, 15, 0, 0
+	u_normalMovement =  7
+	u_foamTexST = 6, 6, 0, 0	
+	sampler u_normalTex
+	{
+		path = sea_normals.png
+		wrapS = REPEAT
+		wrapT = REPEAT
+		mipmap = true
+		minFilter = LINEAR_MIPMAP_LINEAR
+		magFilter = LINEAR
+	}
+	sampler u_foamTex
+	{
+		path = sea_normals4.png
+		wrapS = REPEAT
+		wrapT = REPEAT
+		mipmap = true
+		minFilter = LINEAR_MIPMAP_LINEAR
+		magFilter = LINEAR
+	}
+	u_specularColor = 1, 1, 1, 1
+	u_shiness =  0, 50, 6, 1
+	u_shinessIntensity =  1
+	u_vertexWaveArg =  -0.5, 2.82, 0.4, 0.05
+	u_vertexWaveDir =  1, 10, 0, -18.54
+	renderState
+	{
+		cullFace = true
+		depthTest = true
+		depthWrite = false
+		blend = true
+		blendSrc = SRC_ALPHA
+		blendDst = ONE_MINUS_SRC_ALPHA
+	}
+	technique
+	{
+		tag
+		{
+			renderQueue = overlap
+		}	
+		pass
+		{
+			vertexShader = res/shaders/newSea.vert
+			fragmentShader = res/shaders/newSea.frag
+			defines = SPECULAR;VERTEX_ANIMATION
+
+		}
+	}
+}
+

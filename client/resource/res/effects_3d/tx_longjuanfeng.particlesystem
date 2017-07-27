@@ -1,0 +1,15 @@
+ParticleSystem tx_longjuanfeng
+{
+	Emitter longjuanfeng01
+	{
+		file = longjuanfeng01.particleemitter
+		order = 2
+		position = 0, 0, 0
+	}
+	Emitter longjuanfeng02
+	{
+		file = longjuanfeng02.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+}

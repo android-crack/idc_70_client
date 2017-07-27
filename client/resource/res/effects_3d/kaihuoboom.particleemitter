@@ -1,0 +1,53 @@
+particle kaihuoboom
+{
+	sprite 
+	{
+		path = baozhaxulie.png
+		width = 64
+		height = 64
+		blending = ALPHA BLENDED
+		animated = True
+		looped = False
+		frameCount = 8
+		frameRandomOffset = 0
+		frameDuration = 65
+	}
+	particleCountMax = 3
+	emissionRate = 2
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 40
+	sizeStartMax = 37
+	sizeEndMin = 52
+	sizeEndMax = 55
+	energyMin = 700
+	energyMax = 800
+	colorStart = 1, 1, 1, 1
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0.03676468, 0, 0, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 0.9264706, 0.4025355, 0, 1
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.6
+	middlePercentVar = 0.09999996
+	position = 0, 0, 0
+	positionVar = 1, 1, 1
+	velocity = 42.5, 13.5, 0
+	velocityVar = -2.5, 1.5, 0
+	acceleration = 0, 2.5, 0
+	accelerationVar = 0, 0.5, 0
+	rotationPerParticleSpeedMin = -0.7853982
+	rotationPerParticleSpeedMax = -0.3490658
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0.2
+	renderType = BILLBOARD
+	isLocalSpace = False
+	preWarm = True
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

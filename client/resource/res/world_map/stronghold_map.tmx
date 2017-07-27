@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="24" height="13" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="stronghold_friend" tilewidth="32" tileheight="32">
+  <image source="stronghold_friend.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="port_small_red" tilewidth="32" tileheight="32">
+  <image source="port_small_red.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="stronghold_map" tilewidth="32" tileheight="32">
+  <image source="stronghold_map.jpg" width="784" height="416"/>
+ </tileset>
+ <tileset firstgid="315" name="whirlpool" tilewidth="32" tileheight="32">
+  <image source="whirlpool.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="316" name="wm_area_wall" tilewidth="32" tileheight="32">
+  <image source="wm_area_wall.png" width="64" height="64"/>
+ </tileset>
+ <layer name="块层 3" width="24" height="13">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACw3DA5QQBgAA0GvhMi77rqvLthYWlrFs27W0asstt7BlY9m2bdtc1nL/vf/DBwQERDCikQw0slGMajSjG8OYxjK2cQwyrvGMbwITmsjEJjGpyUxuClMabIipDDW1aQwzrelMbwYzmsnMZjGr2cxuDnOay9zmMa/5zG8BC1rIwv5oEYtazOL+ZAlLWsrS/mwZy1rO8lawopWsbBWr+ovVrG4Na1rL2taxrvWsbwMb2sjGNrGpzWxuC1vayta2sa3tbG8HO9rJznaxq9381e72sKe97O1v9rGv/fzdP+zvAAc6yMEOcajD/NPhjnCkoxztGMc6zr8c7wQnOsm//cfJTnGq05zuDGc6y9nOca7znO8CF7rIf13sEpe6zOWucKWrXO0a17rO9W5wo5vc7Ba3us3t7nCnu9ztHve6z/0e8KCHPOwRj3rM457wpKc87RnPes7zXvCil7zsFa96zeve8Ka3vO0d73rP+z7woY987BP/86nPfO4LX/rK177xre987/9+8KOf/OwXv/rNgHD4g+GNYEQjGWhkoxjVaEY3hjGNZWzjGGRc4xnfBCY0kYlNYlKTmdwUpjTYEFMZamrTGGZa05neDGY0k5nNYlazmd0c5jSXuc1jXvOZ3wJ+B4Ga1BHgBAAA
+  </data>
+ </layer>
+ <layer name="friendly" width="24" height="13">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAVDCTAOtAPIBEPV3ehguPhjpAAA12nelOAEAAA=
+  </data>
+ </layer>
+ <layer name="enemy" width="24" height="13">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAVDFTANtAOoCIaiX4aim0caAACAwmFf4AQAAA==
+  </data>
+ </layer>
+ <layer name="whirlpool" width="24" height="13">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBQMBLBmHGgX0B/Q288Afp20WOAEAAA=
+  </data>
+ </layer>
+ <layer name="wall" width="24" height="13">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBRgAzaMtLfDng52EAvsGBkWAP28gFbmA/26wJaG5mMDAH8IflfgBAAA
+  </data>
+ </layer>
+</map>

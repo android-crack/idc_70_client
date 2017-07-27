@@ -1,0 +1,21 @@
+ParticleSystem sf_tujin
+{
+	Emitter sfdimianguang
+	{
+		file = sfdimianguang.particleemitter
+		order = 2
+		position = 0, 50, 0
+	}
+	Emitter sflight
+	{
+		file = sflight.particleemitter
+		order = 3
+		position = 0, 50, 0
+	}
+	Emitter sfwind
+	{
+		file = sfwind.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+}

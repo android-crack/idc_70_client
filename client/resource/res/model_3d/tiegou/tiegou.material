@@ -1,0 +1,11 @@
+material tiegou
+{
+    sampler u_diffuseTexture
+    {
+        path = tiegou.fbm/tiegou.png
+        wrapS = REPEAT
+        wrapT = REPEAT
+    }
+
+}
+

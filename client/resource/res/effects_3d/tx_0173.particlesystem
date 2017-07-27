@@ -1,0 +1,27 @@
+ParticleSystem tx_0173
+{
+	Emitter tx_0173_01
+	{
+		file = tx_0173_01.particleemitter
+		order = 2
+		position = 0, 100.7364, 0
+	}
+	Emitter tx_0173_02
+	{
+		file = tx_0173_02.particleemitter
+		order = 5
+		position = 0, 0, 0
+	}
+	Emitter tx_0173_03
+	{
+		file = tx_0173_03.particleemitter
+		order = 6
+		position = 0, 0, 0
+	}
+	Emitter tx_0173_05
+	{
+		file = tx_0173_05.particleemitter
+		order = 0
+		position = 0, 192.3062, 0
+	}
+}

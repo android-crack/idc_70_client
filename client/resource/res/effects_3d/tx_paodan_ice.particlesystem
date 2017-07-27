@@ -1,0 +1,9 @@
+ParticleSystem tx_paodan_ice
+{
+	Emitter paodan_ice01
+	{
+		file = paodan_ice01.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+}

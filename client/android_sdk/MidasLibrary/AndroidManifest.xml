@@ -1,0 +1,58 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.midaslibrary"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+	<uses-permission android:name="android.permission.RESTART_PACKAGES" />
+	<uses-permission android:name="android.permission.GET_TASKS" />
+	<uses-permission android:name="android.permission.READ_SMS" />
+	<uses-permission android:name="android.permission.SEND_SMS"/>
+	<uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+	<application >
+		<activity 
+			android:name="com.tencent.midas.proxyactivity.APMidasPayProxyActivity"
+			android:theme="@android:style/Theme.Translucent.NoTitleBar"
+			android:configChanges="orientation|keyboardHidden|screenSize"
+			android:process=":midasPay"
+			android:screenOrientation="sensorLandscape" />    
+
+		<activity
+			android:name="com.tencent.midas.wx.APMidasWXPayActivity"
+			android:theme="@android:style/Theme.Translucent.NoTitleBar"
+			android:process=":midasPay"
+			android:exported="true" />
+
+		<activity
+			android:name="com.tencent.midas.qq.APMidasQQWalletActivity"
+			android:launchMode="singleTop"
+			android:theme="@android:style/Theme.Translucent.NoTitleBar"
+			android:configChanges="orientation|keyboardHidden"
+			android:process=":midasPay"
+			android:exported="true" >
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.BROWSABLE"/> 
+				<category android:name="android.intent.category.DEFAULT"/>
+				<!--注意此参数，目前直接把demo的搬过来-->
+				<data android:scheme="qwallet100703379"/>
+			</intent-filter>
+		</activity>
+
+		<activity android:name="com.tencent.midas.jsbridge.APWebJSBridgeActivity"
+			android:theme="@android:style/Theme.Translucent.NoTitleBar"
+			android:windowSoftInputMode="stateAlwaysHidden"/>
+	</application>
+
+</manifest>

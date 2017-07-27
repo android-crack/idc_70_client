@@ -1,0 +1,53 @@
+particle sfjiagu2
+{
+	sprite 
+	{
+		path = juji_00001.png
+		width = 128
+		height = 128
+		blending = ADDITIVE
+		animated = True
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 80
+	}
+	particleCountMax = 2
+	emissionRate = 5
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 600
+	sizeStartMax = 500
+	sizeEndMin = 100
+	sizeEndMax = 100
+	energyMin = 800
+	energyMax = 800
+	colorStart = 0, 0.7647059, 0.1951317, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0, 0.3602941, 0.03230223, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 0.03793108, 1, 0.02413797, 0.8294117
+	colorMiddleVar = -0.03793108, 0, 0.02413797, 0.02941179
+	middlePercent = 0.8
+	middlePercentVar = 5.960464E-08
+	position = 0, 0, 0
+	positionVar = 0, 0, 0
+	velocity = 0, 0, 0
+	velocityVar = 0, 0, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 1
+	systemDuration = 0.6
+	renderType = HORIZONTALBILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

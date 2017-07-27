@@ -1,0 +1,10 @@
+animation tiegou1
+{
+frameCount=500
+clip move
+{
+begin=0
+end=500
+repeatCount=0
+}
+}

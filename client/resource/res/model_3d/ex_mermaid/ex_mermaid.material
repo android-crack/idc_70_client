@@ -1,0 +1,11 @@
+material ex_mermaid
+{
+    sampler u_diffuseTexture
+    {
+        path = ex_mermaid.fbm/ex_mermaid.png
+        wrapS = REPEAT
+        wrapT = REPEAT
+    }
+
+}
+

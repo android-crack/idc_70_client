@@ -1,0 +1,53 @@
+particle 0174_boomsmoke
+{
+	sprite 
+	{
+		path = 2011smoke_black.png
+		width = 64
+		height = 64
+		blending = ALPHA BLENDED
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	particleCountMax = 20
+	emissionRate = 10
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 40
+	sizeStartMax = 40
+	sizeEndMin = 60
+	sizeEndMax = 60
+	energyMin = 700
+	energyMax = 600
+	colorStart = 0.7132353, 0.7132353, 0.7132353, 1
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0, 0, 0, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 0.4816176, 0.4873756, 0.4873756, 0.7058824
+	colorMiddleVar = 0.04044122, 0.0461992, 0.0461992, 0
+	middlePercent = 0.35
+	middlePercentVar = 0.15
+	position = 0, 0, 0
+	positionVar = 50, 20, 30
+	velocity = 0, 20, 0
+	velocityVar = -2, -5, 0
+	acceleration = 0, 7.5, 0
+	accelerationVar = -1, 2.5, 0
+	rotationPerParticleSpeedMin = -1.396263
+	rotationPerParticleSpeedMax = 1.396263
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 2.5
+	renderType = BILLBOARD
+	isLocalSpace = False
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

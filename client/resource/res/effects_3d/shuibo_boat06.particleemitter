@@ -1,0 +1,53 @@
+particle shuibo_boat06
+{
+	sprite 
+	{
+		path = Waterfalla_04a_001.png
+		width = 128
+		height = 128
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 1
+		frameDuration = 0
+	}
+	particleCountMax = 20
+	emissionRate = 10
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 45
+	sizeStartMax = 50
+	sizeEndMin = 200
+	sizeEndMax = 210
+	energyMin = 2100
+	energyMax = 1900
+	colorStart = 1, 1, 1, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 1, 1, 1, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 1, 1, 0.4509804
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.35
+	middlePercentVar = 0.04999998
+	position = 0, 0, 0
+	positionVar = 0.01, 0.01, 0.01
+	velocity = 0, 0, 80
+	velocityVar = 0, 0, -5
+	acceleration = 0, 0, 15
+	accelerationVar = 0, 0, -15
+	rotationPerParticleSpeedMin = -0.1745329
+	rotationPerParticleSpeedMax = 0.2617994
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = HORIZONTALBILLBOARD
+	isLocalSpace = False
+	preWarm = True
+	initialRotationMin = 0
+	initialRotationMax = 0
+}

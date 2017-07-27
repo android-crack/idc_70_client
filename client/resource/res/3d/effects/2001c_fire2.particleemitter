@@ -1,0 +1,61 @@
+particle 2001c_fire2
+{
+	sprite 
+	{
+		path = fire_lizi_tie00.png
+		width = 256
+		height = 256
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 20
+	}
+	color 
+	{
+		curve 
+		{
+			type = 4
+			componentCount = 4
+			times = 0, 134, 207, 435, 493, 1000
+			values = 1, 0.8901961, 0, 0, 1, 0.8862745, 0.3647059, 1, 1, 0.8862745, 0.5647059, 1, 1, 0.7098039, 0.09019608, 1, 1, 0.6352941, 0.07843138, 1, 1, 0, 0, 0
+			inTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+			outTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+		}
+		type = 1
+	}
+	particleCountMax = 15
+	emissionRate = 8
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	energyMin = 1500
+	energyMax = 1800
+	position = 0, 0, 0
+	positionVar = 1.2, 1, 1.2
+	velocity = 0.75, 0.9, 0.35
+	velocityVar = 0.25, -0.09999996, 0.04999998
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = -0.1745329
+	rotationPerParticleSpeedMax = 0.1745329
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	delayTime = 3
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+	gravity = 0
+	lengthScale = 1
+	sizeStartMin = 1
+	sizeStartMax = 1
+	sizeEndMin = 1.2
+	sizeEndMax = 1.3
+}

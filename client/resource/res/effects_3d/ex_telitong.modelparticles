@@ -1,0 +1,9 @@
+ModelParticleConfig ex_telitong
+{
+	ParticleConfig meshwave04
+	{
+		file = meshwave04.particlesystem
+		position = 0, 3.502228, -1.530872E-07
+		rotation = -2.185569E-08, -8.742278E-08, 1.910685E-15, 1
+	}
+}

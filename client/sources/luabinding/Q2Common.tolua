@@ -1,0 +1,8 @@
+$pfile "CCPlatform3D.tolua"
+$pfile "CCLayer3D.tolua"
+$pfile "CCRenderTarget3D.tolua"
+$pfile "CCPlistFrame.tolua"
+$pfile "QSDK.tolua"
+$pfile "QShareSDK.tolua"
+$pfile "QTssSDK.tolua"
+$pfile "QMSCSDK.tolua"

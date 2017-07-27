@@ -1,0 +1,125 @@
+material plane001
+{
+	u_worldViewProjectionMatrix = WORLD_VIEW_PROJECTION_MATRIX
+	
+	tag 
+	{
+		renderQueue = alphatest
+	}
+	
+	technique plane001
+	{
+		tag 
+		{
+			renderQueue = transparent
+		}
+		u_time = GAME_TIME
+		u_texSpeed = 0, 0.2, 0, 0.2
+		u_mainIntensity = 1
+		u_flowIntensity = 1
+		u_mainColor = 0.04579367, 0.5405006, 0.8897059, 1
+		u_diffuseTextureST = 1, 1, 0, 0
+		sampler u_diffuseTexture
+		{
+			path = plane001.fbm/plane001.png
+			minFilter = LINEAR_MIPMAP_LINEAR
+			magFilter = LINEAR
+			wrapS = REPEAT
+			wrapT = REPEAT
+			mipmap = true
+		}
+		u_maskTexST = 1, 1, 0, 0
+		sampler u_maskTex
+		{
+			path = WHITE
+			minFilter = LINEAR_MIPMAP_LINEAR
+			magFilter = LINEAR
+			wrapS = REPEAT
+			wrapT = REPEAT
+			mipmap = true
+		}
+		u_flowTexColor = 1, 1, 1, 1
+		u_flowTexST = 1, 1, 0, 0
+		sampler u_flowTex
+		{
+			path = plane001.fbm/plane001.png
+			minFilter = LINEAR_MIPMAP_LINEAR
+			magFilter = LINEAR
+			wrapS = REPEAT
+			wrapT = REPEAT
+			mipmap = true
+		}
+		renderState		{
+			cullFace = false
+			depthTest = true
+			depthWrite = false
+			blend = true
+			blendSrc = SRC_ALPHA
+			blendDst = ONE
+		}
+		pass
+		{
+			vertexShader = res/shaders/textured.vert
+			fragmentShader = res/shaders/textured.frag
+			defines = TEXTURE_FLOW;GHOST;MAIN_COLOR
+		}
+	}
+	
+	technique plane002
+	{
+		tag 
+		{
+			renderQueue = transparent
+		}
+		u_time = GAME_TIME
+		u_texSpeed = 0, 0.2, 0, 0.2
+		u_mainIntensity = 1
+		u_flowIntensity = 1
+		u_mainColor = 0.04579367, 0.5405006, 0.8897059, 1
+		u_diffuseTextureST = 1, 1, 0, 0
+		sampler u_diffuseTexture
+		{
+			path = plane001.fbm/plane002.png
+			minFilter = LINEAR_MIPMAP_LINEAR
+			magFilter = LINEAR
+			wrapS = REPEAT
+			wrapT = REPEAT
+			mipmap = true
+		}
+		u_maskTexST = 1, 1, 0, 0
+		sampler u_maskTex
+		{
+			path = WHITE
+			minFilter = LINEAR_MIPMAP_LINEAR
+			magFilter = LINEAR
+			wrapS = REPEAT
+			wrapT = REPEAT
+			mipmap = true
+		}
+		u_flowTexColor = 1, 1, 1, 1
+		u_flowTexST = 1, 1, 0, 0
+		sampler u_flowTex
+		{
+			path = plane001.fbm/plane002.png
+			minFilter = LINEAR_MIPMAP_LINEAR
+			magFilter = LINEAR
+			wrapS = REPEAT
+			wrapT = REPEAT
+			mipmap = true
+		}
+		renderState		{
+			cullFace = false
+			depthTest = true
+			depthWrite = false
+			blend = true
+			blendSrc = SRC_ALPHA
+			blendDst = ONE
+		}
+		pass
+		{
+			vertexShader = res/shaders/textured.vert
+			fragmentShader = res/shaders/textured.frag
+			defines = TEXTURE_FLOW;GHOST;MAIN_COLOR
+		}
+	}
+}

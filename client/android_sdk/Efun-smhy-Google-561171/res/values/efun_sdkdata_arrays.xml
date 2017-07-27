@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 参数:en-cn一一对应 -->
+    <string-array name="en_params_name">
+
+        <!-- 基本配置 -->
+        <item>androidManifest</item>
+        <item>chartBoostAppid</item>
+        <item>chartBoostAppsignature</item>
+        <item>appflyerAppid</item>
+        <item>adwordsConversionid</item>
+        <item>adwordsLable</item>
+        <item>appPlatform</item>
+        <item>fbApplicationId</item>
+        <item>googleAnalyticsTrackingId</item>
+        <item>gameCode</item>
+        <item>appKey</item>
+        <item>language</item>
+        <item>loginPreferredUrl</item>
+        <item>loginSpareUrl</item>
+        <item>adsPreferredUrl</item>
+        <item>adsSpareUrl</item>
+        <item>payPreferredUrl</item>
+        <item>PaySpareUrl</item>
+        <item>fbPreferredUrl</item>
+        <item>fbSpareUrl</item>
+        <item>gamePreferredDomainUrl</item>
+        <item>gameSpareDomainUrl</item>
+        <item>dynamicPreferredUrl</item>
+        <item>dynamicSpareUrl</item>
+        <!-- 登陆 -->
+        <item>isShowNotice</item>
+        <item>isAutoLogin</item>
+        <!-- 支付 ,邀请,平台 -->
+        <item>payMoney</item>
+        <item>payStone</item>
+        <item>remark</item>
+        <item>userId</item>
+        <item>serverCode</item>
+        <item>payType</item>
+        <item>roleLevel</item>
+        <item>roleName</item>
+        <item>creditId</item>
+        <item>productId</item>
+        <item>roleId</item>
+        <!-- 分享 -->
+        <item>shareDescrition</item>
+        <item>shareLinkUrl</item>
+        <item>sharePictureUrl</item>
+        <item>shareType</item>
+        <item>shareLinkName</item>
+        <item>shareCaption</item>
+        <!-- 追踪事件 -->
+        <item>parentEvent</item>
+        <item>childEvent</item>
+        <!-- 粉丝页 -->
+        <item>webUrl</item>
+        <!-- 平台 -->
+        <item>platformStatu</item>
+        <!-- 生命周期 -->
+        <item>name</item>
+    </string-array>
+    <string-array name="cn_params_name">
+
+        <!-- 基本配置 -->
+        <item>AndroidManifest配置</item>
+        <item>chartBoostAppid</item>
+        <item>chartBoostAppsignature</item>
+        <item>appflyerAppid</item>
+        <item>adwordsConversionid</item>
+        <item>adwordsLable</item>
+        <item>平台标识</item>
+        <item>FB应用id</item>
+        <item>谷歌分析追踪id</item>
+        <item>gameCode</item>
+        <item>appKey</item>
+        <item>语言</item>
+        <item>登陆域名</item>
+        <item>登陆备用域名</item>
+        <item>广告域名</item>
+        <item>广告备用域名</item>
+        <item>储值域名</item>
+        <item>储值备用域名</item>
+        <item>FB域名</item>
+        <item>FB备用域名</item>
+        <item>Game域名</item>
+        <item>Game备用域名</item>
+        <item>Dynamic域名</item>
+        <item>Dynamic备用域名</item>
+        <!-- 登陆 -->
+        <item>是否显示公告</item>
+        <item>是否自动登陆</item>
+        <!-- 支付 ,邀请,平台 -->
+        <item>价格</item>
+        <item>游戏币数</item>
+        <item>扩展参数</item>
+        <item>用户id</item>
+        <item>服务器id</item>
+        <item>支付类型</item>
+        <item>角色等级</item>
+        <item>角色名</item>
+        <item>储值id</item>
+        <item>商品id</item>
+        <item>角色id</item>
+        <!-- 分享 -->
+        <item>描述</item>
+        <item>粉丝页</item>
+        <item>图片地址</item>
+        <item>分享类型</item>
+        <item>标题</item>
+        <item>副标题</item>
+        <!-- 追踪事件 -->
+        <item>事件</item>
+        <item>子事件</item>
+        <!-- 粉丝页 -->
+        <item>粉丝页地址</item>
+        <!-- 平台 -->
+        <item>状态</item>
+        <!-- 生命周期 -->
+        <item>名称</item>
+    </string-array>
+    <string-array name="activity">
+        <item>com.efun.os.ui.PageContainer</item>
+        <item>com.efun.os.sdk.google.BillingActivity</item>
+        <item>com.efun.os.ui.FacebookActivity</item>
+        <item>com.facebook.LoginActivity</item>
+        <item>com.efun.facebook.share.activity.EfunFBFunctionActivity</item>
+    </string-array>
+    <string-array name="receiver">
+        <item>com.appsflyer.MultipleInstallBroadcastReceiver</item>
+        <item>com.efun.ads.activity.GABroadcact</item>
+        <item>com.efun.push.client.receiver.EfunPushReceiver</item>
+        <item>com.google.ads.conversiontracking.InstallReceiver</item>
+    </string-array>
+    <string-array name="service">
+        <item>com.efun.ads.activity.EfunGAService</item>
+        <item>com.efun.ads.activity.EfunAdsS2SService</item>
+        <item>com.efun.push.client.service.EfunPushService</item>
+    </string-array>
+    <string-array name="uses_permission">
+        <item>android.permission.INTERNET</item>
+        <item>android.permission.SYSTEM_ALERT_WINDOW</item>
+        <item>com.android.vending.BILLING</item>
+        <item>android.permission.WRITE_EXTERNAL_STORAGE</item>
+    </string-array>
+    <string-array name="uses_feature">
+        <item>android.hardware.telephony</item>
+        <item>android.hardware.location.gps</item>
+        <item>android.hardware.location</item>
+        <item>android.hardware.microphone</item>
+        <!-- <item>android.permission.SEND_SMS</item>
+        <item>android.permission.READ_SMS</item>
+        <item>android.permission.RECEIVE_SMS</item> -->
+        <item>android.hardware.location.network</item>
+    </string-array>
+    <string-array name="metadata">
+        <item>com.facebook.sdk.ApplicationId</item>
+        <item>com.google.android.gms.version</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,1 @@
+python calc_md5.py --path=../../../resource/ --file=../../../resource/filelist.lua

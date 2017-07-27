@@ -1,0 +1,9 @@
+ModelParticleConfig ex_monster
+{
+	ParticleConfig meshwave01
+	{
+		file = meshwave01.particlesystem
+		position = 0, 0, 0
+		rotation = 0, 0, 0, 1
+	}
+}

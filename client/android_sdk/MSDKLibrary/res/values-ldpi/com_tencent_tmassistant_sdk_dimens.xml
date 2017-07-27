@@ -1,0 +1,9 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="white_list_title_size">15sp</dimen>
+    <dimen name="white_list_body_size">15sp</dimen>
+    <dimen name="white_list_button_text_size">15sp</dimen>
+    <dimen name="white_list_button_corner_radius">4px</dimen>
+    
+</resources>

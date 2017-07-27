@@ -1,0 +1,27 @@
+ParticleSystem tx_0152
+{
+	Emitter 0152lizi02
+	{
+		file = 0152lizi02.particleemitter
+		order = 5
+		position = 0, 0, 0
+	}
+	Emitter 0152quan01
+	{
+		file = 0152quan01.particleemitter
+		order = 3
+		position = 0, 15, 0
+	}
+	Emitter 0152quan02
+	{
+		file = 0152quan02.particleemitter
+		order = 2
+		position = 0, 0, 0
+	}
+	Emitter 0152quan03
+	{
+		file = 0152quan03.particleemitter
+		order = 6
+		position = 0, 0, 0
+	}
+}

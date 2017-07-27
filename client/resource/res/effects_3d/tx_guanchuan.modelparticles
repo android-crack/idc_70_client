@@ -1,0 +1,9 @@
+ModelParticleConfig guanchuan
+{
+	ParticleConfig tx_guanchuan
+	{
+		file = tx_guanchuan.particlesystem
+		position = 0, 0, 0
+		rotation = 0, 0, 0, 0
+	}
+}

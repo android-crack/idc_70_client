@@ -1,0 +1,136 @@
+animation cnsailing03
+{
+frameCount=22333
+clip move
+{
+begin=0
+end=1800
+repeatCount=0
+}
+clip movebroken
+{
+begin=1933
+end=3733
+repeatCount=0
+}
+clip turn1
+{
+begin=5133
+end=5133
+repeatCount=0
+}
+clip turn2
+{
+begin=5200
+end=5200
+repeatCount=0
+}
+clip turnbroken1
+{
+begin=5266
+end=5266
+repeatCount=0
+}
+clip turnbroken2
+{
+begin=5333
+end=5333
+repeatCount=0
+}
+clip saildown
+{
+begin=5666
+end=6333
+repeatCount=0
+}
+clip sailup
+{
+begin=6666
+end=7333
+repeatCount=0
+}
+clip move2
+{
+begin=7666
+end=8866
+repeatCount=0
+}
+clip turn3
+{
+begin=9033
+end=9033
+repeatCount=0
+}
+clip turn4
+{
+begin=9100
+end=9100
+repeatCount=0
+}
+clip hit01 
+{
+begin=10000
+end=10300
+repeatCount=0
+}
+clip hit02 
+{
+begin=10666
+end=10966
+repeatCount=0
+}
+clip fire01
+{
+begin=11333
+end=11933
+repeatCount=0
+}
+clip fire02
+{
+begin=12333
+end=12933
+repeatCount=0
+}
+clip speed   
+{
+begin=13333
+end=13866
+repeatCount=0
+}
+clip shake
+{
+begin=14666
+end=16000
+repeatCount=0
+}
+clip hittail
+{
+begin=16266
+end=17266
+repeatCount=0
+}
+clip hitcenter 
+{
+begin=17333
+end=18333
+repeatCount=0
+}
+clip hithead 
+{
+begin=18433
+end=19433
+repeatCount=0
+}
+clip hitall
+{
+begin=19500
+end=20500
+repeatCount=0
+}
+clip stand
+{
+begin=20666
+end=22333
+repeatCount=0
+}
+}

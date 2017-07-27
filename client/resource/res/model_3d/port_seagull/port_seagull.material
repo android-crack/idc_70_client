@@ -1,0 +1,11 @@
+material haiou
+{
+    sampler u_diffuseTexture
+    {
+        path = port_seagull.fbm/port_seagull.png
+        wrapS = REPEAT
+        wrapT = REPEAT
+    }
+
+}
+

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- title -->
+    <string name="en_id_title_google">G o o g l e</string>
+    <string name="en_id_title_web">Situs</string>
+    <string name="en_id_title_login">Login</string>
+    <string name="en_id_title_register">Daftar</string>
+    <string name="en_id_title_reset_pwd">Ubah Password</string>
+    <string name="en_id_title_retrieve_pwd">Cari kembali password</string>
+    <string name="en_id_title_bind_account">Ikat akun</string>
+
+    <!-- button -->
+    <string name="en_id_button_facebook">Login akun Facebook</string>
+    <string name="en_id_button_google">Login akun Google</string>
+    <string name="en_id_button_twitter">Login akun Twitter</string>
+    <string name="en_id_button_mac">Mulai Sekarang</string>
+    <string name="en_id_button_for_more_account">Login Akun</string>
+    <string name="en_id_button_login_btn">Login</string>
+    <string name="en_id_button_register_text_1">Gak punya akun? </string>
+    <string name="en_id_button_register_text_2">Segera daftar</string>
+    <string name="en_id_button_register_btn">Daftar</string>
+    <string name="en_id_button_reset_pwd_btn">Reset Password</string>
+    <string name="en_id_button_retrieve_pwd_btn">Lupa Password</string>
+    <string name="en_id_button_bind_account_btn">Ikat akun mulai sekaran</string>
+    <string name="en_id_button_bind_mac_btn">Ikat akun mulai sekaran</string>
+    <string name="en_id_button_bind_fb_btn">Ikat akun Facebook</string>
+    <string name="en_id_button_bind_vk_btn">Ikat akun Vkontakt </string>
+    <string name="en_id_button_bind_twitter_btn">Ikat akun Twitter</string>
+    <string name="en_id_button_bind_google_btn">Ikat akun Google+</string>
+    <string name="en_id_button_users_manages">Pengaturan akun</string>
+    <string name="en_id_button_cancel">Batal</string>
+    <string name="en_id_button_confirm">OK</string>
+    <string name="en_id_efun_word">Hari ini jangan tampilkan lagi papan informasi</string>
+    <!-- SDK -->
+    <string name="en_id_title_efun_user_agreement">Perjanjian Pengguna</string>
+    <string name="en_id_button_logout_btn">Logout</string>
+    <string name="en_id_button_bind_btn">Ikat</string>
+    <string name="en_id_efun_other_login">Login Akun Lainnya</string>
+    <string name="en_id_efun_user_agreement">Telah membaca dan setuju《Perjanjian Pengguna》</string>
+    <string name="en_id_toast_user_agreement">Silakan baca dahulu 《Perjanjian Pengguna》</string>
+    <string name="en_id_hint_account">Akun</string>
+    <string name="en_id_hint_password">Password</string>
+    <string name="en_id_hint_old_password">Password  lama</string>
+    <string name="en_id_hint_cnew_password">Password baru</string>
+    <string name="en_id_hint_confirn_password">Isi ulang password</string>
+    <string name="en_id_hint_email">Email (Silakan isi)</string>
+    <string name="en_id_hint_forget_email">Daftar Email</string>
+    <string name="en_id_hint_email_address">Email（Dipakai untuk cari balik kata sandi）</string>
+    <string name="en_id_hint_new_password">Password baru</string>
+    <string name="en_id_hint_confirm_new_password">Konfirmasi password baru</string>
+    <string name="en_id_progress_msg">loading &#8230;</string>
+    <string name="en_id_notify_internet_time_out">Koneksi timeout</string>
+    <string name="en_id_toast_empty_account">Silakan isi nama akun</string>
+    <string name="en_id_toast_empty_password">Silakan isi password</string>
+    <string name="en_id_toast_empty_confirm_password">Silakan isi lagi password baru</string>
+    <string name="en_id_toast_empty_old_password">Silakan isi password lama</string>
+    <string name="en_id_toast_empty_new_password">Silakan isi password baru</string>
+    <string name="en_id_toast_empty_confirm_new_password">Silakan konfirmasi password baru</string>
+    <string name="en_id_toast_empty_email">Silakan isi Email</string>
+    <string name="en_id_toast_frond_behind_password_different">Password tidak sama, silakan tulis ulang </string>
+    <string name="en_id_toast_login_format_error">Nama akun tidak boleh memakai awalan 09，efun，yh. Jika tidak sesuai syarat, silakan isi ulang! </string>
+    <string name="en_id_toast_email_match">Email tidak sesuai</string>
+    <string name="en_id_other_website">WebSite</string>
+    <string name="en_id_toast_bind_account">Pemain tercinta, demi menjaga keamanan akun, silakan mengikat akun mulai sekarang secepatnya yah.</string>
+    <string name="en_id_toast_account_permissions">Anda telah menolak permohonan akses ini, silakan menuju setting app untuk mengizinkan akses ini kembali.</string>
+    <!-- SDK bind facebook -->
+    <string name="en_id_toast_bind_facebook_user_other_account">Silakan login dahulu akun facebook yang anda ingin ikat.</string>
+    <string name="en_id_toast_bind_facebook_user_this_account_title">Facebook yang anda login sekarang adalah %1$s, yakin untuk ikat?</string>
+
+    <!-- 谷歌储值错误提示 -->
+    <string name="en_id_efunGoogleServerError">Koneksi server timeout, silakan coba kembali beberapa saat </string>
+    <string name="en_id_efunGoogleBuyFailError">Topup gagal</string>
+    <string name="en_id_efunGoogleStoreError">Di area anda sekarang tidak mendukung Google Wallet </string>
+    <!-- 谷歌购买提示 -->
+    <string name="en_id_efunGooglePlaySelectNothing">Silakan pilih一Item</string>
+
+    <!-- 新增facebook登录失败提示语 -->
+    <string name="en_id_toast_facebook_login_Error">login dengan facebook gagal, silahkan mencoba lagi.</string>
+
+</resources>

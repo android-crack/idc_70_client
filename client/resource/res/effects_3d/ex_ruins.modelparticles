@@ -1,0 +1,9 @@
+ModelParticleConfig ex_ruins
+{
+	ParticleConfig meshwave06
+	{
+		file = meshwave06.particlesystem
+		position = 0, 25, -1.073227E-06
+		rotation = -2.185569E-08, 0, 0, 1
+	}
+}

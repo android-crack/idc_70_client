@@ -1,0 +1,61 @@
+particle juqing3_shuibo_di
+{
+	sprite 
+	{
+		path = h_fx_water_002.png
+		width = 256
+		height = 256
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	color 
+	{
+		curve 
+		{
+			type = 4
+			componentCount = 4
+			times = 0, 87, 149, 349, 1000
+			values = 1, 1, 1, 0, 1, 1, 1, 0.2156863, 1, 1, 1, 0.227451, 1, 1, 1, 0.2745098, 1, 1, 1, 0
+			inTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+			outTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+		}
+		type = 1
+	}
+	particleCountMax = 20
+	emissionRate = 3
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	energyMin = 3500
+	energyMax = 3200
+	position = 0, 0, 0
+	positionVar = 0, 0, 0
+	velocity = 0, 0, -2.25
+	velocityVar = 0, 0, 0.25
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = HORIZONTALBILLBOARD
+	isLocalSpace = True
+	preWarm = True
+	delayTime = 0
+	initialRotationMin = 3.141593
+	initialRotationMax = 3.141593
+	gravity = 0
+	lengthScale = 1.2
+	sizeStartMin = 1.2
+	sizeStartMax = 0.7
+	sizeEndMin = 7.6
+	sizeEndMax = 8
+}

@@ -1,0 +1,53 @@
+particle speedup_shuihua03g
+{
+	sprite 
+	{
+		path = jianqishuihua.png
+		width = 64
+		height = 64
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	particleCountMax = 20
+	emissionRate = 10
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 0
+	sizeStartMax = 0
+	sizeEndMin = 300
+	sizeEndMax = 220
+	energyMin = 600
+	energyMax = 700
+	colorStart = 1, 1, 1, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0.210532, 0.7588831, 0.8676471, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 0.9191176, 0.9799188, 1, 0.2705882
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.5
+	middlePercentVar = 0
+	position = 0, 0, 0
+	positionVar = 60, 0, 60
+	velocity = 0, -30, 0
+	velocityVar = 0, 90, 30
+	acceleration = 0, -25, 0
+	accelerationVar = 0, 25, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 1.2
+	renderType = BILLBOARD
+	isLocalSpace = False
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 0
+}

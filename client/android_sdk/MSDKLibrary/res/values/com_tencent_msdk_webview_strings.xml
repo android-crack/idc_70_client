@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- 特殊调用 -->
+    <string name="thrdcall_back">回到游戏</string>
+    <string name="thrdcall_copy_sucsess">已复制到剪切板</string>
+    <string name="thrdcall_sharepage_find_app_fail">程序未找到，请重新选择</string>
+    <string name="thrdcall_confirm">确定</string>
+    <string name="thrdcall_cancel">取消</string>
+    <string name="thrdcall_image_viewer_save_failed">图片保存失败</string>
+    <string name="thrdcall_share_to">分享到</string>
+    <string name="thrdcall_share_more">以下调用手机软件分享</string>
+    <string name="thrdcall_share">分享页面</string>
+    <string name="thrdcall_fav">收藏页面</string>
+    <string name="thrdcall_ss">发表说说</string>
+    <string name="thrdcall_fitscreen">适应屏幕</string>
+    <string name="thrdcall_copylink">复制链接地址</string>
+    <string name="thrdcall_share_qq">分享到好友/群</string>
+    <string name="thrdcall_openbrowser">浏览器打开</string>
+    <string name="thrdcall_openqbx">QQ浏览器打开</string>
+    <string name="thrdcall_save_pic_title">图片</string>
+    <string name="thrdcall_save_pic_item">保存到手机</string>
+    <string name="thrdcall_save_success">成功保存到相册</string>
+    <string name="thrdcall_unfetch_url">未获取网页地址</string>
+    <string name="thrdcall_menu_readmode">阅读器</string>
+    <string name="thrdcall_menu_bookmark">存为浏览器书签</string>
+    <string name="thrdcall_menu_fav">收藏</string>
+    <string name="thrdcall_recom_mtt_title">下载QQ浏览器</string>
+    <string name="thrdcall_recom_mtt_content">访问网络安全、极速、省流量</string>
+    <string name="thrdcall_menu_saveflow">省流模式</string>
+    
+    <!-- 内置浏览器使用 -->
+    <string name="msdk_more_shareToQzone">分享至空间</string>
+    <string name="msdk_more_shareToWxFriend">分享至朋友圈</string>
+    <string name="msdk_more_shareToQQ">分享至QQ</string>
+    <string name="msdk_more_shareToWx">分享至微信</string>
+    <string name="msdk_more_shareToQQ_url_too_long">分享的链接地址字段长度超过500，分享失败</string>
+    <string name="msdk_upload_file_title">"上传文件"</string>
+    <string name="msdk_uninstall_qq">"检测到未安装手Q，请安装手Q后再分享！"</string>
+    <string name="msdk_uninstall_wx">"检测到未安装微信，请安装微信后再分享！"</string>
+    <string name="msdk_untitle_share">"无标题"</string>
+</resources>

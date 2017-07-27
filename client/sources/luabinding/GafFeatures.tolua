@@ -1,0 +1,8 @@
+
+class GafFeatures : public CCLayer, public GAFSequenceDelegate, public GAFTextureLoadDelegate, public GAFAnimationPlaybackDelegate
+{
+	static GafFeatures* create(const char *pszFileName, bool bisLoop, LUA_FUNCTION nHandler);
+
+};
+
+#endif // __GafFeatures_SCENE_H__

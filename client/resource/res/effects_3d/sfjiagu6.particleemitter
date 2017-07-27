@@ -1,0 +1,53 @@
+particle sfjiagu6
+{
+	sprite 
+	{
+		path = GlowOrange.png
+		width = 128
+		height = 128
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	particleCountMax = 1
+	emissionRate = 80
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 300
+	sizeStartMax = 300
+	sizeEndMin = 100
+	sizeEndMax = 100
+	energyMin = 3500
+	energyMax = 3500
+	colorStart = 0.789148, 1, 0.4338235, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0.2971602, 1, 0.2720588, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 0.6965518, 1, 0, 1
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.5
+	middlePercentVar = 0
+	position = 0, 0, 0
+	positionVar = 0.1, 0.1, 0.1
+	velocity = 0, 0, 0
+	velocityVar = 0, 0, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0.3
+	renderType = HORIZONTALBILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 0
+}

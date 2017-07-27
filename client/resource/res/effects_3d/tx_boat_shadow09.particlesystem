@@ -1,0 +1,9 @@
+ParticleSystem tx_boat_shadow09
+{
+	Emitter boat_shadow09
+	{
+		file = boat_shadow09.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+}

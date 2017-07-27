@@ -1,0 +1,21 @@
+ParticleSystem tx_194
+{
+	Emitter xuebowen01
+	{
+		file = xuebowen01.particleemitter
+		order = 0
+		position = 0, 0, 0
+	}
+	Emitter xuebowen02
+	{
+		file = xuebowen02.particleemitter
+		order = 0
+		position = 0, 0, 0
+	}
+	Emitter xuebowen03
+	{
+		file = xuebowen03.particleemitter
+		order = 0
+		position = 0, 0, 0
+	}
+}

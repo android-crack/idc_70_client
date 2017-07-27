@@ -1,0 +1,11 @@
+material bt_base_001
+{
+    sampler u_diffuseTexture
+    {
+        path = bt_base_001.fbm/bt_base_001_001.png
+        wrapS = REPEAT
+        wrapT = REPEAT
+    }
+
+}
+

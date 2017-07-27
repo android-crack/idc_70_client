@@ -1,0 +1,9 @@
+ModelParticleConfig sea_shark
+{
+	ParticleConfig tx_shuibo_shark
+	{
+		file = tx_shuibo_shark.particlesystem
+		position = 0, 0, -43
+		rotation = 0, 0, 0, 1
+	}
+}

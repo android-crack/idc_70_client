@@ -1,0 +1,11 @@
+material pd_01
+{
+    sampler u_diffuseTexture
+    {
+        path = pd_03.fbm/pd_01.png
+        wrapS = REPEAT
+        wrapT = REPEAT
+    }
+
+}
+

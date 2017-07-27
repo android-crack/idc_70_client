@@ -1,0 +1,37 @@
+ParticleSystem liandan
+{
+	Model liandan_model
+	{
+		position = 0, 50, 0
+		scale = 2, 2, 2
+		rotate = 0, 0, 0, 1
+		model_name = liuxingchui
+		action_name = tx_liuxingchui
+		liuguang = tx_liuxingchui
+	}
+	
+	Emitter liuxingchui_002
+	{
+		file = liuxingchui_002.particleemitter
+		order = 0
+		position = 0, 50, 0
+	}
+	Emitter liuxingchui_003
+	{
+		file = liuxingchui_003.particleemitter
+		order = 3
+		position = 0, 52, 0
+	}
+	Emitter liuxingchui_004
+	{
+		file = liuxingchui_004.particleemitter
+		order = 2
+		position = 0, 55, 0
+	}
+	Emitter liuxingchui_005
+	{
+		file = liuxingchui_005.particleemitter
+		order = 0
+		position = 0, 50, 0
+	}
+}

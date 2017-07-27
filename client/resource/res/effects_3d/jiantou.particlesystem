@@ -1,0 +1,21 @@
+ParticleSystem jiantou
+{
+	Emitter jiantou01
+	{
+		file = jiantou01.particleemitter
+		order = 0
+		position = 0, 65, 0
+	}
+	Emitter jiantou02
+	{
+		file = jiantou02.particleemitter
+		order = 0
+		position = 0, 0, 0
+	}
+	Emitter jiantou03
+	{
+		file = jiantou03.particleemitter
+		order = 0
+		position = 0, 0, 0
+	}
+}

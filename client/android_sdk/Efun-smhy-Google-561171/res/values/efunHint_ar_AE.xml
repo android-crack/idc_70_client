@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- title -->
+    <string name="ar_ae_title_google">G o o g l e</string>
+    <string name="ar_ae_title_web">الموقع</string>
+    <string name="ar_ae_title_login">الدخول</string>
+    <string name="ar_ae_title_register">التسجيل</string>
+    <string name="ar_ae_title_reset_pwd"> إعادة تعيين كلمة المرور</string>
+    <string name="ar_ae_title_retrieve_pwd">البحث عن كلمة المرور</string>
+    <string name="ar_ae_title_bind_account">ربط الحساب</string>
+    <!-- USD 0.99  = \u202d الجوهرة \u202c 120 -->
+    <!-- button -->
+    <string name="ar_ae_button_facebook">الدخول بحساب فيس بوك </string>
+    <string name="ar_ae_button_mac">للعب الآن</string>
+    <string name="ar_ae_button_for_more_account">الدخول بالحساب العادي</string>
+    <string name="ar_ae_button_login_btn">الدخول</string>
+    <string name="ar_ae_button_register_text_1">لا يوجد حساب؟ </string>
+    <string name="ar_ae_button_register_text_2">التسجيل فورا</string>
+    <string name="ar_ae_button_register_btn">التسجيل</string>
+    <string name="ar_ae_button_reset_pwd_btn">إعادة تعيين كلمة المرور</string>
+    <string name="ar_ae_button_retrieve_pwd_btn">البحث عن كلمة المرور</string>
+    <string name="ar_ae_button_bind_account_btn">ربط الحساب</string>
+    <string name="ar_ae_button_bind_mac_btn">ربط حساب اللعب الآن</string>
+    <string name="ar_ae_button_bind_fb_btn">ربط فيس بوك</string>
+    <string name="ar_ae_button_bind_vk_btn">ربط فيس بوك</string>
+    <string name="ar_ae_button_bind_twitter_btn">ربط فيس بوك</string>
+    <string name="ar_ae_button_bind_google_btn">ربط فيس بوك</string>
+    <string name="ar_ae_button_cancel">إلغاء</string>
+    <string name="ar_ae_button_confirm">تأكيد</string>
+    <!-- title -->
+    <string name="ar_ae_other_website">WebSite</string>
+    <!-- SDK -->
+    <string name="ar_ae_hint_account">الحساب</string>
+    <string name="ar_ae_hint_password">كلمة المرور</string>
+    <string name="ar_ae_hint_old_password">كلمة المرور الأصلية</string>
+    <string name="ar_ae_hint_cnew_password">كلمة المرور الجديدة</string>
+    <string name="ar_ae_hint_confirn_password">تكرير كلمة المرور</string>
+    <string name="ar_ae_hint_email">البريد الإلكتروني (لاسترداد كلمة المرور) </string>
+    <string name="ar_ae_hint_forget_email">تسجيل البريد الإلكتورني</string>
+    <string name="ar_ae_hint_email_address"> البريد الإلكتروني(لاسترداد كلمة المرور)</string>
+    <string name="ar_ae_hint_new_password">كلمة المرور الجديدة</string>
+    <string name="ar_ae_hint_confirm_new_password">تأكيد كلمة المرور الجديدة </string>
+    <string name="ar_ae_progress_msg">التحميل الآن&#8230;</string>
+    <string name="ar_ae_notify_internet_time_out">الاتصال بالخادم فاشلا</string>
+    <string name="ar_ae_toast_empty_account">أدخل الحساب</string>
+    <string name="ar_ae_toast_empty_password">أدخل كلمة المرور</string>
+    <string name="ar_ae_toast_empty_confirm_password">أدخل كلمة المرور مرة أخرى</string>
+    <string name="ar_ae_toast_empty_old_password">أدخل كلمة المرور الأصلية</string>
+    <string name="ar_ae_toast_empty_new_password">أدخل كلمة المرور الجديدة</string>
+    <string name="ar_ae_toast_empty_confirm_new_password">تأكيد كلمة المرور الجديدة</string>
+    <string name="ar_ae_toast_empty_email">أدخل البريد الإلكتروني</string>
+    <string name="ar_ae_toast_frond_behind_password_different">كلمتان المرور مختلفتان. أدخل مرة أخرى</string>
+    <string name="ar_ae_toast_login_format_error">لا يستطيع الحساب أن يبدأ ب efun، 09 وyh. أدخل مرة أخرى</string>
+    <string name="ar_ae_toast_email_match">نمط البريد الإلكتروني خاطئ</string>
+    <string name="ar_ae_toast_bind_account">حبيبي، نرجو رابط حسابك من الأن الالعاب الي الحساب العادي لأمن الحساب</string>
+    <string name="ar_ae_toast_account_permissions">قد رفضيت طلب الترخيص المتعينة، يمكنك ان تفتح الترخيص في مدير التطبيقات</string>
+    <!-- SDK bind facebook -->
+    <string name="ar_ae_toast_bind_facebook_user_other_account">ادخل حساب فيس بوك أولا</string>
+    <string name="ar_ae_toast_bind_facebook_user_this_account_title"> حساب فيس بوك s$1%، هل تريد أن تربطه؟ </string>
+
+    <!-- 谷歌储值错误提示 -->
+    <string name="ar_ae_efunGoogleServerError">زيادة الخادم فاشلا، حاول بعدين</string>
+    <string name="ar_ae_efunGoogleBuyFailError">الشحن الفاشل</string>
+    <string name="ar_ae_efunGoogleStoreError">منطقتك لا تدعم دكان الجوجل</string>
+    <!-- 谷歌购买提示 -->
+    <string name="ar_ae_efunGooglePlaySelectNothing">اختر بضاعة</string>
+    <string name="ar_ae_efun_introduce_message">انقر صورة فيس بوك لدخول المنتدي الرسمي</string>
+    <string name="ar_ae_efun_introduce_message_landscape">انقر لدخول فيسبوك.</string>
+
+    <!-- SDK -->
+    <string name="ar_ae_title_efun_user_agreement">اتفاق العملاء</string>
+    <string name="ar_ae_button_logout_btn">غير الحساب</string>
+    <string name="ar_ae_button_bind_btn">الرباط</string>
+    <string name="ar_ae_efun_other_login">الدخول بأساليب أخرى</string>
+    <string name="ar_ae_efun_user_agreement">طالعت وقبلت اتفاق العملاء</string>
+    <string name="ar_ae_toast_user_agreement">هل تقبل اتفاق العملاء</string>
+    <string name="ar_ae_efun_word">لن يظهر الأعلان اليوم.</string>
+
+    <!-- 新增facebook登录失败提示语 -->
+    <string name="ar_ae_toast_facebook_login_Error"> تسجيل الدخول بفيس بوك فاشل، تحاول من جديد</string>
+
+</resources>

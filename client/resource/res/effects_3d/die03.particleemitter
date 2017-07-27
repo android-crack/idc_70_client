@@ -1,0 +1,53 @@
+particle die03
+{
+	sprite 
+	{
+		path = eye_fxl_t_water_007.png
+		width = 128
+		height = 128
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	particleCountMax = 15
+	emissionRate = 7
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 50
+	sizeStartMax = 60
+	sizeEndMin = 220
+	sizeEndMax = 190
+	energyMin = 1200
+	energyMax = 1400
+	colorStart = 1, 1, 1, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 1, 1, 1, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 1, 1, 1
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.65
+	middlePercentVar = 0.04999995
+	position = 0, 0, 0
+	positionVar = 35, 0, 35
+	velocity = 0, 75, 0
+	velocityVar = 0, -5, 0
+	acceleration = 0, -85, 0
+	accelerationVar = 0, -5, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 3
+	renderType = BILLBOARD
+	isLocalSpace = False
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 0
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@drawable/thrdcall_shareitems_bg">
+        
+    <GridView
+        android:id="@+id/dlg_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:numColumns="4"
+        android:verticalSpacing="20dp" >
+    </GridView>
+
+    <Button
+        android:id="@+id/dlg_btn_cancel"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/thrdcall_titlebar_height"
+        android:background="@drawable/msdk_thrdcall_sheet_btn_cancel_bkg"
+        android:textColor="@color/thrdcall_sharetext_color"
+        android:textSize="20sp" 
+        android:text="@android:string/cancel" />
+</LinearLayout>

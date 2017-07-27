@@ -1,0 +1,9 @@
+ParticleSystem tx_shuibo_shark
+{
+	Emitter shuibo_shark
+	{
+		file = shuibo_shark.particleemitter
+		order = 0
+		position = 0, 0, 0
+	}
+}

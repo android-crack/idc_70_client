@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- title -->
+    <string name="en_us_button_bind_account_btn">Bind Account</string>
+    <string name="en_us_title_google">G o o g l e</string>
+    <string name="en_us_title_web">W e b s i t e</string>
+    <string name="en_us_title_login">Login</string>
+    <string name="en_us_title_register">Register</string>
+    <string name="en_us_title_reset_pwd">Reset Password</string>
+    <string name="en_us_title_retrieve_pwd">Retrieve Password</string>
+    <string name="en_us_title_bind_account">Bind Account</string>
+
+    <!-- button -->
+    <string name="en_us_button_facebook">Facebook Login</string>
+    <string name="en_us_button_google">Google+ Login</string>
+    <string name="en_us_button_twitter">Twitter Login</string>
+    <string name="en_us_button_mac">Play Now</string>
+    <string name="en_us_button_for_more_account">Login with Account</string>
+    <string name="en_us_button_login_btn">Login</string>
+    <string name="en_us_button_register_text_1">Don’t have accounts? </string>
+    <string name="en_us_button_register_text_2">Register Now</string>
+    <string name="en_us_button_register_btn"> Register</string>
+    <string name="en_us_button_reset_pwd_btn">Reset Password</string>
+    <string name="en_us_button_retrieve_pwd_btn">Find Password</string>
+    <string name="en_us_button_bind_mac_btn">Bind PlayNow Account</string>
+    <string name="en_us_button_bind_fb_btn">Bind Facebook Account </string>
+    <string name="en_us_button_bind_vk_btn">Bind Vkontakte Account</string>
+    <string name="en_us_button_bind_twitter_btn">Bind Twitter Account</string>
+    <string name="en_us_button_bind_google_btn">Bind Google+ Account</string>
+    <string name="en_us_button_users_manages">Account Setting</string>
+    <string name="en_us_button_cancel">Cancel</string>
+    <string name="en_us_button_confirm">Confirm</string>
+    <string name="en_us_efun_word">Don not present today</string>
+    <string name="en_us_other_website">WebSite</string>
+    <!-- SDK -->
+    <string name="en_us_title_efun_user_agreement">User Agreement</string>
+    <string name="en_us_button_logout_btn">Logout</string>
+    <string name="en_us_button_bind_btn">Bind</string>
+    <string name="en_us_efun_other_login"> Login with Account</string>
+    <string name="en_us_efun_user_agreement">I have read and agreed to the User Agreement</string>
+    <string name="en_us_toast_user_agreement">Please read and agree to User Agreement first</string>
+    <string name="en_us_hint_account">Account</string>
+    <string name="en_us_hint_password">Password</string>
+    <string name="en_us_hint_old_password">Original Password</string>
+    <string name="en_us_hint_cnew_password">Confirm New Password</string>
+    <string name="en_us_hint_confirn_password">Repeat Password</string>
+    <string name="en_us_hint_email">Email (Optional)</string>
+    <string name="en_us_hint_forget_email"> Email</string>
+    <string name="en_us_hint_email_address"> Email (To recover password)" </string>
+    <string name="en_us_hint_new_password">New Password</string>
+    <string name="en_us_hint_confirm_new_password">Confirm New Password</string>
+    <string name="en_us_progress_msg">Loading&#8230;</string>
+    <string name="en_us_notify_internet_time_out"> Network Connection Timed Out</string>
+    <string name="en_us_toast_empty_account">Please enter your account.</string>
+    <string name="en_us_toast_empty_password"> Please enter your password.</string>
+    <string name="en_us_toast_empty_confirm_password"> Please enter your password again.</string>
+    <string name="en_us_toast_empty_old_password"> Please enter your original password.</string>
+    <string name="en_us_toast_empty_new_password"> Please enter your new password.</string>
+    <string name="en_us_toast_empty_confirm_new_password"> Please confirm your password.</string>
+    <string name="en_us_toast_empty_email">Please enter your Email.</string>
+    <string name="en_us_toast_frond_behind_password_different">The two passwords don’t match, please enter again. </string>
+    <string name="en_us_toast_login_format_error">Attention! Your account can’t begin with 09, efun and yh. Please enter your account again. </string>
+    <string name="en_us_toast_email_match">The Email you login does not exist.</string>
+    <string name="en_us_toast_bind_account">Dear player, in order to ensure the safety of account, please bind your Play Now Account as soon as possible. </string>
+    <string name="en_us_toast_account_permissions">You had rejected the request of relevant permission. Please enter App Setting to authorize it.</string>
+    <!-- SDK bind facebook -->
+    <string name="en_us_toast_bind_facebook_user_other_account">Please login the Facebook account which you want to bind.</string>
+    <string name="en_us_toast_bind_facebook_user_this_account_title">Your current Facebook account is %1$s. Are you sure to bind it?</string>
+
+    <!-- 谷歌储值错误提示 -->
+    <string name="en_us_efunGoogleServerError"> Failed to connect with Network. Please try to connect again later.</string>
+    <string name="en_us_efunGoogleBuyFailError">Fail to recharge</string>
+    <string name="en_us_efunGoogleStoreError">Your area does not support Google Wallet.</string>
+    <!-- 谷歌购买提示 -->
+    <string name="en_us_efunGooglePlaySelectNothing">Please choose a product item</string>
+
+    <!-- 新增facebook登录失败提示语 -->
+    <string name="en_us_toast_facebook_login_Error">Facebook login failed. Try again!</string>
+
+</resources>

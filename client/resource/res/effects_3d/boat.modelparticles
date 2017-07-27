@@ -1,0 +1,141 @@
+ModelParticleConfig boat
+{
+	ParticleConfig tx_qihuo
+	{
+		file = tx_qihuo.particlesystem
+		position = 0, 18.0, 0
+		rotation = 0, 0, 0, 1
+	}
+	ParticleConfig tx_shouji
+	{
+		file = tx_shouji.particlesystem
+		position = 7.815014, 20.2733, -10.40681
+		rotation = 0, 0, 0, 1
+	}
+	ParticleConfig tx_kaihuo
+	{
+		file = tx_kaihuo.particlesystem
+		position = 0, 30, 0
+		rotation = 0, 0, 0, 1
+	}
+	ParticleConfig tx_kaihuo02
+	{
+		file = tx_kaihuo02.particlesystem
+		position = 0, 30, 0
+		rotation = 0, 0, 0, 1
+	}
+	ParticleConfig tx_die
+	{
+		file = tx_die.particlesystem
+		position = 0, 0, 0
+		rotation = 0, 0, 0, 1
+	}	
+	ParticleConfig tx_shoujisuipian01
+	{
+		file = tx_shoujisuipian01.particlesystem
+		position = 7.815014, 20.2733, -10.40681
+		rotation = 0, 0, 0, 1
+	}
+	ParticleConfig tx_shoujisuipian02
+	{
+		file = tx_shoujisuipian02.particlesystem
+		position = 7.815014, 20.2733, -10.40681
+		rotation = 0, 0, 0, 1
+	}
+	ParticleConfig tx_shoujisuipian03
+	{
+		file = tx_shoujisuipian03.particlesystem
+		position = 7.815014, 20.2733, -10.40681
+		rotation = 0, 0, 0, 1
+	}
+	ParticleConfig tx_die
+	{
+		file = tx_die.particlesystem
+		position = 70.815014, 80.2733, -10.40681
+		rotation = 0, 0, 0, 1	
+	}
+	ParticleConfig tx_skillready
+	{
+		file = tx_skillready.particlesystem
+		position = 0.815014, 20.2733, 0.40681
+		rotation = 0, 0, 0, 1	
+	}
+	ParticleConfig tx_skillready2
+	{
+		file = tx_skillready02.particlesystem
+		position = 0.815014, 20.2733, 0.40681
+		rotation = 0, 0, 0, 1	
+	}
+	ParticleConfig jn_jiagu_health
+	{
+		file = jn_jiagu_health.particlesystem
+		position = 0.815014, 20.2733, 0.40681
+		rotation = 0, 0, 0, 1	
+	}		
+	ParticleConfig tx_speedup
+	{
+		file = tx_speedup.particlesystem
+		position = 0.815014, 20.2733, 0.40681
+		rotation = 0, 0, 0, 1	
+	}	
+	ParticleConfig sf_tujin
+	{
+		file = sf_tujin.particlesystem
+		position = 0.815014, 20.2733, 0.40681
+		rotation = 0, 0, 0, 1	
+	}	
+	ParticleConfig jn_xuli
+	{
+		file = jn_xuli.particlesystem
+		position = 0.815014, 20.2733, 0.40681
+		rotation = 0, 0, 0, 1	
+	}
+	ParticleConfig tx_skillready03blue
+	{
+		file = tx_skillready03blue.particlesystem
+		position = 0.815014, 20.2733, 0.40681
+		rotation = 0, 0, 0, 1	
+	}
+	ParticleConfig tx_wind
+	{
+		file = tx_wind.particlesystem
+		position = 0.815014, 20.2733, 0.40681
+		rotation = 0, 0, 0, 1	
+	}
+	ParticleConfig sf_jiagu
+	{
+		file = sf_jiagu.particlesystem
+		position = 0.815014, 20.2733, 0.40681
+		rotation = 0, 0, 0, 1	
+	}
+	ParticleConfig jn_ZiBao
+	{
+		file = jn_ZiBao.particlesystem
+		position = 0.815014, 20.2733, 0.40681
+		rotation = 0, 0, 0, 1	
+	}
+	ParticleConfig jn_xilahuo
+	{
+		file = jn_xilahuo.particlesystem
+		position = 0.815014, 20.2733, -30.40681
+		rotation = 0, 0, 0, 1	
+	}
+	ParticleConfig zhaozi02
+	{
+		file = zhaozi02.particlesystem
+		position = 0,0,0
+		rotation = 0,0,0,1
+	}
+	ParticleConfig dao
+	{
+		file = tx_jinzhandao.particlesystem
+		position = 0,170,0
+		rotation = 0,0,0,1
+	}
+	ParticleConfig tx_selected
+	{
+		file = tx_selected.particlesystem
+		position = 0,0,0
+		rotation = 0,0,0,1
+	}
+}

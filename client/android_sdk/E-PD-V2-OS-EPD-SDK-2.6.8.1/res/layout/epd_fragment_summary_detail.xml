@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/epd_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/epd_primaryColor">
+
+        <com.epd.app.support.widget.gadget.button.ArrowButton
+            android:id="@+id/back"
+            style="@style/BackButton" />
+
+        <TextView
+            android:id="@+id/title_text"
+            android:text="@string/epd_title_summary"
+            style="@style/TitleBarText" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.epd.app.support.widget.gadget.web.SimpleWebView
+            android:layout_marginTop="1px"
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@color/epd_half_transparent"
+            android:orientation="vertical" >
+
+            <com.epd.app.support.widget.gadget.button.ArrowButton
+                android:id="@+id/last"
+                style="@style/BackButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/epd_size_3" />
+
+            <com.epd.app.support.widget.gadget.button.ArrowButton
+                android:id="@+id/next"
+                style="@style/BackButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/epd_size_3" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

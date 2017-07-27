@@ -1,0 +1,53 @@
+particle die04
+{
+	sprite 
+	{
+		path = 625-1.png
+		width = 128
+		height = 128
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 1
+		frameDuration = 0
+	}
+	particleCountMax = 10
+	emissionRate = 20
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 20
+	sizeStartMax = 25
+	sizeEndMin = 100
+	sizeEndMax = 120
+	energyMin = 800
+	energyMax = 1000
+	colorStart = 1, 1, 1, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0, 0, 0, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 1, 1, 0.5921569
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.55
+	middlePercentVar = 0.05000007
+	position = 0, 0, 0
+	positionVar = 20, 0, 20
+	velocity = 0, 70, 0
+	velocityVar = 10, -10, 10
+	acceleration = 0, -125, 0
+	accelerationVar = 10, 25, 10
+	rotationPerParticleSpeedMin = -0.3490658
+	rotationPerParticleSpeedMax = 0.3490658
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 3
+	renderType = BILLBOARD
+	isLocalSpace = False
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

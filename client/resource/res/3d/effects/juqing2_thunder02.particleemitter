@@ -1,0 +1,56 @@
+particle juqing2_thunder02
+{
+	sprite 
+	{
+		path = dian03.png
+		width = 64
+		height = 256
+		blending = ADDITIVE
+		animated = True
+		looped = True
+		frameCount = 8
+		frameRandomOffset = 0
+		frameDuration = 50
+	}
+	particleCountMax = 20
+	emissionRate = 1
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	energyMin = 300
+	energyMax = 500
+	position = 0, 0, 0
+	positionVar = 1, 0.5, 1
+	velocity = 0, 0, 0
+	velocityVar = 0, 0, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = BILLBOARD
+	isLocalSpace = False
+	preWarm = False
+	delayTime = 0.5
+	initialRotationMin = -0.5235988
+	initialRotationMax = -0.5235988
+	gravity = 0
+	lengthScale = 8
+	sizeStartMin = 0.3
+	sizeStartMax = 0.4
+	sizeEndMin = 0.45
+	sizeEndMax = 0.5
+	colorStart = 0.8308824, 1, 0.9860041, 0.891
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0, 0.2965517, 1, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 1, 1, 1
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.35
+	middlePercentVar = -0.05000001
+}

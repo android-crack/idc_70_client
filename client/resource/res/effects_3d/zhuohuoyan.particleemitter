@@ -1,0 +1,53 @@
+particle zhuohuoyan
+{
+	sprite 
+	{
+		path = 2011smoke_black.png
+		width = 64
+		height = 64
+		blending = ALPHA BLENDED
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 1
+		frameDuration = 0
+	}
+	particleCountMax = 15
+	emissionRate = 5
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 35
+	sizeStartMax = 40
+	sizeEndMin = 70
+	sizeEndMax = 65
+	energyMin = 2500
+	energyMax = 2300
+	colorStart = 0.2757353, 0.1155925, 0.1155925, 0
+	colorStartVar = -0.02573529, -0.09721022, -0.09721022, 0
+	colorEnd = 0, 0, 0, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 0.7941176, 0.7941176, 0.7941176, 0.5490196
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.55
+	middlePercentVar = 0.05000007
+	position = 0, 0, 0
+	positionVar = 5, 5, 5
+	velocity = 0, 32.5, 0
+	velocityVar = 2, -2.5, 2
+	acceleration = 0, 15, 0
+	accelerationVar = 0, 5, 0
+	rotationPerParticleSpeedMin = -0.8726646
+	rotationPerParticleSpeedMax = 1.396263
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 0
+}

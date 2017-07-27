@@ -1,0 +1,15 @@
+ParticleSystem tx_shoujisuipian02
+{
+	Emitter suipian01
+	{
+		file = suipian01.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+	Emitter suipian02
+	{
+		file = suipian02.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+}

@@ -1,0 +1,15 @@
+ParticleSystem tx_HitIce
+{
+	Emitter HitIcesmoke
+	{
+		file = HitIcesmoke.particleemitter
+		order = 2
+		position = 0, 0, 0
+	}
+	Emitter HitIcesuipian
+	{
+		file = HitIcesuipian.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+}

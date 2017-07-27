@@ -1,0 +1,15 @@
+ParticleSystem tx_0161
+{
+	Emitter 0161quan
+	{
+		file = 0161quan.particleemitter
+		order = 1
+		position = 0, 100, 0
+	}
+	Emitter 0161star
+	{
+		file = 0161star.particleemitter
+		order = 1
+		position = 0, 100, 0
+	}
+}

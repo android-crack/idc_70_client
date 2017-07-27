@@ -1,0 +1,53 @@
+particle jiagulizi
+{
+	sprite 
+	{
+		path = shizi.png
+		width = 64
+		height = 64
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	particleCountMax = 10
+	emissionRate = 8
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 70
+	sizeStartMax = 60
+	sizeEndMin = 15
+	sizeEndMax = 10
+	energyMin = 750
+	energyMax = 750
+	colorStart = 1, 0.8482759, 0, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0.05948281, 0.375, 0, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 0.4896553, 1, 0, 1
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.8000001
+	middlePercentVar = -5.960464E-08
+	position = 0, 0, 0
+	positionVar = 60, 30, 60
+	velocity = 0, 180, 0
+	velocityVar = 0, 10, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = BILLBOARD
+	isLocalSpace = False
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 0
+}

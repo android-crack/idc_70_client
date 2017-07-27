@@ -1,0 +1,17 @@
+ParticleSystem tx_haizizhufu_shouji
+{
+	Emitter haizizhufu_shouji
+	{
+		file = haizizhufu_shouji.particleemitter
+		order = 2
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter haizizhufu_shouji2
+	{
+		file = haizizhufu_shouji2.particleemitter
+		order = 1
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+}

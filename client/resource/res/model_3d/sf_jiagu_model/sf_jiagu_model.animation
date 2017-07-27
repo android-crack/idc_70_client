@@ -1,0 +1,10 @@
+animation sf_jiagu_model
+{
+frameCount=1233
+clip move
+{
+begin=0
+end=1233
+repeatCount=1
+}
+}

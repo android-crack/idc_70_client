@@ -1,0 +1,35 @@
+material textured
+{
+    u_worldViewProjectionMatrix = WORLD_VIEW_PROJECTION_MATRIX
+	u_matrixPalette = MATRIX_PALETTE
+  
+	tag 
+	{
+		renderQueue = alphatest
+	}
+    
+    sampler u_diffuseTexture
+    {
+        mipmap = true
+        minFilter = LINEAR_MIPMAP_LINEAR
+        magFilter = LINEAR
+    }
+
+    renderState
+    {
+        cullFace = true
+        depthTest = true
+    }
+    technique default
+    {
+        pass
+        {
+			u_mainIntensity = 1
+			u_mainColor = 1, 1, 1, 1
+			vertexShader = res/shaders/textured.vert
+			fragmentShader = res/shaders/textured.frag
+			defines = TEXTURE_DISCARD_ALPHA;MAIN_COLOR
+		}
+    }
+}
+

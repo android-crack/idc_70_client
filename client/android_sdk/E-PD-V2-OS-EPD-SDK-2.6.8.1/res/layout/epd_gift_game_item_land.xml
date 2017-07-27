@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/epd_background" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <librarys.cardview.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="@android:color/white"
+            card_view:cardElevation="@dimen/epd_size_3"
+            card_view:cardUseCompatPadding="true"
+            card_view:contentPadding="@dimen/epd_size_10" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/gift_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/game_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/epd_description_color"
+                        android:textStyle="bold" />
+
+                    <!-- <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/epd_size_10"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/epd_gift_type"
+                            android:textColor="@color/epd_description_color" />
+
+                        <TextView
+                            android:id="@+id/gift_type"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/epd_description_color" />
+                    </LinearLayout> -->
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/epd_size_10"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/epd_gift_surplus"
+                            android:textColor="@color/epd_description_color" />
+
+                        <TextView
+                            android:id="@+id/gift_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/epd_description_color" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/epd_size_10"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/epd_gift_end_time"
+                            android:textColor="@color/epd_description_color" />
+
+                        <TextView
+                            android:id="@+id/activity_end_time"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/epd_description_color" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/epd_size_1"
+                    android:layout_marginBottom="@dimen/epd_size_10"
+                    android:layout_marginTop="@dimen/epd_size_10"
+                    android:background="@color/epd_grey" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <com.epd.app.support.widget.GiftGameIconContainer
+                        android:id="@+id/game_gift_item_container"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/epd_size_10"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/epd_gift_des"
+                            android:textColor="@color/epd_primary"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/gift_des"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="@dimen/epd_size_10"
+                            android:paddingRight="@dimen/epd_size_10"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="@dimen/epd_size_10"
+                            android:text="@string/epd_gift_rule"
+                            android:textColor="@color/epd_primary"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/gift_got_rule"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="@dimen/epd_size_10"
+                            android:paddingRight="@dimen/epd_size_10"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:id="@+id/get"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:background="@color/epd_primary"
+                            android:padding="@dimen/epd_size_1"
+                            android:text="@string/epd_gift_get_now"
+                            android:textColor="@android:color/white"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </librarys.cardview.CardView>
+    </LinearLayout>
+
+    <com.epd.app.support.widget.gadget.button.MarkButton
+        android:id="@+id/mark_button"
+        android:layout_width="@dimen/epd_size_100"
+        android:layout_height="@dimen/epd_size_100"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/epd_size_3"
+        android:layout_marginTop="@dimen/epd_size_3" />
+
+</RelativeLayout>

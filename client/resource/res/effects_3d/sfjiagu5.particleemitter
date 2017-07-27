@@ -1,0 +1,53 @@
+particle sfjiagu5
+{
+	sprite 
+	{
+		path = peng_00000.png
+		width = 128
+		height = 128
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	particleCountMax = 1
+	emissionRate = 40
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 2000
+	sizeStartMax = 2000
+	sizeEndMin = 2000
+	sizeEndMax = 2000
+	energyMin = 3000
+	energyMax = 3000
+	colorStart = 0.2827586, 1, 0, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0.01318457, 0.3823529, 0, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 0, 0.5477936, 0.207784, 0.5862745
+	colorMiddleVar = 0, -0.04044062, -0.01533978, 0.01764709
+	middlePercent = 0.5
+	middlePercentVar = 0
+	position = 0, 0, 0
+	positionVar = 0.1, 0.1, 0.1
+	velocity = 0, 0, 0
+	velocityVar = 0, 0, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0.3
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	initialRotationMin = -1.570796
+	initialRotationMax = -1.570796
+}

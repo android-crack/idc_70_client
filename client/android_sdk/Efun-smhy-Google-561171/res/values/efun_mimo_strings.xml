@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+	<string name="game_currency">Gold</string>
+	
+	<string name="pay_item">%1$s&#160;%2$s&#160;=&#160;%3$s&#160;%4$s</string>
+	
+	<string name="pymtmethod_title">Pelayanan Terbaik untuk Anda</string>
+	
+	<string name="billing_title">PAYMENT</string>
+	
+	<color name="efun_mimo_text_bule">#169FCD</color>
+	<color name="efun_mimo_bg_color">#D6D8D9</color>
+	
+	<string name="e_mimo_gameurl">https://www.facebook.com/gamehoneytrap</string>
+	<string name="e_mimo_pname">Name Produk:%1$s</string>
+	<string name="e_mimo_gamepay">Harga:Rp.%1$s</string>
+	<string name="e_mimo_extrapay">Biaya Transaksi:Rp.%1$s</string>
+	<string name="e_mimo_totalamount">Jumlah Tagihan:Rp.%1$s</string>
+	
+	<string name="e_mimo_pay_prompt">Informasi: Berapapun nominal pengisian voucher yang kamu lakukan, kamu akan mendapatkan poin game berdasarkan kurs “IDR 10000 = 80 poin game”</string>
+	
+	<string name="e_yes">LANJUT</string>
+	<string name="e_confrim">SELESAI</string>
+	
+	<string-array name="atm_bca_result">
+	    <item>Kode Perusahaan:</item>
+	    <item>Jumlah Tagihan:Rp.</item>
+	    <item>ID Transaksi:</item>
+	</string-array>
+	
+	<string-array name="atm_bersama_result">
+	    <item>Kode Bank:</item>
+	    <item>Jumlah Tagihan:Rp.</item>
+	    <item>Normor Rekening Tujuan:</item>
+	</string-array>
+</resources>

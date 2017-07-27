@@ -1,0 +1,61 @@
+particle haizizhufu
+{
+	sprite 
+	{
+		path = white_line.png
+		width = 256
+		height = 256
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	color 
+	{
+		curve 
+		{
+			type = 4
+			componentCount = 4
+			times = 0, 360, 385, 607, 1000
+			values = 0, 0.6235294, 0.1058824, 0, 0, 0.8588235, 0.007843138, 0.7647059, 0, 0.8509804, 0.007843138, 0.8156863, 0, 0.7764706, 0.02745098, 0.7568628, 0, 0.654902, 0.05882353, 0
+			inTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+			outTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+		}
+		type = 1
+	}
+	particleCountMax = 15
+	emissionRate = 15
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	energyMin = 800
+	energyMax = 1200
+	position = 0, 0, 0
+	positionVar = 350, 0, 350
+	velocity = 0, -530, 0
+	velocityVar = 0, -30, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = BILLBOARD
+	isLocalSpace = False
+	preWarm = False
+	delayTime = 0
+	initialRotationMin = 0
+	initialRotationMax = 0
+	gravity = 0
+	lengthScale = 20
+	sizeStartMin = 50
+	sizeStartMax = 50
+	sizeEndMin = 25
+	sizeEndMax = 25
+}

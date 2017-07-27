@@ -1,0 +1,27 @@
+ParticleSystem tx_0171
+{
+	Emitter yanwu
+	{
+		file = yanwu.particleemitter
+		order = 4
+		position = 0, 27.43546, 0
+	}
+	Emitter yanwu02
+	{
+		file = yanwu02.particleemitter
+		order = 2
+		position = 0, 18.60855, 0
+	}
+	Emitter yanwu03
+	{
+		file = yanwu03.particleemitter
+		order = 1
+		position = 0, 36.79793, 0
+	}
+	Emitter yanwu_1
+	{
+		file = yanwu_1.particleemitter
+		order = 3
+		position = 0, 0, 0
+	}
+}

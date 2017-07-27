@@ -1,0 +1,59 @@
+<map height="28" orientation="orthogonal" renderorder="right-down" tileheight="64" tilewidth="64" version="1.0" width="48">
+ <tileset firstgid="1" name="area_piece2" tileheight="64" tilewidth="64">
+  <image height="64" source="area_piece_wall2.png" width="128" />
+ </tileset>
+ <tileset firstgid="3" name="new_snow" tileheight="64" tilewidth="64">
+  <image height="1472" source="new_snow.png" width="1984" />
+ </tileset>
+ <tileset firstgid="499" name="snow_tree" tileheight="64" tilewidth="64">
+  <image height="896" source="snow_tree.png" width="576" />
+ </tileset>
+ <layer height="28" name="snow" width="48">
+  <properties>
+   <property name="picture" value="new_snow" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJzt10srBWEcx/FnQi4bkomdNQvCC8CCBWGDV0B4A7amjijxApC7FDssXM/FnrM4F7cdwrksscV3
+mjPNJCVn6swzNb/6NM3u9/Rv/j0jROEyglE0oRklqFacKWSmoKEHvaiB6vAMbuTnHPYcnMGtaMKa
+QwhhlOZxDjdjziGOBGpRJ7zTX4+GNDJoQSvasIuIkL+/mU/0oR8DCCIp/t5RMmYCMWTF7zvqiveo
+MOYjYwJI4UtYO6oIxXjAI56EMR+ZoyrWjqpEFd7wjg9hzEf2mDuqAY0o40zlqFCM+XghGrrQjXrb
+N6tK+v368ePHj0zZYVcGMJ3bme08OyTfnwv0CyOCCyxiCcsYxJDk/bfpd4s73GMfBzjEGMYl7D9H
+pxnMIoQMsrl756V+90QUk5Ldn9foso4NrGAVNx74/9IzT48TnOIMRzhG2gP9N+mwhRjiSHjk/93c
+f+cI4hkv/+zuVv9O2/5L4jqP3m7113f6sG3/vSLloP83S/lbqw==
+</data>
+ </layer>
+ <layer height="28" name="block" opacity="0.5" width="48">
+  <properties>
+   <property name="picture" value="new_snow" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJzt1jEOABAUBFGu4v6HFCo1kjUxk2z/fkWrpTTn3Fwiuv/mHeno/jW6f0T3j+j+Nf3Z9GfTn01/
+NqKf+v7S/29E/475Ff+p3bnf1gH/OFPz
+</data>
+ </layer>
+ <layer height="28" name="wall1" width="48">
+  <properties>
+   <property name="picture" value="area_piece2" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJzt17EJADAMA7C0/x+V05qlN5iABMazR1cB35ncQAMAALDLfLmeT9epTu+HTR5Eahhe
+</data>
+ </layer>
+ <layer height="28" name="wall2" width="48">
+  <properties>
+   <property name="picture" value="area_piece2" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJzt0jEKACAMBMHoS32aT9XG2gOJSWCnTnEsMQNwdLMRveFFK76f/rHo72dvm7ebzP27sJ/+fugf
+S9mfub/yP/T3Q/9Y1fsrMvdX0B/ALwt/Sg6P
+</data>
+ </layer>
+ <layer height="28" name="tree" width="48">
+  <properties>
+   <property name="picture" value="snow_tree" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJztmNtKw0AQQEM/wYrWgrcKap+sPoi+eKu1rRe0Veq9mkL+/xc8C7swDJvnTGQPHAgJgcnMDswk
+y6pj0ciyddzATdzCYzzBU/zBX+zjNQ7883DfXVfNLjHs4T528QzP8QIv8Qrv8B4f/PMVXPXXVXNA
+DD08xCOc4w0OcYRjvPW51rWyRDgTBT7iE05wis8+17pWM2Pf4HD5f8U3fMcP0Q+6Vt8G4y9Efy78
+edL94HgxGHuMoqQfPvGrJt8Q64dQozqg+yGRSCQSiUTiv6P34bmfgfIazEKzyPzvZuolbBqPP/c7
+Vmz+b+GawfhDXpfFeYnN/9vYMRh/yGtb7L16/td9YIVc5HWnZO+V9SmMxC9jCnt52X8gWR8L5Cqm
+sJeX/QeS9XHv/gH+4TJm
+</data>
+ </layer>
+</map>

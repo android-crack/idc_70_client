@@ -1,0 +1,11 @@
+material Material__25
+{
+    sampler u_diffuseTexture
+    {
+        path = boat36.fbm/boat36_001.png
+        wrapS = REPEAT
+        wrapT = REPEAT
+    }
+
+}
+

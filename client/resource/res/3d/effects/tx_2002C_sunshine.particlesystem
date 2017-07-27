@@ -1,0 +1,17 @@
+ParticleSystem sunshine
+{
+	Emitter 2002C_sunshine
+	{
+		file = 2002C_sunshine.particleemitter
+		order = 0
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter 2002C_sunshine02
+	{
+		file = 2002C_sunshine02.particleemitter
+		order = 0
+		position = 0.45, -0.16, -0.37
+		rotate = 0, 0, 0, 1
+	}
+}

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- //旧登陆UI资源差异 -->
+    <!-- title -->
+    <string name="zh_ch_button_bind_account_btn">绑 定 账 号</string>
+    <string name="zh_ch_title_google">G o o g l e</string>
+    <string name="zh_ch_title_web">W e b s i t e</string>
+    <string name="zh_ch_title_login">登  陆</string>
+    <string name="zh_ch_title_register">注  册</string>
+    <string name="zh_ch_title_reset_pwd">重  设  密  码</string>
+    <string name="zh_ch_title_retrieve_pwd">找  回  密  码</string>
+    <string name="zh_ch_title_bind_account">绑  定  账  号</string>
+
+    <!-- button -->
+    <string name="zh_ch_button_facebook">Facebook账号登录</string>
+    <string name="zh_ch_button_google">Google账号登录</string>
+    <string name="zh_ch_button_twitter">Twitter账号登录</string>
+    <string name="zh_ch_button_mac">开始游戏</string>
+    <string name="zh_ch_button_for_more_account">普通账号登录</string>
+    <string name="zh_ch_button_login_btn">登 录</string>
+    <string name="zh_ch_button_register_text_1">没有账号? </string>
+    <string name="zh_ch_button_register_text_2">立即注册</string>
+    <string name="zh_ch_button_register_btn">注 册</string>
+    <string name="zh_ch_button_reset_pwd_btn">重 设 密 码</string>
+    <string name="zh_ch_button_retrieve_pwd_btn">找 回 密 码</string>
+    <string name="zh_ch_button_bind_mac_btn">免注册绑定账号</string>
+    <string name="zh_ch_button_bind_fb_btn">绑定Facebook账号</string>
+    <string name="zh_ch_button_bind_vk_btn">绑定Vkontakte账号</string>
+    <string name="zh_ch_button_bind_twitter_btn">绑定Twitter账号</string>
+    <string name="zh_ch_button_bind_google_btn">绑定Google+账号</string>
+    <string name="zh_ch_button_users_manages">账号管理</string>
+    <string name="zh_ch_button_cancel">取消</string>
+    <string name="zh_ch_button_confirm">确认</string>
+    <string name="zh_ch_efun_word">勾选今天不展示公告栏</string>
+    <!-- SDK -->
+    <string name="zh_ch_title_efun_user_agreement">用户协议</string>
+    <string name="zh_ch_button_logout_btn">登出</string>
+    <string name="zh_ch_button_bind_btn">绑定</string>
+    <string name="zh_ch_efun_other_login">其他账号登录</string>
+    <string name="zh_ch_efun_user_agreement">已阅读并同意《用户协议》</string>
+    <string name="zh_ch_toast_user_agreement">请先阅读并同意《用户协议》</string>
+    <string name="zh_ch_hint_account">账号</string>
+    <string name="zh_ch_hint_password">密码</string>
+    <string name="zh_ch_hint_old_password">原始密码</string>
+    <string name="zh_ch_hint_cnew_password">确认新密码</string>
+    <string name="zh_ch_hint_confirn_password">重复密码</string>
+    <string name="zh_ch_hint_email">Email(选填)</string>
+    <string name="zh_ch_hint_forget_email">注册Email</string>
+    <string name="zh_ch_hint_email_address">Email(可用于找回密码)</string>
+    <string name="zh_ch_hint_new_password">新密码</string>
+    <string name="zh_ch_hint_confirm_new_password">确认新密码</string>
+    <string name="zh_ch_progress_msg">加载中&#8230;</string>
+    <string name="zh_ch_notify_internet_time_out">连接服务器超时</string>
+    <string name="zh_ch_toast_empty_account">请输入账号</string>
+    <string name="zh_ch_toast_empty_password">请输入密码</string>
+    <string name="zh_ch_toast_empty_confirm_password">请重复输入密码</string>
+    <string name="zh_ch_toast_empty_old_password">请输入原始密码</string>
+    <string name="zh_ch_toast_empty_new_password">请输入新密码</string>
+    <string name="zh_ch_toast_empty_confirm_new_password">请确认新密码</string>
+    <string name="zh_ch_toast_empty_email">请输入Email</string>
+    <string name="zh_ch_toast_frond_behind_password_different">前后密码不一致,请重新输入</string>
+    <string name="zh_ch_toast_login_format_error">账号不能已 09,efun,yh开头.如不符合条件，请重新输入！</string>
+    <string name="zh_ch_toast_email_match">邮箱格式错误</string>
+    <string name="zh_ch_other_website">WebSite</string>
+    <string name="zh_ch_toast_bind_account">亲爱的玩家，为了保障账户安全，请尽快进行免注册帐号绑定哦。</string>
+    <string name="zh_ch_toast_account_permissions">您已经拒绝了相应权限请求，请转到应用设置里面开启权限。</string>
+    <!-- SDK bind facebook -->
+    <string name="zh_ch_toast_bind_facebook_user_other_account">请先登录您想要绑定的facebook账号.</string>
+    <string name="zh_ch_toast_bind_facebook_user_this_account_title">您当前登录的facebook账户是 %1$s. 是否绑定?</string>
+
+    <!-- 谷歌储值错误提示 -->
+    <string name="zh_ch_efunGoogleServerError">访问服务器超时，请稍后再试</string>
+    <string name="zh_ch_efunGoogleBuyFailError">储值失败</string>
+    <string name="zh_ch_efunGoogleStoreError">您所在的地区不支持google钱包</string>
+    <!-- 谷歌购买提示 -->
+    <string name="zh_ch_efunGooglePlaySelectNothing">请选择一项商品</string>
+    <!-- 新增facebook登录失败提示语 -->
+    <string name="zh_ch_toast_facebook_login_Error">Facebook登录失败，请重新登录.</string>
+
+</resources>

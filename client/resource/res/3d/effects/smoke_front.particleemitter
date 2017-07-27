@@ -1,0 +1,56 @@
+particle smoke_front
+{
+	sprite 
+	{
+		path = h_sdfg.png
+		width = 256
+		height = 256
+		blending = ALPHA BLENDED
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 30
+	}
+	particleCountMax = 45
+	emissionRate = 15
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	energyMin = 3000
+	energyMax = 3000
+	position = 0, 0, 0
+	positionVar = 3, 5, 2
+	velocity = 6.25, 0, -5.5
+	velocityVar = 0.25, 0, 0.5
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0.5235988
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	delayTime = 3
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+	gravity = 0
+	lengthScale = 1
+	sizeStartMin = 5
+	sizeStartMax = 4
+	sizeEndMin = 12
+	sizeEndMax = 9
+	colorStart = 0.8529412, 0.8529412, 0.8529412, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 1, 1, 1, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 1, 1, 0.178
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.35
+	middlePercentVar = -0.05000001
+}

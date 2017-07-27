@@ -1,0 +1,53 @@
+particle zhaozidi
+{
+	sprite 
+	{
+		path = huanyellow.png
+		width = 128
+		height = 128
+		blending = ADDITIVE
+		animated = False
+		looped = True
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	particleCountMax = 12
+	emissionRate = 6
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 220
+	sizeStartMax = 220
+	sizeEndMin = 250
+	sizeEndMax = 250
+	energyMin = 1200
+	energyMax = 1200
+	colorStart = 0.9448276, 1, 0, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 1, 0.5586207, 0, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 0.7241379, 0, 0.3921569
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.5
+	middlePercentVar = 0
+	position = 0, 0, 0
+	positionVar = 0.1, 0.1, 0.1
+	velocity = 0, 0, 0
+	velocityVar = 0, 0, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0.7853982
+	rotationPerParticleSpeedMax = 0.3490658
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 100000
+	renderType = HORIZONTALBILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

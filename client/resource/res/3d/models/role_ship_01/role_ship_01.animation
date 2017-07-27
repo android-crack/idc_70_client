@@ -1,0 +1,22 @@
+animation role_ship_01
+{
+frameCount=12666
+clip stand1
+{
+begin=0
+end=3333
+repeatCount=0
+}
+clip move
+{
+begin=4333
+end=8666
+repeatCount=1
+}
+clip stand2
+{
+begin=9333
+end=12666
+repeatCount=0
+}
+}

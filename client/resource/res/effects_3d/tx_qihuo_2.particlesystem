@@ -1,0 +1,24 @@
+ParticleSystem tx_qihuo_2
+{
+	Emitter zhuohuohuo_2
+	{
+		file = zhuohuohuo_2.particleemitter
+		order = 3
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter zhuohuolizi_2
+	{
+		file = zhuohuolizi_2.particleemitter
+		order = 2
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter zhuohuoyan_2
+	{
+		file = zhuohuoyan_2.particleemitter
+		order = 1
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+}

@@ -1,0 +1,33 @@
+ParticleSystem liuxingchui_tuowei
+{
+	Emitter liuxingchui_tuowei01
+	{
+		file = liuxingchui_tuowei01.particleemitter
+		order = 3
+		position = 0, 0, 0
+	}
+	Emitter liuxingchui_tuowei01yan
+	{
+		file = liuxingchui_tuowei01yan.particleemitter
+		order = 0
+		position = 0, 0, 0
+	}
+	Emitter liuxingchui_tuowei02
+	{
+		file = liuxingchui_tuowei02.particleemitter
+		order = 4
+		position = 0, 0, 0
+	}
+	Emitter liuxingchui_tuowei02yan
+	{
+		file = liuxingchui_tuowei02yan.particleemitter
+		order = 2
+		position = 0, 0, 0
+	}
+	Emitter liuxingchui_tuowei02yan02
+	{
+		file = liuxingchui_tuowei02yan02.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+}

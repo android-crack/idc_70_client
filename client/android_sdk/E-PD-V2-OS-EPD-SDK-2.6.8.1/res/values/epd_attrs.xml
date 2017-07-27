@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="MaterialEditText">
+    <!-- The base color of the line and the texts. Default is black. -->
+    <attr name="baseColor" format="color"/>
+    <!-- The highlight color of the line, and the floating label if the highlightFloatingLabel is true. -->
+    <attr name="primaryColor" format="color"/>
+    <!-- How the floating label should be shown. Default is none -->
+    <attr name="floatingLabel">
+      <enum name="none" value="0"/>
+      <enum name="normal" value="1"/>
+      <enum name="highlight" value="2"/>
+    </attr>
+    <!-- The color for when something is wrong.(e.g. exceeding max characters) -->
+    <attr name="errorColor" format="color"/>
+    <!-- Characters count limit. 0 means no limit. -->
+    <attr name="maxCharacters" format="integer"/>
+    <!-- Whether to show the bottom ellipsis in singleLine mode -->
+    <attr name="singleLineEllipsis" format="boolean"/>
+    <!-- Reserved bottom text lines count, no matter if there is some helper/error text. -->
+    <attr name="minBottomTextLines" format="integer"/>
+    <!-- Helper text at the bottom -->
+    <attr name="helperText" format="string"/>
+    <!-- Font of the paint used to draw accent texts -->
+    <attr name="accentTypeface" format="string"/>
+    <!-- Custom float label text -->
+    <attr name="floatingLabelText" format="string"/>
+  </declare-styleable>
+
+
+  <declare-styleable name="MaterialRadioButton">
+      <attr name="border_width" format="reference"/>
+      <attr name="dot_margin" format="reference"/>
+      <attr name="theme_color" format="reference"/>
+      <attr name="padding_left" format="reference"/>
+  </declare-styleable>
+</resources>

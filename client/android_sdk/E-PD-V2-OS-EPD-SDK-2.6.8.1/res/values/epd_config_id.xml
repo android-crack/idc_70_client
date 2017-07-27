@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!--
+          平台接口域名
+	明文：http://pfid.aseugame.com/
+	密文：tAnUpzsm9Nk1/MjJ4TzIL1EZH+orysCerG2iaq+L4RU=
+	-->	
+    <string name="id_epd_url_platform">tAnUpzsm9Nk1/MjJ4TzIL1EZH+orysCerG2iaq+L4RU=</string>
+    
+    <!--
+         平台WEB域名
+	明文：http://mid.aseugame.com/
+	密文：LzjzRDOT7hlCbwCPFaW1xwgIoN7xZ+YYhWloF8ySeSU=
+	-->
+    <string name="id_epd_url_web">LzjzRDOT7hlCbwCPFaW1xwgIoN7xZ+YYhWloF8ySeSU=</string>
+    
+    <!--
+    Game工程域名
+	明文：http://game.aseugame.com/
+	密文：3u26iowWIETk4zz9Q3PqXVEZH+orysCerG2iaq+L4RU=
+	-->
+
+    <string name="id_epd_url_game">3u26iowWIETk4zz9Q3PqXVEZH+orysCerG2iaq+L4RU=</string>
+    <!--
+	储值域名
+	明文：http://pay.aseugame.com/
+	密文：tAnUpzsm9NnxLybGqsdVjwgIoN7xZ+YYhWloF8ySeSU=
+	-->
+    <string name="id_epd_url_pay">tAnUpzsm9NnxLybGqsdVjwgIoN7xZ+YYhWloF8ySeSU=</string>
+    
+    <!--
+	图片上传域名
+	明文：http://imgi.aseugame.com/
+	密文：sYPslozWft3YfORo/PqwbVEZH+orysCerG2iaq+L4RU=
+	-->
+    <string name="id_epd_url_img">sYPslozWft3YfORo/PqwbVEZH+orysCerG2iaq+L4RU=</string>
+    
+    <!--
+	FB工程域名
+	明文：http://fb.aseugame.com/
+	密文：2cII0PuW6+ttwirvYEAdYZ5JPLXe6xS7
+	-->
+    <string name="id_epd_url_fb">2cII0PuW6+ttwirvYEAdYZ5JPLXe6xS7</string>
+    
+    <!-- 
+    cdn 路径
+	明文：http://sdk.download.aseugame.com/
+	密文：ya0os0W4hbr8UhJa3KsYfDTHRYD9ZEhpURkf6ivKwJ6sbaJqr4vhFQ==
+ 	-->
+ 	<string name="id_epd_path_cdn">ya0os0W4hbr8UhJa3KsYfDTHRYD9ZEhpURkf6ivKwJ6sbaJqr4vhFQ==</string>
+ 	<!--
+ 	server 路径
+	明文：http://sdksea.downloadsea.aseugame.com/
+	密文：ya0os0W4hbqeG0kOYkaRSJ3PqcoekrGkBI/X6X6/aLCeSTy13usUuw==
+	-->
+    <string name="id_epd_path_server">ya0os0W4hbqeG0kOYkaRSJ3PqcoekrGkBI/X6X6/aLCeSTy13usUuw==</string>
+    
+    <!-- CDN/Server域名和文件之间的路径 -->
+    <string name="id_epd_path_platform_type">idap</string>
+    <!-- 地区标志 -->
+    <string name="id_epd_platform">id</string>
+    <!-- 图片上传地区标志 -->
+    <string name="id_epd_img_upload_platform">pfid</string>
+</resources>

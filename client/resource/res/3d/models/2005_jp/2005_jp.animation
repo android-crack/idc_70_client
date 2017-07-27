@@ -1,0 +1,10 @@
+animation 2005_jp
+{
+frameCount=9800
+clip move
+{
+begin=0
+end=9800
+repeatCount=1
+}
+}

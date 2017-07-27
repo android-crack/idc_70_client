@@ -1,0 +1,22 @@
+animation ex_mermaid
+{
+frameCount=7400
+clip stand
+{
+begin=0
+end=1200
+repeatCount=0
+}
+clip jump
+{
+begin=1333
+end=3000
+repeatCount=0
+}
+clip move
+{
+begin=4666
+end=6000
+repeatCount=0
+}
+}

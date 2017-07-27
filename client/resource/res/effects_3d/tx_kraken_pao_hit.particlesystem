@@ -1,0 +1,39 @@
+ParticleSystem tx_195
+{
+	Emitter shuibaodian01
+	{
+		file = shuibaodian01.particleemitter
+		order = 5
+		position = 0, 0, 0
+	}
+	Emitter shuibaodian02
+	{
+		file = shuibaodian02.particleemitter
+		order = 4
+		position = 0, 0, 0
+	}
+	Emitter shuibaodian03
+	{
+		file = shuibaodian03.particleemitter
+		order = 3
+		position = 0, 0, 0
+	}
+	Emitter shuibaodian04
+	{
+		file = shuibaodian04.particleemitter
+		order = 6
+		position = 0, 0, 0
+	}
+	Emitter shuibaodian05
+	{
+		file = shuibaodian05.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+	Emitter shuibaodian06
+	{
+		file = shuibaodian06.particleemitter
+		order = 0
+		position = 0, 0, 0
+	}
+}

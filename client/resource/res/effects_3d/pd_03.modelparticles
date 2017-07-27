@@ -1,0 +1,9 @@
+ModelParticleConfig pd_03
+{
+	ParticleConfig pd_03tx
+	{
+		file = pd_03tx.particlesystem
+		position = 0, 0, 0
+		rotation = 0, 0, 0, 1
+	}
+}

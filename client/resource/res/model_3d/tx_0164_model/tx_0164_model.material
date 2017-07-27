@@ -1,0 +1,11 @@
+material tx_0164_model
+{
+    sampler u_diffuseTexture
+    {
+        path = tx_0164_model.fbm/tx_0164_model.png
+        wrapS = REPEAT
+        wrapT = REPEAT
+    }
+
+}
+

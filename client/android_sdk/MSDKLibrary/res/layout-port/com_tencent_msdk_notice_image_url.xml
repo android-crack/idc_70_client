@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- style="@style/layout_vertical" -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/noticemain"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/titleLine"
+        style="@style/layout_vertical"
+        android:layout_height="45dp"
+        android:background="@drawable/com_tencent_msdk_notice_alert_page_round_top_bkg"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/popupImage"
+            style="@style/layout_wrap"
+            android:layout_gravity="center_vertical|center_horizontal|center"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/layout_wrap"
+            android:layout_gravity="center_vertical|center_horizontal|center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/transparent"
+            android:text="@string/notice_system_notice"
+            android:textColor="@color/notice_main_title_text_color"
+            android:textSize="@dimen/title" />
+    </LinearLayout>
+
+     <LinearLayout
+        android:id="@+id/noticeContentLine"
+        style="@style/layout_vertical"
+        android:layout_width="@dimen/image_width_v"
+        android:layout_height="@dimen/image_height_v"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/noticeContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/toolbarline"
+        style="@style/layout_vertical"
+        android:layout_height="55dp"
+        android:background="@drawable/com_tencent_msdk_notice_popup_round_bottom_btn"
+        android:bottom="1dp"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#DFDFDF" />
+
+        <LinearLayout
+            android:id="@+id/butt_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|center_horizontal|center" >
+
+            <Button
+                android:id="@+id/confirmbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical|center_horizontal|center"
+                android:layout_weight="1"
+                android:background="@drawable/com_tencent_msdk_notice_popup_round_bottom_btn"
+                android:gravity="center"
+                android:text="@string/notice_btn_confirm"
+                android:textColor="@color/notice_btn_text_color"
+                android:textSize="@dimen/confirm_textsize" />
+
+            <View
+                android:layout_width="1dip"
+                android:layout_height="match_parent"
+                android:background="#DFDFDF" />
+
+            <Button
+                android:id="@+id/morebtn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical|center_horizontal|center"
+                android:layout_weight="1"
+                android:background="@drawable/com_tencent_msdk_notice_popup_round_bottom_btn"
+                android:gravity="center"
+                android:text="@string/notice_btn_more"
+                android:textColor="@color/notice_btn_text_color"
+                android:textSize="@dimen/confirm_textsize" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

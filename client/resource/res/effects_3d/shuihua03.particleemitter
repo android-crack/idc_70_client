@@ -1,0 +1,53 @@
+particle shuihua03
+{
+	sprite 
+	{
+		path = 625-1.png
+		width = 128
+		height = 128
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 1
+		frameDuration = 0
+	}
+	particleCountMax = 10
+	emissionRate = 30
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 5
+	sizeStartMax = 10
+	sizeEndMin = 120
+	sizeEndMax = 100
+	energyMin = 1200
+	energyMax = 1000
+	colorStart = 1, 1, 1, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0, 0, 0, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 1, 1, 0.5921569
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.15
+	middlePercentVar = -0.04999999
+	position = 0, 0, 0
+	positionVar = 5, 5, 5
+	velocity = 0, 25, 0
+	velocityVar = 10, -5, 10
+	acceleration = 0, -45, 0
+	accelerationVar = 10, 5, 10
+	rotationPerParticleSpeedMin = -0.5235988
+	rotationPerParticleSpeedMax = 0.5235988
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0.4
+	renderType = BILLBOARD
+	isLocalSpace = False
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 0
+}

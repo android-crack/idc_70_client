@@ -1,0 +1,53 @@
+particle shuidan01
+{
+	sprite 
+	{
+		path = bloodlizi.png
+		width = 64
+		height = 64
+		blending = ADDITIVE
+		animated = True
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 60
+	}
+	particleCountMax = 10
+	emissionRate = 10
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 120
+	sizeStartMax = 100
+	sizeEndMin = 50
+	sizeEndMax = 80
+	energyMin = 400
+	energyMax = 600
+	colorStart = 1, 1, 1, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0, 0.3586207, 1, 0
+	colorEndVar = 0, 0.1448278, 0, 0
+	colorMiddle = 0.584559, 0.8553244, 1, 1
+	colorMiddleVar = 0.1213233, 0.01080137, 0, 0
+	middlePercent = 0.4
+	middlePercentVar = -2.980232E-08
+	position = 0, 0, 0
+	positionVar = 10, 10, 10
+	velocity = 0, 0, 0
+	velocityVar = 5, 5, 5
+	acceleration = 0, 0, 0
+	accelerationVar = 5, 5, 5
+	rotationPerParticleSpeedMin = -1.5
+	rotationPerParticleSpeedMax = 1.5
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = BILLBOARD
+	isLocalSpace = False
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

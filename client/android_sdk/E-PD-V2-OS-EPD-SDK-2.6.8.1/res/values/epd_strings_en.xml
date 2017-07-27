@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="epd_game">Game:</string>
+    <string name="epd_game_info">Info</string>
+    <string name="epd_game_name">Game:</string>
+    <string name="epd_game_server">Server:</string>
+    <string name="epd_game_role">Role:</string>
+    <string name="epd_game_description">Game description</string>
+    <string name="epd_game_down_count_des_before">Reached </string>
+    <string name="epd_game_down_count_des_after"> downloads</string>
+    <string name="epd_download">Download</string>
+    <string name="epd_member_id">MemberID:</string>
+    <string name="epd_level">Level: </string>
+    <string name="epd_medal">Point: </string>
+    <string name="epd_toast_medal">Point</string>
+    <string name="epd_vip">VIP:</string>
+    <string name="epd_introduce">Click </string>
+    <string name="epd_notice">Notice</string>
+    <string name="epd_guide">Guide</string>
+    <string name="epd_news">News</string>
+    <string name="epd_events">Event</string>
+    <string name="epd_delete">Delete</string>
+    <string name="epd_submit_question">Submit</string>
+    <string name="epd_question_type_notify_text">Type</string>
+    <string name="epd_question_screen_short_notify_text">Add a picture</string>
+    <string name="epd_question_no_screen_short_notify_text">Picture not uploaded yet</string>
+    <string name="epd_question_email_notify_text">Email</string>
+    <string name="epd_question_title">Title</string>
+    <string name="epd_question_description">Description</string>
+    <string name="epd_cs_title_limitation">within 100 characters</string>
+    <string name="epd_cs_email_limitation">within 100 characters</string>
+    <string name="epd_question_description_limitation">within 1500 characters</string>
+    <string name="epd_question_type_qs_undefine">Question not classified</string>
+    <string name="epd_question_type_account">Account</string>
+    <string name="epd_question_type_recharge">Recharge</string>
+    <string name="epd_question_type_guides">Guide</string>
+    <string name="epd_question_type_activity">Event</string>
+    <string name="epd_question_type_feedback">Feedback</string>
+    <string name="epd_question_type_other">Other</string>
+    <string name="epd_cs_normal_question">FAQ</string>
+    <string name="epd_cs_normal_question_des">You can find FAQ here</string>
+    <string name="epd_cs_asking">I have a question</string>
+    <string name="epd_cs_asking_des">The question will be answered as soon as possible</string>
+    <string name="epd_cs_reply">My question</string>
+    <string name="epd_cs_reply_des">Questions that you asked can be found here</string>
+    <string name="epd_cs_pic_add">+</string>
+    <string name="epd_cs_pic_delete">-</string>
+    <string name="epd_persion_collect_data">Personal info</string>
+    <string name="epd_persion_collect_data_des">Complete your personal info to get rewards</string>
+    <string name="epd_persion_collect_data_des_sec">Complete personal information</string>
+    <string name="epd_persion_gift_center">Gift</string>
+    <string name="epd_persion_gift_center_des">Gifts are waiting for you</string>
+    <string name="epd_persion_knock_egg">Gashapon</string>
+    <string name="epd_persion_knock_egg_des">Open Gashapon to get rich rewards~</string>
+    <string name="epd_persion_version">Version</string>
+    <string name="epd_gift_center">Gift</string>
+    <string name="epd_gift_has_got">Claimed</string>
+    <string name="epd_gift_has_used">Used</string>
+    <string name="epd_gift_has_unused">Not used</string>
+    <string name="epd_gift_rule">Gift task</string>
+    <string name="epd_gift_des">Gift detail</string>
+    <string name="epd_gift_end_time">Finish time:</string>
+    <string name="epd_gift_surplus">Remaining:</string>
+    <string name="epd_gift_type">Type:</string>
+    <string name="epd_gift_get_now">Claim now</string>
+    <string name="epd_gift_code">Serial code:</string>
+    <string name="epd_gift_secret">Key:</string>
+    <string name="epd_gift_deadlines">Deadline:</string>
+    <string name="epd_gift_notify">Click to copy the serial code.</string>
+    <string name="epd_copy_successfully">Copied</string>
+    <string name="epd_version">Version No.:</string>
+    <string name="epd_package_size">Size:</string>
+    <string name="epd_summary">Information</string>
+    <string name="epd_website">Website</string>
+    <string name="epd_fans_page">Facebook</string>
+    <string name="epd_network_error">The device is offline!</string>
+    <string name="epd_request_error">System anomaly! Please click to refresh.</string>
+    <string name="epd_timeout_error">Time out! Please click to refresh.</string>
+    <string name="epd_empty_error">No data received. Please try again later.</string>
+    <string name="epd_title_back_demo">ABC</string>
+    <string name="epd_title_summary">Information</string>
+    <string name="epd_title_game">Game</string>
+    <string name="epd_title_persion">Account</string>
+    <string name="epd_title_persion_acquisition">Personal info</string>
+    <string name="epd_title_store">Recharge</string>
+    <string name="epd_title_cs">Service</string>
+    <string name="epd_title_cs_questions">FAQ</string>
+    <string name="epd_title_gift">Gift</string>
+    <string name="epd_title_cs_ask">I have a question</string>
+    <string name="epd_title_cs_reply">My question</string>
+    <string name="epd_title_cs_reply_detail">CS reply</string>
+
+	<string name="epd_title_web_level">About Level</string>
+	<string name="epd_title_web_medal_info">Membership Instruction</string>
+	<string name="epd_title_web_vip_info">VIP</string>
+	<string name="epd_title_web_knock_egg">Gashapon</string>
+    
+    <string name="epd_store_return">Home</string>
+    <string name="epd_thumb_error">Your device does not support this!</string>
+	<string name="epd_camera_crop_error">Your device does not support cropping. Please do it on the official website!</string>
+	
+	<string name="epd_cs_empty_title">Please enter a quesiton title</string>
+	<string name="epd_cs_empty_advice">Please enter a question description</string>
+	<string name="epd_cs_empty_system_error">System anomaly.</string>
+	
+	<string name="epd_cs_limited_title">Title cannot exceed 100 characters</string>
+	<string name="epd_cs_limited_advice">Description cannot exceed 1500 characters</string>
+	<string name="epd_cs_limited_email">Email address cannot exceed 100 characters</string>
+	<string name="epd_cs_error_email">Please enter a valid Email</string>
+	
+	<string name="epd_cs_reply_detail_content">Reply</string>
+	<string name="epd_cs_shot_photos">Take a picture</string>
+	<string name="epd_cs_shot_local_photos">Album</string>
+	<string name="epd_role_cs">CS</string>
+	<string name="epd_role_self">I</string>
+	
+
+	<string name="epd_cs_submit_success">Submitted!</string>
+	<string name="epd_cs_pic_upload_success">Upload completed</string>
+
+	<string name="epd_wechat">WeChat</string>
+	<string name="epd_line">Line</string>
+	<string name="epd_area">Area</string>
+	<string name="epd_address">Address</string>
+	<string name="epd_occupation">Occupation</string>
+	<string name="epd_boy">Male</string>
+	<string name="epd_girl">Female</string>
+	<string name="epd_modify">&#160;&#160;Edit&#160;&#160;</string>
+	
+	<string name="epd_summary_first_one">This is the first page</string>
+	<string name="epd_summary_last_one">This is the last page</string>
+	
+	<string name="epd_receive">Gift</string>
+	<string name="epd_step_collections">Fill in information</string>
+	<string name="epd_email">Email</string>
+	<string name="epd_phone">Phone</string>
+	<string name="epd_save">Save</string>
+	<string name="epd_collect_empty_area">Area (required)</string>
+	<string name="epd_collect_empty_sex">Sex</string>
+	<string name="epd_collect_empty_occupation">Occupation (required)</string>
+	<string name="epd_birthday">Birthday</string>
+	<string name="epd_like_game">My Favourite Game Type</string>
+	<string name="epd_collect_empty_birthday">Birthday (required)</string>
+	<string name="epd_collect_empty_like_game">My Favourite Game Type (required)</string>
+	<string name="epd_collect_error_like_game">Please choose your favourite game type (not more than three)</string>
+	
+	<string name="epd_collect_toast_empty_birth">Please choose your birthday</string>
+	<string name="epd_collect_toast_empty_area">Please select your area</string>
+	<string name="epd_collect_toast_empty_occupation">Please select your occupation</string>
+	<string name="epd_submit">Submit</string>
+	
+	
+	<string name="epd_notification_modify_nothing">No editable content</string>
+	<string name="epd_notification_scan_gifts">Please check in Gift</string>
+	
+	<string name="epd_hint_cs_reply_delete">Confirm to delete?</string>
+	
+	<string name="epd_float_hint_hide">Relog in the game to see me after hiding</string>
+	<string name="epd_float_hint_confirm">Confirm</string>
+	<string name="epd_float_hint_cancel">&#160;&#160;Cancel&#160;&#160;</string>
+	
+	<string name="epd_serial">Serial code</string>
+	
+	<string name="epd_uninstalled_google_play">Please download Google Play first</string>
+	
+	<string name="epd_notice_close">Close</string>
+	
+	<string name="epd_notice_go_to_look">Download</string>
+	<string name="epd_notice_change_one">Another game</string>
+	<string name="epd_notice_toast_error_gift">Please download and login with the same account to claim the gift</string>
+	<string name="epd_notice_text_not_show_today">Don\'t show dialog again today</string>
+	<string name="epd_notice_cancel">Cancel</string>
+	<string name="epd_person_extra_gift">Extra Gift</string>
+	<string name="epd_notice_close_tips">Tap Account->Extra Gift to reopen</string>
+	<string name="epd_notice_accomplish_finish_tips">Accomplish the task for more gifts</string>
+	<string name="epd_notice_reviewed_stop">Reward Deadline </string>
+	<string name="epd_notice_get_gift_success">Already received!</string>
+	
+	<!-- 20160321 -->
+	<string name="epd_person_exp">EXP: </string>
+	<string name="epd_cs_reply_all_check">Select All</string>
+	<string name="epd_person_sign">Sign in</string>
+	<string name="epd_gift_reward_time">Received Time:</string>
+	<string name="epd_person_exp_tips_1">Receiving </string>
+	<string name="epd_person_exp_tips_2"> EXP more can upgrade</string>
+	<string name="epd_person_sign_tips">More days you continuously sign in, more exciting rewards  you can get!</string>
+	
+    <string-array name="epd_pop_per_info_pic">
+        <item>Take a picture</item>
+        <item>Album</item>
+    </string-array>
+    
+    <string-array name="epd_cs_problem_kinds">
+        <item>FAQ</item>
+        <item>Account and login</item>
+        <item>Recharge</item>
+    </string-array>
+    <string-array name="epd_gift_title_kinds">
+        <item>Free gift</item>
+        <item>My gift</item>
+    </string-array>
+</resources>

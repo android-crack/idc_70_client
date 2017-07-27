@@ -1,0 +1,53 @@
+particle tuji_shuihua
+{
+	sprite 
+	{
+		path = peng_00000.png
+		width = 128
+		height = 128
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	particleCountMax = 40
+	emissionRate = 40
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 0
+	sizeStartMax = 0
+	sizeEndMin = 600
+	sizeEndMax = 550
+	energyMin = 500
+	energyMax = 550
+	colorStart = 1, 0, 0, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0.3676471, 0, 0, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 0, 0, 0.6862745
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.5
+	middlePercentVar = 0
+	position = 0, 0, 0
+	positionVar = 30, 10, 150
+	velocity = 0, 0, 0
+	velocityVar = 4, 0, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 3, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0.6
+	renderType = BILLBOARD
+	isLocalSpace = False
+	preWarm = False
+	initialRotationMin = -1.570796
+	initialRotationMax = -1.570796
+}

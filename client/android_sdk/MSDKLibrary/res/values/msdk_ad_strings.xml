@@ -1,0 +1,16 @@
+<resources>
+    <!-- 暂停位string-->
+    <string name="msdk_ad_pause_content">暂停游戏</string>    
+    
+    <string name="msdk_ad_pause_header">暂停游戏</string>
+    <string name="msdk_ad_pause_btn1_text">继续游戏</string>
+    <string name="msdk_ad_pause_btn2_text">重新开始</string>
+    <string name="msdk_ad_pause_btn3_text">终止闯关</string>
+    
+    <string name="msdk_ad_stop_header">退出游戏</string>
+    <string name="msdk_ad_stop_content">退出游戏</string>
+    
+    <string name="msdk_ad_stop_btn1_text">取消退出</string>
+    <string name="msdk_ad_stop_btn2_text">终止游戏</string>
+    <string name="msdk_ad_stop_btn3_text">重新开始</string>
+</resources>

@@ -1,0 +1,31 @@
+ParticleSystem tx_attack_up
+{
+	Emitter attack_up_guang
+	{
+		file = attack_up_guang.particleemitter
+		order = 0
+		position = 0, 337, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter attack_up_lizi
+	{
+		file = attack_up_lizi.particleemitter
+		order = 0
+		position = 0, 471, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter attack_up_di
+	{
+		file = attack_up_di.particleemitter
+		order = 0
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter attack_up_ray
+	{
+		file = attack_up_ray.particleemitter
+		order = 0
+		position = 0, 69, 0
+		rotate = 0, 0, 0, 1
+	}
+}

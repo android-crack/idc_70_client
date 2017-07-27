@@ -1,0 +1,11 @@
+material tx_speedup_model
+{
+    sampler u_diffuseTexture
+    {
+        path = tx_speedup_model.fbm/tx_speedup_model.png
+        wrapS = REPEAT
+        wrapT = REPEAT
+    }
+
+}
+

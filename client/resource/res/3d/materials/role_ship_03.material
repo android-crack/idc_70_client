@@ -1,0 +1,66 @@
+material textured 
+{
+	tag 
+	{
+		renderQueue = opaque
+	}
+	u_mainColor = 1, 1, 1, 1
+
+	u_diffuseTextureST = 1, 1, 0, 0
+	sampler u_diffuseTexture
+	{
+		path = res/3d/textures/role_ship_03.png
+
+		minFilter = LINEAR_MIPMAP_LINEAR
+		magFilter = LINEAR
+		mipmap = true
+
+		wrapS = REPEAT
+		wrapT = REPEAT
+	}
+	u_lightmapAlpha = 0
+	u_lightmapIntensity = 5
+
+	u_lightmapTextureST = 1.00344, 1.00344, -0.00208, -0.00525
+	sampler u_lightmapTexture
+	{
+		path = res/3d/textures/lightmap_ship03_02.png
+
+		minFilter = LINEAR_MIPMAP_LINEAR
+		magFilter = LINEAR
+		mipmap = true
+
+		wrapS = REPEAT
+		wrapT = REPEAT
+	}
+	u_lightmapIntensity2 = 5
+
+	u_lightmapTexture2ST = 1.00344, 1.00344, -0.00208, -0.00525
+	sampler u_lightmapTexture2
+	{
+		path = res/3d/textures/lightmap_ship03_01.png
+
+		minFilter = LINEAR_MIPMAP_LINEAR
+		magFilter = LINEAR
+		mipmap = true
+
+		wrapS = REPEAT
+		wrapT = REPEAT
+	}
+
+	technique 
+	{
+		renderState
+		{
+			cullFace = true
+			depthTest = true
+		}
+		pass 
+		{
+			u_worldViewProjectionMatrix = WORLD_VIEW_PROJECTION_MATRIX
+			vertexShader = res/3d/shaders/textured_lightmaps.vert
+			fragmentShader = res/3d/shaders/textured_lightmaps.frag
+		}
+	}
+}
+

@@ -1,0 +1,28 @@
+<map height="28" orientation="orthogonal" renderorder="right-down" tileheight="64" tilewidth="64" version="1.0" width="48">
+ <tileset firstgid="1" name="area_piece_wall2" tileheight="64" tilewidth="64">
+  <image height="64" source="area_piece_wall2.png" width="128" />
+ </tileset>
+ <layer height="28" name="block" opacity="0.9" width="48">
+  <properties>
+   <property name="picture" value="area_piece_wall2" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJzt1zEKADAMw0Dn/5/oUzu3S5eAQpHA+62uZNW5DN/t1a+/zZ/h6WfTz6afTT+bfjb9bPrZ9LPp
+Z/vdX8H/+Wv69bf5NzSsjiE=
+</data>
+ </layer>
+ <layer height="28" name="wall1" width="48">
+  <properties>
+   <property name="picture" value="area_piece_wall2" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJzt17ENADAMArC0/x+V05qlN4TBlhA7G1XAdyY3uAEAAMgwH63nq3Vqb+8DSR4qJh55
+</data>
+ </layer>
+ <layer height="28" name="wall2" width="48">
+  <properties>
+   <property name="picture" value="area_piece_wall2" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJzt0LEJACAUA9HopI7mqFaWwkeQK7xXpwiXSNp6MugPJy2Zhc14/+ROL/y3/zv2Z9mfZX+W/Vn2
+Z9mfZX+W/VmV/tJPFv3GFD0=
+</data>
+ </layer>
+</map>

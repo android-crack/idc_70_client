@@ -1,0 +1,53 @@
+particle 0165lizi01
+{
+	sprite 
+	{
+		path = huanbai.png
+		width = 128
+		height = 128
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	particleCountMax = 3
+	emissionRate = 8
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 180
+	sizeStartMax = 200
+	sizeEndMin = 650
+	sizeEndMax = 700
+	energyMin = 750
+	energyMax = 700
+	colorStart = 0, 0.6689653, 1, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0, 0.1461967, 0.6838235, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 0, 0.8758621, 1, 0.4705882
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.5
+	middlePercentVar = 0
+	position = 0, 0, 0
+	positionVar = 0, 0, 0
+	velocity = 0, 0, 0
+	velocityVar = 0, 0, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = -1.047198
+	rotationPerParticleSpeedMax = 1.047198
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0.4
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

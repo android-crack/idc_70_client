@@ -1,0 +1,27 @@
+animation sea_kraken
+{
+frameCount=9666
+clip move
+{
+begin=0
+end=1733
+repeatCount=0
+}
+clip attack 
+{
+begin=2000
+end=3933
+repeatCount=1
+}
+clip die
+{
+begin=4333
+end=6666
+repeatCount=1
+}
+clip twine01
+{
+begin=7000
+end=9666
+repeatCount=1
+}

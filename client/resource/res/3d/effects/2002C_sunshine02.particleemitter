@@ -1,0 +1,61 @@
+particle 2002C_sunshine02
+{
+	sprite 
+	{
+		path = tx_sunshine.png
+		width = 256
+		height = 256
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 30
+	}
+	color 
+	{
+		curve 
+		{
+			type = 4
+			componentCount = 4
+			times = 0, 379, 1000
+			values = 1, 0.682353, 0, 0, 1, 0.4941176, 0.1019608, 1, 1, 0, 0, 0
+			inTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+			outTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+		}
+		type = 1
+	}
+	particleCountMax = 1
+	emissionRate = 5
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	energyMin = 2800
+	energyMax = 3000
+	position = 0, 0, 0
+	positionVar = 0, 0, 0
+	velocity = 0, 0, 0
+	velocityVar = 0, 0, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0.03490658
+	rotationPerParticleSpeedMax = 0.05235988
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	delayTime = 2.3
+	initialRotationMin = 1.047198
+	initialRotationMax = 1.047198
+	gravity = 0
+	lengthScale = 1
+	sizeStartMin = 0.5
+	sizeStartMax = 0.5
+	sizeEndMin = 0.8
+	sizeEndMax = 0.8
+}

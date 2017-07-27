@@ -1,0 +1,15 @@
+ParticleSystem tx_skill_shielddown
+{
+	Emitter skill_shielddown01
+	{
+		file = skill_shielddown01.particleemitter
+		order = 1
+		position = 0, 60, 0
+	}
+	Emitter skill_shielddown02
+	{
+		file = skill_shielddown02.particleemitter
+		order = 2
+		position = 0, 60, 0
+	}
+}

@@ -1,0 +1,15 @@
+ParticleSystem tx_0117
+{
+	Emitter 0117effect
+	{
+		file = 0117effect.particleemitter
+		order = 0
+		position = 0, 0, 0
+	}
+	Emitter 0117effect02
+	{
+		file = 0117effect02.particleemitter
+		order = 0
+		position = 0, 50.82739, 0
+	}
+}

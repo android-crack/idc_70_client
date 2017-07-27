@@ -1,0 +1,27 @@
+ParticleSystem sf_speedup_g
+{
+	Emitter speedup_sf_line_g
+	{
+		file = speedup_sf_line_g.particleemitter
+		order = 3
+		position = 0, 60.1178, 92.97104
+	}
+	Emitter speedup_shuihua01g
+	{
+		file = speedup_shuihua01g.particleemitter
+		order = 2
+		position = 0, 0, 0
+	}
+	Emitter speedup_shuihua02g
+	{
+		file = speedup_shuihua02g.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+	Emitter speedup_shuihua03g
+	{
+		file = speedup_shuihua03g.particleemitter
+		order = 3
+		position = 0, 0, 0
+	}
+}

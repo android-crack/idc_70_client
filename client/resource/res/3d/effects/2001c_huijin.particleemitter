@@ -1,0 +1,61 @@
+particle 2001c_huijin
+{
+	sprite 
+	{
+		path = huijin_Effects_Textures.png
+		width = 256
+		height = 256
+		blending = ALPHA BLENDED
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 30
+	}
+	color 
+	{
+		curve 
+		{
+			type = 4
+			componentCount = 4
+			times = 0, 321, 1000
+			values = 0.5019608, 0.5019608, 0.5019608, 0, 0.3294118, 0.3294118, 0.3294118, 1, 0.1019608, 0.1019608, 0.1019608, 0
+			inTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+			outTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+		}
+		type = 1
+	}
+	particleCountMax = 12
+	emissionRate = 8
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	energyMin = 1500
+	energyMax = 1200
+	position = 0, 0, 0
+	positionVar = 1.5, 0, 1.5
+	velocity = 0.5749999, 0.65, -1
+	velocityVar = 0.2250001, 0.15, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = -0.8726646
+	rotationPerParticleSpeedMax = 1.396263
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = BILLBOARD
+	isLocalSpace = False
+	preWarm = False
+	delayTime = 3.5
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+	gravity = 0
+	lengthScale = 1
+	sizeStartMin = 1
+	sizeStartMax = 1
+	sizeEndMin = 2
+	sizeEndMax = 2
+}

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- title -->
+    <string name="vi_vn_title_google">G o o g l e</string>
+    <string name="vi_vn_title_web">Trang web</string>
+    <string name="vi_vn_title_login">Đăng nhập</string>
+    <string name="vi_vn_title_register">Đăng kí</string>
+    <string name="vi_vn_title_reset_pwd">Đặt lại mật mã</string>
+    <string name="vi_vn_title_retrieve_pwd">Tìm lại mật mã</string>
+    <string name="vi_vn_title_bind_account">Thiết lập bảo vệ tài khoản</string>
+
+    <!-- button -->
+    <string name="vi_vn_button_facebook"> Đăng nhập Facebook</string>
+    <string name="vi_vn_button_google">Đăng nhập Google</string>
+    <string name="vi_vn_button_twitter">Đăng nhập Twitter</string>
+    <string name="vi_vn_button_mac">Đăng nhập miễn phí</string>
+    <string name="vi_vn_button_for_more_account">Thêm nhiều tài khoản</string>
+    <string name="vi_vn_button_login_btn">Đăng nhập</string>
+    <string name="vi_vn_button_register_text_1">Không có tài khoản? </string>
+    <string name="vi_vn_button_register_text_2">Đăng ký ngay</string>
+    <string name="vi_vn_button_register_btn">Đăng ký</string>
+    <string name="vi_vn_button_reset_pwd_btn"> Đặt lại mật khẩu</string>
+    <string name="vi_vn_button_retrieve_pwd_btn">Tìm lại mật khẩu</string>
+    <string name="vi_vn_button_bind_account_btn">Thiết lập bảo vệ tài khoản miễn phí</string>
+    <string name="vi_vn_other_website">WebSite</string>
+    <string name="vi_vn_button_bind_mac_btn">Thiết lập bảo vệ tài khoản miễn phí</string>
+    <string name="vi_vn_button_bind_fb_btn">Thiết lập bảo vệ tài khoản Facebook</string>
+    <string name="vi_vn_button_bind_vk_btn">Thiết lập bảo vệ tài khoản Vkontakte</string>
+    <string name="vi_vn_button_bind_twitter_btn">Thiết lập bảo vệ tài khoản Twitter</string>
+    <string name="vi_vn_button_bind_google_btn">Thiết lập bảo vệ tài khoản Google+</string>
+    <string name="vi_vn_button_users_manages">Quản lý tài khoản</string>
+    <string name="vi_vn_button_cancel">xóa</string>
+    <string name="vi_vn_button_confirm">xác nhận</string>
+    <string name="vi_vn_efun_word">"Hôm nay không cần chứng tỏ thông báo" </string>
+
+    <!-- SDK -->
+    <string name="vi_vn_title_efun_user_agreement">Điều khoản phục vụ</string>
+    <string name="vi_vn_button_logout_btn">Đăng xuất</string>
+    <string name="vi_vn_button_bind_btn">Thiết lập bảo vệ</string>
+    <string name="vi_vn_efun_other_login">Tài khoản đăng nhập </string>
+    <string name="vi_vn_efun_user_agreement">Tôi đã đọc và đồng ý (Điều khoản phục vụ)</string>
+    <string name="vi_vn_toast_user_agreement">Hãy đọc(Điều khoản phục vụ)</string>
+    <string name="vi_vn_hint_account">Tài khoản</string>
+    <string name="vi_vn_hint_password">Mật khẩu</string>
+    <string name="vi_vn_hint_old_password">Mật khẩu cũ</string>
+    <string name="vi_vn_hint_cnew_password">Xác nhận mật khấu mới </string>
+    <string name="vi_vn_hint_confirn_password">Nhập lại mật khẩu</string>
+    <string name="vi_vn_hint_email">Email(Tùy chọn)</string>
+    <string name="vi_vn_hint_forget_email">Đăng ký Email </string>
+    <string name="vi_vn_hint_email_address">Email(Dủng để tìm lại mật khẩu) </string>
+    <string name="vi_vn_hint_new_password">Mật khẩu mới </string>
+    <string name="vi_vn_hint_confirm_new_password">Xác nhận mật khẩu mới </string>
+    <string name="vi_vn_progress_msg">Đang tải&#8230;</string>
+    <string name="vi_vn_notify_internet_time_out">Không thể kết nối được với máy chủ </string>
+    <string name="vi_vn_toast_empty_account">Nhập tài khoản </string>
+    <string name="vi_vn_toast_empty_password">Nhập mật khẩu</string>
+    <string name="vi_vn_toast_empty_confirm_password">Nhập lại mật khẩu</string>
+    <string name="vi_vn_toast_empty_old_password">Nhập mật khẩu cũ</string>
+    <string name="vi_vn_toast_empty_new_password">Nhập mật khẩu mới</string>
+    <string name="vi_vn_toast_empty_confirm_new_password">Xác nhận mật khẩu mới</string>
+    <string name="vi_vn_toast_empty_email">Nhập Email</string>
+    <string name="vi_vn_toast_frond_behind_password_different">Mật khẩu vừa nhập không giống nhau, xin thử lại</string>
+    <string name="vi_vn_toast_login_format_error">Tài khoản không thể bắt đầu với chữ 09, efun, yh, nếu không phù hợp yêu cầu, xin nhập lại! </string>
+    <string name="vi_vn_toast_email_match">Địa chỉ Email không hợp lệ</string>
+    <string name="vi_vn_toast_bind_account">Bạn thân mến, để bảo về an toàn tài khoản, xin bạn nhanh chóng thiết lập bảo về tài khoản.</string>
+    <string name="vi_vn_toast_account_permissions">Bạn đã từ chối xin phép của quyền hạn tương ứng, xin chuyển đến ứng dụng và mở lại quyền hạn.</string>
+    <!-- SDK bind facebook -->
+    <string name="vi_vn_toast_bind_facebook_user_other_account">Hãy đăng nhập tài khoản Facebook bạn muốn thiết lập bảo vệ</string>
+    <string name="vi_vn_toast_bind_facebook_user_this_account_title">Tài khoản Facebook bạn đăng nhập là %1$s, muốn thiết lập bảo vệ? </string>
+
+    <!-- 谷歌储值错误提示 -->
+    <string name="vi_vn_efunGoogleServerError">Không thể kết nối được với máy chủ, xin thử lại</string>
+    <string name="vi_vn_efunGoogleBuyFailError">Nạp thẻ thất bại</string>
+    <string name="vi_vn_efunGoogleStoreError">Khu vực bạn đang ở không hỗ trợ với túi tiền Google</string>
+
+    <!-- 谷歌购买提示 -->
+    <string name="vi_vn_efunGooglePlaySelectNothing">Hãy chọn một vật phẩm nào đó</string>
+    <!-- 新增facebook登录失败提示语 -->
+    <string name="vi_vn_toast_facebook_login_Error"> Facebook đăng nhập thất bại, xin thử lại.</string>
+
+</resources>

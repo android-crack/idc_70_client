@@ -1,0 +1,66 @@
+material tx_0199_model
+{
+	u_worldViewProjectionMatrix = WORLD_VIEW_PROJECTION_MATRIX
+	
+	u_diffuseTextureST = 1, 1, 0, 0
+	sampler u_diffuseTexture
+	{
+		path = res/flowTex_3d/xilahuo.png
+		minFilter = LINEAR_MIPMAP_LINEAR
+		magFilter = LINEAR
+		wrapS = REPEAT
+		wrapT = REPEAT
+		mipmap = true
+	}
+
+	technique 
+	{
+		tag 
+		{
+			renderQueue = transparent
+		}
+		u_time = GAME_TIME
+		u_texSpeed = 0, -0.45, 0, -0.5
+		u_mainIntensity = 1
+		u_mainColor = 1, 0.475862, 0, 1
+		
+		u_maskTexST = 1, 1, 0, 0
+		sampler u_maskTex
+		{
+			path = WHITE
+			minFilter = LINEAR_MIPMAP_LINEAR
+			magFilter = LINEAR
+			wrapS = REPEAT
+			wrapT = REPEAT
+			mipmap = true
+		}
+		u_flowTexColor = 1, 1, 1, 1
+		u_flowTexST = 1, 3, 0, 0	
+		u_flowIntensity = 1.0
+		sampler u_flowTex
+		{
+			path = res/flowTex_3d/xilahuo03.png
+			minFilter = LINEAR_MIPMAP_LINEAR
+			magFilter = LINEAR
+			wrapS = REPEAT
+			wrapT = REPEAT
+			mipmap = true
+		}
+		
+		renderState		
+		{
+			cullFace = false
+			depthTest = true
+			depthWrite = false
+			blend = true
+			blendSrc = SRC_ALPHA
+			blendDst = ONE
+		}
+		pass
+		{
+			vertexShader = res/shaders/textured.vert
+			fragmentShader = res/shaders/textured.frag
+			defines = VERTEX_COLOR;TEXTURE_FLOW;MAIN_COLOR
+		}
+	}
+}

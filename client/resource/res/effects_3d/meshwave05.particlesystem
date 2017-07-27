@@ -1,0 +1,17 @@
+ParticleSystem meshwave05
+{
+	Emitter meshwaveE
+	{
+		file = meshwaveE.particleemitter
+		order = 0
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter meshwaveG
+	{
+		file = meshwaveG.particleemitter
+		order = 1
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+}

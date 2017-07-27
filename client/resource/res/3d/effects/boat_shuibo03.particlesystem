@@ -1,0 +1,38 @@
+ParticleSystem shuobo01 (2)
+{
+	Emitter shuibo_bian
+	{
+		file = shuibo_bian.particleemitter
+		order = 2
+		position = 0.891, 0.21, 0.86
+		rotate = 0, 0, 0, 1
+	}
+	Emitter shuihua
+	{
+		file = shuihua.particleemitter
+		order = 1
+		position = 0.55, 0.053, 0.513
+		rotate = 0, 0, 0, 1
+	}
+	Emitter shuibo_di02
+	{
+		file = shuibo_di02.particleemitter
+		order = 0
+		position = 0, 0, -0.27
+		rotate = 0, 0, 0, 1
+	}
+	Emitter shuibo_bian
+	{
+		file = shuibo_bian.particleemitter
+		order = 2
+		position = -0.83, 0.21, 0.86
+		rotate = 0, 0, 0, 1
+	}
+	Emitter shuihua
+	{
+		file = shuihua.particleemitter
+		order = 1
+		position = -0.75, 0.05300045, 0.3
+		rotate = 0, 0, 0, 1
+	}
+}

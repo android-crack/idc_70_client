@@ -1,0 +1,53 @@
+particle speedup
+{
+	sprite 
+	{
+		path = suduxian.png
+		width = 128
+		height = 128
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	particleCountMax = 10
+	emissionRate = 8
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 350
+	sizeStartMax = 200
+	sizeEndMin = 0
+	sizeEndMax = 80
+	energyMin = 700
+	energyMax = 1200
+	colorStart = 0.7292596, 0.5211937, 0.02119374, 0
+	colorStartVar = 0.008671463, 0.4788063, -0.02119374, 0
+	colorEnd = 0.9485294, 0.237931, 0, 0
+	colorEndVar = 0.05147058, 0.237931, 0, 0
+	colorMiddle = 1, 1, 1, 1
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.45
+	middlePercentVar = 0.15
+	position = 0, 0, 0
+	positionVar = 30, 30, 10
+	velocity = 0, 0, 180
+	velocityVar = 0, 0, -20
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = HORIZONTALBILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 0
+}

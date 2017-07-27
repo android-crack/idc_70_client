@@ -1,0 +1,10 @@
+animation ex_fat
+{
+frameCount=1000
+clip move
+{
+begin=0
+end=1000
+repeatCount=0
+}
+}

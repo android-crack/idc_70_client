@@ -1,0 +1,11 @@
+material tx_0169_qishe
+{
+    sampler u_diffuseTexture
+    {
+        path = tx_0169_qishe.fbm/tx_0169_qishe.png
+        wrapS = REPEAT
+        wrapT = REPEAT
+    }
+
+}
+

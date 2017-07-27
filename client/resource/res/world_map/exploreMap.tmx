@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="113" height="64" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="port_small_red" tilewidth="32" tileheight="32">
+  <image source="port_small_red.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="port_big" tilewidth="32" tileheight="32">
+  <image source="port_big.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="port_small" tilewidth="32" tileheight="32">
+  <image source="port_small.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="4" name="whirlpool" tilewidth="32" tileheight="32">
+  <image source="whirlpool.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="5" name="worldmap_relic_found" tilewidth="32" tileheight="32">
+  <image source="worldmap_relic_found.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="6" name="worldmap_relic_enter" tilewidth="32" tileheight="32">
+  <image source="worldmap_relic_enter.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="7" name="worldmap_mineral_found" tilewidth="32" tileheight="32">
+  <image source="worldmap_mineral_found.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="8" name="worldmap_mineral_enter" tilewidth="32" tileheight="32">
+  <image source="worldmap_mineral_enter.png" width="32" height="32"/>
+ </tileset>
+ <layer name="big" width="113" height="64">
+  <data encoding="base64" compression="zlib">
+   eJzt1zkOwCAMBEDE/x+d2gWKFAQ4eKaiBOzlaA0AAAAA9uunJwDF9MGY/1E/yEMe76Su+XjH3EP92Em/Ud0oA6uyIXMA31U4QyusEYDI2W8PeKdHmKWHACByNwIAAKf4j+SjJhDJBAAAAAAAAACwygMOSwAv
+  </data>
+ </layer>
+ <layer name="small" width="113" height="64">
+  <data encoding="base64" compression="zlib">
+   eJzt2TEOwjAMBdBKvf+dGRgqkAItpIntvLeAWJL422qAbQMAAADIYZ+9AbqQYw174z35yC8HOUEMnn95vee1N16B/7Rm6crn5rGW0Xnqn99Eq1u0/UBUd81KpRmsdJZv9i3/eaN/5z57p3XHPfQ696r1q2BWdnomB3eZ83r8hhm5LpH3xpOManJvPcw896o1j0gW6xmZuf4is1/7d3bfz16fe8gVXo2aiU/rmMt+1LK/u2s6IrOza+gfAKhjpef61f+qVqpNVjKqT8YAAAAAAABAywPc/gDK
+  </data>
+ </layer>
+ <layer name="stronghold" width="113" height="64">
+  <data encoding="base64" compression="zlib">
+   eJzt2kEOhCAQBED4/6f3LNkYou4yjVWJB28z00CIsTUAAACA+vrqAvgJuWbp7ZjZ+A4AAP9wdgd1R4U1+vC0Zi+mkx9X7Lj/d+plxtv6reLpue+aY/W+7ta30xma2MPd+Sf2zP7etC7f1GuCb9/nZjOSZSa5zVkxp/H/Ds4ln1UVa1opOUuOkjJKqrWqSjOsVEsF6fNIrx8AqMs9A+AZztNMcoN17D8AAAAAAAAAqvkAkT4ANw==
+  </data>
+ </layer>
+ <layer name="whirlpool" width="113" height="64">
+  <data encoding="base64" compression="zlib">
+   eJzt2LENACAIBEAK95/ZBWgkIRq8m4DqeYgAAAAAgH7r9gAAAADAMfc8UCE7AP4k/4EK2QEAAAD4DwAAMIFeC0AH+wUAAN6gmwMAAABAbgN/iAAl
+  </data>
+ </layer>
+ <layer name="yiji" width="113" height="64">
+  <data encoding="base64" compression="zlib">
+   eJzt10sWgjAQBEA23P/KLv08hIAEpk3VRt34OpMOxmnKNN8dAOBkSc+1pKzUojvwzpmgCl0kXVqH0/JewUyOMTda6cq23jM66/vtZTb7xx30jlGsdT3ldz5Fr/XePcf54/XzPftUml2FLBUy/OqKNfzDnHprmZE51nT2vtjnp4RZ7MmYsJ5XaXlhyVKP1/4XbH1mPNU6UC1PT/M01npHY28Zjc5ThS7SQ2uvKvTvSIYKuUdk7nC/nufwqjPuWcIResMeKX2pkLNCBgAA+nDXG4N9bpc6q9TcAABp3LsAAHK5y9GbjjESfecb3ajtAcShAV8=
+  </data>
+ </layer>
+ <layer name="yiji1" width="113" height="64">
+  <data encoding="base64" compression="zlib">
+   eJzt10sWgjAQBEBW3P/ILv08hIAEpk3VRt34OpMOxmnKNN8dAOBkSc+1pKzUojvwzpmgCl0kXVqH0/JewUyOMTda6cq23jM66/vtZTb7xx30jlGsdT3ldz5Fr/XePcf54/XzPftUml2FLBUy/OqKNfzDnHprmZE51nT2vtjnp4RZ7MmYsJ5XaXlhyVKP1/4XbH1mPNU6UC1PT/M01npHY28Zjc5ThS7SQ2uvKvTvSIYKuUdk7nC/nufwqjPuWcIResMeKX2pkLNCBgAA+nDXG4N9bpc6q9TcAABp3LsAAHK5y9GbjjESfecb3ajtAQiaAaU=
+  </data>
+ </layer>
+ <layer name="mineral" width="113" height="64">
+  <data encoding="base64" compression="zlib">
+   eJzt0aERAEAIA0Ec/XeMf/MGE2bXZKKvCgAAAAAAAOCm/nwy6ZhDq1v6WXJoBgAAAAAAAAAAAAAAAAAAAAAAAGwZ4J0AMg==
+  </data>
+ </layer>
+ <layer name="mineral1" width="113" height="64">
+  <data encoding="base64" compression="zlib">
+   eJzt0aERAEAIA0Ek/VeMf/MGE2bXZKKvCgAAAAAAAOCm/nwy6ZhDq1v6WXJoBgAAAAAAAAAAAAAAAAAAAAAAAGwZFS4AOQ==
+  </data>
+ </layer>
+</map>

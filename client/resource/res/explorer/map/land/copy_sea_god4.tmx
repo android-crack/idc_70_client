@@ -1,0 +1,49 @@
+<map height="36" orientation="orthogonal" renderorder="right-down" tileheight="64" tilewidth="64" version="1.0" width="15">
+ <tileset firstgid="1" name="area_piece2" tileheight="64" tilewidth="64">
+  <image height="64" source="area_piece_wall2.png" width="128" />
+ </tileset>
+ <tileset firstgid="3" name="new_land" tileheight="64" tilewidth="64">
+  <image height="1472" source="new_land.png" width="1984" />
+ </tileset>
+ <tileset firstgid="499" name="sand_tree" tileheight="64" tilewidth="64">
+  <image height="704" source="sand_tree.png" width="1088" />
+ </tileset>
+ <tileset firstgid="635" name="sand_mound" tileheight="64" tilewidth="64">
+  <image height="1134" source="sand_mound.png" width="1134" />
+ </tileset>
+ <layer height="36" name="wall2" width="15">
+  <properties>
+   <property name="picture" value="area_piece2" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJxjYBgFwxkwMjAsIFcvEwV6R+0dtZcW9o7qHd56R8HwBgCmMgyj
+</data>
+ </layer>
+ <layer height="36" name="sand" width="15">
+  <properties>
+   <property name="picture" value="new_land" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJxjYBgFo2AUjIJRMApGwSigLQAACHAAAQ==
+</data>
+ </layer>
+ <layer height="36" name="sand_mound" width="15">
+  <properties>
+   <property name="picture" value="sand_mound" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJxjYBgFo2AUjIJRMApGwSigLQAACHAAAQ==
+</data>
+ </layer>
+ <layer height="36" name="block" opacity="0.5" visible="0" width="15">
+  <properties>
+   <property name="picture" value="new_land" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJxTYWRgUMGBCQFc+kb1Dh69+PSP6h3VO6p3VO9g0ktJWTeqd/DrBQC+iSGJ
+</data>
+ </layer>
+ <layer height="36" name="wall1" width="15">
+  <properties>
+   <property name="picture" value="area_piece2" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJxjYBgFwxkwDbQDRsEoGAUjCjAyMBwYaDeMgsEJAKp7AMQ=
+</data>
+ </layer>
+</map>

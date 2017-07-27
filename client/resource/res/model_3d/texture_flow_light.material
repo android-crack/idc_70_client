@@ -1,0 +1,73 @@
+material textured
+{
+    u_worldViewProjectionMatrix = WORLD_VIEW_PROJECTION_MATRIX
+  
+	tag 
+	{
+		renderQueue = alphatest
+	}
+    
+    sampler u_diffuseTexture
+    {
+        mipmap = true
+        minFilter = LINEAR_MIPMAP_LINEAR
+        magFilter = LINEAR
+    }
+
+    renderState
+    {
+        cullFace = true
+        depthTest = true
+    }
+	
+    technique default
+    {
+        pass texture_flow
+        {
+			u_mainIntensity = 1
+			u_mainColor = 1, 1, 1, 1	
+			u_lightmapIntensity = 1
+			u_lightmapST = 0,0,0,0
+			sampler u_lightmapTexture
+			{
+				path = WHITE
+				minFilter = LINEAR_MIPMAP_LINEAR
+				magFilter = LINEAR
+				wrapS = REPEAT
+				wrapT = REPEAT
+				mipmap = true
+			}
+			
+			u_maskTexST = 1, 1, 0, 0	
+			sampler u_maskTex
+			{
+				path = WHITE
+				minFilter = LINEAR_MIPMAP_LINEAR
+				magFilter = LINEAR
+				wrapS = REPEAT
+				wrapT = REPEAT
+				mipmap = true
+			}
+			
+			u_time = GAME_TIME
+			u_texSpeed = 0, 0, 0.3, 0
+			u_flowIntensity = 1.0
+			u_flowTexColor = 0.7132353, 0.5768008, 0.2464857, 0.4705882
+			u_flowTexST = 1, 1, 0, 0
+			sampler u_flowTex
+			{
+				path = BLACK
+				minFilter = LINEAR_MIPMAP_LINEAR
+				magFilter = LINEAR
+				wrapS = REPEAT
+				wrapT = REPEAT
+				mipmap = true
+			}
+
+			vertexShader = res/shaders/textured.vert
+			fragmentShader = res/shaders/textured.frag
+			defines = TEXTURE_DISCARD_ALPHA;TEXTURE_FLOW;LIGHTMAP;MAIN_COLOR	
+		}
+    }
+}
+

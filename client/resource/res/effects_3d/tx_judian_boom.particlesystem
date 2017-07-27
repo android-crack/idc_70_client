@@ -1,0 +1,21 @@
+ParticleSystem tx_judian_boom
+{
+	Emitter judian_boomfire
+	{
+		file = judian_boomfire.particleemitter
+		order = 2
+		position = 0, 0, 0
+	}
+	Emitter judian_boomlizi
+	{
+		file = judian_boomlizi.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+	Emitter judian_boomsmoke
+	{
+		file = judian_boomsmoke.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+}

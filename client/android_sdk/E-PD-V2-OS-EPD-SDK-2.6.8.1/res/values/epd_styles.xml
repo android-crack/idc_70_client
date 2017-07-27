@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- back -->
+    <style name="BackButton">
+        <item name="android:textSize">@dimen/epd_text_28</item>
+        <item name="android:textColor">@android:color/transparent</item>
+        <item name="android:text">@string/epd_title_back_demo</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <!-- title -->
+    <style name="TitleBarText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/epd_size_10</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/epd_text_34</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <style name="PopStyle" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/epd_dwon</item>
+        <item name="android:windowExitAnimation">@anim/epd_up</item>
+    </style>
+
+</resources>

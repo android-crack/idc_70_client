@@ -1,0 +1,34 @@
+animation ex_rock
+{
+frameCount=2333
+clip move
+{
+begin=33
+end=33
+repeatCount=0
+}
+clip broken1
+{
+begin=200
+end=533
+repeatCount=1
+}
+clip broken2
+{
+begin=566
+end=966
+repeatCount=1
+}
+clip broken3
+{
+begin=1000
+end=1366
+repeatCount=1
+}
+clip broken4
+{
+begin=1433
+end=1666
+repeatCount=1
+}
+}

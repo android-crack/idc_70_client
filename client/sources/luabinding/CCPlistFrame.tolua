@@ -1,0 +1,7 @@
+
+class CCPlistFrame  public cocos2dCCObject
+{
+	static void loadPlist(const char *plist);
+};
+
+

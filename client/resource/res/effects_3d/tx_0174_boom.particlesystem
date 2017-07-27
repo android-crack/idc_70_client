@@ -1,0 +1,21 @@
+ParticleSystem tx_0174_boom
+{
+	Emitter 0174_boomfire
+	{
+		file = 0174_boomfire.particleemitter
+		order = 2
+		position = 0, 0, 0
+	}
+	Emitter 0174_boomlizi
+	{
+		file = 0174_boomlizi.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+	Emitter 0174_boomsmoke
+	{
+		file = 0174_boomsmoke.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+}

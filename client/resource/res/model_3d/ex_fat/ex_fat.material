@@ -1,0 +1,11 @@
+material ex_fat
+{
+    sampler u_diffuseTexture
+    {
+        path = ex_fat.fbm/ex_fat.png
+        wrapS = REPEAT
+        wrapT = REPEAT
+    }
+
+}
+

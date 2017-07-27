@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/com_tencent_tmassistant_sdk_popup_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/dlg_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/white_list_dlg_title"
+        android:textColor="#288be1"
+        android:textSize="@dimen/white_list_title_size" />
+
+    <TextView
+        android:id="@+id/line"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#288be1"
+        android:height="2dp"
+        android:text="" />
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="30px"
+        android:paddingLeft="30px"
+        android:paddingRight="30px" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/dlg_body_tv"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/dlg_title_tv" >
+
+            <TextView
+                android:id="@+id/dlg_body_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/white_list_dlg_body"
+                android:textColor="#333333"
+                android:textSize="@dimen/white_list_body_size" />
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/ButtonLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/scrollView1" >
+
+            <Button
+                android:id="@+id/negtive_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/com_tencent_tmassistant_sdk_negtive_btn"
+                android:text="取消"
+                android:textColor="#858585"
+                android:textSize="@dimen/white_list_button_text_size" />
+
+            <FrameLayout
+                android:id="@+id/positive_btn_frame_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <Button
+                    android:id="@+id/positive_btn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/com_tencent_tmassistant_sdk_positive_btn"
+                    android:text=""
+                    android:textColor="#858585"
+                    android:textSize="@dimen/white_list_button_text_size" />
+
+                <ProgressBar
+                    android:id="@+id/download_pb"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:minHeight="78px"
+                    android:maxHeight="78px"
+                    android:progressDrawable="@drawable/com_tencent_tmassistant_sdk_pregress_button" />
+
+                <TextView
+                    android:id="@+id/progress_txt_tv"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:singleLine="true"
+                    android:text="@string/white_list_positive_download"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/white_list_button_text_size" />
+            </FrameLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

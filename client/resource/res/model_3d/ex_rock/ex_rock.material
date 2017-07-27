@@ -1,0 +1,11 @@
+material ex_rock
+{
+    sampler u_diffuseTexture
+    {
+        path = ex_rock.fbm/ex_rock.png
+        wrapS = REPEAT
+        wrapT = REPEAT
+    }
+
+}
+

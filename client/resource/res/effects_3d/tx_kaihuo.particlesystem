@@ -1,0 +1,21 @@
+ParticleSystem tx_kaihuo
+{
+	Emitter kaihuofire
+	{
+		file = kaihuofire.particleemitter
+		order = 2
+		position = 0, 0, 0
+	}
+	Emitter kaihuolizi
+	{
+		file = kaihuolizi.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+	Emitter kaihuosmoke
+	{
+		file = kaihuosmoke.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+}

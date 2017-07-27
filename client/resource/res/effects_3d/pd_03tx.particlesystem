@@ -1,0 +1,15 @@
+ParticleSystem pd_03tx
+{
+	Emitter pd_03huo
+	{
+		file = pd_03huo.particleemitter
+		order = 2
+		position = 0, 0, 0
+	}
+	Emitter pd_03huo2
+	{
+		file = pd_03huo2.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+}

@@ -1,0 +1,51 @@
+<map height="28" orientation="orthogonal" renderorder="right-down" tileheight="64" tilewidth="64" version="1.0" width="48">
+ <properties>
+  <property name="picture" value="new_land" />
+ </properties>
+ <tileset firstgid="1" name="new_land" tileheight="64" tilewidth="64">
+  <image height="1472" source="new_land.png" width="1984" />
+ </tileset>
+ <tileset firstgid="497" name="area_piece_wall2" tileheight="64" tilewidth="64">
+  <image height="64" source="area_piece_wall2.png" width="128" />
+ </tileset>
+ <layer height="28" name="land" width="48">
+  <properties>
+   <property name="picture" value="new_land" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJzt10tIVFEcgPE7WqhterhQNNCtWmBKulB0I6OOYUaoi0ITE3Mzjg8USsVNU4gpuqjGdFNqVote
+KqTgSK6cfIGakPhIMBe5qbYt/A40eBrvOK48d2D+8GPuXA7Mdxf3zj2aZtx5ZtK0XvTBhS+YQRe6
+TarrDp9CDNM4glGsYwObeIkhOFRHehkrqjFL4xzmcVbyGVN4ozpUZ+x4gIf4TuOWR7vwDauYVJuq
+O4/xBE+1g92elhW36s0QXuE1zvvo31Xc6m0m4MRlGlO8tKfCZNBn0CKWkEufRac9D1cQadB+MT9R
+Ql+pTv8tlCHRwP1ibPTV6PTXog5ZBu+/R1+TTn8zWgzeLqadxkeimeNzCMcAOjjX6Qf9z2l8gQSO
+L+AiPqGfcwN+0C9mgs4cPnNhwRyc4r/XT/q/imfNv+NybGPFT9oDE5jjnAzui0ykId3LPeJecx92
+tBrgXjqF63QUoggFuCY1vsU7vJfWONBjgL1oDGJRScMdVOE2KqRGee/sXvMBH037e9FgnFBwHWlI
+RwO/3Si9Y9RLjfLeWV4j70WjEK2gvwjFGNR879f0uPeiSUhW0G9DDcYwjpNHvI5p1rkgkoNg5iBb
+0X3QhnksIAKR2sFO+R1wDevYwGmcwQ3W3lTU34Mf2MElJCHZo1N+B/yF3/iDOMTDSnu14mfpX+Tj
+Kgq0/zvld8AQOkMRBjPfs3FXUfseeot4/w==
+</data>
+ </layer>
+ <layer height="28" name="block" opacity="0.5" width="48">
+  <properties>
+   <property name="picture" value="new_land" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJztlUEKACAIBO0r/v+RYceOUq3GDMx9RFAfZo6Iywp07w/o10O/Fvq1dO8Puvfv0K+Ffi30azlx
+R5UzZ35apZ3d6H85B/2I/zgB2DRXpA==
+</data>
+ </layer>
+ <layer height="28" name="wall1" width="48">
+  <properties>
+   <property name="picture" value="area_piece_wall2" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJzt16ENACAQA8Bn/6VYCSYAg3xHgJA7U1FV2QhgaSWilzOZdQAAAPxtfr86P2DdkVl3eyO8ZAB2
+30my
+</data>
+ </layer>
+ <layer height="28" name="wall2" width="48">
+  <properties>
+   <property name="picture" value="area_piece_wall2" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJzt0rENwCAMRFGzKaOxYpggNPSnROhs9F/t4vTlCADbbNHdG/54iu+nvxf9varv53+8MvdfbYdw
+088v+WYK++l/Dv29qvdX9mfur/xPZkr/zOgP3OUFbxInxw==
+</data>
+ </layer>
+</map>

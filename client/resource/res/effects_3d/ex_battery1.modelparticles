@@ -1,0 +1,10 @@
+ModelParticleConfig ex_battery
+{
+	ParticleConfig paotailianyi
+	{
+		file = paotailianyi.particlesystem
+		position = 0, 0, 0
+		rotation = 0, 0, 0, 0.7071068
+		scale = 1.5, 1.5, 1.5
+	}
+}

@@ -1,0 +1,11 @@
+material sea_shark
+{
+    sampler u_diffuseTexture
+    {
+        path = sea_shark.fbm/sea_shark.png
+        wrapS = REPEAT
+        wrapT = REPEAT
+    }
+
+}
+

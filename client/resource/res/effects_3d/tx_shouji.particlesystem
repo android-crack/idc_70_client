@@ -1,0 +1,21 @@
+ParticleSystem tx_shouji
+{
+	Emitter boomfire
+	{
+		file = boomfire.particleemitter
+		order = 2
+		position = 0, 0, 0
+	}
+	Emitter boomlizi
+	{
+		file = boomlizi.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+	Emitter boomsmoke
+	{
+		file = boomsmoke.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+}

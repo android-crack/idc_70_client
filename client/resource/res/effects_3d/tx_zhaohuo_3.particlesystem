@@ -1,0 +1,24 @@
+ParticleSystem tx_zhaohuo_3
+{
+	Emitter zhaohuo_3_fire
+	{
+		file = zhaohuo_3_fire.particleemitter
+		order = 3
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter zhaohuo_3_smoke
+	{
+		file = zhaohuo_3_smoke.particleemitter
+		order = 2
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter zhaohuo_3_lizi
+	{
+		file = zhaohuo_3_lizi.particleemitter
+		order = 2
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+}

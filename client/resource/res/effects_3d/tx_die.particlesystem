@@ -1,0 +1,27 @@
+ParticleSystem tx_die
+{
+	Emitter die01
+	{
+		file = die01.particleemitter
+		order = 4
+		position = 0, 0, 0
+	}
+	Emitter die02
+	{
+		file = die02.particleemitter
+		order = 3
+		position = 0, 0, 0
+	}
+	Emitter die03
+	{
+		file = die03.particleemitter
+		order = 2
+		position = 0, 0, 0
+	}
+	Emitter die04
+	{
+		file = die04.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+}

@@ -1,0 +1,54 @@
+particle xilahuo_lizi02
+{
+	sprite 
+	{
+		path = white_line.png
+		width = 256
+		height = 256
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	particleCountMax = 15
+	emissionRate = 15
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 50
+	sizeStartMax = 40
+	sizeEndMin = 5
+	sizeEndMax = 0
+	energyMin = 1400
+	energyMax = 1300
+	colorStart = 1, 0.7655171, 0, 0.8431373
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 1, 0.5586207, 0, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 0.6, 0, 1
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.55
+	middlePercentVar = 0.05000007
+	position = 0, 0, 0
+	positionVar = 30, 20, 50
+	velocity = 0, 0, -170
+	velocityVar = 2, 0, -20
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = HORIZONTALBILLBOARD
+	isLocalSpace = True
+	preWarm = True
+	delayTime = 0
+	initialRotationMin = 0
+	initialRotationMax = 0
+}

@@ -1,0 +1,10 @@
+animation dao
+{
+frameCount=1200
+clip move
+{
+begin=0
+end=1200
+repeatCount=0
+}
+}

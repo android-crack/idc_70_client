@@ -1,0 +1,9 @@
+ParticleSystem tx_0174zidan
+{
+	Emitter tx_0174zidan
+	{
+		file = tx_0174.particleemitter
+		order = 0
+		position = 0, 0, 0
+	}
+}

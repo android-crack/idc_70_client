@@ -1,0 +1,52 @@
+material textured 
+{
+	tag 
+	{
+		renderQueue = background
+	}
+	u_mainColor = 1, 1, 1, 1
+
+	u_diffuseTextureST = 1, 1, 0, 0
+	sampler u_diffuseTexture
+	{
+		path = res/3d/textures/sky.png
+
+		minFilter = LINEAR_MIPMAP_LINEAR
+		magFilter = LINEAR
+		mipmap = true
+
+		wrapS = REPEAT
+		wrapT = REPEAT
+	}
+	u_effectAlpha = 0
+
+	u_effectTextureST = 1, 1, 0, 0
+	sampler u_effectTexture
+	{
+		path = res/3d/textures/sky_2001.png
+
+		minFilter = LINEAR_MIPMAP_LINEAR
+		magFilter = LINEAR
+		mipmap = true
+
+		wrapS = REPEAT
+		wrapT = REPEAT
+	}
+
+	technique 
+	{
+		renderState
+		{
+			cullFace = true
+			depthWrite = false
+			depthTest = true
+		}
+		pass 
+		{
+			u_worldViewProjectionMatrix = WORLD_VIEW_PROJECTION_MATRIX
+			vertexShader = res/3d/shaders/skybox_multiply.vert
+			fragmentShader = res/3d/shaders/skybox_multiply.frag
+		}
+	}
+}
+

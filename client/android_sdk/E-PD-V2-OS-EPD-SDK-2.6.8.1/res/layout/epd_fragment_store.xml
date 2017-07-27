@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/epd_background">
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/epd_orange">
+        <TextView 
+            android:id="@+id/return_first"
+            android:padding="@dimen/epd_size_10"
+            android:text="@string/epd_store_return"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:id="@+id/title_text"
+            style="@style/TitleBarText"/>
+    </RelativeLayout>
+    <com.epd.app.support.widget.gadget.web.RechargeWebView
+        android:layout_marginTop="1px"
+        android:id="@+id/store_web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+   
+</LinearLayout>

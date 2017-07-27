@@ -1,0 +1,15 @@
+ParticleSystem jn_xilahuo
+{
+	Emitter xilahuo_huo
+	{
+		file = xilahuo_huo.particleemitter
+		order = 3
+		position = 0, 0, 0
+	}
+	Emitter xilahuo_yan
+	{
+		file = xilahuo_yan.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+}

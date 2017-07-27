@@ -1,0 +1,53 @@
+particle ChaoFeng_01
+{
+	sprite 
+	{
+		path = T_VFX_Psy_purple.png
+		width = 256
+		height = 256
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	particleCountMax = 4
+	emissionRate = 2
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 150
+	sizeStartMax = 150
+	sizeEndMin = 400
+	sizeEndMax = 400
+	energyMin = 1800
+	energyMax = 1800
+	colorStart = 0.8825915, 0.1967993, 0.9558824, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0.3014706, 0, 0.193357, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 0.3543103, 0, 0.375, 0.3843137
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.4
+	middlePercentVar = -2.980232E-08
+	position = 0, 0, 0
+	positionVar = 0, 0, 0
+	velocity = 0, 0, 0
+	velocityVar = 0, 0, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = HORIZONTALBILLBOARD
+	isLocalSpace = True
+	preWarm = True
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

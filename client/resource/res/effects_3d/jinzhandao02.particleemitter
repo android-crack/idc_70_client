@@ -1,0 +1,53 @@
+particle jinzhandao02
+{
+	sprite 
+	{
+		path = tx_0152huoquan03.png
+		width = 256
+		height = 256
+		blending = ADDITIVE
+		animated = True
+		looped = True
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 80
+	}
+	particleCountMax = 5
+	emissionRate = 10
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 120
+	sizeStartMax = 120
+	sizeEndMin = 180
+	sizeEndMax = 130
+	energyMin = 400
+	energyMax = 420
+	colorStart = 1, 1, 1, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 1, 0.3517241, 0, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 0.6827586, 0, 0.7098039
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.5
+	middlePercentVar = 0
+	position = 0, 0, 0
+	positionVar = 20, 20, 20
+	velocity = 0, 0, 0
+	velocityVar = 5, 0, 5
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = -12.56637
+	rotationPerParticleSpeedMax = 4.712389
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = HORIZONTALBILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

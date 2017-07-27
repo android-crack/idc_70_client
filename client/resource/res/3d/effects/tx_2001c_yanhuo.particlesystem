@@ -1,0 +1,24 @@
+ParticleSystem huoxing
+{
+	Emitter 2001c_fire2
+	{
+		file = 2001c_fire2.particleemitter
+		order = 0
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter 2001c_smoke
+	{
+		file = 2001c_smoke.particleemitter
+		order = 0
+		position = -2.51, 0, -1.94
+		rotate = 0, 0, 0, 1
+	}
+	Emitter 2001c_huijin
+	{
+		file = 2001c_huijin.particleemitter
+		order = 0
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+}

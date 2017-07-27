@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="msdk_ad_dlg_total_width">316dp</dimen>
+    <dimen name="msdk_ad_dlg_image_width">300dp</dimen>
+    <dimen name="msdk_ad_dlg_image_height">200dp</dimen>
+    <dimen name="msdk_ad_dlg_image_margin_top">8dp</dimen>
+    <dimen name="msdk_ad_dlg_image_margin_bottom">8dp</dimen>
+    <dimen name="msdk_ad_divide_line_height">1dp</dimen>
+    
+    <dimen name="msdk_ad_btn_layout_height">60dp</dimen>
+    <dimen name="msdk_ad_btn_layout_margin_top">8dp</dimen>
+    <dimen name="msdk_ad_btn_layout_margin_bottom">8dp</dimen>
+    <dimen name="msdk_ad_btn_divide_width">8dp</dimen>
+    <dimen name="msdk_ad_dlg_btn_textsize">16sp</dimen>
+    
+    <!-- default two button dimens -->
+    <dimen name="msdk_ad_two_default_content_height">88dp</dimen>
+    <dimen name="msdk_ad_two_default_content_textsize">18sp</dimen>
+    
+    <!-- default three button dimems -->
+    <dimen name="msdk_ad_three_default_padding_left">20dp</dimen>
+    <dimen name="msdk_ad_three_default_padding_right">20dp</dimen>
+    <dimen name="msdk_ad_three_default_btn_height">48dp</dimen>
+    <dimen name="msdk_ad_three_default_btn_top">18dp</dimen>
+    <dimen name="msdk_ad_three_default_btn_bottom">18dp</dimen>
+    <dimen name="msdk_ad_three_default_title_size">15sp</dimen>
+    <dimen name="msdk_ad_three_default_title_height">48dp</dimen>
+</resources>

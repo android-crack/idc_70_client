@@ -1,0 +1,15 @@
+ParticleSystem tx_0113
+{
+	Emitter 0113effect
+	{
+		file = 0113effect.particleemitter
+		order = 0
+		position = 0, 0, 0
+	}
+	Emitter 0113effect02
+	{
+		file = 0113effect02.particleemitter
+		order = 0
+		position = 0, 0, 0
+	}
+}

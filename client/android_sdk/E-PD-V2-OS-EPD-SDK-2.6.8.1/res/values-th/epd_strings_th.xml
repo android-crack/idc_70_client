@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="epd_game">เกม </string>
+    <string name="epd_game_info">ข้อมูล</string>
+    <string name="epd_game_name">เกม </string>
+    <string name="epd_game_server">เซิร์ฟเวอร์ </string>
+    <string name="epd_game_role">ชื่อตัวละคร </string>
+    <string name="epd_game_description">ข้อมูลเกมส์</string>
+    <string name="epd_game_down_count_des_before">มี</string>
+    <string name="epd_game_down_count_des_after">คนโหลดแล้ว</string>
+    <string name="epd_download">ดาวน์โหลด</string>
+    <string name="epd_member_id">ไอดีสมาชิก </string>
+    <string name="epd_level">ระดับ: </string>
+    <string name="epd_medal">คะแนน: </string>
+    <string name="epd_toast_medal">คะแนน </string>
+    <string name="epd_vip">Vip：</string>
+    <string name="epd_introduce">คลิก</string>
+    <string name="epd_notice">ประกาศ</string>
+    <string name="epd_guide">คู่เมือ</string>
+    <string name="epd_news">ข่าว</string>
+    <string name="epd_events">กิจกรรม</string>
+    <string name="epd_delete">ลบ</string>
+    <string name="epd_submit_question">ส่ง</string>
+    <string name="epd_question_type_notify_text">ประเภทปัญหา</string>
+    <string name="epd_question_screen_short_notify_text">เพิ่มรูป</string>
+    <string name="epd_question_no_screen_short_notify_text">ยังไม่ได้อัปโหลดรูป</string>
+    <string name="epd_question_email_notify_text">อีเมล์</string>
+    <string name="epd_question_title">หัวข้อปัญหา</string>
+    <string name="epd_question_description">รายละเอียดปัญหา</string>
+    <string name="epd_cs_title_limitation">น้อยก่วา100คำ</string>
+    <string name="epd_cs_email_limitation">น้อยก่วา100คำ</string>
+    <string name="epd_question_description_limitation">น้อยก่วา1500คำ</string>
+    <string name="epd_question_type_qs_undefine">ไม่ได้แป่งประเภทปัญหา</string>
+    <string name="epd_question_type_account">ปัญหาปัญชี</string>
+    <string name="epd_question_type_recharge">ปัญหาเติมเงิน</string>
+    <string name="epd_question_type_guides">ปัญหาคู่มือ</string>
+    <string name="epd_question_type_activity">ปัญหากิจกรรม</string>
+    <string name="epd_question_type_feedback">ข้อเสนอผู้เล่น</string>
+    <string name="epd_question_type_other">อื่นๆ</string>
+    <string name="epd_cs_normal_question">ปัญหาทั่วไป</string>
+    <string name="epd_cs_normal_question_des">ท่านสามารถค้นหาปัญหาทั่วไปในที่นี่ได้</string>
+    <string name="epd_cs_asking">ฉันเสนอปัญหา</string>
+    <string name="epd_cs_asking_des">เราจะตอบให้ทันทีค่ะ</string>
+    <string name="epd_cs_reply">ปัญหาฉัน</string>
+    <string name="epd_cs_reply_des">ท่านสามารถค้าหาปัญหาทีท่านเคยเสนอในที่นี่ได</string>
+    <string name="epd_cs_pic_add">+</string>
+    <string name="epd_cs_pic_delete">-</string>
+    <string name="epd_persion_collect_data">ข้อมูลส่วนตัว</string>
+    <string name="epd_persion_collect_data_des">เพิ่มรายละเอียดส่วนตัว รับรางวัลเซอร์ไพรส์</string>
+    <string name="epd_persion_collect_data_des_sec">เพิ่มข้อมูลส่วนตัว</string>
+    <string name="epd_persion_gift_center">ศูนย์แพคเกจ</string>
+    <string name="epd_persion_gift_center_des">รางวัลมีมากมาย รอท่านมารับนะจ๊ะ</string>
+    <string name="epd_persion_knock_egg">ไข่กาชาปอง</string>
+    <string name="epd_persion_knock_egg_des">หมุนรับรวงวัลมหาศาลนะคะ</string>
+    <string name="epd_persion_version">เวอร์ชั่น</string>
+    <string name="epd_gift_center">ศูนย์แพคเกจ</string>
+    <string name="epd_gift_has_got">รับแล้ว</string>
+    <string name="epd_gift_has_used">ใช้แล้ว</string>
+    <string name="epd_gift_has_unused">ยังไม่ได้ใช้</string>
+    <string name="epd_gift_rule">เควสแพคเกจ</string>
+    <string name="epd_gift_des">รายละเอียดแพคเกจ</string>
+    <string name="epd_gift_end_time">เวลาจบ </string>
+    <string name="epd_gift_surplus">เหลือ </string>
+    <string name="epd_gift_type">ประเภท </string>
+    <string name="epd_gift_get_now">รับทันที</string>
+    <string name="epd_gift_code">หมายเลขซีเรีย:</string>
+    <string name="epd_gift_secret">รหัส </string>
+    <string name="epd_gift_deadlines">เวลาสุดท้าย </string>
+    <string name="epd_gift_notify">กดหมายเลขซีเรียแพคเกจ สามารถCopyได้</string>
+    <string name="epd_copy_successfully">Copyสำเร็จ</string>
+    <string name="epd_version">เลขเวอร์ชั่น </string>
+    <string name="epd_package_size">สเปค </string>
+    <string name="epd_summary">ข่าวสาร</string>
+    <string name="epd_website">Website</string>
+    <string name="epd_fans_page">Facebook</string>
+    <string name="epd_network_error">ไม่ได้เชื่อมต่อกับอินเตอร้เน็ต</string>
+    <string name="epd_request_error">ระบบผิดปกติ กรุณารีเฟรชใหม่</string>
+    <string name="epd_timeout_error">หมดเวลา กรุณารีเฟรชใหม่</string>
+    <string name="epd_empty_error">ยังไม่มีข้อมูล ขอรออีกสักครู่รีเฟชรใหม่</string>
+    <string name="epd_title_back_demo">ABC</string>
+    <string name="epd_title_summary">ข่าวสาร</string>
+    <string name="epd_title_game">เกม</string>
+    <string name="epd_title_persion">ศูนย์ส่วนบุคคล</string>
+    <string name="epd_title_persion_acquisition">ข้อมูลส่วนตัว</string>
+    <string name="epd_title_store">เติมเงิน</string>
+    <string name="epd_title_cs">บริการลูกค้า</string>
+    <string name="epd_title_cs_questions">ปัญหาทั่วไป</string>
+    <string name="epd_title_gift">ศูนย์แพคเกจ</string>
+    <string name="epd_title_cs_ask">ฉันเสนอปัญหา</string>
+    <string name="epd_title_cs_reply">ปัญหาฉัน</string>
+    <string name="epd_title_cs_reply_detail">การตอบเอ็นมิน</string>
+
+	<string name="epd_title_web_level">รายละเอียดระดับ</string>
+	<string name="epd_title_web_medal_info">คำอธิบายสมาชิก</string>
+	<string name="epd_title_web_vip_info">VIP</string>
+	<string name="epd_title_web_knock_egg">ไข่กาชาปอง</string>
+    
+    <string name="epd_store_return">หน้าแรก</string>
+    <string name="epd_thumb_error">อุปกรณ์ของท่านไม่รองรับการใช้งาน</string>
+	<string name="epd_camera_crop_error">อุปกรณ์ของท่านไม่สามรถครอฟรูปได้ กรุณาดำเนินการที่เว็บ</string>
+	
+	<string name="epd_cs_empty_title">โปรดกรอกหัวข้อปัญหา</string>
+	<string name="epd_cs_empty_advice">โปรดกรอกรายละเอียดปัญหา</string>
+	<string name="epd_cs_empty_system_error">ระบบผิดปกติ</string>
+	
+	<string name="epd_cs_limited_title">หัวข้อห้ามเกิน 100 คำ</string>
+	<string name="epd_cs_limited_advice">รายละเอียดปัญหาห้ามเกิน 1500 คำ</string>
+	<string name="epd_cs_limited_email">อีเมล์ห้ามเกิน 100 คำ</string>
+	<string name="epd_cs_error_email">กรุณากรอกอีเมล์ที่ถูกต้อง</string>
+
+	<string name="epd_cs_reply_detail_content">เนื้อหาคำตอบ</string>
+	<string name="epd_cs_shot_photos">ถ่ายรูป</string>
+	<string name="epd_cs_shot_local_photos">อัลบัม</string>
+	<string name="epd_role_cs">บริการลูกค้า</string>
+	<string name="epd_role_self">ฉัน</string>
+	
+
+	<string name="epd_cs_submit_success">ส่งสำเร็จ</string>
+	<string name="epd_cs_pic_upload_success">อับโหลดสำเร็จ</string>
+
+	<string name="epd_wechat">WeChat</string>
+	<string name="epd_line">Line</string>
+	<string name="epd_area">เขต</string>
+	<string name="epd_address">ที่อยู่</string>
+	<string name="epd_occupation">อาชีพ</string>
+	<string name="epd_boy">ชาย</string>
+	<string name="epd_girl">หญิง</string>
+	<string name="epd_modify">&#160;&#160;กรอก&#160;&#160;</string>
+	
+	<string name="epd_summary_first_one">ถีงหน้าแรกแล้ว</string>
+	<string name="epd_summary_last_one">ถีงหน้าสุดท้ายแล้ว</string>
+	
+	<string name="epd_receive">แพคเกจ</string>
+	<string name="epd_step_collections">กรอกข้อมูล</string>
+	<string name="epd_email">อีเมล์</string>
+	<string name="epd_phone">เบอร์โทรศัพท์</string>
+	<string name="epd_save">บันทึก</string>
+	<string name="epd_collect_empty_area">เลือกเขต（จำเป็นกรอก）</string>
+	<string name="epd_collect_empty_sex">เพศ</string>
+	<string name="epd_collect_empty_occupation">เลือกอาชีพ （จำเป็นกรอก）</string>
+	<string name="epd_birthday">วันเกิด</string>
+	<string name="epd_like_game">ประเภพเกมที่ท่านชอบ</string>
+	<string name="epd_collect_empty_birthday">วันเกิด（จำเป็นกรอก）</string>
+	<string name="epd_collect_empty_like_game">ประเภพเกมที่ท่านชอบ（จำเป็นกรอก）</string>
+	<string name="epd_collect_error_like_game">กรุณาเลือกประเภพเกมที่ท่านชอบ สามารถเลือกได้สามประเภพ</string>
+	
+	<string name="epd_collect_toast_empty_birth">โปรดเลือกวันเกิดของท่าน</string>
+	<string name="epd_collect_toast_empty_area">กรุณาเลือกเขตที่ท่านอยู่</string>
+	<string name="epd_collect_toast_empty_occupation">กรุณาเลือกอาชีพ</string>
+	<string name="epd_submit">ส่ง</string>
+	
+	
+	<string name="epd_notification_modify_nothing">ยังไม่มีข้อมูลที่ให้กรอก</string>
+	<string name="epd_notification_scan_gifts">กรุณาไปเช็คที่สูนย์แพคเกจ</string>
+	
+	<string name="epd_hint_cs_reply_delete">ยืนยันลบไหม？</string>
+	
+	<string name="epd_float_hint_hide">หลังจากซ่อนไว้แล้วล็อกอินใหม่ท่านก็สามารถได้เห็นฉันแล้วนะคะ</string>
+	<string name="epd_float_hint_confirm">ยืนยัน</string>
+	<string name="epd_float_hint_cancel">&#160;&#160;ยกเลิก&#160;&#160;</string>
+	
+	<string name="epd_serial">หมายเลขซีเรีย</string>
+	
+	<string name="epd_uninstalled_google_play">ขอโหลดgoogleplayก่อน</string>
+	
+	<string name="epd_notice_close">เปิด</string>
+	<string name="epd_notice_go_to_look">ไปดู</string>
+	<string name="epd_notice_change_one">เปลี่ยนใหม่</string>
+	<string name="epd_notice_toast_error_gift">โปรดโหลดเกมก่อน แล้วใช้ปัญชีเดียวกันล็อกอินสำเร็จถึงจะรับรางวัลได้</string>
+	<string name="epd_notice_text_not_show_today">ภายในวันนี้จะไม่แสดงอีก</string>
+	<string name="epd_notice_cancel">ยกเลิก</string>
+	<string name="epd_person_extra_gift">โบนัสพิเศษ</string>
+	<string name="epd_notice_close_tips">ขอเปิดหน้านี้อีกรอบ กด ศูนย์ส่วนบุคคล ->โบนัสพิเศษนะ</string>
+	<string name="epd_notice_accomplish_finish_tips">ทำเควสเสร็จ จะรับรางวัลมากมายนะ</string>
+	<string name="epd_notice_reviewed_stop">รางวัลหมดเวลา </string>
+	<string name="epd_notice_get_gift_success">รับแล้ว</string>
+	
+	<!-- 20160321 -->
+	<string name="epd_person_exp">EXP: </string>
+	<string name="epd_cs_reply_all_check">เลือกทั้งหมด</string>
+	<string name="epd_person_sign">ลงชื่อ</string>
+	<string name="epd_gift_reward_time">เวลารับ:</string>
+	<string name="epd_person_exp_tips_1">เพิ้มอีก </string>
+	<string name="epd_person_exp_tips_2"> EXPก็จะอับเกรดได้แล้ว</string>
+	<string name="epd_person_sign_tips">ลงชื่อต่อวัน แถมรางวัลยิ่งกระตุ้นใจ</string>
+	
+    <string-array name="epd_pop_per_info_pic">
+        <item>ถ่ายรูป</item>
+        <item>อัลบัม</item>
+    </string-array>
+    
+    <string-array name="epd_cs_problem_kinds">
+        <item>ปัญหาทั่วไป</item>
+        <item>ปัญหาล็อกอินปัญชี</item>
+        <item>ปัญหาเติมเงิน</item>
+    </string-array>
+    <string-array name="epd_gift_title_kinds">
+        <item>แพคเกจฟรี</item>
+        <item>แพคเกจฉัน</item>
+    </string-array>
+</resources>

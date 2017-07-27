@@ -1,0 +1,53 @@
+particle 0113effect
+{
+	sprite 
+	{
+		path = suduxian_S.png
+		width = 128
+		height = 128
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 1
+		frameDuration = 0
+	}
+	particleCountMax = 20
+	emissionRate = 5
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 10
+	sizeStartMax = 5
+	sizeEndMin = 200
+	sizeEndMax = 230
+	energyMin = 2000
+	energyMax = 1600
+	colorStart = 1, 1, 1, 1
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 1, 1, 1, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 1, 1, 1
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.65
+	middlePercentVar = 0.05000001
+	position = 0, 0, 0
+	positionVar = 60, 10, 20
+	velocity = 0, 20, 0
+	velocityVar = 0, -10, 0
+	acceleration = 0, 25, 0
+	accelerationVar = 0, 5, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = BILLBOARD
+	isLocalSpace = False
+	preWarm = True
+	initialRotationMin = 0
+	initialRotationMax = 0
+}

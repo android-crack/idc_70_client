@@ -1,0 +1,24 @@
+ParticleSystem tx_2001c_paohuo
+{
+	Emitter 2001c_paohuo_fire
+	{
+		file = 2001c_paohuo_fire.particleemitter
+		order = 1
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter 2001c_paohuo_smoke
+	{
+		file = 2001c_paohuo_smoke.particleemitter
+		order = 0
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter 2001c_paohuo_head
+	{
+		file = 2001c_paohuo_head.particleemitter
+		order = 2
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+}

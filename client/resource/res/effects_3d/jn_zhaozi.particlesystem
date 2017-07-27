@@ -1,0 +1,9 @@
+ParticleSystem jn_zhaozi
+{
+	Emitter zhaozi02
+	{
+		file = zhaozi02.particleemitter
+		order = 2
+		position = 0, 0, 0
+	}
+}

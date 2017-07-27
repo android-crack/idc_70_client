@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <drawable name="transparent">#00000000</drawable>
+    
+    <color name="notice_main_bg_color">#F9F9F9</color> <!-- 公告主标题字体颜色-->
+    <color name="notice_main_title_text_color">#666666</color> <!-- 公告主标题字体颜色-->
+    <color name="notice_bg_color">#ffffff</color> <!-- 公告背景色 -->
+    <color name="notice_title_text_color">#328fff</color> <!-- 公告标题字体颜色-->
+    <color name="notice_content_text_color">#888888</color><!-- 公告内容字体颜色-->
+    <color name="notice_line_color">#DFDFDF</color><!--按钮背景色-->
+    <color name="notice_btn_bg_color">#DDDDDD</color><!--按钮背景色-->
+    <color name="notice_btn_text_color">#328FFF</color><!--按钮字体颜色-->
+    <color name="notice_theme_page_bkg_normal">#DFDFDF</color>
+    <color name="notice_web_loading">#A6A6A6</color>
+    <color name="notice_web_failed">#328FFF</color>
+    
+</resources>

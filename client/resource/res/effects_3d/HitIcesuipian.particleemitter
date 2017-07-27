@@ -1,0 +1,53 @@
+particle HitIcesuipian
+{
+	sprite 
+	{
+		path = ice01_00000.png
+		width = 128
+		height = 128
+		blending = ADDITIVE
+		animated = True
+		looped = True
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 80
+	}
+	particleCountMax = 5
+	emissionRate = 10
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 20
+	sizeStartMax = 30
+	sizeEndMin = 65
+	sizeEndMax = 80
+	energyMin = 1200
+	energyMax = 1000
+	colorStart = 1, 1, 1, 1
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0, 0.3379312, 1, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 0.7426471, 0.9893509, 1, 1
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.45
+	middlePercentVar = 0.05000001
+	position = 0, 0, 0
+	positionVar = 2, 2, 2
+	velocity = 0, 145, 0
+	velocityVar = 20, 15, 20
+	acceleration = 0, -275, 0
+	accelerationVar = 20, -25, 20
+	rotationPerParticleSpeedMin = -1.047198
+	rotationPerParticleSpeedMax = 1.047198
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0.2
+	renderType = BILLBOARD
+	isLocalSpace = False
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

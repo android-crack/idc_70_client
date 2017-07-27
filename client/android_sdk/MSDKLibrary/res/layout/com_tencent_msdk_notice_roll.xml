@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rollMain"
+    style="@style/layout_full"
+    android:gravity="top"
+    android:layout_height="30dp"
+    android:background="#80000000"
+    android:orientation="horizontal" >
+    <ImageView
+        android:id="@+id/rollImage"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center_vertical|center_horizontal|center"
+        android:layout_height = "@dimen/roll_height" />
+    
+    <com.tencent.msdk.notice.RollTextView
+        android:id="@+id/marquee"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/roll_height"
+        android:layout_gravity="center_vertical|center_horizontal|center"
+        android:layout_marginTop="6.5dp"
+        android:layout_marginRight="8dp"
+        android:inputType="text"
+        android:text="@string/notice_roll_notice"
+        android:textSize="@dimen/roll_textsize" />
+
+</LinearLayout>

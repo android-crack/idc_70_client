@@ -1,0 +1,100 @@
+material textured 
+{
+	u_ambentColor = 0, 0.06321569, 0.08360785, 0.52
+	u_lightDir = -0.1781768, 0.8677778, -0.4612378, -0.04974314
+	u_lightColor = 0.5731765, 1.255529, 1.624, 3.48
+	u_worldMatrix = WORLD_MATRIX
+	u_scale = SEA_SCALE
+	u_columnShift = SEA_COLUMNSHIFT
+	u_rowShift = SEA_ROWSHIFT
+	u_cameraPosition = CAMERA_WORLD_POSITION
+
+	tag 
+	{
+		renderQueue = alphatest
+	}
+	u_mainColor = 0.6838235, 0.634, 0.618125, 1
+
+	u_diffuseTextureST = 7.15, 5.1, 48.38268, 58.61725
+	sampler u_diffuseTexture
+	{
+		path = res/3d/textures/water_fallback.png
+
+		minFilter = LINEAR_MIPMAP_LINEAR
+		magFilter = LINEAR
+		mipmap = true
+
+		wrapS = REPEAT
+		wrapT = REPEAT
+	}
+
+	_NormalMapST = 1, 1, 0, 0
+	_NormalMap = SEA_UPDATE_NORMAL_TEXTURE
+	sampler _NormalMap
+	{
+		path = res/3d/textures/water_hm00.png
+
+		minFilter = LINEAR
+		magFilter = LINEAR
+		mipmap = true
+
+		wrapS = REPEAT
+		wrapT = REPEAT
+	}
+
+	_CubeST = 1, 1, 0, 0
+	sampler _Cube
+	{
+		path = res/3d/textures/skywater.png, res/3d/textures/skywater.png, res/3d/textures/skywater.png, res/3d/textures/skywater.png, res/3d/textures/skywater.png, res/3d/textures/skywater.png
+
+		minFilter = LINEAR_MIPMAP_LINEAR
+		magFilter = LINEAR
+		mipmap = true
+
+		wrapS = CLAMP
+		wrapT = CLAMP
+		wrapR = CLAMP
+	}
+
+	_WaterMapST = 1, 1, 0, 0
+	sampler _WaterMap
+	{
+		path = res/3d/textures/juqin2_alpha.png
+
+		minFilter = LINEAR_MIPMAP_LINEAR
+		magFilter = LINEAR
+		mipmap = true
+
+		wrapS = REPEAT
+		wrapT = REPEAT
+	}
+	_Reflectivity = 0
+	_WaterAttenuation = 2
+	_ShallowWaterTint = 0.6170523, 0.804338, 0.8308824, 1
+	_DeepWaterTint = 0.133218, 0.2352941, 0.2268464, 1
+	_Shininess = 0.29
+	_Gloss = 17.9
+	_Fresnel0 = 0.06
+	_normalStrength = 5
+	_Opaqueness = 1
+
+	technique 
+	{
+		pass 
+		{
+			renderState
+			{
+				cullFace = true
+				depthWrite = false
+				depthTest = true
+				blend = true
+				blendSrc = SRC_ALPHA
+				blendDst = ONE_MINUS_SRC_ALPHA
+			}
+			u_worldViewProjectionMatrix = WORLD_VIEW_PROJECTION_MATRIX
+			vertexShader = res/3d/shaders/loginSea.vert
+			fragmentShader = res/3d/shaders/loginSea.frag
+		}
+	}
+}
+

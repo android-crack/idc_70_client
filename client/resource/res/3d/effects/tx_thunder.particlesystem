@@ -1,0 +1,10 @@
+ParticleSystem tx thunder
+{
+	Emitter thunder
+	{
+		file = thunder.particleemitter
+		order = 0
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+}

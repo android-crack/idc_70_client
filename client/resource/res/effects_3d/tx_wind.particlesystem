@@ -1,0 +1,15 @@
+ParticleSystem tx_wind
+{
+	Emitter wind
+	{
+		file = wind.particleemitter
+		order = 0
+		position = 0, 41.90695, 0
+	}
+	Emitter wind02
+	{
+		file = wind02.particleemitter
+		order = 0
+		position = 0, 41.90695, 0
+	}
+}

@@ -1,0 +1,12 @@
+class QMSCSDK
+{
+public:
+    static QMSCSDK* getInstance();
+    
+    void init();
+    void startRecogn(LUA_FUNCTION start_handler, LUA_FUNCTION voice_handler, LUA_FUNCTION text_handler, LUA_FUNCTION finish_handler, LUA_FUNCTION err_handler);
+    void stopRecogn();
+    void cancelRecogn();
+    void playVoice(const char *voice, LUA_FUNCTION mFinishHandler);
+    void stopVoice();
+};

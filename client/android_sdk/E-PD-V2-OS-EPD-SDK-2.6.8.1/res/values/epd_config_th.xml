@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!--
+          平台接口域名
+	明文：http://pfth.aseugame.com/
+	密文：tAnUpzsm9NmJhhibnpUMa1EZH+orysCerG2iaq+L4RU=
+	-->	
+    <string name="th_epd_url_platform">tAnUpzsm9NmJhhibnpUMa1EZH+orysCerG2iaq+L4RU=</string>
+    
+    <!--
+         平台WEB域名
+	明文：http://th.aseugame.com/
+	密文：vxElYtf4vuD5jZ5xRz7ERp5JPLXe6xS7
+	-->
+    <string name="th_epd_url_web">vxElYtf4vuD5jZ5xRz7ERp5JPLXe6xS7</string>
+    
+    <!--
+    Game工程域名
+	明文：http://gameth.aseugame.com/
+	密文：3u26iowWIES1cpQpfebtwbgK5NLHJpjO8vH4FmFGvoY=
+	-->
+
+    <string name="th_epd_url_game">3u26iowWIES1cpQpfebtwbgK5NLHJpjO8vH4FmFGvoY=</string>
+    <!--
+	储值域名
+	明文：http://payth.aseugame.com/
+	密文：tAnUpzsm9NmAeKZEy1DE4VASixJxZSSw2o37ycZIpy4=
+	-->
+    <string name="th_epd_url_pay">tAnUpzsm9NmAeKZEy1DE4VASixJxZSSw2o37ycZIpy4=</string>
+    
+    <!--
+	图片上传域名
+	明文：http://imgith.aseugame.com/
+	密文：sYPslozWft2cpRXa+gvGOrgK5NLHJpjO8vH4FmFGvoY=
+	-->
+    <string name="th_epd_url_img">sYPslozWft2cpRXa+gvGOrgK5NLHJpjO8vH4FmFGvoY=</string>
+    
+    <!--
+	FB工程域名
+	明文：http://fbth.aseugame.com/
+	密文：2cII0PuW6+vTwgccgFoof1EZH+orysCerG2iaq+L4RU=
+	-->
+    <string name="th_epd_url_fb">2cII0PuW6+vTwgccgFoof1EZH+orysCerG2iaq+L4RU=</string>
+    
+    <!-- 
+    cdn 路径
+	明文：http://sdk.downloadth.aseugame.com/
+	密文：ya0os0W4hbr8UhJa3KsYfKkIYWLdPJ9DuArk0scmmM7y8fgWYUa+hg==
+ 	-->
+ 	<string name="th_epd_path_cdn">ya0os0W4hbr8UhJa3KsYfKkIYWLdPJ9DuArk0scmmM7y8fgWYUa+hg==</string>
+ 	<!--
+ 	server 路径
+	明文：http://sdkth.downloadth.aseugame.com/
+	密文：ya0os0W4hboDp7zbfxboZi9Gb9630WXYx0pQ6ZTdjdadAvpbjsyN7g==
+	-->
+    <string name="th_epd_path_server">ya0os0W4hboDp7zbfxboZi9Gb9630WXYx0pQ6ZTdjdadAvpbjsyN7g==</string>
+    
+    <!-- CDN/Server域名和文件之间的路径 -->
+    <string name="th_epd_path_platform_type">thap</string>
+    <!-- 地区标志 -->
+    <string name="th_epd_platform">th</string>
+    <!-- 图片上传地区标志 -->
+    <string name="th_epd_img_upload_platform">pfth</string>
+</resources>

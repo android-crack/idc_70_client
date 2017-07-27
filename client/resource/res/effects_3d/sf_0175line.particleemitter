@@ -1,0 +1,53 @@
+particle sf_0175line
+{
+	sprite 
+	{
+		path = whiteline.png
+		width = 128
+		height = 128
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	particleCountMax = 20
+	emissionRate = 10
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 15
+	sizeStartMax = 5
+	sizeEndMin = 2000
+	sizeEndMax = 1950
+	energyMin = 650
+	energyMax = 600
+	colorStart = 1, 0.1862068, 0, 1
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0.3676471, 0, 0, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 0.8161765, 0.08443207, 0, 0.827451
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.5
+	middlePercentVar = 0
+	position = 0, 0, 0
+	positionVar = 5, 0, 5
+	velocity = 0, 25, 0
+	velocityVar = 0, 5, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0.5
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 0
+}

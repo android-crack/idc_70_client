@@ -1,0 +1,9 @@
+ParticleSystem tx_0149
+{
+	Emitter tx_0149e
+	{
+		file = tx_0149e.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+}

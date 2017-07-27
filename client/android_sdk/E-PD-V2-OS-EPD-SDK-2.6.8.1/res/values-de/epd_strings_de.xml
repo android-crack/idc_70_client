@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="epd_game">Spiel:</string>
+    <string name="epd_game_info">Info:</string>
+    <string name="epd_game_name">Spiel:</string>
+    <string name="epd_game_server">Server:</string>
+    <string name="epd_game_role">Rolle:</string>
+    <string name="epd_game_description">Spiel-Beschreibung</string>
+    <string name="epd_game_down_count_des_before">Auf </string>
+    <string name="epd_game_down_count_des_after"> Downloads erreicht</string>
+    <string name="epd_download">Download</string>
+    <string name="epd_member_id">Mitglied ID:</string>
+    <string name="epd_level">Level: </string>
+    <string name="epd_medal">Punkte: </string>
+    <string name="epd_toast_medal">Punkte</string>
+    <string name="epd_vip">VIP:</string>
+    <string name="epd_introduce">Klicken</string>
+    <string name="epd_notice">Mitteilung</string>
+    <string name="epd_guide">Anleitung</string>
+    <string name="epd_news">Nachricht</string>
+    <string name="epd_events">Ereignis</string>
+    <string name="epd_delete">Auslöschen</string>
+    <string name="epd_submit_question">Einreichen</string>
+    <string name="epd_question_type_notify_text">Fragen-Typ</string>
+    <string name="epd_question_screen_short_notify_text">Ein Bild hinzufügen</string>
+    <string name="epd_question_no_screen_short_notify_text">Bild uploadet noch nicht </string>
+    <string name="epd_question_email_notify_text">E-mail</string>
+    <string name="epd_question_title">Titel</string>
+    <string name="epd_question_description">Fragebeschreibung</string>
+    <string name="epd_cs_title_limitation">Innerhalb 100 Schriftzeichen</string>
+    <string name="epd_cs_email_limitation">Innerhalb 100 Schriftzeichen</string>
+    <string name="epd_question_description_limitation">Innerhalb 1500 Schriftzeichen</string>
+    <string name="epd_question_type_qs_undefine">Fragen werden nicht klassifiziert</string>
+    <string name="epd_question_type_account">Konto</string>
+    <string name="epd_question_type_recharge">Aufladen</string>
+    <string name="epd_question_type_guides">Anleitung</string>
+    <string name="epd_question_type_activity">Ereignis</string>
+    <string name="epd_question_type_feedback">Rückmeldung</string>
+    <string name="epd_question_type_other">Andere</string>
+    <string name="epd_cs_normal_question">FAQ</string>
+    <string name="epd_cs_normal_question_des">Du kannst die FAQ hier finden</string>
+    <string name="epd_cs_asking">Ich habe eine Frage</string>
+    <string name="epd_cs_asking_des">Die Frage wird so schnell wie möglich beantwortet</string>
+    <string name="epd_cs_reply">Meine Frage</string>
+    <string name="epd_cs_reply_des">Du kannst die Fragen, die schon von dir gestellt wurden, hier finden.</string>
+    <string name="epd_cs_pic_add">+</string>
+    <string name="epd_cs_pic_delete">-</string>
+    <string name="epd_persion_collect_data">Persönliche Info.</string>
+    <string name="epd_persion_collect_data_des">Vervollständige deine persönliche Info, um die Preise zu erhalten.</string>
+    <string name="epd_persion_collect_data_des_sec">Vervollständige persönliche Info</string>
+    <string name="epd_persion_gift_center">Geschenkpaket-Zentrum</string>
+    <string name="epd_persion_gift_center_des">Die Geschenke warten für dich</string>
+    <string name="epd_persion_knock_egg">Gashapon</string>
+    <string name="epd_persion_knock_egg_des">Öffne Gashapon, um reichliche Preise zu erhalten</string>
+    <string name="epd_persion_version">Version</string>
+    <string name="epd_gift_center">Geschenkpaket-Zentrum</string>
+    <string name="epd_gift_has_got">Erhaltet</string>
+    <string name="epd_gift_has_used">Genutzt</string>
+    <string name="epd_gift_has_unused">Noch nicht nutzt </string>
+    <string name="epd_gift_rule">Geschenk-Aufgabe</string>
+    <string name="epd_gift_des">Geschenk-Details</string>
+    <string name="epd_gift_end_time">Ende Zeit：</string>
+    <string name="epd_gift_surplus">Bleiben:</string>
+    <string name="epd_gift_type">Typ:</string>
+    <string name="epd_gift_get_now">Erhalten jetzt:</string>
+    <string name="epd_gift_code">Serie-Code:</string>
+    <string name="epd_gift_secret">Schlüssel:</string>
+    <string name="epd_gift_deadlines">Endefrist:</string>
+    <string name="epd_gift_notify">Klicke Serie Code, kann druch kopieren verwenden.</string>
+    <string name="epd_copy_successfully">Kopiert</string>
+    <string name="epd_version">Version Nu.:</string>
+    <string name="epd_package_size">Größe:</string>
+    <string name="epd_summary">Information</string>
+    <string name="epd_website">Webseite</string>
+    <string name="epd_fans_page">Facebook</string>
+    <string name="epd_network_error">Dein Gerät ist offline!</string>
+    <string name="epd_request_error">System abnormal! Bitte erneue es durch klicken.</string>
+    <string name="epd_timeout_error">Zeitüberschreitung! Bitte erneue es durch klicken.</string>
+    <string name="epd_empty_error">Keine Data erhaltet. Bitte versuche es wieder später.</string>
+    <string name="epd_title_summary">Information</string>
+    <string name="epd_title_game">Spiele</string>
+    <string name="epd_title_persion">Konto</string>
+    <string name="epd_title_persion_acquisition">Persönliche Info.</string>
+    <string name="epd_title_store">Aufladen</string>
+    <string name="epd_title_cs">Kundendienst</string>
+    <string name="epd_title_cs_questions">FAQ</string>
+    <string name="epd_title_gift">Geschenkpaket Zentrum</string>
+    <string name="epd_title_cs_ask">Ich habe eine Frage</string>
+    <string name="epd_title_cs_reply">Meine Frage</string>
+    <string name="epd_title_cs_reply_detail">Kundendienst\'s Antwort</string>
+    <string name="epd_title_back_demo">ABC</string>
+
+	<string name="epd_title_web_level">Über Level</string>
+	<string name="epd_title_web_medal_info">Über Medaille</string>
+	<string name="epd_title_web_vip_info">VIP</string>
+	<string name="epd_title_web_knock_egg">Gashapon</string>
+    
+    <string name="epd_store_return">Homepage</string>
+    <string name="epd_thumb_error">Dein Gerät unterstützt nicht!</string>
+	<string name="epd_camera_crop_error">Dein Gerät unterstützt es nicht, um Bild zuzuschneiden. Bitte mache es an offizieller Webseite!</string>
+	
+	<string name="epd_cs_empty_title">Bitte gib den Titel der Frage ein</string>
+	<string name="epd_cs_empty_advice">Bitte gib die Beschreibung der Frage ein.</string>
+	<string name="epd_cs_empty_system_error">System abnormal.</string>
+	
+	<string name="epd_cs_limited_title">Titel darf nicht mehr als 100 Schriftzeichen überschreiten</string>
+	<string name="epd_cs_limited_advice">Beschreibung der Frage darf nicht mehr als 1500 Schriftzeichen überschreiten</string>
+	<string name="epd_cs_limited_email">E-mail Adresse darf nicht mehr als 100 Schriftzeichen überschreiten</string>
+	<string name="epd_cs_error_email">Bitte gib die richtige E-mail ein</string>
+	
+	<string name="epd_cs_reply_detail_content">Antwort</string>
+	<string name="epd_cs_shot_photos">Ein Bild machen</string>
+	<string name="epd_cs_shot_local_photos">Album</string>
+	<string name="epd_role_cs">Kundendienst</string>
+	<string name="epd_role_self">Ich</string>
+	
+
+	<string name="epd_cs_submit_success">Eingereicht!</string>
+	<string name="epd_cs_pic_upload_success">Uploadet erfolgreich!</string>
+
+	<string name="epd_wechat">WeChat</string>
+	<string name="epd_line">Line</string>
+	<string name="epd_area">Gebiet</string>
+	<string name="epd_address">Adresse</string>
+	<string name="epd_occupation">Beruf</string>
+	<string name="epd_boy">Male</string>
+	<string name="epd_girl">Female</string>
+	<string name="epd_modify">&#160;&#160;Edit&#160;&#160;</string>
+	
+	<string name="epd_summary_first_one">Es ist auf erste Seite</string>
+	<string name="epd_summary_last_one">Es ist auf letzte Seite</string>
+	
+	<string name="epd_receive">Geschenkpaket</string>
+	<string name="epd_step_collections">Information ausfüllen</string>
+	<string name="epd_email">E-mail</string>
+	<string name="epd_phone">Handy Nu.</string>
+	<string name="epd_save">Speichern</string>
+	<string name="epd_collect_empty_area">Gebiet (erforderlich)</string>
+	<string name="epd_collect_empty_sex">Geschlecht</string>
+	<string name="epd_collect_empty_occupation">Beruf (erforderlich)</string>
+	<string name="epd_birthday">Geburtstag</string>
+	<string name="epd_like_game">Mein Liebster Spieltyp</string>
+	<string name="epd_collect_empty_birthday">Geburtstag(erforderlich)</string>
+	<string name="epd_collect_empty_like_game">Mein Liebster Spieltyp(erforderlich)</string>
+	<string name="epd_collect_error_like_game">Bitte wähle Spiel-Typ aus (Max. 3)</string>
+	
+	<string name="epd_collect_toast_empty_area">Bitte wähle dein Gebiet aus</string>
+	<string name="epd_collect_toast_empty_occupation">Bitte wähle dein Beruf aus</string>
+	<string name="epd_collect_toast_empty_birth">Bitte wähle deinen Geburtstag aus</string>
+	<string name="epd_submit">Einreichen</string>
+	
+	
+	<string name="epd_notification_modify_nothing">Keine editierbare Inhalte</string>
+	<string name="epd_notification_scan_gifts">Bitte prüfe in Geschenkpaket Zentrum</string>
+	
+	<string name="epd_hint_cs_reply_delete">Löschen bestätigen？</string>
+	
+	<string name="epd_float_hint_hide">Nachdem ich versteckt habe, kannst du re-login ins Spiel mich wiedersehen.</string>
+	<string name="epd_float_hint_confirm">Bestätigen</string>
+	<string name="epd_float_hint_cancel">Abbrechen</string>
+	
+	<string name="epd_serial">Serie-Code</string>
+	
+	<string name="epd_uninstalled_google_play">Bitte downloade Google Play zuerst.</string>
+	
+	<string name="epd_notice_close">Schließen</string>
+	<string name="epd_notice_go_to_look">Download</string>
+	<string name="epd_notice_change_one">Andere Spiel </string>
+	<string name="epd_notice_toast_error_gift">Bitte downloade und login ins Spiel mit geleichem Konto zuerst, dann kann man Geschenkpaket erhalten.</string>
+	<string name="epd_notice_text_not_show_today">Heute präsentiert nicht</string>
+	<string name="epd_notice_cancel">Abbrechen</string>
+	<string name="epd_person_extra_gift">Extra Geschenke</string>
+	<string name="epd_notice_close_tips">Klicke Konto->Extra Preise wieder zu öffnen</string>
+	<string name="epd_notice_accomplish_finish_tips">Erledige die Aufgabe für mehr Preise</string>
+	<string name="epd_notice_reviewed_stop">Preis-Endefrist </string>
+	<string name="epd_notice_get_gift_success">Erhaltet!</string>
+	
+	<!-- 20160321 -->
+	<string name="epd_person_exp">EXP: </string>
+	<string name="epd_cs_reply_all_check">Alles auswählen</string>
+	<string name="epd_person_sign">Anmelden</string>
+	<string name="epd_gift_reward_time">Erhaltenszeit:</string>
+	<string name="epd_person_exp_tips_1">Noch </string>
+	<string name="epd_person_exp_tips_2"> EXP auf das nächste Level</string>
+	<string name="epd_person_sign_tips">Je länger Anmelden dauert, desto größer ist die Belohnung!</string>
+	
+    <string-array name="epd_pop_per_info_pic">
+        <item>Ein Bild machen</item>
+        <item>Album</item>
+    </string-array>
+    
+    <string-array name="epd_cs_problem_kinds">
+        <item>FAQ</item>
+        <item>Konto und login</item>
+        <item>Aufladen</item>
+    </string-array>
+    <string-array name="epd_gift_title_kinds">
+        <item>Frei Geschenkpaket</item>
+        <item>Mein Geschenkpaket</item>
+    </string-array>
+</resources>

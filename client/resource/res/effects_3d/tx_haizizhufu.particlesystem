@@ -1,0 +1,27 @@
+ParticleSystem tx_haizizhufu
+{
+	Emitter haizizhufu
+	{
+		file = haizizhufu.particleemitter
+		order = 0
+		position = 0, 700, 0
+		rotate = 0, 0, 0, 1
+		not_scale_by_parent = 1
+	}
+	Emitter haizizhufu_lizi
+	{
+		file = haizizhufu_lizi.particleemitter
+		order = 0
+		position = 0, 700, 0
+		rotate = 0, 0, 0, 1
+		not_scale_by_parent = 1
+	}
+	Emitter haizizhufu_ring
+	{
+		file = haizizhufu_ring.particleemitter
+		order = 0
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+		not_scale_by_parent = 1
+	}
+}

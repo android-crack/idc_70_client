@@ -1,0 +1,11 @@
+material sea_kraken
+{
+    sampler u_diffuseTexture
+    {
+        path = sea_kraken.fbm/sea_kraken.png
+        wrapS = REPEAT
+        wrapT = REPEAT
+    }
+
+}
+

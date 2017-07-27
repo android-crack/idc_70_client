@@ -1,0 +1,10 @@
+ParticleSystem tx_juqing2_rain
+{
+	Emitter juqing2_rain
+	{
+		file = juqing2_rain.particleemitter
+		order = 0
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+}

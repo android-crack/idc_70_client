@@ -1,0 +1,21 @@
+ParticleSystem jn_xuli
+{
+	Emitter xuli
+	{
+		file = xuli.particleemitter
+		order = 3
+		position = 0, 0, 0
+	}
+	Emitter xuli02
+	{
+		file = xuli02.particleemitter
+		order = 2
+		position = 0, 0, 0
+	}
+	Emitter xuliGrow
+	{
+		file = xuliGrow.particleemitter
+		order = 4
+		position = 0, 0, 0
+	}
+}

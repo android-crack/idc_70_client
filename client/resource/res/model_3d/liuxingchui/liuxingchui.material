@@ -1,0 +1,11 @@
+material liuxingchui
+{
+    sampler u_diffuseTexture
+    {
+        path = liuxingchui.fbm/liuxingchui.png
+        wrapS = REPEAT
+        wrapT = REPEAT
+    }
+
+}
+

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/epd_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/epd_blue_darker" >
+
+        <TextView
+            style="@style/TitleBarText"
+            android:text="@string/epd_title_cs_reply" />
+
+        <com.epd.app.support.widget.gadget.button.ArrowButton
+            android:id="@+id/back"
+            style="@style/BackButton" />
+
+        <TextView
+            android:id="@+id/edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/epd_size_37"
+            android:text="@string/epd_modify"
+            android:textColor="@color/epd_white"
+            android:textSize="@dimen/epd_text_24" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0" >
+
+        <com.epd.app.support.widget.list.app.PagingListView
+            android:id="@+id/cs_reply_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="@android:color/transparent"
+            android:listSelector="@android:color/transparent" >
+        </com.epd.app.support.widget.list.app.PagingListView>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/reply_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/epd_blue_darker"
+        android:visibility="gone"
+        android:padding="@dimen/epd_size_10" >
+
+        <CheckBox
+            android:id="@+id/reply_all_checked"
+            android:layout_width="@dimen/epd_size_60"
+            android:layout_height="@dimen/epd_size_60"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/epd_size_20"
+            android:layout_marginRight="@dimen/epd_size_20"
+            android:background="@drawable/epd_checkbox_selector"
+            android:button="@null"
+            android:checked="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/reply_all_checked"
+            android:text="@string/epd_cs_reply_all_check"
+            android:textColor="@color/epd_white"
+            android:textSize="@dimen/epd_text_28" />
+
+        <TextView
+            android:id="@+id/reply_delete_some"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/epd_size_37"
+            android:text="@string/epd_delete"
+            android:textColor="@color/epd_white"
+            android:textSize="@dimen/epd_text_28" />
+    </RelativeLayout>
+
+</LinearLayout>

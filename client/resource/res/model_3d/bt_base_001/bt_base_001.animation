@@ -1,0 +1,10 @@
+animation bt_base_001
+{
+frameCount=1266
+clip move
+{
+begin=0
+end=1266
+repeatCount=0
+}
+}

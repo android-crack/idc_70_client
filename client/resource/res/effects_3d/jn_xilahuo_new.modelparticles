@@ -1,0 +1,9 @@
+ModelParticleConfig tx_0199_model
+{
+	ParticleConfig jn_xilahuo_new
+	{
+		file = jn_xilahuo_new.particlesystem
+		position = 0, 0, -30
+		rotation = 0, 0, 0, 1
+	}
+}

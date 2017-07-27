@@ -1,0 +1,11 @@
+material ex_meidusha
+{
+    sampler u_diffuseTexture
+    {
+        path = ex_meidusha.fbm/ex_meidusha.png
+        wrapS = REPEAT
+        wrapT = REPEAT
+    }
+
+}
+

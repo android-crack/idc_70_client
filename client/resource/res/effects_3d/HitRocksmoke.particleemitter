@@ -1,0 +1,53 @@
+particle HitRocksmoke
+{
+	sprite 
+	{
+		path = 2011smoke_black.png
+		width = 64
+		height = 64
+		blending = ALPHA BLENDED
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	particleCountMax = 10
+	emissionRate = 15
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 40
+	sizeStartMax = 60
+	sizeEndMin = 100
+	sizeEndMax = 130
+	energyMin = 1000
+	energyMax = 1200
+	colorStart = 1, 1, 1, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 1, 1, 1, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 0.6764706, 0.6764706, 0.6764706, 1
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.35
+	middlePercentVar = 0.15
+	position = 0, 0, 0
+	positionVar = 2.5, 0.1, 0.1
+	velocity = 0, 25, 0
+	velocityVar = -2, 5, 0
+	acceleration = 0, 20, 0
+	accelerationVar = -1, 5, 0
+	rotationPerParticleSpeedMin = -1.047198
+	rotationPerParticleSpeedMax = 1.396263
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0.3
+	renderType = BILLBOARD
+	isLocalSpace = False
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

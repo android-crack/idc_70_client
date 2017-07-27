@@ -1,0 +1,9 @@
+ParticleSystem tx_shuibo_boat03
+{
+	Emitter shuibo_boat03
+	{
+		file = shuibo_boat03.particleemitter
+		order = 0
+		position = 0, 0, 0
+	}
+}

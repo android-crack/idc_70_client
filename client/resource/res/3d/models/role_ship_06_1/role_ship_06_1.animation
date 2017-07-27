@@ -1,0 +1,10 @@
+animation role_ship_06_1
+{
+frameCount=7900
+clip move
+{
+begin=0
+end=7900
+repeatCount=1
+}
+}

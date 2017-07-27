@@ -1,0 +1,13 @@
+ParticleSystem tx_ranshaodan
+{
+	Model ranshaodan
+	{
+		position = 0, 0, 0
+		scale = 1.0,1.0,0
+		rotate = 0,0,0,0
+		model_name = tx_0199_model
+		not_scale_by_parent = 1
+		action_name = sf_xilahuo_lachang
+	}
+
+}

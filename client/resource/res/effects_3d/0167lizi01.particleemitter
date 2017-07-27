@@ -1,0 +1,53 @@
+particle 0167lizi01
+{
+	sprite 
+	{
+		path = smokewhite02.png
+		width = 128
+		height = 128
+		blending = ALPHA BLENDED
+		animated = True
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 80
+	}
+	particleCountMax = 20
+	emissionRate = 10
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 120
+	sizeStartMax = 120
+	sizeEndMin = 700
+	sizeEndMax = 650
+	energyMin = 1800
+	energyMax = 1500
+	colorStart = 1, 1, 1, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 1, 1, 1, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 1, 1, 0.7843137
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.6
+	middlePercentVar = 0
+	position = 0, 0, 0
+	positionVar = 30, 0.1, 30
+	velocity = 0, 22.5, 0
+	velocityVar = -10, -7.5, -10
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = -1
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = True
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

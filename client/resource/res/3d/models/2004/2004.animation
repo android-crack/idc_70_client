@@ -1,0 +1,10 @@
+animation 2004
+{
+frameCount=14633
+clip move
+{
+begin=0
+end=14633
+repeatCount=1
+}
+}

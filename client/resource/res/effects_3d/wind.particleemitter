@@ -1,0 +1,53 @@
+particle wind
+{
+	sprite 
+	{
+		path = tree.png
+		width = 32
+		height = 32
+		blending = ALPHA BLENDED
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	particleCountMax = 15
+	emissionRate = 15
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 15
+	sizeStartMax = 15
+	sizeEndMin = 5
+	sizeEndMax = 5
+	energyMin = 600
+	energyMax = 1200
+	colorStart = 1, 1, 1, 1
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 1, 1, 1, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 1, 1, 1
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0
+	middlePercentVar = 0
+	position = 0, 0, 0
+	positionVar = 300, 20, 300
+	velocity = 0, 45, -200
+	velocityVar = 80, 75, 100
+	acceleration = 0, 2, 0
+	accelerationVar = 3, 0.5, 3
+	rotationPerParticleSpeedMin = 2.094395
+	rotationPerParticleSpeedMax = 6.283185
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 10
+	renderType = BILLBOARD
+	isLocalSpace = False
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

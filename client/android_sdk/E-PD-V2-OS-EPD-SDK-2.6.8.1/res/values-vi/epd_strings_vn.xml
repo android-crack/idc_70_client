@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="epd_game">Game</string>
+    <string name="epd_game_info">Thông Tin</string>
+    <string name="epd_game_name">Game</string>
+    <string name="epd_game_server">Máy Chủ</string>
+    <string name="epd_game_role">Tên Nhân Vật</string>
+    <string name="epd_game_description">Miêu Tả Game</string>
+    <string name="epd_game_down_count_des_before">Có </string>
+    <string name="epd_game_down_count_des_after"> người đã tải</string>
+    <string name="epd_download">Tải</string>
+    <string name="epd_member_id">Hội viên ID </string>
+    <string name="epd_level">Cấp: </string>
+    <string name="epd_medal">Tích Phân: </string>
+    <string name="epd_toast_medal">Tích Phân</string>
+    <string name="epd_vip">Vip</string>
+    <string name="epd_introduce">Nhắp</string>
+    <string name="epd_notice">Thông Báo</string>
+    <string name="epd_guide">Cẩm Nang</string>
+    <string name="epd_news">Tin Tức</string>
+    <string name="epd_events">Sự Kiện</string>
+    <string name="epd_delete">Xóa</string>
+    <string name="epd_submit_question">Gửi</string>
+    <string name="epd_question_type_notify_text">Loại hình vấn đề</string>
+    <string name="epd_question_screen_short_notify_text">Thêm Ảnh</string>
+    <string name="epd_question_no_screen_short_notify_text">Tạm chưa thêm ảnh</string>
+    <string name="epd_question_email_notify_text">Email</string>
+    <string name="epd_question_title">Câu hỏi Tiêu đề</string>
+    <string name="epd_question_description">Câu hỏi Miêu Tả</string>
+    <string name="epd_cs_title_limitation">Trong 100 ký tự</string>
+    <string name="epd_cs_email_limitation">Trong 100 ký tự</string>
+    <string name="epd_question_description_limitation">Trong 1500 ký tự</string>
+    <string name="epd_question_type_qs_undefine">Vấn đề chưa phận loại</string>
+    <string name="epd_question_type_account">Câu hỏi Tài Khoản</string>
+    <string name="epd_question_type_recharge">Câu hỏi Nạp Thẻ</string>
+    <string name="epd_question_type_guides">Câu hỏi Cẩm Nang</string>
+    <string name="epd_question_type_activity">Câu hỏi Sự Kiện</string>
+    <string name="epd_question_type_feedback">Phản hồi Game thủ</string>
+    <string name="epd_question_type_other">Khác</string>
+    <string name="epd_cs_normal_question">Câu hỏi thường gặp</string>
+    <string name="epd_cs_normal_question_des">Bạn có thể check câu hỏi thường gặp tại đây</string>
+    <string name="epd_cs_asking">Tôi có thắc mắc</string>
+    <string name="epd_cs_asking_des">Chúng tôi sẽ cố gắng giải đáp thỏa mãn sớm nhất.</string>
+    <string name="epd_cs_reply">Câu hỏi của Tôi</string>
+    <string name="epd_cs_reply_des">Bạn có thể check câu hỏi bạn từng hỏi tại đây</string>
+    <string name="epd_cs_pic_add">+</string>
+    <string name="epd_cs_pic_delete">-</string>
+    <string name="epd_persion_collect_data">Thông tin Cá nhân</string>
+    <string name="epd_persion_collect_data_des">Hoàn thiện thông tin cá nhân, nhận quà bất ngờ</string>
+    <string name="epd_persion_collect_data_des_sec">Hoàn thiện thông tin cá nhân</string>
+    <string name="epd_persion_gift_center">Trung Tâm Gói Quà</string>
+    <string name="epd_persion_gift_center_des">Nhiều gói quà đợi các bạn nhận nhé~</string>
+    <string name="epd_persion_knock_egg">Quay Trứng</string>
+    <string name="epd_persion_knock_egg_des">Quay Trứng, lấy quà phong phú~</string>
+    <string name="epd_persion_version">Phiên Bản</string>
+    <string name="epd_gift_center">Trung Tâm Gói Quà</string>
+    <string name="epd_gift_has_got">Đã nhận</string>
+    <string name="epd_gift_has_used">Đã dùng</string>
+    <string name="epd_gift_has_unused">Chưa sử dụng</string>
+    <string name="epd_gift_rule">Nhiệm vụ quà</string>
+    <string name="epd_gift_des">Chi tiết Quà</string>
+    <string name="epd_gift_end_time">Thời gian Kết thúc </string>
+    <string name="epd_gift_surplus">Còn lại:</string>
+    <string name="epd_gift_type">Loại hình:</string>
+    <string name="epd_gift_get_now">Nhận ngay</string>
+    <string name="epd_gift_code">Số Seri:</string>
+    <string name="epd_gift_secret">Mật Khẩu </string>
+    <string name="epd_gift_deadlines">Thời hạn cuối </string>
+    <string name="epd_gift_notify">Click số Seri quà, có thể sử dụng sao chép!</string>
+    <string name="epd_copy_successfully">Sao chép thành công</string>
+    <string name="epd_version">Số Phiên Bản </string>
+    <string name="epd_package_size">Kích Thước </string>
+    <string name="epd_summary">Thông Tin</string>
+    <string name="epd_website">Trang</string>
+    <string name="epd_fans_page">Facebook</string>
+    <string name="epd_network_error">Thiết bị chưa kết nối mạng!</string>
+    <string name="epd_request_error">Hệ thống gặp lỗi, xin thử lại!</string>
+    <string name="epd_timeout_error">Gửi hết hạn, xin thử lại!</string>
+    <string name="epd_empty_error">Tạm không có số liệu, xin thử lại một lát</string>
+    <string name="epd_title_back_demo">ABC</string>
+    <string name="epd_title_summary">Thông Tin</string>
+    <string name="epd_title_game">Game</string>
+    <string name="epd_title_persion">Trung Tâm Cá Nhân</string>
+    <string name="epd_title_persion_acquisition">Thông Tin Cá Nhân</string>
+    <string name="epd_title_store">Nạp Thẻ</string>
+    <string name="epd_title_cs">Nhân viên CSKH</string>
+    <string name="epd_title_cs_questions">Câu hỏi thường gặp</string>
+    <string name="epd_title_gift">Trung Tâm Gói Quà</string>
+    <string name="epd_title_cs_ask">Tôi có thắc mắc</string>
+    <string name="epd_title_cs_reply">Câu hỏi của Tôi</string>
+    <string name="epd_title_cs_reply_detail">Hồi âm nhân viên CSKH</string>
+
+	<string name="epd_title_web_level">Thuyết Minh Cấp</string>
+	<string name="epd_title_web_medal_info">Giới thiệu hội viên</string>
+	<string name="epd_title_web_vip_info">VIP</string>
+	<string name="epd_title_web_knock_egg">Quay Trứng</string>
+    
+    <string name="epd_store_return">Trang Chủ</string>
+    <string name="epd_thumb_error">Thiết bị bạn không hỗ trợ!</string>
+	<string name="epd_camera_crop_error">Thiết bị bạn không ủng hộ cắt ảnh, xin thao tác trên trang chủ!</string>
+	
+	<string name="epd_cs_empty_title">Xin nhập câu hỏi tiêu đề</string>
+	<string name="epd_cs_empty_advice">Xin nhập  câu hỏi miêu tả</string>
+	<string name="epd_cs_empty_system_error">Hệ thống Gặp lỗi</string>
+	
+	<string name="epd_cs_limited_title">Tiêu đề không thể vượt qua 100 ký tự</string>
+	<string name="epd_cs_limited_advice">Vấn đề miêu tả không thể vượt qua 1500 ký tự</string>
+	<string name="epd_cs_limited_email">Email không được vượt qua 100 ký tự</string>
+	<string name="epd_cs_error_email">Xin nhập Email chính xác</string>
+
+	<string name="epd_cs_reply_detail_content">Nội dung trả lời</string>
+	<string name="epd_cs_shot_photos">Chụp ảnh</string>
+	<string name="epd_cs_shot_local_photos">Album ảnh</string>
+	<string name="epd_role_cs">Nhân viên CSKH</string>
+	<string name="epd_role_self">Tôi</string>
+	
+
+	<string name="epd_cs_submit_success">Gửi thành công!</string>
+	<string name="epd_cs_pic_upload_success">Thêm tệp thành công</string>
+
+	<string name="epd_wechat">WeChat</string>
+	<string name="epd_line">Line</string>
+	<string name="epd_area">Khu Vực</string>
+	<string name="epd_address">Địa Chỉ</string>
+	<string name="epd_occupation">Nghề nghiệp</string>
+	<string name="epd_boy">Nam</string>
+	<string name="epd_girl">Nữ</string>
+	<string name="epd_modify">Biên Tập</string>
+	
+	<string name="epd_summary_first_one">Đã đến trang thứ nhất</string>
+	<string name="epd_summary_last_one">Đã đến trang cuối</string>
+	
+	<string name="epd_receive">Gói quà</string>
+	<string name="epd_step_collections">Điền vào tư liệu</string>
+	<string name="epd_email">Email</string>
+	<string name="epd_phone">Số điện thoại</string>
+	<string name="epd_save">Lưu</string>
+	<string name="epd_collect_empty_area">Chọn khu vực (Bắt buộc nhập)</string>
+	<string name="epd_collect_empty_sex">Giới tính</string>
+	<string name="epd_collect_empty_occupation">Chọn nghề nghiệp (Bắt buộc nhập)</string>
+	<string name="epd_birthday">Sinh nhật</string>
+	<string name="epd_like_game">Loài game tôi thích nhất</string>
+	<string name="epd_collect_empty_birthday">Sinh nhật (Bắt buộc nhập)</string>
+	<string name="epd_collect_empty_like_game">Loài game tôi thích nhất(Bắt buộc nhập)</string>
+	<string name="epd_collect_error_like_game">Xin bạn chọn loài game bạn thích nhất, tối đa chọn 3 loài</string>
+	
+	<string name="epd_collect_toast_empty_birth">Xin bạn chọn ngày sinh nhật của bạn</string>
+	<string name="epd_collect_toast_empty_area">Xin chọn khu vực bạn đang ở</string>
+	<string name="epd_collect_toast_empty_occupation">Xin chọn nghề nghiệp của bạn</string>
+	<string name="epd_submit">Gửi</string>
+	
+	
+	<string name="epd_notification_modify_nothing">Tạm không có nội dung biên tập</string>
+	<string name="epd_notification_scan_gifts">Hãy check trong Trung Tâm Gói Quà</string>
+	
+	<string name="epd_hint_cs_reply_delete">Xác nhận xóa?</string>
+	
+	<string name="epd_float_hint_hide">Sau ẩn bạn vào game lại thì có thể xem tôi nhé</string>
+	<string name="epd_float_hint_confirm">Xác nhận</string>
+	<string name="epd_float_hint_cancel">Hủy bỏ</string>
+	
+	<string name="epd_serial">Số Seri</string>
+	
+	<string name="epd_uninstalled_google_play">Hãy tải ứng dụng Google Play</string>
+	
+	<string name="epd_notice_close">Đóng</string>
+	<string name="epd_notice_go_to_look">Tải xem</string>
+	<string name="epd_notice_change_one">Đổi game khác</string>
+	<string name="epd_notice_toast_error_gift">Tải game và đăng nhập cùng một tài khoản mới được nhận quà</string>
+	<string name="epd_notice_text_not_show_today">Không cỏn hiển thị trong ngày</string>
+	<string name="epd_notice_cancel">Xóa</string>
+	<string name="epd_person_extra_gift">Quà thêm</string>
+	<string name="epd_notice_close_tips">Nếu mở lại trang này, cần click Trung tâm Cá nhân->Quà thêm nhé</string>
+	<string name="epd_notice_accomplish_finish_tips">Hoàn thành nhiệm vụ sẽ nhận thêm quà</string>
+	<string name="epd_notice_reviewed_stop">Thời gian quà còn lại </string>
+	<string name="epd_notice_get_gift_success">Đã nhận!</string>
+	
+	<!-- 20160321 -->
+	<string name="epd_person_exp">EXP: </string>
+	<string name="epd_cs_reply_all_check">Chọn tất cả</string>
+	<string name="epd_person_sign">Báo đến</string>
+	<string name="epd_gift_reward_time">Thời gian nhận:</string>
+	<string name="epd_person_exp_tips_1">Còn lại </string>
+	<string name="epd_person_exp_tips_2"> để thăng cấp</string>
+	<string name="epd_person_sign_tips">Ngày báo đến càng nhiều, quà càng phong phú!</string>
+	
+    <string-array name="epd_pop_per_info_pic">
+        <item>Chụp ảnh</item>
+        <item>Album ảnh</item>
+    </string-array>
+    
+    <string-array name="epd_cs_problem_kinds">
+        <item>Câu hỏi thường gặp</item>
+        <item>Vấn đề tài khoản/ đăng nhập</item><!-- Vấn đề về tài khoản và đăng nhập -->
+        <item>Câu hỏi Nạp Thẻ</item>
+    </string-array>
+    <string-array name="epd_gift_title_kinds">
+        <item>Gói quà miễn phí</item>
+        <item>Gói quà Tôi</item>
+    </string-array>
+</resources>

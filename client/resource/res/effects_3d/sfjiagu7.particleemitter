@@ -1,0 +1,53 @@
+particle sfjiagu7
+{
+	sprite 
+	{
+		path = dian4.png
+		width = 64
+		height = 64
+		blending = ADDITIVE
+		animated = False
+		looped = True
+		frameCount = 2
+		frameRandomOffset = 1
+		frameDuration = 10
+	}
+	particleCountMax = 15
+	emissionRate = 10
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 20
+	sizeStartMax = 10
+	sizeEndMin = 10
+	sizeEndMax = 5
+	energyMin = 1000
+	energyMax = 2000
+	colorStart = 1, 1, 1, 0
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 1, 0.9999999, 1, 0
+	colorEndVar = 0, 5.960464E-08, 0, 0
+	colorMiddle = 1, 1, 1, 0.9999999
+	colorMiddleVar = 0, 0, 0, 5.960464E-08
+	middlePercent = 0.45
+	middlePercentVar = 0.05000001
+	position = 0, 0, 0
+	positionVar = 60, 120, 60
+	velocity = 0, -10, 0
+	velocityVar = -10, -10, -10
+	acceleration = 0, -27.5, 0
+	accelerationVar = -10, -17.5, -10
+	rotationPerParticleSpeedMin = -0.8726646
+	rotationPerParticleSpeedMax = 0.8726646
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 1.6
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = True
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

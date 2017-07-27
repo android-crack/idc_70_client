@@ -1,0 +1,61 @@
+particle sunshine_orange
+{
+	sprite 
+	{
+		path = transporting_line_01.png
+		width = 256
+		height = 256
+		blending = ADDITIVE
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 30
+	}
+	color 
+	{
+		curve 
+		{
+			type = 4
+			componentCount = 4
+			times = 0, 375, 1000
+			values = 1, 0.8470588, 0, 0, 1, 0.8901961, 0, 0.3921569, 0.972549, 0.5843138, 0, 0
+			inTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+			outTangents = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+		}
+		type = 1
+	}
+	particleCountMax = 30
+	emissionRate = 15
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	energyMin = 5000
+	energyMax = 4500
+	position = 0, 0, 0
+	positionVar = 3, 2, 2
+	velocity = 0, 0, 0
+	velocityVar = 0, 0, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = True
+	delayTime = 0
+	initialRotationMin = 0.9599311
+	initialRotationMax = 0.9599311
+	gravity = 0
+	lengthScale = 10
+	sizeStartMin = 1.5
+	sizeStartMax = 1
+	sizeEndMin = 5
+	sizeEndMax = 4
+}

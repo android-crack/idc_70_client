@@ -1,0 +1,9 @@
+ParticleSystem tx_0175
+{
+	Emitter 0175_line
+	{
+		file = 0175_line.particleemitter
+		order = 0
+		position = 0, 0, 0
+	}
+}

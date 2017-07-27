@@ -1,0 +1,9 @@
+ParticleSystem tx_speedup
+{
+	Emitter speedup_line
+	{
+		file = speedup_line.particleemitter
+		order = 0
+		position = 0, 50, 0
+	}
+}

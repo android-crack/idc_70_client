@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- google分析ID -->
+	<string name="epd_google_analytics_id">UA-61672465-1</string>
+	<!-- <string name="epd_google_analytics_id">UA-61694796-1</string> 测试id-->
+	
+    <!--
+	明文：gameinfo_appIndex.shtml
+	密文：kK/e12Nzy5DEhTf2kzcnigjl2ljA/pAN
+
+    -->
+
+    <string name="epd_method_summary">kK/e12Nzy5DEhTf2kzcnigjl2ljA/pAN</string>
+    <!--
+	明文：gameinfo_gameList.shtml
+	密文：kK/e12Nzy5DAAOfmt9kxtP41WARkFbzd
+
+    -->
+
+    <string name="epd_method_game_list">kK/e12Nzy5DAAOfmt9kxtP41WARkFbzd</string>
+    <!--
+	明文：gameinfo_gameDetail.shtml
+	密文：kK/e12Nzy5Drf0oUDtPQBq5wbn0kI1gGsWKGyF1FP5M=
+
+    -->
+
+    <string name="epd_method_game_detail">kK/e12Nzy5Drf0oUDtPQBq5wbn0kI1gGsWKGyF1FP5M=</string>
+    <!--
+	明文：cs_listCommonQuestion.shtml
+	密文：JTNLBkWavZ2/QuZy/nyYGcbbt7boSNQjhGzyDt2v+ZA=
+
+    -->
+
+    <string name="epd_method_problem_list">JTNLBkWavZ2/QuZy/nyYGcbbt7boSNQjhGzyDt2v+ZA=</string>
+    <!--
+	明文：gift_appGetGifts.shtml
+	密文：IkKDnoMTOuKMvPcJI1QVH5qtOVcARU0t
+
+    -->
+
+    <string name="epd_method_gift_list">IkKDnoMTOuKMvPcJI1QVH5qtOVcARU0t</string>
+    <!--
+	明文：gift_myGifts.shtml
+	密文：0NGfencexE2Gy8gCjkqRDn6DhDZltA1w
+
+    -->
+
+    <string name="epd_method_gift_owned_list">0NGfencexE2Gy8gCjkqRDn6DhDZltA1w</string>
+    <!--
+	明文：gift_getGiftSerial.shtml
+	密文：q18NEnETZv00C2TkHBN8Fs3HpM3jGljWhWloF8ySeSU=
+
+    -->
+
+    <string name="epd_method_gift_get_gift">q18NEnETZv00C2TkHBN8Fs3HpM3jGljWhWloF8ySeSU=</string>
+    <!--
+	明文：cs_getList.shtml
+	密文：JB3YVNUsqgiI/w7V7X1y4oVpaBfMknkl
+    -->
+
+    <string name="epd_method_cs_reply_list">JB3YVNUsqgiI/w7V7X1y4oVpaBfMknkl</string>
+    
+    <!--
+	明文：cs_delete.shtml
+	密文：l6jXPQA9vp7/H0frM5u6/g==
+    -->
+
+    <string name="epd_method_cs_reply_delete">l6jXPQA9vp7/H0frM5u6/g==</string>
+    
+    <!--
+	明文：member_level.html
+	密文：KCfeot8/EJen6vQz5Guf37FihshdRT+T
+    -->
+    <string name="epd_method_member_level">KCfeot8/EJen6vQz5Guf37FihshdRT+T</string>
+    <!--
+	明文：member_point.html
+	密文：OCjdFwBNawtO7oX5Vth6rrFihshdRT+T
+    -->
+	<string name="epd_method_member_point">OCjdFwBNawtO7oX5Vth6rrFihshdRT+T</string>
+	<!--
+	明文：member_vip.html
+	密文：kCYrPKdsy8Iz0iebd9SAqQ==
+    -->
+	<string name="epd_method_member_vip">kCYrPKdsy8Iz0iebd9SAqQ==</string>
+    
+	<!--
+	明文：gashapon.html
+	密文：VquO2lMR9f8jCPF20Eok0Q==
+    -->
+    <string name="epd_method_knock_egg">VquO2lMR9f8jCPF20Eok0Q==</string>
+    
+    <!--
+	明文：payForward_toPayByPlatform.shtml
+	密文：UXUi4v2HPt/d9PMiQQ1kf+N63vG1wPhWvXFXdbAplT2FaWgXzJJ5JQ==
+    -->
+    <string name="epd_method_store">UXUi4v2HPt/d9PMiQQ1kf+N63vG1wPhWvXFXdbAplT2FaWgXzJJ5JQ==</string>
+    
+    <!--
+	明文：member_getMemberInfo.shtml
+	密文：OZJlABG4fho28fimY01nmjj2s5UxqknSfoOENmW0DXA=
+    -->
+    <string name="epd_method_member_info">OZJlABG4fho28fimY01nmjj2s5UxqknSfoOENmW0DXA=</string>
+    
+    <!--
+	明文：memberdetails_get.shtml
+	密文：3tUagERpcVqrL47mdM87i/41WARkFbzd
+    -->
+    <string name="epd_method_member_detail">3tUagERpcVqrL47mdM87i/41WARkFbzd</string>
+    
+    <!--
+	明文：memberdetails_update.shtml
+	密文：3tUagERpcVq/NkwTpyd/ApohgjySmSJ3foOENmW0DXA=
+    -->
+    <string name="epd_method_member_update">3tUagERpcVq/NkwTpyd/ApohgjySmSJ3foOENmW0DXA=</string>
+    
+    <!--
+	明文：gift_getGift.shtml
+	密文：q18NEnETZv1eEtiTFWg7vX6DhDZltA1w
+    -->
+    <string name="epd_method_member_get_gift">q18NEnETZv1eEtiTFWg7vX6DhDZltA1w</string>
+    
+    <!--
+	明文：member_getReward.shtml
+	密文：OZJlABG4fhp/We6ptkkKkpqtOVcARU0t
+    -->
+    <string name="epd_method_member_get_reward">OZJlABG4fhp/We6ptkkKkpqtOVcARU0t</string>
+    
+    <!-- 
+	明文：image_uploadByChar.shtml
+	密文：3CkRfQ1SBWRTbIvjNBUsKVWsXFZcF0lxhWloF8ySeSU=
+     -->
+    <string name="epd_method_upload_img">3CkRfQ1SBWRTbIvjNBUsKVWsXFZcF0lxhWloF8ySeSU=</string>
+    
+    <!-- 
+	明文：gameServerRole_findGameServerRole.shtml
+	密文：aMG98il+Jj/TgGvsavsoSByLewi+81j1/sZ80pM6kQL/H0frM5u6/g==
+     -->
+    <string name="epd_method_find_game_info">aMG98il+Jj/TgGvsavsoSByLewi+81j1/sZ80pM6kQL/H0frM5u6/g==</string>
+    <!-- 
+	明文：cs_create.shtml
+	密文：0HEpRFuCVc3/H0frM5u6/g==
+     --> 
+    <string name="epd_method_cs_ask">0HEpRFuCVc3/H0frM5u6/g==</string>
+    
+    <!-- 
+	明文：cs_getDetailById.shtml
+	密文：YZNbzvyoTHMJAVaEzh1b55qtOVcARU0t
+     --> 
+    <string name="epd_method_cs_reply_detail">YZNbzvyoTHMJAVaEzh1b55qtOVcARU0t</string>
+    
+    <!-- 
+	明文：csreply_create.shtml
+	密文：foETGmhqJFCSCOEDoAnyOUbIgOKSX8wo
+     --> 
+    <string name="epd_method_cs_reply_question">foETGmhqJFCSCOEDoAnyOUbIgOKSX8wo</string>
+    
+    <!-- 
+	明文：cs_checkReplyCount.shtml
+	密文：tg/kDbKxqot/V+0/6RhDgMnatQ/xItjnhWloF8ySeSU=
+     --> 
+    <string name="epd_method_cs_reply_check_counts">tg/kDbKxqot/V+0/6RhDgMnatQ/xItjnhWloF8ySeSU=</string>
+    
+    <!-- 
+	明文：invite_checkActivityisOpen.shtml
+	密文：y8OZL+OkaPxigVyA0A0qNpKC0Hc3181Scs1Y3hLBKd+FaWgXzJJ5JQ==
+     --> 
+	<!--     <string name="epd_method_platform_notices">y8OZL+OkaPxigVyA0A0qNpKC0Hc3181Scs1Y3hLBKd+FaWgXzJJ5JQ==</string> -->
+	
+	<!-- 
+	明文：act_getAPPTaskList.shtml
+	密文：xEBa8xOxEQSRrfVoDTXoJIj/DtXtfXLihWloF8ySeSU=
+     --> 
+    <string name="epd_method_platform_notices">xEBa8xOxEQSRrfVoDTXoJIj/DtXtfXLihWloF8ySeSU=</string>
+    
+    <!-- 
+	明文：utils_getSelectData.shtml
+	密文：YYrRUBl/gAJq/HynKDLTwF2P8CRWF3vusWKGyF1FP5M=
+     --> 
+    <string name="epd_method_utils">YYrRUBl/gAJq/HynKDLTwF2P8CRWF3vusWKGyF1FP5M=</string>
+    
+    <!-- 
+	明文：game_openFloatButton.shtml
+	密文：QpIEIu4S45sSkiSScA/xSCCkk7siHw1ZfoOENmW0DXA=
+     --> 
+    <string name="epd_method_float_control">QpIEIu4S45sSkiSScA/xSCCkk7siHw1ZfoOENmW0DXA=</string>
+    
+    <!-- 
+	明文：cp_dlstatistics.shtml
+	密文：1PvnMVkLcucMOwk4BOI6Xp8dvu7mscWS
+     --> 
+    <string name="epd_method_notice_down_statis">1PvnMVkLcucMOwk4BOI6Xp8dvu7mscWS</string>
+    
+    <!-- 
+	明文：act_receiveAwards.shtml
+	密文：cvNC2kWNQvo/bUz33jif7d+YMjSPRZ1d
+     --> 
+    <string name="epd_method_notice_get_gift">cvNC2kWNQvo/bUz33jif7d+YMjSPRZ1d</string>
+      
+    <!-- 
+  	 明文：/v1/switchConfig.json
+	密文：uDcpCzMlnfbItjo4Ggagkvh3stlKKdvv   
+    -->
+    <string name="epd_method_text_platform_config_infos">uDcpCzMlnfbItjo4Ggagkvh3stlKKdvv</string> 
+    
+    <!--
+	明文：efunPlatformPreferredUrl
+	密文：1f+/wgtgxewq3ZdZELPz3bUkdoEofI/zhWloF8ySeSU=
+    -->
+    <string name="epd_key_platform">1f+/wgtgxewq3ZdZELPz3bUkdoEofI/zhWloF8ySeSU=</string>
+    <!--
+	明文：efunPlatformWebPreferredUrl
+	密文：1f+/wgtgxewClnwHdVX3HKtO+K4QROxekRtLqFe/Bk4=
+	-->
+    <string name="epd_key_web">1f+/wgtgxewClnwHdVX3HKtO+K4QROxekRtLqFe/Bk4=</string>
+    <!--
+	明文：efunGamePreferredUrl
+	密文：jFh2cUMaa+9EBCiR2AGwFVZMwlAwT/n4
+
+    -->
+    <string name="epd_key_game">jFh2cUMaa+9EBCiR2AGwFVZMwlAwT/n4</string>
+
+    <!--
+	明文：efunPayPreferredUrl
+	密文：3d39PLL+zdCrTviuEETsXpEbS6hXvwZO
+	-->
+    <string name="epd_key_pay">3d39PLL+zdCrTviuEETsXpEbS6hXvwZO</string>
+    
+    <!--
+	明文：efunImgUploadUrl
+	密文：T4d/G0riS1j9m4RtBhngxYVpaBfMknkl
+	-->
+    <string name="epd_key_img_upload">T4d/G0riS1j9m4RtBhngxYVpaBfMknkl</string>
+    
+    <!--
+	明文：efunFbPreferredUrl
+	密文：VinrtoKpldWmAL6QCwTwknwkhK08V0Al
+	-->
+    <string name="epd_key_fb">VinrtoKpldWmAL6QCwTwknwkhK08V0Al</string>
+    
+    <!--
+	明文：efunVersionCode.txt
+	密文：eScEGEEbnUGVvrydgC86oKqk3HtHTbjd
+    -->
+    <string name="epd_sdk_version_code_txt">eScEGEEbnUGVvrydgC86oKqk3HtHTbjd</string>
+    <!--
+	明文：efunDomainInventory.txt
+	密文：D6LXRj9DrFw1UlPrwUrGmTQCABPBmGVL
+    -->
+    <string name="epd_sdk_domain_inventory_txt">D6LXRj9DrFw1UlPrwUrGmTQCABPBmGVL</string>
+    <!--
+	明文：ppqiazjaA157JIiidSLiqNViiM
+	密文：627TEtPeEqQ5gv5PjoB8kh80i/sU4Gp39gIzyUaLIS4=
+    -->
+    <string name="epd_store_key">627TEtPeEqQ5gv5PjoB8kh80i/sU4Gp39gIzyUaLIS4=</string>
+</resources>

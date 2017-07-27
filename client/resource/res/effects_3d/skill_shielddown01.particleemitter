@@ -1,0 +1,53 @@
+particle skill_shielddown01
+{
+	sprite 
+	{
+		path = suipian.png
+		width = 64
+		height = 64
+		blending = ADDITIVE
+		animated = True
+		looped = True
+		frameCount = 8
+		frameRandomOffset = 0
+		frameDuration = 80
+	}
+	particleCountMax = 15
+	emissionRate = 50
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 70
+	sizeStartMax = 35
+	sizeEndMin = 1
+	sizeEndMax = 10
+	energyMin = 1300
+	energyMax = 1000
+	colorStart = 1, 0.9894523, 0.6176471, 0.282353
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 1, 0.6, 0, 0.3921569
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 0.8896552, 0, 0.5882353
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.35
+	middlePercentVar = 0.05000001
+	position = 0, 0, 0
+	positionVar = 0.1, 0.1, 0.1
+	velocity = 0, 0, 0
+	velocityVar = -150, -150, -150
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0.5
+	renderType = BILLBOARD
+	isLocalSpace = True
+	preWarm = True
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

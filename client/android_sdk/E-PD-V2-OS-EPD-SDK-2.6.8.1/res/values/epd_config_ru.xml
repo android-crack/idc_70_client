@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!--
+          平台接口域名
+	明文：http://pfru.app4gamer.com/
+	密文：tAnUpzsm9NlgTRYxi2gbFJBhBXEIH/Nt2o37ycZIpy4=
+	-->	
+    <string name="ru_epd_url_platform">tAnUpzsm9NlgTRYxi2gbFJBhBXEIH/Nt2o37ycZIpy4=</string>
+    
+    <!--
+         平台WEB域名
+	明文：http://ru.aseugame.com/
+	密文：NyagMl5N0If9P7d7LowTyJ5JPLXe6xS7
+	-->
+    <string name="ru_epd_url_web">NyagMl5N0If9P7d7LowTyJ5JPLXe6xS7</string>
+    
+    <!--
+    Game工程域名
+	明文：http://gameru.app4gamer.com/
+	密文：3u26iowWIETmtAPQdFkCszqrgUxT0dLytCSkCFS4CA4=
+	-->
+
+    <string name="ru_epd_url_game">3u26iowWIETmtAPQdFkCszqrgUxT0dLytCSkCFS4CA4=</string>
+    <!--
+	储值域名
+	明文：http://payru.app4gamer.com/
+	密文：tAnUpzsm9NkW9f6cmMW9oZTJYhoXnRyN8vH4FmFGvoY=
+	-->
+    <string name="ru_epd_url_pay">tAnUpzsm9NkW9f6cmMW9oZTJYhoXnRyN8vH4FmFGvoY=</string>
+    
+    <!--
+	图片上传域名
+	明文：http://imgiru.app4gamer.com/
+	密文：sYPslozWft1uHmdLWSDk5TqrgUxT0dLytCSkCFS4CA4=
+	-->
+    <string name="ru_epd_url_img">sYPslozWft1uHmdLWSDk5TqrgUxT0dLytCSkCFS4CA4=</string>
+    
+    <!--
+	FB工程域名
+	明文：http://fbru.app4gamer.com/
+	密文：2cII0PuW6+u27Ck6EASXk5BhBXEIH/Nt2o37ycZIpy4=
+	-->
+    <string name="ru_epd_url_fb">2cII0PuW6+u27Ck6EASXk5BhBXEIH/Nt2o37ycZIpy4=</string>
+    
+    <!-- 
+    cdn 路径
+	明文：http://sdk.downloadru.app4gamer.com/
+	密文：ya0os0W4hbr8UhJa3KsYfNnaOY8fTUsUOquBTFPR0vK0JKQIVLgIDg==
+ 	-->
+ 	<string name="ru_epd_path_cdn">ya0os0W4hbr8UhJa3KsYfNnaOY8fTUsUOquBTFPR0vK0JKQIVLgIDg==</string>
+ 	<!--
+ 	server 路径
+	明文：http://sdkru.downloadru.app4gamer.com/
+	密文：ya0os0W4hbrjyhR/j3EgkyHeNR62p4ODSnQDnK911/PdipPa4SrcLQ==
+	-->
+    <string name="ru_epd_path_server">ya0os0W4hbrjyhR/j3EgkyHeNR62p4ODSnQDnK911/PdipPa4SrcLQ==</string>
+    
+    <!-- CDN/Server域名和文件之间的路径 -->
+    <string name="ru_epd_path_platform_type">ruap</string>
+    <!-- 地区标志 -->
+    <string name="ru_epd_platform">ru</string>
+    <!-- 图片上传地区标志 -->
+    <string name="ru_epd_img_upload_platform">pfru</string>
+</resources>

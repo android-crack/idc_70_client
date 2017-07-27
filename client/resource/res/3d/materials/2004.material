@@ -1,0 +1,67 @@
+material textured 
+{
+	tag 
+	{
+		renderQueue = opaque
+	}
+	u_cutoff = 0.7
+	u_mainColor = 1, 1, 1, 1
+
+	u_diffuseTextureST = 1, 1, 0, 0
+	sampler u_diffuseTexture
+	{
+		path = res/3d/textures/2004.png
+
+		minFilter = LINEAR_MIPMAP_LINEAR
+		magFilter = LINEAR
+		mipmap = true
+
+		wrapS = REPEAT
+		wrapT = REPEAT
+	}
+	u_lightmapAlpha = 1
+	u_lightmapIntensity = 5
+
+	u_lightmapTextureST = 0.9726343, 0.9726343, -0.00207, -0.00079
+	sampler u_lightmapTexture
+	{
+		path = res/3d/textures/lightmap_role2004_01.png
+
+		minFilter = LINEAR_MIPMAP_LINEAR
+		magFilter = LINEAR
+		mipmap = true
+
+		wrapS = REPEAT
+		wrapT = REPEAT
+	}
+	u_lightmapIntensity2 = 1
+
+	u_lightmapTexture2ST = 1, 1, 0, 0
+	sampler u_lightmapTexture2
+	{
+		path = WHITE
+
+		minFilter = LINEAR
+		magFilter = LINEAR
+		mipmap = true
+
+		wrapS = REPEAT
+		wrapT = REPEAT
+	}
+
+	technique 
+	{
+		renderState
+		{
+			cullFace = true
+			depthTest = true
+		}
+		pass 
+		{
+			u_worldViewProjectionMatrix = WORLD_VIEW_PROJECTION_MATRIX
+			vertexShader = res/3d/shaders/textured_lightmaps_alpha_test.vert
+			fragmentShader = res/3d/shaders/textured_lightmaps_alpha_test.frag
+		}
+	}
+}
+

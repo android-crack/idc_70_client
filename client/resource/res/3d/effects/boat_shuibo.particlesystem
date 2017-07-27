@@ -1,0 +1,38 @@
+ParticleSystem GamePlayParticleSystem
+{
+	Emitter shuibo_bian
+	{
+		file = shuibo_bian.particleemitter
+		order = 2
+		position = 0.891, 0.21, 0.86
+		rotate = 0, 0, 0, 1
+	}
+	Emitter shuihua
+	{
+		file = shuihua.particleemitter
+		order = 1
+		position = 0.76, 0.053, 0.995
+		rotate = 0, 0, 0, 1
+	}
+	Emitter shuibo_di
+	{
+		file = shuibo_di.particleemitter
+		order = 0
+		position = 0, 0, -0.27
+		rotate = 0, 0, 0, 1
+	}
+	Emitter shuibo_bian
+	{
+		file = shuibo_bian.particleemitter
+		order = 2
+		position = -0.83, 0.21, 0.86
+		rotate = 0, 0, 0, 1
+	}
+	Emitter shuihua
+	{
+		file = shuihua.particleemitter
+		order = 1
+		position = -0.75, 0.05300045, 0.995
+		rotate = 0, 0, 0, 1
+	}
+}

@@ -1,0 +1,54 @@
+<map height="36" orientation="orthogonal" renderorder="right-down" tileheight="64" tilewidth="64" version="1.0" width="15">
+ <tileset firstgid="1" name="area_piece2" tileheight="64" tilewidth="64">
+  <image height="64" source="area_piece_wall2.png" width="128" />
+ </tileset>
+ <tileset firstgid="3" name="new_land" tileheight="64" tilewidth="64">
+  <image height="1472" source="new_land.png" width="1984" />
+ </tileset>
+ <tileset firstgid="499" name="sand_tree" tileheight="64" tilewidth="64">
+  <image height="704" source="sand_tree.png" width="1088" />
+ </tileset>
+ <tileset firstgid="635" name="sand_mound" tileheight="64" tilewidth="64">
+  <image height="1134" source="sand_mound.png" width="1134" />
+ </tileset>
+ <layer height="36" name="wall2" width="15">
+  <properties>
+   <property name="picture" value="area_piece2" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJxjYBgFIxEwMTAkjOod1TuY9DKO2jtq7ygY1gAAX7wHpA==
+</data>
+ </layer>
+ <layer height="36" name="sand" width="15">
+  <properties>
+   <property name="picture" value="new_land" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJzt0rFOwmAUxfHbgE4s4CqDrDDiiLN9AmWQZ2hlZaeoDwDYWRN1QWQAF9gRWHRGE3DiBZz4N+ab
+v1smhp7kl3a4J2mTI5JkX3KBniPyij4OcOjYex58TLn9wAzHyFu6AVq4wZLbb/ygjFNLt40Oujhy
+/j3wfs7TtXSf8IwXPGKIEa7o1RT/O8YE75hhDo+er+h+4gsLrLBGQ9Ez2eAXf/rKTsmgyXcFMXYQ
+5QQF3HMfKndgUsEZ3rgfKHdgcokqUkiLbgcm16gji5zodxDlFncooiT6HZiE0bfClXg7SJIkSfxs
+AVGdKz4=
+</data>
+ </layer>
+ <layer height="36" name="sand_mound" width="15">
+  <properties>
+   <property name="picture" value="sand_mound" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJzt0SkSgDAQRNGp3N+xKCCGwAFYHCRHy9dxI1D0r3puWo2Z+ntdMOsxYAy+7cT9jAXRuV25T9iw
+O7fqmw7+cOLC7fzJw/2LjKJ/KqWaKsRKDVM=
+</data>
+ </layer>
+ <layer height="36" name="block" opacity="0.5" visible="0" width="15">
+  <properties>
+   <property name="picture" value="new_land" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJxTYWRgUBnFwwILImFCamEAnzwt9eJSQ65eYtxECAwnvcSYM5z0EgNG9Q5dvaN4eGAAiY44lQ==
+</data>
+ </layer>
+ <layer height="36" name="wall1" width="15">
+  <properties>
+   <property name="picture" value="area_piece2" />
+  </properties>
+  <data compression="zlib" encoding="base64">eJxjYBgFIxEwEYFHwSgYBaOAWgBYphxgBGJ89EC7cRTQFgAAspsG4Q==
+</data>
+ </layer>
+</map>

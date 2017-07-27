@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="24" height="13" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="battle_guild_map" tilewidth="32" tileheight="32">
+  <image source="battle_guild_map.jpg" width="784" height="416"/>
+ </tileset>
+ <layer name="块层 1" width="24" height="13">
+  <data encoding="base64" compression="zlib">
+   eJwNwwOUEAYAANCLl3HZd11dto2FZSwbW7ZtLbewZWNt2bZWy7Vl2zb+e/+HCwgICG8EIxrJyAYaxahGM7oxjGksYxvHuAYZz/gmMKGJTGwSk5rM5KYwpakMNsTUhprGtIaZzvRmMKOZzGwWs5rN7OYwp7nMbR7zms/8FrCghSxsEYtazOKWsKQ/WMrSlrGsP1rO8lawopWsbBWrWs3q/mQNa1rL2taxrvWsbwMb2sjGNrGpzWzuz/5iC1vayta2sa3tbG8HO9rJznaxq93sbg972sve9rGv/ezvAAc6yMEOcajDHO4IRzrKXx3tGMc6zvFOcKKT/M3JTnGq0/zdP5zuDGc6y9nOca7znO8CF7rIxS5xqcv80+X+5d+ucKWrXO0a17rO9W5wo5vc7Ba3us3t7nCnu9ztHve6z/0e8KCHPOwR//Gox/zX457wpKc87RnPes7z/uf/XvCil7zsFa96zeve8Ka3vO0d73rP+z7woY987BOf+sznvvClr3ztG9/6zvd+8KOf/OwXv/rNgHAY3ghGNJKRDTSKUY1mdGMY01jGNo5xDTKe8U1gQhOZ2CQmNZnJTWFKUxlsiKkNNY1pDTOd6c1gRjOZ2SxmNZvZzWFOc5nbPOY1n/n9DkldhfY=
+  </data>
+ </layer>
+</map>

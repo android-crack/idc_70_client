@@ -1,0 +1,10 @@
+ParticleSystem tx_skill_drop_blue
+{
+	Emitter tx_skill_drop_blue
+	{
+		file = tx_skill_drop_blue.particleemitter
+		order = 0
+		position = 0, 1, 0
+		rotate = 0, 0, 0, 1
+	}
+}

@@ -1,0 +1,21 @@
+ParticleSystem sf_0164
+{
+	Emitter sf_0164huan01
+	{
+		file = sf_0164huan01.particleemitter
+		order = 2
+		position = 0, 0, 0
+	}
+	Emitter sf_0164huan02
+	{
+		file = sf_0164huan02.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+	Emitter sf_0164line
+	{
+		file = sf_0164line.particleemitter
+		order = 3
+		position = 0, 0, 0
+	}
+}

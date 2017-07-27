@@ -1,0 +1,10 @@
+ParticleSystem sunshine_orange
+{
+	Emitter sunshine_orange
+	{
+		file = sunshine_orange.particleemitter
+		order = 0
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+}

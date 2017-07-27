@@ -1,0 +1,53 @@
+particle HitRocksuipian
+{
+	sprite 
+	{
+		path = stone.png
+		width = 42
+		height = 32
+		blending = ALPHA BLENDED
+		animated = True
+		looped = True
+		frameCount = 12
+		frameRandomOffset = 0
+		frameDuration = 60
+	}
+	particleCountMax = 10
+	emissionRate = 30
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 30
+	sizeStartMax = 15
+	sizeEndMin = 8
+	sizeEndMax = 1
+	energyMin = 800
+	energyMax = 600
+	colorStart = 1, 1, 1, 1
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 1, 1, 1, 1
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 1, 1, 1, 1
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.55
+	middlePercentVar = 0.05000001
+	position = 0, 0, 0
+	positionVar = 2, 2, 2
+	velocity = 0, 180, 0
+	velocityVar = 80, 20, 80
+	acceleration = 0, -350, 0
+	accelerationVar = 10, -50, 10
+	rotationPerParticleSpeedMin = -2.094395
+	rotationPerParticleSpeedMax = 2.094395
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0.6
+	renderType = BILLBOARD
+	isLocalSpace = False
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

@@ -1,0 +1,24 @@
+ParticleSystem tx_newliandan_hit
+{
+	Emitter newliandan_hit01
+	{
+		file = newliandan_hit01.particleemitter
+		order = 2
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter newliandan_hit02
+	{
+		file = newliandan_hit02.particleemitter
+		order = 0
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+	Emitter newliandan_hit03
+	{
+		file = newliandan_hit03.particleemitter
+		order = 0
+		position = 0, 0, 0
+		rotate = 0, 0, 0, 1
+	}
+}

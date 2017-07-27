@@ -1,0 +1,53 @@
+particle shuidan02
+{
+	sprite 
+	{
+		path = a_lizi05.png
+		width = 128
+		height = 128
+		blending = ALPHA BLENDED
+		animated = False
+		looped = False
+		frameCount = 1
+		frameRandomOffset = 0
+		frameDuration = 0
+	}
+	particleCountMax = 20
+	emissionRate = 5
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 140
+	sizeStartMax = 140
+	sizeEndMin = 70
+	sizeEndMax = 60
+	energyMin = 500
+	energyMax = 400
+	colorStart = 0.03597864, 0.04482745, 0.9742647, 0
+	colorStartVar = 0.03597864, -0.04482745, -0.02573532, 0
+	colorEnd = 0.1875, 0.5696248, 1, 0
+	colorEndVar = 0.04044116, -0.1127283, 0, 0
+	colorMiddle = 0, 0.3793104, 1, 0.7313726
+	colorMiddleVar = 0, 0.08275867, 0, 0.005882323
+	middlePercent = 0.175
+	middlePercentVar = 0.02500002
+	position = 0, 0, 0
+	positionVar = 1, 1, 1
+	velocity = 0, 0, 0
+	velocityVar = 5, 5, 5
+	acceleration = 0, 0, 0
+	accelerationVar = 5, 5, 5
+	rotationPerParticleSpeedMin = -1.5
+	rotationPerParticleSpeedMax = 1.5
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 0
+	systemDuration = 0
+	renderType = BILLBOARD
+	isLocalSpace = False
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

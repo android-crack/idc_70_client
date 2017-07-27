@@ -1,0 +1,26 @@
+<resources>
+
+
+    <dimen name="epd_size_180">180dp</dimen>
+    <dimen name="epd_size_173">173dp</dimen>
+    <dimen name="epd_size_160">140dp</dimen>
+    <dimen name="epd_size_100">100dp</dimen>
+    <dimen name="epd_size_80">80dp</dimen>
+    <dimen name="epd_size_60">60dp</dimen>
+    <dimen name="epd_size_40">40dp</dimen>
+    <dimen name="epd_size_20">20dp</dimen>
+    <dimen name="epd_size_24">24dp</dimen>
+    <dimen name="epd_size_10">10dp</dimen>
+    <dimen name="epd_size_7">7dp</dimen>
+    <dimen name="epd_size_5">5dp</dimen>
+    <dimen name="epd_size_3">3dp</dimen>
+    <dimen name="epd_size_2">2dp</dimen>
+    <dimen name="epd_size_1">1dp</dimen>
+
+    <dimen name="epd_text_28">28sp</dimen>
+    <dimen name="epd_text_24">24sp</dimen>
+    <dimen name="epd_text_20">20sp</dimen>
+    <dimen name="epd_text_15">15sp</dimen>
+    <dimen name="epd_text_12">12sp</dimen>
+    <dimen name="epd_text_8">8sp</dimen>
+</resources>

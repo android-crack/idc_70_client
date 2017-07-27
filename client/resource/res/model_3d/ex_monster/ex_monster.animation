@@ -1,0 +1,22 @@
+animation ex_monster
+{
+frameCount=5333
+clip up
+{
+begin=0
+end=1833
+repeatCount=1
+}
+clip move
+{
+begin=2000
+end=3333
+repeatCount=0
+}
+clip move2
+{
+begin=3666
+end=5333
+repeatCount=0
+}
+}

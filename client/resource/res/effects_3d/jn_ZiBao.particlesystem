@@ -1,0 +1,21 @@
+ParticleSystem jn_ZiBao
+{
+	Emitter ZiBao_huan
+	{
+		file = ZiBao_huan.particleemitter
+		order = 2
+		position = 0, 0, 0
+	}
+	Emitter ZiBao_huo
+	{
+		file = ZiBao_huo.particleemitter
+		order = 1
+		position = 0, 0, 0
+	}
+	Emitter ZiBao_huoup
+	{
+		file = ZiBao_huoup.particleemitter
+		order = 3
+		position = 0, 0, 0
+	}
+}

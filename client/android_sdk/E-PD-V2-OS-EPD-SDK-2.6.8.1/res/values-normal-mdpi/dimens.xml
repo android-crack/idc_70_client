@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="e_index">10px</dimen>
+    
+    <dimen name="epd_size_173">75.92dp</dimen>
+    <dimen name="epd_size_79">34.67dp</dimen>
+    <dimen name="epd_size_51">22.38dp</dimen>
+    <dimen name="epd_size_7">3.07dp</dimen>
+    <dimen name="epd_size_3">1.32dp</dimen>
+    <dimen name="epd_size_180">78.99dp</dimen>
+    <dimen name="epd_size_167">73.29dp</dimen>
+    <dimen name="epd_size_160">70.22dp</dimen>
+    <dimen name="epd_size_100">43.88dp</dimen>
+    <dimen name="epd_size_80">35.11dp</dimen>
+    <dimen name="epd_size_60">26.33dp</dimen>
+    <dimen name="epd_size_57">25.01dp</dimen>
+    <dimen name="epd_size_40">17.55dp</dimen>
+    <dimen name="epd_size_44">19.31dp</dimen>
+    <dimen name="epd_size_47">20.63dp</dimen>
+    <dimen name="epd_size_21">9.22dp</dimen>
+    <dimen name="epd_size_20">8.78dp</dimen>
+    <dimen name="epd_size_24">10.53dp</dimen>
+    <dimen name="epd_size_16">7.02dp</dimen>
+    <dimen name="epd_size_10">4.39dp</dimen>
+    <dimen name="epd_size_5">2.19dp</dimen>
+    <dimen name="epd_size_37">16.24dp</dimen>
+    <dimen name="epd_size_2">2px</dimen>
+    <dimen name="epd_size_1">1px</dimen>
+
+    <dimen name="epd_text_46">20.33sp</dimen>
+    <dimen name="epd_text_36">15.91sp</dimen>
+    <dimen name="epd_text_22">9.72sp</dimen>
+    <dimen name="epd_text_20">8.84sp</dimen>
+    <dimen name="epd_text_15">6.63sp</dimen>
+    <dimen name="epd_text_13">5.75sp</dimen>
+    <dimen name="epd_text_12">5.31sp</dimen>
+    <dimen name="epd_text_8">3.54sp</dimen>
+    <dimen name="epd_text_30">13.26sp</dimen>
+    <dimen name="epd_text_34">15.025sp</dimen>
+    <dimen name="epd_text_28">12.38sp</dimen>
+    <dimen name="epd_text_24">10.61sp</dimen>
+</resources>

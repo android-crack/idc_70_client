@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6bc9461d-a74c-e011-a7d1-00e04c772494++1574",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "6bc9461d-a74c-e011-a7d1-00e04c772494++1574" : {
+      "DVTSourceControlWorkingCopyRepositoryPrimaryBranchLocationKey" : "mg01\/program\/gameplay3d\/trunk"
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6bc9461d-a74c-e011-a7d1-00e04c772494++1574" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D91E469F-834A-4871-BCD7-1E2092E7EFAE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6bc9461d-a74c-e011-a7d1-00e04c772494++1574" : "gameplay3d\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "dhh",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "tencentdist_lightproj.ios\/dhh.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.0.3\/qtz",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6bc9461d-a74c-e011-a7d1-00e04c772494++1574"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+ModelParticleConfig pd_guanchuan
+{
+	ParticleConfig tx_0164
+	{
+		file = tx_0164.particlesystem
+		position = 0, 13.17798, 1.570937E-06
+		rotation = 0.7071068, 0, 0, 0.7071068
+	}
+}

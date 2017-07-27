@@ -1,0 +1,53 @@
+particle sflight
+{
+	sprite 
+	{
+		path = lightblue.png
+		width = 128
+		height = 128
+		blending = ADDITIVE
+		animated = True
+		looped = False
+		frameCount = 4
+		frameRandomOffset = 0
+		frameDuration = 80
+	}
+	particleCountMax = 10
+	emissionRate = 5
+	orbitPosition = True
+	orbitVelocity = True
+	orbitAcceleration = True
+	sizeStartMin = 120
+	sizeStartMax = 120
+	sizeEndMin = 180
+	sizeEndMax = 150
+	energyMin = 400
+	energyMax = 300
+	colorStart = 1, 1, 1, 1
+	colorStartVar = 0, 0, 0, 0
+	colorEnd = 0, 0.03823519, 0.4264706, 0
+	colorEndVar = 0, 0, 0, 0
+	colorMiddle = 0.2279412, 0.4249491, 1, 1
+	colorMiddleVar = 0, 0, 0, 0
+	middlePercent = 0.6
+	middlePercentVar = -0.1
+	position = 0, 0, 0
+	positionVar = 100, 0, 100
+	velocity = 0, 0, 0
+	velocityVar = 0, 0, 0
+	acceleration = 0, 0, 0
+	accelerationVar = 0, 0, 0
+	rotationPerParticleSpeedMin = 0
+	rotationPerParticleSpeedMax = 0
+	rotationSpeedMin = 0
+	rotationSpeedMax = 0
+	rotationAxis = 0, 0, 0
+	rotationAxisVar = 0, 0, 0
+	emitterType = 1
+	systemDuration = 1.6
+	renderType = HORIZONTALBILLBOARD
+	isLocalSpace = True
+	preWarm = False
+	initialRotationMin = 0
+	initialRotationMax = 6.283185
+}

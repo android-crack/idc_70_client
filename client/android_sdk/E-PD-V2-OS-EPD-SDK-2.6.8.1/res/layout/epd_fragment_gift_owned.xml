@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.epd.app.support.widget.list.app.PagingListView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/paging_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:background="@color/epd_background"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@android:color/transparent"
+        android:listSelector="@android:color/transparent" >
+    </com.epd.app.support.widget.list.app.PagingListView>
+
+    <com.epd.app.support.widget.list.app.GridListView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:background="@color/epd_background"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@android:color/transparent"
+        android:listSelector="@android:color/transparent"
+        android:visibility="gone"
+        android:numColumns="2"
+        android:scrollbars="none" >
+    </com.epd.app.support.widget.list.app.GridListView>
+	<TextView 
+	    android:visibility="gone"
+	    android:text="@string/epd_gift_notify"
+	    android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/epd_blue_darker_low"
+        android:gravity="center"
+        android:padding="@dimen/epd_size_2"
+        android:textColor="@android:color/white"/>
+</LinearLayout>

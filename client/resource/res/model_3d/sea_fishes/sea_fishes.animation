@@ -1,0 +1,10 @@
+animation sea_fishes
+{
+frameCount=533
+clip move
+{
+begin=0
+end=533
+repeatCount=0
+}
+}
